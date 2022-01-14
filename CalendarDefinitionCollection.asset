@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7512281188645981309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1772441479, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Calendar_Holocene
+  m_EditorClassIdentifier: 
+  StartingDate: 0
+  Periods:
+  - NumberOfTurns: 9
+    YearsPerTurn: 810
+  - NumberOfTurns: 5
+    YearsPerTurn: 222
+  - NumberOfTurns: 10
+    YearsPerTurn: 30
+  - NumberOfTurns: 25
+    YearsPerTurn: 28
+  - NumberOfTurns: 25
+    YearsPerTurn: 25
+  - NumberOfTurns: 25
+    YearsPerTurn: 24
+  - NumberOfTurns: 25
+    YearsPerTurn: 20
+  - NumberOfTurns: 25
+    YearsPerTurn: 12
+  - NumberOfTurns: 25
+    YearsPerTurn: 7
+  - NumberOfTurns: 25
+    YearsPerTurn: 6
+  - NumberOfTurns: 25
+    YearsPerTurn: 5
+  - NumberOfTurns: 25
+    YearsPerTurn: 3
+  - NumberOfTurns: 30
+    YearsPerTurn: 2
+  - NumberOfTurns: 21
+    YearsPerTurn: 1
+  Localization: '%CalendarHoloceneDate'
+  HasNegativeCase: 0
+  LocalizationNegative: c.{0} HE
+  UnsignedNegativeValue: 1
+--- !u!114 &-1471657571116781858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1772441479, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Calendar_Gregorian
+  m_EditorClassIdentifier: 
+  StartingDate: -10000
+  Periods:
+  - NumberOfTurns: 9
+    YearsPerTurn: 810
+  - NumberOfTurns: 5
+    YearsPerTurn: 222
+  - NumberOfTurns: 10
+    YearsPerTurn: 30
+  - NumberOfTurns: 25
+    YearsPerTurn: 28
+  - NumberOfTurns: 25
+    YearsPerTurn: 25
+  - NumberOfTurns: 25
+    YearsPerTurn: 24
+  - NumberOfTurns: 25
+    YearsPerTurn: 20
+  - NumberOfTurns: 25
+    YearsPerTurn: 12
+  - NumberOfTurns: 25
+    YearsPerTurn: 7
+  - NumberOfTurns: 25
+    YearsPerTurn: 6
+  - NumberOfTurns: 25
+    YearsPerTurn: 5
+  - NumberOfTurns: 25
+    YearsPerTurn: 3
+  - NumberOfTurns: 30
+    YearsPerTurn: 2
+  - NumberOfTurns: 21
+    YearsPerTurn: 1
+  Localization: '%CalendarGregorianADDate'
+  HasNegativeCase: 1
+  LocalizationNegative: '%CalendarGregorianBCDate'
+  UnsignedNegativeValue: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -690984439, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: CalendarDefinitionCollection
+  m_EditorClassIdentifier: 

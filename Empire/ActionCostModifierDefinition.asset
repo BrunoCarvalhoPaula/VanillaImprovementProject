@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ActionCostModifierDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &750867359562531073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 272376540, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ActionCostModifier_LegacyTrait_Era5_RussianEmpire
+  m_EditorClassIdentifier: 
+  CostType: 1
+  OperationType: 1
+  CostModifierValue:
+    RawValue: 800
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  ActionTypes: 07000000

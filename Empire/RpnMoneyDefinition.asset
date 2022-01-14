@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5245089417074564754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: SettlementAction_AbsorbCityCostInfluence
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a000000090000000800000000000000020000000a0000000b0000000200000000000000090000000a000000010000000a0000000200000000000000
+  ConstantStack:
+  - RawValue: 50000
+  - RawValue: 400
+  - RawValue: 1000
+  - RawValue: 50000
+  Note: 'Source = settlement to merge
+
+    Target = city
+
+    Optional.Constant =
+    SumOfInfrastructureBuyout'
+  PropertyLocalNameStack:
+  - TerritoryCount
+  - TerritoryCount
+  - ExtensionDistrictsCount
+  VariableNameStack:
+  - SumOfInfrastructureBuyout
+  DefinedVariables:
+  - SumOfInfrastructureBuyout
+  - EraIndex
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+--- !u!114 &-3428453441212271338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: SettlementAction_SettlerCostInfluence
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a000000090000000200000009000000020000000a0000000900000002000000000000000a00000000000000
+  ConstantStack:
+  - RawValue: 40000
+  - RawValue: 20000
+  - RawValue: 4000
+  Note: 
+  PropertyLocalNameStack:
+  - CityCount
+  - CityCount
+  - CityCount
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &-258401277790421669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: SettlementAction_ProductionBuyoutCost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0b0000000b000000010000000a00000002000000
+  ConstantStack:
+  - RawValue: 3500
+  Note: "Constant 1 = Productioncost \nConstant 2 = InvestedProduction"
+  PropertyLocalNameStack: []
+  VariableNameStack:
+  - ProductionCost
+  - InvestedProduction
+  DefinedVariables:
+  - ProductionCost
+  - InvestedProduction
+  - CurrentTurn
+  - GameSpeed
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: RpnMoneyDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &7930652071511707995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: SettlementAction_AbsorbCityCostMoney
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a000000090000000800000000000000020000000a0000000b0000000200000000000000090000000a000000010000000a0000000200000000000000
+  ConstantStack:
+  - RawValue: 100000
+  - RawValue: 800
+  - RawValue: 1000
+  - RawValue: 100000
+  Note: 'Source = settlement to merge
+
+    Target = city
+
+    Optional.Constant =
+    SumOfInfrastructureBuyout'
+  PropertyLocalNameStack:
+  - TerritoryCount
+  - TerritoryCount
+  - ExtensionDistrictsCount
+  VariableNameStack:
+  - SumOfInfrastructureBuyout
+  DefinedVariables:
+  - SumOfInfrastructureBuyout
+  - EraIndex
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass

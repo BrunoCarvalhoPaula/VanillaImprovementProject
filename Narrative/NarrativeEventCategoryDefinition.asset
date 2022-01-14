@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2123347310, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEventCategoryDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &8652237036280290728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 15112015, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEventCategory_Religious
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  Priority: 40
+  Global: 0
+  NarrativeEventDefinitionDistribution: 0
+  NeedManualTrigger: 0
+  MaximumNumberOfConcurrentInstances: 10
+  ConsumeEventUponTrigger: 0
+  TriggerDistributionRange: 8
+  NumberOfTurnsInDeadZoneAfterEraChange: 3
+  NumberOfTurnsInDeadZoneAfterTrigger: 3
+  NoUI: 0
+  Picto:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  NoRestrictionOnTiming: 0

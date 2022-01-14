@@ -1,0 +1,3200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3605652973070050220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Religious02
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: false
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: false
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 5|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Religion06_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_PathCount,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: StartingType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    - Name: Path
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Path, Amplitude.Framework
+    - Name: PropertyToFollow
+      Entry: 7
+      Data: 8|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 1
+      Data: Cities
+    - Name: 
+      Entry: 1
+      Data: Districts
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Validations
+      Entry: 7
+      Data: 9|Amplitude.Framework.Simulation.Description.Validation[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Validation, Amplitude.Framework
+    - Name: PathIndex
+      Entry: 3
+      Data: 1
+    - Name: ValidableElementCollection
+      Entry: 6
+      Data: 
+    - Name: Inverted
+      Entry: 5
+      Data: false
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Extension_HolySite
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: specificTargetType
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetPathIndexToCount
+      Entry: 3
+      Data: 1
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: TargetValue
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptor,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveOneOfDescriptors
+      Entry: 7
+      Data: 11|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Religion03_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_Empire_Cities,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: OneCity
+    - Name: Usage
+      Entry: 3
+      Data: 458755
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 3
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 6
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 16|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: GameEffect_CityFlags_Besieged
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Path,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: StartingType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+    - Name: Path
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Path, Amplitude.Framework
+    - Name: PropertyToFollow
+      Entry: 7
+      Data: 18|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Dioceses
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Validations
+      Entry: 7
+      Data: 19|Amplitude.Framework.Simulation.Description.Validation[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Validation, Amplitude.Framework
+    - Name: PathIndex
+      Entry: 3
+      Data: 0
+    - Name: ValidableElementCollection
+      Entry: 6
+      Data: 
+    - Name: Inverted
+      Entry: 5
+      Data: true
+    - Name: serializableElementName
+      Entry: 1
+      Data: Tag_Diocese_StateReligion
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: specificTargetType
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 21|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 22|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Status_City_Celebration02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 24|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 25|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Status_City_Defiant02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Property,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: PropertyName
+      Entry: 1
+      Data: Population
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: Value
+      Entry: 7
+      Data: Amplitude.FixedPoint, Amplitude.Framework
+    - Name: RawValue
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 0
+    - Name: EmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 27|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: OneCity
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Contain
+    - Name: Description
+      Entry: 1
+      Data: Heathens or not, those are your citizens and they must be protected
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 32|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Defiant02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 34|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 2
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 16
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 65536
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Ignore
+    - Name: Description
+      Entry: 1
+      Data: The lives of heathens are no concern of ours.
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 36|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 37|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 38|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 39|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemovePopulation,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: Population
+      Entry: 3
+      Data: -2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 40|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 1
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 128
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 256
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Banish
+    - Name: Description
+      Entry: 1
+      Data: Banish the heathens and seize their property.
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 42|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 43|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptor,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveOneOfDescriptors
+      Entry: 7
+      Data: 44|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Religion03_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 45|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 46|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 47|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemovePopulation,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: Population
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 49|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemoveMoney,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 50|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 4
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 16384
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Religious
+  EraDefinitions:
+  - serializableElementName: Era1
+  - serializableElementName: Era2
+  - serializableElementName: Era3
+  - serializableElementName: Era4
+  - serializableElementName: Era5
+  - serializableElementName: Era6
+  Image:
+    guid:
+      a: 1625439686
+      b: 1087294113
+      c: 1787175050
+      d: -1854114631
+  Title: Religious Woes
+  Description: Having a State Religion has brought great things to your empire, but
+    currently there's a big religious minority growing. Your priests try to combat
+    the religious disunion, but practicioners of other faiths are sometimes victim
+    of prejudice and discrimination. Your empire's fractured faith led to a major
+    riot in one of your cities. The angry mob is searching the streets for heathens,
+    "false converts" and whoever crosses their furious way. How will you respond
+    to this religious discrimination?
+  GeoLocalizationID: OneCity
+  Notes: 
+--- !u!114 &-398614313506221933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Religious03
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: false
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: false
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 5|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Religion06_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_PathCount,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: StartingType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    - Name: Path
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Path, Amplitude.Framework
+    - Name: PropertyToFollow
+      Entry: 7
+      Data: 8|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 1
+      Data: Cities
+    - Name: 
+      Entry: 1
+      Data: Districts
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Validations
+      Entry: 7
+      Data: 9|Amplitude.Framework.Simulation.Description.Validation[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Validation, Amplitude.Framework
+    - Name: PathIndex
+      Entry: 3
+      Data: 1
+    - Name: ValidableElementCollection
+      Entry: 6
+      Data: 
+    - Name: Inverted
+      Entry: 5
+      Data: false
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Extension_HolySite
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: specificTargetType
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetPathIndexToCount
+      Entry: 3
+      Data: 1
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: TargetValue
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptor,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveOneOfDescriptors
+      Entry: 7
+      Data: 11|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Religion03_Choice02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_Empire_Cities,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: OneCity
+    - Name: Usage
+      Entry: 3
+      Data: 458755
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 3
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 6
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 16|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: GameEffect_CityFlags_Besieged
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Path,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: StartingType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+    - Name: Path
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Path, Amplitude.Framework
+    - Name: PropertyToFollow
+      Entry: 7
+      Data: 18|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Dioceses
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Validations
+      Entry: 7
+      Data: 19|Amplitude.Framework.Simulation.Description.Validation[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Validation, Amplitude.Framework
+    - Name: PathIndex
+      Entry: 3
+      Data: 0
+    - Name: ValidableElementCollection
+      Entry: 6
+      Data: 
+    - Name: Inverted
+      Entry: 5
+      Data: true
+    - Name: serializableElementName
+      Entry: 1
+      Data: Tag_Diocese_StateReligion
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: specificTargetType
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 21|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 22|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Status_City_Celebration02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 24|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 25|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Status_City_Defiant02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Property,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: PropertyName
+      Entry: 1
+      Data: Population
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: Value
+      Entry: 7
+      Data: Amplitude.FixedPoint, Amplitude.Framework
+    - Name: RawValue
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 0
+    - Name: EmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 27|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: OneCity
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Contain
+    - Name: Description
+      Entry: 1
+      Data: Heathens or not, those are your citizens and they must be protected
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 32|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Defiant02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 34|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 2
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 16
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 65536
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Ignore
+    - Name: Description
+      Entry: 1
+      Data: The lives of heathens are no concern of ours.
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 36|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 37|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 38|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 39|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemovePopulation,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: Population
+      Entry: 3
+      Data: -2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 40|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 1
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 128
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 256
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Send Inquisitors
+    - Name: Description
+      Entry: 1
+      Data: An inquisition trial will find the heathens and calm the population
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 42|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 43|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 44|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Religion03_Choice02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 45|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 46|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 47|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 48|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemovePopulation,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: Population
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 50|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Celebration02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 51|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 512
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 4096
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Religious
+  EraDefinitions:
+  - serializableElementName: Era1
+  - serializableElementName: Era2
+  - serializableElementName: Era3
+  - serializableElementName: Era4
+  - serializableElementName: Era5
+  - serializableElementName: Era6
+  Image:
+    guid:
+      a: 1625439686
+      b: 1087294113
+      c: 1787175050
+      d: -1854114631
+  Title: Religious Woes
+  Description: Your empire's fractured faith led to a major riot in one of your cities.
+    How will you respond to this religious discrimination?
+  GeoLocalizationID: OneCity
+  Notes: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2044257964, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEventDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &4859485573880999972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Religious01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: false
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: false
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 5|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Religion06_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_PathCount,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: StartingType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    - Name: Path
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Path, Amplitude.Framework
+    - Name: PropertyToFollow
+      Entry: 7
+      Data: 8|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 1
+      Data: Cities
+    - Name: 
+      Entry: 1
+      Data: Districts
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Validations
+      Entry: 7
+      Data: 9|Amplitude.Framework.Simulation.Description.Validation[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Validation, Amplitude.Framework
+    - Name: PathIndex
+      Entry: 3
+      Data: 1
+    - Name: ValidableElementCollection
+      Entry: 6
+      Data: 
+    - Name: Inverted
+      Entry: 5
+      Data: false
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Extension_HolySite
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: specificTargetType
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetPathIndexToCount
+      Entry: 3
+      Data: 1
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: TargetValue
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_Empire_Cities,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: OneCity
+    - Name: Usage
+      Entry: 3
+      Data: 196611
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 3
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 6
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 14|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: GameEffect_CityFlags_Besieged
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Path,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: StartingType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+    - Name: Path
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Path, Amplitude.Framework
+    - Name: PropertyToFollow
+      Entry: 7
+      Data: 16|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Dioceses
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Validations
+      Entry: 7
+      Data: 17|Amplitude.Framework.Simulation.Description.Validation[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.Simulation.Description.Validation, Amplitude.Framework
+    - Name: PathIndex
+      Entry: 3
+      Data: 0
+    - Name: ValidableElementCollection
+      Entry: 6
+      Data: 
+    - Name: Inverted
+      Entry: 5
+      Data: true
+    - Name: serializableElementName
+      Entry: 1
+      Data: Tag_Diocese_StateReligion
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: specificTargetType
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 19|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 20|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Status_City_Celebration02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 22|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 23|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Status_City_Defiant02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Property,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: PropertyName
+      Entry: 1
+      Data: Population
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: Value
+      Entry: 7
+      Data: Amplitude.FixedPoint, Amplitude.Framework
+    - Name: RawValue
+      Entry: 3
+      Data: 2000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 0
+    - Name: EmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 25|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: OneCity
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 27|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Contain
+    - Name: Description
+      Entry: 1
+      Data: Heathens or not, those are your citizens and they must be protected
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Defiant02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 32|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 2
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 16
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 65536
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: Ignore
+    - Name: Description
+      Entry: 1
+      Data: The lives of heathens are no concern of ours.
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 34|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 35|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 36|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 37|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemovePopulation,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: OneCity
+    - Name: Population
+      Entry: 3
+      Data: -2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 38|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 1
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 128
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventChoice+ArchetypeWeight,
+        Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 256
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Religious
+  EraDefinitions:
+  - serializableElementName: Era4
+  - serializableElementName: Era5
+  - serializableElementName: Era6
+  Image:
+    guid:
+      a: 1625439686
+      b: 1087294113
+      c: 1787175050
+      d: -1854114631
+  Title: Religious Woes
+  Description: Having a State Religion has brought great things to your empire, but
+    currently there's a big religious minority growing. Your priests try to combat
+    the religious disunion, but practicioners of other faiths are sometimes victim
+    of prejudice and discrimination. Your empire's fractured faith led to a major
+    riot in one of your cities. The angry mob is searching the streets for heathens,
+    "false converts" and whoever crosses their furious way. How will you respond
+    to this religious discrimination?
+  GeoLocalizationID: OneCity
+  Notes: 

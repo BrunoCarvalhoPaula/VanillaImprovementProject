@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7310971538622427656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_LegacyTrait_Era3_Franks
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  CostModifierValue:
+    RawValue: 900
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 5
+  SerializableValidNames:
+  - Extension_Base_Science
+  ValidCategories: 
+--- !u!114 &-6883503435613382331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_LegacyTrait_Era2_Celts
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  CostModifierValue:
+    RawValue: 900
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 5
+  SerializableValidNames:
+  - Extension_Base_Food
+  ValidCategories: 
+--- !u!114 &-6854837815147734285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_LegacyTrait_Era1_HittiteEmpire
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  CostModifierValue:
+    RawValue: 750
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 4
+  SerializableValidNames:
+  - Effect_UnitPrototype_Cavalry
+  - Effect_UnitPrototype_MountedGunner
+  ValidCategories: 
+--- !u!114 &-1516329655428960288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_LegacyTrait_Era5_AfsharidPersia2
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  CostModifierValue:
+    RawValue: 750
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 1
+  SerializableValidNames:
+  - Amplitude.Mercury.Data.Simulation.DistrictDefinition
+  - Amplitude.Mercury.Data.Simulation.SettlementImprovementDefinition
+  ValidCategories: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifierDefinition
+  m_EditorClassIdentifier: 

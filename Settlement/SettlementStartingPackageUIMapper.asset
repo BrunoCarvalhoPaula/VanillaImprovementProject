@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8112385847632443812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Package01
+  m_EditorClassIdentifier: 
+  Title: '%ConstructibleEvolution_CityCenterAdvanced01Title'
+  Description: '%ConstructibleEvolution_CityCenterAdvanced01Description'
+  Images:
+  - Value:
+      guid:
+        a: 1124590566
+        b: 1288764991
+        c: 1553090188
+        d: -839198626
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-1723837109010692270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Package03
+  m_EditorClassIdentifier: 
+  Title: '%ConstructibleEvolution_CityCenterAdvanced03Title'
+  Description: '%ConstructibleEvolution_CityCenterAdvanced03Description'
+  Images:
+  - Value:
+      guid:
+        a: 1124590566
+        b: 1288764991
+        c: 1553090188
+        d: -839198626
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-1335424291411783478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Package02
+  m_EditorClassIdentifier: 
+  Title: '%ConstructibleEvolution_CityCenterAdvanced02Title'
+  Description: '%ConstructibleEvolution_CityCenterAdvanced02Description'
+  Images:
+  - Value:
+      guid:
+        a: 1124590566
+        b: 1288764991
+        c: 1553090188
+        d: -839198626
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: SettlementStartingPackageUIMapper
+  m_EditorClassIdentifier: 
+--- !u!114 &2252259179406158060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Package00
+  m_EditorClassIdentifier: 
+  Title: '%ConstructibleEvolution_CityCenterAdvanced00Title'
+  Description: '%ConstructibleEvolution_CityCenterAdvanced00Description'
+  Images:
+  - Value:
+      guid:
+        a: 1124590566
+        b: 1288764991
+        c: 1553090188
+        d: -839198626
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &2442195127034393556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Package04
+  m_EditorClassIdentifier: 
+  Title: Colonies
+  Description: Those advanced colonies start with all Ancient Infrastructures.
+  Images:
+  - Value:
+      guid:
+        a: 1124590566
+        b: 1288764991
+        c: 1553090188
+        d: -839198626
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 

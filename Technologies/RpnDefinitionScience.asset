@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7925940852730041856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era5_Tier2_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 13000000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &-4631469343943751993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era3_Tier1_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 1480000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &-3465319686118570453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era4_Tier3_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 7700000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &-157408637186674575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era6_Tier3_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 27000000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: RpnDefinitionScience
+  m_EditorClassIdentifier: 
+--- !u!114 &441319652657523265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era5_Tier3_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 14280000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &3082440807757695192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era6_Tier4_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 35000000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &3336023930474276101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era3_Tier3_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 3150000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &3721395744205747504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era3_Tier2_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 2230000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &6635321547973130040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era5_Tier1_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 10000000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &6658849931977261194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era6_Tier1_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 17000000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &6925750091263377889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era4_Tier1_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 4350000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &7312038546649511528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era4_Tier2_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 5850000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &8846498691922424900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Technology_Era6_Tier2_Cost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000008000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 25000000
+  - RawValue: 1000
+  - RawValue: 10
+  Note: 
+  PropertyLocalNameStack:
+  - NumberOfUnlockedTechnologies
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8823612969606875280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1844080829, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ReligionTenet_Tier3_Tenet01
+  m_EditorClassIdentifier: 
+  Title: '%ReligionTenet_Tier3_Tenet01Title'
+  Description: '%ReligionTenet_Tier3_Tenet01Description'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: ReligionPicto
+  - Value:
+      guid:
+        a: 194337959
+        b: 1125097715
+        c: -1462516335
+        d: 1277644918
+    serializableKey: TenetScreenItemBackground
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+  PrimaryColor: {r: 1, g: 0.9254902, b: 0.7490196, a: 1}
+  SecondaryColor: {r: 0.81960785, g: 0.72156864, b: 0.49019608, a: 1}
+  TertiaryColor: {r: 1, g: 0.9411765, b: 0.80784315, a: 1}
+--- !u!114 &-5050789574106302578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1844080829, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ReligionTenet_Tier4_Tenet02
+  m_EditorClassIdentifier: 
+  Title: '%ReligionTenet_Tier4_Tenet02Title'
+  Description: '%ReligionTenet_Tier4_Tenet02Description'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: ReligionPicto
+  - Value:
+      guid:
+        a: 194337959
+        b: 1125097715
+        c: -1462516335
+        d: 1277644918
+    serializableKey: TenetScreenItemBackground
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+  PrimaryColor: {r: 1, g: 0.9254902, b: 0.7490196, a: 1}
+  SecondaryColor: {r: 0.81960785, g: 0.72156864, b: 0.49019608, a: 1}
+  TertiaryColor: {r: 1, g: 0.9411765, b: 0.80784315, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: TenetDefinitionsUIMappers
+  m_EditorClassIdentifier: 

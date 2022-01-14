@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5280444887186521406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_UnitPrototype_ArmouredVehicle
+  m_EditorClassIdentifier: 
+  Localization: Armoured Vehicle Unit
+  LocalizationInverted: 
+  LocalizationTarget: Armoured Vehicle Unit
+  LocalizationTargetInverted: 
+--- !u!114 &-4589715873748830077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Extension_Base_NaturalReserve
+  m_EditorClassIdentifier: 
+  Localization: Nature Reserve
+  LocalizationInverted: All Districts other than Nature Reserve
+  LocalizationTarget: Nature Reserve
+  LocalizationTargetInverted: All Districts other than Nature Reserve
+--- !u!114 &-1058390806183256300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: GameEffect_CityFlags_ScienceMode
+  m_EditorClassIdentifier: 
+  Localization: 
+  LocalizationInverted: 
+  LocalizationTarget: '%GameEffect_CityFlags_ScienceMode'
+  LocalizationTargetInverted: Collective Minds is inactive
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -286750100, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: ValidationMapperCollection
+  m_EditorClassIdentifier: 
+--- !u!114 &8429827763787921166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: GameEffect_CityFlags_Capital
+  m_EditorClassIdentifier: 
+  Localization: '%GameEffect_CityFlags_Capital'
+  LocalizationInverted: All Cities but the Capital
+  LocalizationTarget: '%GameEffect_CityFlags_Capital'
+  LocalizationTargetInverted: All Cities but the Capital

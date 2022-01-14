@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7347717077156719264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -950249564, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Package01
+  m_EditorClassIdentifier: 
+  Improvements:
+  - serializableElementName: Infrastructure_Food_Family03_01
+  - serializableElementName: Infrastructure_Food_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family02_01
+  - serializableElementName: Infrastructure_Military_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family03_01
+  - serializableElementName: Infrastructure_Food_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_01
+  - serializableElementName: Infrastructure_Harbour_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_01
+  - serializableElementName: Infrastructure_Military_Family04_01
+  - serializableElementName: Infrastructure_Money_Family02_01
+  - serializableElementName: Infrastructure_Science_Family03_01
+  - serializableElementName: Infrastructure_Harbour_Family02_01
+  - serializableElementName: Infrastructure_Military_Family02_01
+  - serializableElementName: Infrastructure_Food_Family04_02
+  - serializableElementName: Infrastructure_Industry_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_02
+  - serializableElementName: Infrastructure_Military_Family01_02
+  - serializableElementName: Infrastructure_Money_Family03_01
+  - serializableElementName: Infrastructure_Science_Family02_01
+  - serializableElementName: Infrastructure_PublicOrder_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_02
+  - serializableElementName: Infrastructure_Industry_Family05_01
+  - serializableElementName: Infrastructure_PublicOrder_Family03_01
+  - serializableElementName: Infrastructure_Science_Family04_01
+  - serializableElementName: Infrastructure_Money_Family05_01
+  - serializableElementName: Infrastructure_Science_Family03_02
+  - serializableElementName: Infrastructure_Harbour_Family02_02
+  - serializableElementName: Infrastructure_Military_Family04_02
+  - serializableElementName: Infrastructure_Military_Family02_02
+  - serializableElementName: Infrastructure_Industry_Family01_03
+  - serializableElementName: Infrastructure_Military_Family03_01
+  - serializableElementName: Infrastructure_PublicOrder_Family04_01
+  - serializableElementName: Infrastructure_Science_Family01_01
+  - serializableElementName: Infrastructure_Money_Family04_01
+  - serializableElementName: Infrastructure_Industry_Family00_01
+  StartingPopulation:
+    RawValue: 3000
+  StartingIndustry:
+    RawValue: 210000
+  Level: 2
+--- !u!114 &-156116938360926274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -950249564, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Package03
+  m_EditorClassIdentifier: 
+  Improvements:
+  - serializableElementName: Infrastructure_Food_Family03_01
+  - serializableElementName: Infrastructure_Food_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family02_01
+  - serializableElementName: Infrastructure_Military_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family03_01
+  - serializableElementName: Infrastructure_Food_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_01
+  - serializableElementName: Infrastructure_Harbour_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_01
+  - serializableElementName: Infrastructure_Military_Family04_01
+  - serializableElementName: Infrastructure_Money_Family02_01
+  - serializableElementName: Infrastructure_Science_Family03_01
+  - serializableElementName: Infrastructure_Harbour_Family02_01
+  - serializableElementName: Infrastructure_Military_Family02_01
+  - serializableElementName: Infrastructure_Food_Family04_02
+  - serializableElementName: Infrastructure_Industry_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_02
+  - serializableElementName: Infrastructure_Military_Family01_02
+  - serializableElementName: Infrastructure_Money_Family03_01
+  - serializableElementName: Infrastructure_Science_Family02_01
+  - serializableElementName: Infrastructure_PublicOrder_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_02
+  - serializableElementName: Infrastructure_Industry_Family05_01
+  - serializableElementName: Infrastructure_PublicOrder_Family03_01
+  - serializableElementName: Infrastructure_Science_Family04_01
+  - serializableElementName: Infrastructure_Money_Family05_01
+  - serializableElementName: Infrastructure_Science_Family03_02
+  - serializableElementName: Infrastructure_Harbour_Family02_02
+  - serializableElementName: Infrastructure_Military_Family04_02
+  - serializableElementName: Infrastructure_Military_Family02_02
+  - serializableElementName: Infrastructure_Industry_Family01_03
+  - serializableElementName: Infrastructure_Military_Family03_01
+  - serializableElementName: Infrastructure_PublicOrder_Family04_01
+  - serializableElementName: Infrastructure_Science_Family01_01
+  - serializableElementName: Infrastructure_Money_Family04_01
+  - serializableElementName: Infrastructure_Money_Family03_02
+  - serializableElementName: Infrastructure_Food_Family03_02
+  - serializableElementName: Infrastructure_Money_Family01_01
+  - serializableElementName: Infrastructure_Money_Family04_02
+  - serializableElementName: Infrastructure_Science_Family04_02
+  - serializableElementName: Infrastructure_PublicOrder_Family03_02
+  - serializableElementName: Infrastructure_Science_Family01_02
+  - serializableElementName: Infrastructure_Science_Family02_02
+  - serializableElementName: Infrastructure_Science_Family03_03
+  - serializableElementName: Infrastructure_Military_Family01_03
+  - serializableElementName: Infrastructure_Industry_Family05_02
+  - serializableElementName: Infrastructure_Science_Family02_03
+  - serializableElementName: Infrastructure_Military_Family02_03
+  - serializableElementName: Infrastructure_Military_Family03_02
+  - serializableElementName: Infrastructure_Money_Family05_02
+  - serializableElementName: Infrastructure_Food_Family02_01
+  - serializableElementName: Infrastructure_Harbour_Family01_02
+  - serializableElementName: Infrastructure_Harbour_Family02_03
+  - serializableElementName: Infrastructure_Industry_Family01_04
+  - serializableElementName: Infrastructure_Food_Family03_03
+  - serializableElementName: Infrastructure_Industry_Family02_02
+  - serializableElementName: Infrastructure_Industry_Family05_03
+  - serializableElementName: Infrastructure_PublicOrder_Family04_02
+  - serializableElementName: Infrastructure_PublicOrder_Family01_02
+  - serializableElementName: Infrastructure_Industry_Family00_01
+  StartingPopulation:
+    RawValue: 6000
+  StartingIndustry:
+    RawValue: 350000
+  Level: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1526722790, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: SettlementStartingPackages
+  m_EditorClassIdentifier: 
+--- !u!114 &1498184512340662151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -950249564, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Package04
+  m_EditorClassIdentifier: 
+  Improvements:
+  - serializableElementName: Infrastructure_Food_Family03_01
+  - serializableElementName: Infrastructure_Food_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family02_01
+  - serializableElementName: Infrastructure_Military_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family03_01
+  - serializableElementName: Infrastructure_Food_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_01
+  - serializableElementName: Infrastructure_Harbour_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_01
+  - serializableElementName: Infrastructure_Military_Family04_01
+  - serializableElementName: Infrastructure_Money_Family02_01
+  - serializableElementName: Infrastructure_Science_Family03_01
+  - serializableElementName: Infrastructure_Harbour_Family02_01
+  - serializableElementName: Infrastructure_Military_Family02_01
+  - serializableElementName: Infrastructure_Industry_Family00_01
+  StartingPopulation:
+    RawValue: 1000
+  StartingIndustry:
+    RawValue: 60000
+  Level: 0
+--- !u!114 &4103566762923663954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -950249564, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Package02
+  m_EditorClassIdentifier: 
+  Improvements:
+  - serializableElementName: Infrastructure_Food_Family03_01
+  - serializableElementName: Infrastructure_Food_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family02_01
+  - serializableElementName: Infrastructure_Military_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family03_01
+  - serializableElementName: Infrastructure_Food_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_01
+  - serializableElementName: Infrastructure_Harbour_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_01
+  - serializableElementName: Infrastructure_Military_Family04_01
+  - serializableElementName: Infrastructure_Money_Family02_01
+  - serializableElementName: Infrastructure_Science_Family03_01
+  - serializableElementName: Infrastructure_Harbour_Family02_01
+  - serializableElementName: Infrastructure_Military_Family02_01
+  - serializableElementName: Infrastructure_Food_Family04_02
+  - serializableElementName: Infrastructure_Industry_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_02
+  - serializableElementName: Infrastructure_Military_Family01_02
+  - serializableElementName: Infrastructure_Money_Family03_01
+  - serializableElementName: Infrastructure_Science_Family02_01
+  - serializableElementName: Infrastructure_PublicOrder_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_02
+  - serializableElementName: Infrastructure_Industry_Family05_01
+  - serializableElementName: Infrastructure_PublicOrder_Family03_01
+  - serializableElementName: Infrastructure_Science_Family04_01
+  - serializableElementName: Infrastructure_Money_Family05_01
+  - serializableElementName: Infrastructure_Science_Family03_02
+  - serializableElementName: Infrastructure_Harbour_Family02_02
+  - serializableElementName: Infrastructure_Military_Family04_02
+  - serializableElementName: Infrastructure_Military_Family02_02
+  - serializableElementName: Infrastructure_Industry_Family01_03
+  - serializableElementName: Infrastructure_Military_Family03_01
+  - serializableElementName: Infrastructure_PublicOrder_Family04_01
+  - serializableElementName: Infrastructure_Science_Family01_01
+  - serializableElementName: Infrastructure_Money_Family04_01
+  - serializableElementName: Infrastructure_Money_Family03_02
+  - serializableElementName: Infrastructure_Food_Family03_02
+  - serializableElementName: Infrastructure_Money_Family01_01
+  - serializableElementName: Infrastructure_Money_Family04_02
+  - serializableElementName: Infrastructure_Science_Family04_02
+  - serializableElementName: Infrastructure_PublicOrder_Family03_02
+  - serializableElementName: Infrastructure_Science_Family01_02
+  - serializableElementName: Infrastructure_Science_Family02_02
+  - serializableElementName: Infrastructure_Science_Family03_03
+  - serializableElementName: Infrastructure_Military_Family01_03
+  - serializableElementName: Infrastructure_Industry_Family05_02
+  - serializableElementName: Infrastructure_Industry_Family00_01
+  StartingPopulation:
+    RawValue: 4000
+  StartingIndustry:
+    RawValue: 280000
+  Level: 3
+--- !u!114 &5811782096760781246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -950249564, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Package00
+  m_EditorClassIdentifier: 
+  Improvements:
+  - serializableElementName: Infrastructure_Food_Family03_01
+  - serializableElementName: Infrastructure_Food_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family02_01
+  - serializableElementName: Infrastructure_Military_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family03_01
+  - serializableElementName: Infrastructure_Food_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_01
+  - serializableElementName: Infrastructure_Harbour_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_01
+  - serializableElementName: Infrastructure_Military_Family04_01
+  - serializableElementName: Infrastructure_Money_Family02_01
+  - serializableElementName: Infrastructure_Science_Family03_01
+  - serializableElementName: Infrastructure_Harbour_Family02_01
+  - serializableElementName: Infrastructure_Military_Family02_01
+  - serializableElementName: Infrastructure_Food_Family04_02
+  - serializableElementName: Infrastructure_Industry_Family04_01
+  - serializableElementName: Infrastructure_PublicOrder_Family02_02
+  - serializableElementName: Infrastructure_Military_Family01_02
+  - serializableElementName: Infrastructure_Money_Family03_01
+  - serializableElementName: Infrastructure_Science_Family02_01
+  - serializableElementName: Infrastructure_PublicOrder_Family01_01
+  - serializableElementName: Infrastructure_Industry_Family01_02
+  - serializableElementName: Infrastructure_Industry_Family05_01
+  - serializableElementName: Infrastructure_PublicOrder_Family03_01
+  - serializableElementName: Infrastructure_Science_Family04_01
+  - serializableElementName: Infrastructure_Money_Family05_01
+  - serializableElementName: Infrastructure_Industry_Family00_01
+  StartingPopulation:
+    RawValue: 3000
+  StartingIndustry:
+    RawValue: 140000
+  Level: 1

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7772511510873445589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoMovementPenaltiesFromZonesOfControl
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
+  - serializableElementName: UnitAbility_Stealth
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &-4506782132243023213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_GuidedTorpedoes
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_Stealth
+  - serializableElementName: UnitAbility_IndirectFire
+  AutoResolveBattleStrengthBonus:
+    RawValue: 1000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -354112042, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty
+  m_EditorClassIdentifier: 
+--- !u!114 &1919082219389663846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_DebuffTargetPoison_Level1
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_DebuffTargetPoison_Level1
+  - serializableElementName: UnitAbility_HalfMeleePenalty
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0
+--- !u!114 &8796176260418558020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374328362, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitSpecialty_NoMovementPenaltiesFromLandTerrain
+  m_EditorClassIdentifier: 
+  AbilityReferences:
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromForests
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRivers
+  - serializableElementName: UnitAbility_NoMovementPenaltiesFromRocks
+  - serializableElementName: UnitAbility_DebuffTargetStun
+  AutoResolveBattleStrengthBonus:
+    RawValue: 0

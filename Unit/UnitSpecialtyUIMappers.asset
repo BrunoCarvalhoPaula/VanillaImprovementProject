@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2472362374621336112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitSpecialty_NoMovementPenaltiesFromLandTerrain
+  m_EditorClassIdentifier: 
+  Title: '%UnitSpecialty_NoMovementPenaltiesFromLandTerrainTitle'
+  Description: Ignores all terrain movement penalties. The targeted Unit cannot move
+    next turn, and has reduced Combat Strength.
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitSpecialtyUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &1365236623947547053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitSpecialty_DebuffTargetPoison_Level1
+  m_EditorClassIdentifier: 
+  Title: '%UnitSpecialty_DebuffTargetPoisonTitle'
+  Description: Applies a poisoned status to the target, which reduces its Movement
+    Speed and Attack Range. Also suffers half melee penalty.
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &1616744494791172847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: UnitSpecialty_GuidedTorpedoes
+  m_EditorClassIdentifier: 
+  Title: Guided Torpedoes
+  Description: This unit is stealthed and can attack enemies without line of sight.
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 

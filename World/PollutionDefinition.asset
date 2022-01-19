@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Fast
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 17000000
+    RawValue: 22000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -47,7 +47,7 @@ MonoBehaviour:
     UiMappeReference:
       serializableElementName: PollutionLevel1
   - Threshold:
-      RawValue: 12000000
+      RawValue: 16000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Default
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 40000000
+    RawValue: 55000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -101,7 +101,7 @@ MonoBehaviour:
     UiMappeReference:
       serializableElementName: PollutionLevel1
   - Threshold:
-      RawValue: 30000000
+      RawValue: 40000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Normal
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 40000000
+    RawValue: 55000000
   TerritoryPollutionStatusCategory:
     serializableElementName: StatusCategory_Pollution
   TerritoryPollution:
@@ -155,7 +155,7 @@ MonoBehaviour:
     UiMappeReference:
       serializableElementName: PollutionLevel1
   - Threshold:
-      RawValue: 30000000
+      RawValue: 40000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Slow
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 55000000
+    RawValue: 70000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -221,7 +221,7 @@ MonoBehaviour:
     UiMappeReference:
       serializableElementName: PollutionLevel1
   - Threshold:
-      RawValue: 45000000
+      RawValue: 55000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Blitz
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 6250000
+    RawValue: 8000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -275,7 +275,7 @@ MonoBehaviour:
     UiMappeReference:
       serializableElementName: PollutionLevel1
   - Threshold:
-      RawValue: 5000000
+      RawValue: 6000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Name: PollutionDefinition_Endless
   m_EditorClassIdentifier: 
   EndGamePollutionThreshold:
-    RawValue: 90000000
+    RawValue: 110000000
   TerritoryPollutionStatusCategory:
     serializableElementName: 
   TerritoryPollution:
@@ -329,7 +329,7 @@ MonoBehaviour:
     UiMappeReference:
       serializableElementName: PollutionLevel1
   - Threshold:
-      RawValue: 70000000
+      RawValue: 80000000
     Status:
       serializableElementName: AtmospherePollution_High
     FameBonusForTopPolluter:

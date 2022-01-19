@@ -1,5 +1,26 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5897576974492570061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_LegacyTrait_Era1_EgyptianKingdom
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    EffectLocalization: '+1 [IndustryColored] industry on Exploitation producing
+      [IndustryColored] '
+    ParameterFlags: 3
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,6 +33,26 @@ MonoBehaviour:
   m_Script: {fileID: -1270168998, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: DescriptorMapperCollection
   m_EditorClassIdentifier: 
+--- !u!114 &591722258125849366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: GameEffect_MajorEmpire_Bankrupt
+  m_EditorClassIdentifier: 
+  LocalizedName: Bankruptcy
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    EffectLocalization: Bankruptcy
+    ParameterFlags: 0
 --- !u!114 &2775437413861096184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,6 +88,26 @@ MonoBehaviour:
     HidePropertyEffect: 0
     EffectLocalization: Over City Cap
     ParameterFlags: 0
+--- !u!114 &4250173850722719525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_LegacyTrait_Era1_HarappanCivilization
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    EffectLocalization: +1 [FoodColored] food on Exploitation producing [FoodColored]
+    ParameterFlags: 3
 --- !u!114 &5887900860745814201
 MonoBehaviour:
   m_ObjectHideFlags: 0

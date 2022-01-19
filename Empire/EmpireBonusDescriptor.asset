@@ -912,25 +912,20 @@ MonoBehaviour:
   Effects:
   - ApplyEffectOnSource: 0
     Path:
-      PropertyToFollow:
-      - Cities
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_CityCenter
+      PropertyToFollow: []
+      Validations: []
       specificTargetType: 
     PropertyEffects:
     - Note: 
       TargetProperty: InfluenceNet
       ToTargetOperation: 1
-      RpnOperationStack: 09000000090000000a0000000500000002000000
+      RpnOperationStack: 09000000090000000a00000005000000020000000900000002000000
       ConstantStack:
       - RawValue: 2000
       PropertyLocalName:
       - EraLevel
       - ConsecutiveTurnEndedInMoneyDeficit
+      - CityCountingTowardCap
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &5587005732770251098

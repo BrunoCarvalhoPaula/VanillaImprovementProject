@@ -115,8 +115,7 @@ MonoBehaviour:
   SettlementPropertyPrerequisites: []
   SettlementStabilityPrerequisite:
     Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
+    PublicOrderEffects: []
   DistrictCountPrerequisites: []
   ActionTypePrerequisite:
     Operator: 0
@@ -195,6 +194,492 @@ MonoBehaviour:
     serializableElementName: 
   DistrictType: 9
   HasPublicOrderCost: 1
+  ExploitationRuleReference:
+    serializableElementName: ExploitationRule_Neighbours
+  ExtractResource: 0
+  WondrousResourceType: 32
+  UnitSpawnType: -1
+  AllowShipping: 0
+  ProvidesSecondaryRoad: 0
+  ProvidesRail: 0
+  ForceRiverOnTerrain: 0
+  serializableReplaceTerrainWith: 
+--- !u!114 &-8837412433322431291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Extension_Era3_FrankishKingdom
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 8
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 512
+    - Name: Importance
+      Entry: 3
+      Data: 2
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 128
+    - Name: Importance
+      Entry: 3
+      Data: 2
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 536870912
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.AI.GainWeight[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.GainWeight, Amplitude.Mercury.Data
+    - Name: Gain
+      Entry: 3
+      Data: 536870912
+    - Name: Weight
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 68
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 0
+  SerializableFamily: 
+  Level: 0
+  Unicity: 4
+  ConstructibleVisualAffinity:
+    serializableElementName: DistrictVisualAffinity_Emblematic
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 1
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Extension_Emblematic_Era3
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames:
+    - Civilization_Era3_FrankishKingdom
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 1
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 536870975
+  Prototype: Extension_Prototype_Emblematic
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_Extension_Base_Science
+  - serializableElementName: Effect_Extension_Era3_FrankishKingdom
+  - serializableElementName: Effect_Extension_Era3_FrankishKingdom_Synergy00
+  - serializableElementName: Tag_Extension_PublicOrderLoss
+  - serializableElementName: Tag_Extension_Cultural
+  - serializableElementName: Tag_Extension_Religious
+  IsReplaceableOrDestroyable: 1
+  CanBeDowngradedToRuin: 1
+  AdditionalVisualLevels: []
+  IsImmuneToBombardment: 0
+  AllowBoroughExtension: 0
+  AllowConnectionWithOtherBorough: 1
+  OverADistrictPrerequisite:
+    TagOperator: 0
+    ValidIfNoDistrict: 1
+    HideInUI: 1
+    serializableTags:
+    - Tag_Extension_Base
+  PointOfInterestPrerequisite:
+    Constraint: 7
+    HideInUI: 1
+    serializablePointOfInterestNames: []
+  RiverPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  TerrainPrerequisite:
+    Constraint: 2
+    HideInUI: 1
+    CanBuildOnWasteland: 0
+    serializableTerrainTypeNames:
+    - TerrainType_Ocean
+    - TerrainType_CoastalWater
+    - TerrainType_Lake
+    - TerrainType_CityTerrain
+  BiomePrerequisite:
+    Constraint: 0
+    serializableBiomeName: 
+  CliffPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  MountainPrerequisite:
+    Constraint: 0
+    HideInUI: 0
+  TileVisibilityPrerequisite:
+    Constraint: 1
+    Visibility: 0
+  NeighbourTilesPrerequisite:
+    NeighbourOperator: 2
+    TerritoryConstraint: 2
+    IgnoreCliff: 1
+    TerrainPrerequisite:
+      Constraint: 0
+      HideInUI: 0
+      CanBuildOnWasteland: 0
+      serializableTerrainTypeNames: []
+    RiverPrerequisite:
+      Constraint: 0
+      HideInUI: 0
+    DistrictPrerequisite:
+      TagOperator: 0
+      ValidIfNoDistrict: 0
+      HideInUI: 0
+      serializableTags: []
+  BoroughPrerequisite:
+    ExtensionRules: 0
+  ProtectsNeighboursFromRansack: 0
+  ZoneOfControlDistance:
+    RawValue: 0
+  FriendlyUnitOnTopStatus:
+    serializableElementName: 
+  DistrictType: 6
+  HasPublicOrderCost: 1
+  ExploitationRuleReference:
+    serializableElementName: ExploitationRule_Neighbours_Science
+  ExtractResource: 0
+  WondrousResourceType: 32
+  UnitSpawnType: -1
+  AllowShipping: 0
+  ProvidesSecondaryRoad: 0
+  ProvidesRail: 0
+  ForceRiverOnTerrain: 0
+  serializableReplaceTerrainWith: 
+--- !u!114 &-8024446505565005329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Extension_Era5_Italy
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 16
+    - Name: Importance
+      Entry: 3
+      Data: 2
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 536870912
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SynergyDistrictType
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.AI.GainWeight[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.GainWeight, Amplitude.Mercury.Data
+    - Name: Gain
+      Entry: 3
+      Data: 536870912
+    - Name: Weight
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 74
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 7
+  SerializableFamily: 
+  Level: 0
+  Unicity: 4
+  ConstructibleVisualAffinity:
+    serializableElementName: DistrictVisualAffinity_Emblematic
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 1
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Extension_Emblematic_Era5
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames:
+    - Civilization_Era5_Italy
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  BaseSynergyDistrict: 1
+  SynergyRiver: 0
+  TargetSynergyDistrictType: 536870912
+  Prototype: Extension_Prototype_Emblematic
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_Extension_Era5_Italy
+  - serializableElementName: Effect_Extension_Era5_Italy_Synergy00
+  - serializableElementName: Tag_Extension_Cultural
+  - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
+  IsReplaceableOrDestroyable: 1
+  CanBeDowngradedToRuin: 1
+  AdditionalVisualLevels: []
+  IsImmuneToBombardment: 0
+  AllowBoroughExtension: 0
+  AllowConnectionWithOtherBorough: 1
+  OverADistrictPrerequisite:
+    TagOperator: 0
+    ValidIfNoDistrict: 1
+    HideInUI: 1
+    serializableTags:
+    - Tag_Extension_Base
+  PointOfInterestPrerequisite:
+    Constraint: 7
+    HideInUI: 1
+    serializablePointOfInterestNames: []
+  RiverPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  TerrainPrerequisite:
+    Constraint: 2
+    HideInUI: 1
+    CanBuildOnWasteland: 0
+    serializableTerrainTypeNames:
+    - TerrainType_Ocean
+    - TerrainType_CoastalWater
+    - TerrainType_Lake
+    - TerrainType_CityTerrain
+  BiomePrerequisite:
+    Constraint: 0
+    serializableBiomeName: 
+  CliffPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  MountainPrerequisite:
+    Constraint: 0
+    HideInUI: 0
+  TileVisibilityPrerequisite:
+    Constraint: 1
+    Visibility: 0
+  NeighbourTilesPrerequisite:
+    NeighbourOperator: 2
+    TerritoryConstraint: 2
+    IgnoreCliff: 1
+    TerrainPrerequisite:
+      Constraint: 0
+      HideInUI: 0
+      CanBuildOnWasteland: 0
+      serializableTerrainTypeNames: []
+    RiverPrerequisite:
+      Constraint: 0
+      HideInUI: 0
+    DistrictPrerequisite:
+      TagOperator: 0
+      ValidIfNoDistrict: 0
+      HideInUI: 0
+      serializableTags: []
+  BoroughPrerequisite:
+    ExtensionRules: 0
+  ProtectsNeighboursFromRansack: 0
+  ZoneOfControlDistance:
+    RawValue: 0
+  FriendlyUnitOnTopStatus:
+    serializableElementName: 
+  DistrictType: 11
+  HasPublicOrderCost: 0
   ExploitationRuleReference:
     serializableElementName: ExploitationRule_Neighbours
   ExtractResource: 0
@@ -538,6 +1023,7 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Era1_Assyria
   - serializableElementName: Effect_Extension_Base_Military
+  - serializableElementName: Counts_Garrison
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -729,7 +1215,8 @@ MonoBehaviour:
   SettlementPropertyPrerequisites: []
   SettlementStabilityPrerequisite:
     Operator: 1
-    PublicOrderEffects: []
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
   DistrictCountPrerequisites: []
   ActionTypePrerequisite:
     Operator: 0
@@ -744,6 +1231,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era4_MingChina_Synergy00
   - serializableElementName: Effect_Extension_Base_PublicOrder
   - serializableElementName: Tag_Extension_PublicOrderLoss
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -948,6 +1436,7 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Era6_Turkey
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -1152,6 +1641,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era2_RomanEmpire
   - serializableElementName: Tag_Extension_Cultural
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -1393,6 +1883,7 @@ MonoBehaviour:
   - serializableElementName: Tag_Extension_Religious
   - serializableElementName: Effect_Extension_Era3_AztecEmpire_Synergy00
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -1610,6 +2101,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era6_India_Synergy00
   - serializableElementName: Tag_Extension_Religious
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -2035,6 +2527,7 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Era4_PolishKingdom
   - serializableElementName: Effect_Extension_Base_Military
+  - serializableElementName: Counts_Garrison
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -2489,7 +2982,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era6_USA_Synergy00
   - serializableElementName: Tag_Extension_PublicOrderLoss
   - serializableElementName: Effect_Extension_Base_Science
-  - serializableElementName: Effect_Repeatable_Money
+  - serializableElementName: Effect_Extension_Base_Money
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -2702,6 +3195,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era4_Spain_Synergy00
   - serializableElementName: Tag_Extension_PublicOrderLoss
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -2907,6 +3401,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era5_AustriaHungary_Synergy00
   - serializableElementName: Tag_Extension_Cultural
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -3534,6 +4029,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era3_MedievalEngland
   - serializableElementName: Effect_Extension_Base_Food
   - serializableElementName: Effect_Extension_Base_Military
+  - serializableElementName: Counts_Garrison
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -3741,6 +4237,7 @@ MonoBehaviour:
   - serializableElementName: Tag_Extension_Religious
   - serializableElementName: Tag_Extension_Cultural
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Counts_Commons
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -3944,6 +4441,7 @@ MonoBehaviour:
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Era5_ZuluKingdom
   - serializableElementName: Effect_Extension_Base_Military
+  - serializableElementName: Counts_Garrison
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []
@@ -4390,6 +4888,7 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era1_MycenaeanCivilization
   - serializableElementName: Effect_Extension_Base_Industry
   - serializableElementName: Effect_Extension_Base_Military
+  - serializableElementName: Counts_Garrison
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []

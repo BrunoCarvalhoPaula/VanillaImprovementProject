@@ -302,7 +302,7 @@ MonoBehaviour:
       Data: 16
     - Name: Weight
       Entry: 3
-      Data: 5
+      Data: 10
     - Name: 
       Entry: 8
       Data: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     ActionType: 0
   BaseSynergyDistrict: 1
   SynergyRiver: 0
-  TargetSynergyDistrictType: 175
+  TargetSynergyDistrictType: 15
   Prototype: Extension_Prototype_Base
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Base_PublicOrder
@@ -441,7 +441,7 @@ MonoBehaviour:
     RawValue: 0
   FriendlyUnitOnTopStatus:
     serializableElementName: 
-  DistrictType: 0
+  DistrictType: 11
   HasPublicOrderCost: 0
   ExploitationRuleReference:
     serializableElementName: ExploitationRule_Neighbours

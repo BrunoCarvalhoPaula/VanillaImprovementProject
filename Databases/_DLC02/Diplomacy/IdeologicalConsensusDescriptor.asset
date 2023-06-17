@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: IdeologicalConsensusDescriptor
+  m_EditorClassIdentifier: 
+--- !u!114 &8030592080479267333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_EmpireBonus_IdeologicalConsensus_Economic_Left_Leaning
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Cities
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Exploitation_Strategic
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &8245081892998912346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_EmpireBonus_IdeologicalConsensus_Economic_Right_Leaning
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: BuyerLicenseCostReduction
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -250
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: SellerLicenseCostBonusGain
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 250
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

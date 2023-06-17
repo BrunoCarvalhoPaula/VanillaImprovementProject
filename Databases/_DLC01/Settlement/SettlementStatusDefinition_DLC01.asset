@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3115806600449935157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_HighSecurity21
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_HighSecurity
+  Descriptor:
+    serializableElementName: Effect_Status_City_HighSecurity_Overpop
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Flood
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Disease
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2110363667, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: SettlementStatusDefinition_DLC01
+  m_EditorClassIdentifier: 
+--- !u!114 &1002852081156469218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_PublicSupplies10
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_PublicSupplies
+  Descriptor:
+    serializableElementName: Effect_Status_City_PublicSupplies_Overpop
+  CostModifier:
+    serializableElementName: ConstructibleCostModifier_Status_City_Exhausted_Low
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Plague
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Disease
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+--- !u!114 &1897247131881875969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Learning22
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Learning
+  Descriptor:
+    serializableElementName: Effect_Status_City_Learning_Overpop
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Evacuated
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Superstitious
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0

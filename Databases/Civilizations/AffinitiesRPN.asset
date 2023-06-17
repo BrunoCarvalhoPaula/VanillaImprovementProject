@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5912425019588984588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ResourceDepositInvestmentMoneyGainWhenInvestingOwnDepot
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000b00000000000000080000000a00000005000000020000000a00000002000000000000000800000002000000
+  ConstantStack:
+  - RawValue: 15000
+  - RawValue: 1000
+  - RawValue: 3000
+  - RawValue: 5000
+  Note: 
+  PropertyLocalNameStack:
+  - EraLevel
+  - GameSpeedMultiplier
+  VariableNameStack:
+  - NumberOfTrades
+  DefinedVariables:
+  - NumberOfTrades
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &-3917606738634840780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ResourceDepositInvestmentMoneyGainForInvestmentOther
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000b00000000000000080000000a00000005000000020000000a00000002000000000000000900000002000000
+  ConstantStack:
+  - RawValue: 15000
+  - RawValue: 1000
+  - RawValue: 3000
+  - RawValue: 5000
+  Note: Target is the merchant, source is the deposit owner
+  PropertyLocalNameStack:
+  - EraLevel
+  - GameSpeedMultiplier
+  VariableNameStack:
+  - NumberOfTrades
+  DefinedVariables:
+  - NumberOfTrades
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.Empire, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: AffinitiesRPN
+  m_EditorClassIdentifier: 
+--- !u!114 &2901259705957903462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: PopulationToIndustryBuyoutConverstionRate
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 080000000a000000020000000a000000080000000800000000000000080000000000000008000000000000000600000002000000
+  ConstantStack:
+  - RawValue: 2000
+  - RawValue: 1000
+  Note: 
+  PropertyLocalNameStack:
+  - CityLevel
+  - IndustryWorkplaceGainPerPopulation
+  - FoodWorkplaceGainPerPopulation
+  - ScienceWorkplaceGainPerPopulation
+  - MoneyWorkplaceGainPerPopulation
+  VariableNameStack: []
+  DefinedVariables:
+  - EraLevel
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &5747459068040264451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ResourceDepositInvestmentMoneyGainForInvestmentMerchant
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000b00000000000000080000000a00000005000000020000000a00000002000000000000000900000002000000
+  ConstantStack:
+  - RawValue: 20000
+  - RawValue: 1000
+  - RawValue: 3000
+  - RawValue: 10000
+  Note: Target is the merchant, source is the deposit owner
+  PropertyLocalNameStack:
+  - EraLevel
+  - GameSpeedMultiplier
+  VariableNameStack:
+  - NumberOfTrades
+  DefinedVariables:
+  - NumberOfTrades
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.Empire, Amplitude.Mercury.Firstpass
+--- !u!114 &5852184549670730419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: CulturalAffinityInfluenceGain
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0b0000000a00000000000000090000000a00000005000000020000000a000000020000000900000002000000
+  ConstantStack:
+  - RawValue: 1000
+  - RawValue: 2200
+  - RawValue: 30000
+  Note: 
+  PropertyLocalNameStack:
+  - EraLevel
+  - GameSpeedMultiplier
+  VariableNameStack:
+  - NumberOfAdjacentTerritories
+  DefinedVariables:
+  - NumberOfAdjacentTerritories
+  targetTypeName: 
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &8171104368912638849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: CulturalAffinityActionCost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a000000090000000a000000030000000a00000005000000060000000a0000000a0000000b0000000a00000005000000020000000000000002000000
+  ConstantStack:
+  - RawValue: 1000
+  - RawValue: 2000
+  - RawValue: 3000
+  - RawValue: 30000
+  - RawValue: 10000
+  - RawValue: 2000
+  Note: 
+  PropertyLocalNameStack:
+  - EraLevel
+  VariableNameStack:
+  - NumberOfTimeAffinityUsed
+  DefinedVariables:
+  - NumberOfTimeAffinityUsed
+  targetTypeName: 
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

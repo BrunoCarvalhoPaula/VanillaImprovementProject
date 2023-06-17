@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7179908428620932107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 272376540, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ActionCostModifier_Civics_Justice01_Choice01
+  m_EditorClassIdentifier: 
+  CostType: 1
+  OperationType: 1
+  ModifierType: 0
+  CostModifierValue:
+    RawValue: 600
+  CostModifierRpn:
+    serializableElementName: 
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  ActionTypes: 10000000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: CivicsConstructibleCostModifierDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &4381449643681875603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_Civics_Religion01_Choice02_Part01
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  ModifierType: 0
+  CostModifierValue:
+    RawValue: 800
+  CostModifierRpn:
+    serializableElementName: 
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 4
+  SerializableValidNames:
+  - Tag_Extension_Religious
+  ValidCategories: 
+--- !u!114 &6276742567012873964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_Civics_Economy01_Choice02
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  ModifierType: 0
+  CostModifierValue:
+    RawValue: 500
+  CostModifierRpn:
+    serializableElementName: 
+  ApplyIfCostZero: 0
+  CanBeCumulated: 0
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 4
+  SerializableValidNames:
+  - Effect_Extension_Base_PublicOrder
+  ValidCategories: 
+--- !u!114 &6898508833188120075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_Civics_Economy01_Choice01
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  ModifierType: 0
+  CostModifierValue:
+    RawValue: 500
+  CostModifierRpn:
+    serializableElementName: 
+  ApplyIfCostZero: 0
+  CanBeCumulated: 0
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 4
+  SerializableValidNames:
+  - Effect_Extension_Base_Military
+  ValidCategories: 

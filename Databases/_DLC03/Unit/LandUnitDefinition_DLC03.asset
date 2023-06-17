@@ -1,0 +1,797 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8116513549456396439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era5_Argentina_ArgentinaGauchos
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 102
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 7
+  Category: 6
+  SerializableFamily: UnitFamily_Cavalry
+  Level: 31
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 0
+    ConstantType: 0
+    ConstantValue: 3
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era5_Argentina
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_MountedGunner
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_FirstAttackSuppression
+  - serializableElementName: UnitSpecialty_AfterAttackingAllowMove
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era5_Argentina_ArgentinaGauchos
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Era5_Tier2
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era5_StealthDetection
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 16777297
+  visualAffinityEraReference:
+    serializableElementName: Era5
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-6651213885173335673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_Taino_BairaHunters
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 100
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 7
+  Category: 6
+  SerializableFamily: UnitFamily_Ranged
+  Level: 20
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era3_Taino
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Ranged
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_IgnoreRivers
+  - serializableElementName: UnitSpecialty_IgnoreLineOfSight
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era3_Taino_Baira
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era3_Tier2
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 17
+  visualAffinityEraReference:
+    serializableElementName: Era3
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-6205317879344359736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era6_Cuba_Guerrilleros
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 101
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 7
+  Category: 6
+  SerializableFamily: UnitFamily_Officer
+  Level: 37
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 3
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era6_Cuba
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Gunner
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_StealthRevolutionary
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era6_Cuba_Guerrilleros
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era6_Tier1
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 4113
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-694503489395149662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era1_Caral_CaralFishermen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 96
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 7
+  Category: 6
+  SerializableFamily: UnitFamily_LightInfantry
+  Level: 7
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era1_Low
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: Era1
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era1_Caral
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Melee
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_HealArmy
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era1_Caral_CaralFishermen
+  - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Era1_Tier1
+  - serializableElementName: Effect_Unit_Emblematic
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 41
+  visualAffinityEraReference:
+    serializableElementName: Era1
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-265009823337784525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_Mississippi_MississippiHeadHunters
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 99
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_HeavyMelee
+  Level: 21
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: Era3
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era3_Mississippi
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Melee
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_HeadHunterSelf
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era3_Mississippi_MississippiHeadHunters
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Era3_Tier2
+  - serializableElementName: Effect_Unit_Emblematic
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 9
+  visualAffinityEraReference:
+    serializableElementName: Era3
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnitDefinition_DLC03
+  m_EditorClassIdentifier: 
+--- !u!114 &803898709041532618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era2_Nazca_NazcaHeadHunters
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 98
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 7
+  Category: 6
+  SerializableFamily: UnitFamily_Melee
+  Level: 14
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era2_Medium
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era2_Nazca
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Melee
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_HeadHunterAllies
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era2_Nazca_HeadHunters
+  - serializableElementName: Effect_Unit_Era2
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era2_Tier1
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 41
+  visualAffinityEraReference:
+    serializableElementName: Era2
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &3718901889004182151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era4_Inca_SapaIncaGuards
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 103
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 7
+  Category: 6
+  SerializableFamily: UnitFamily_MeleeAntiCavalry
+  Level: 25
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_Low
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era4_Inca
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_AntiCavalry
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_StrengthFromAdvancedTerrain_Level2
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era4_Inca_SapaIncaGuards
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era4_Tier1
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 9
+  visualAffinityEraReference:
+    serializableElementName: Era4
+  unitSpecialty:
+    serializableElementName: 

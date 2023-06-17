@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7830220277658928961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: GameEffect_AtmospherePollution_High
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - MajorEmpires
+      - Cities
+      - Districts
+      Validations:
+      - PathIndex: 2
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territories
+      - Districts
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -500
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.WorldAtmosphere, Amplitude.Mercury.Firstpass
+--- !u!114 &-5149709967466044301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: GameEffect_TerritoryPollution_High
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Districts
+      - Settlement
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 1
+      RpnOperationStack: 090000000a000000030000000a00000001000000
+      ConstantStack:
+      - RawValue: 5000
+      - RawValue: 5000
+      PropertyLocalName:
+      - PollutionNet
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Region
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a000000030000000a000000010000000a0000000700000002000000
+      ConstantStack:
+      - RawValue: 50000
+      - RawValue: 500
+      - RawValue: 1000
+      PropertyLocalName:
+      - DistrictScienceNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a000000030000000a000000010000000a0000000700000002000000
+      ConstantStack:
+      - RawValue: 50000
+      - RawValue: 375
+      - RawValue: 1000
+      PropertyLocalName:
+      - DistrictMoneyNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a000000030000000a000000010000000a0000000700000002000000
+      ConstantStack:
+      - RawValue: 50000
+      - RawValue: 500
+      - RawValue: 1000
+      PropertyLocalName:
+      - DistrictFoodNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: ProductionNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a000000030000000a000000010000000a0000000700000002000000
+      ConstantStack:
+      - RawValue: 100000
+      - RawValue: 250
+      - RawValue: 1000
+      PropertyLocalName:
+      - DistrictIndustryNet
+      - PollutionNet
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProducedByPollution
+      ToTargetOperation: 1
+      RpnOperationStack: 090000000a000000090000000a000000020000000700000002000000
+      ConstantStack:
+      - RawValue: 1000
+      - RawValue: 10
+      PropertyLocalName:
+      - DistrictFaithNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: CultureProducedByPollution
+      ToTargetOperation: 1
+      RpnOperationStack: 090000000a000000090000000a000000020000000700000002000000
+      ConstantStack:
+      - RawValue: 1000
+      - RawValue: 10
+      PropertyLocalName:
+      - DistrictInfluenceNet
+      - PollutionNet
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Territory, Amplitude.Mercury.Firstpass
+--- !u!114 &-2140006850529388044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: GameEffect_TerritoryPollution_Low
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Districts
+      - Settlement
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 1
+      RpnOperationStack: 090000000a00000003000000
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName:
+      - PollutionNet
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Region
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a0000000300000002000000
+      ConstantStack:
+      - RawValue: 100000
+      PropertyLocalName:
+      - DistrictScienceNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a0000000300000002000000
+      ConstantStack:
+      - RawValue: 80000
+      PropertyLocalName:
+      - DistrictMoneyNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a0000000300000002000000
+      ConstantStack:
+      - RawValue: 100000
+      PropertyLocalName:
+      - DistrictFoodNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: ProductionNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000090000000a0000000300000002000000
+      ConstantStack:
+      - RawValue: 200000
+      PropertyLocalName:
+      - DistrictIndustryNet
+      - PollutionNet
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProducedByPollution
+      ToTargetOperation: 1
+      RpnOperationStack: 090000000a000000090000000a000000020000000000000002000000
+      ConstantStack:
+      - RawValue: 150
+      - RawValue: 7
+      PropertyLocalName:
+      - DistrictFaithNet
+      - PollutionNet
+    - Note: 
+      TargetProperty: CultureProducedByPollution
+      ToTargetOperation: 1
+      RpnOperationStack: 090000000a000000090000000a000000020000000000000002000000
+      ConstantStack:
+      - RawValue: 150
+      - RawValue: 7
+      PropertyLocalName:
+      - DistrictInfluenceNet
+      - PollutionNet
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Territory, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: PollutionDescriptor
+  m_EditorClassIdentifier: 
+--- !u!114 &234762874608719531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: GameEffect_AtmospherePollution_Low
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - MajorEmpires
+      - Cities
+      - Districts
+      Validations:
+      - PathIndex: 2
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territories
+      - Districts
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -250
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.WorldAtmosphere, Amplitude.Mercury.Firstpass

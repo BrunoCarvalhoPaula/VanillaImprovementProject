@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9119143343633449489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: IdeologicalConsensus_InfluenceCostToContribute
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000b0000000a00000000000000020000000b00000002000000
+  ConstantStack:
+  - RawValue: 95000
+  - RawValue: 1000
+  Note: Variable.NumberOfMajorEmpires
+  PropertyLocalNameStack: []
+  VariableNameStack:
+  - NumberOfEmpireContributionsOnAxis
+  - NumberOfMajorEmpires
+  DefinedVariables:
+  - NumberOfMajorEmpires
+  - NumberOfEmpireContributionsOnAxis
+  targetTypeName: 
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: InternationalRpnDefinition
+  m_EditorClassIdentifier: 

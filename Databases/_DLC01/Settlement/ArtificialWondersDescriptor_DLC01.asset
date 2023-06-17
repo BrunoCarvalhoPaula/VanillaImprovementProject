@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ArtificialWondersDescriptor_DLC01
+  m_EditorClassIdentifier: 
+--- !u!114 &1311229600460661071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ArtificialWonder_Era2_LadyMaryOfZion
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName:
+      - NumberOfEnactedCivic
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      - Cities
+      - Districts
+      Validations:
+      - PathIndex: 3
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Religious
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -20000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &3049129735439466236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ArtificialWonder_Era3_GreatZimbabwe_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      - Settlement
+      - Empire
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 20
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &4664117206531825558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ArtificialWonder_Era3_GreatMosqueOfDjenne
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FameGainBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -20000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &7654353770848814606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ArtificialWonder_Era3_GreatZimbabwe
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 4
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 10
+      PropertyLocalName:
+      - ResourceTypeAccessCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass

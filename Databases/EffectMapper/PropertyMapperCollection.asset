@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8845728821646832946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: VeterancyLevel
+  m_EditorClassIdentifier: 
+  Localization: '%UnitVeterancyLevel'
+  DisplayAsPercent: 0
+  DisplayAsSigned: 1
+  GainType: 0
+--- !u!114 &-7241424242238986415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: CityCount
+  m_EditorClassIdentifier: 
+  Localization: '%GameEffect_City'
+  DisplayAsPercent: 0
+  DisplayAsSigned: 1
+  GainType: 0
+--- !u!114 &-6699043266579604749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: GrowthGain
+  m_EditorClassIdentifier: 
+  Localization: '%GrowthGain'
+  DisplayAsPercent: 0
+  DisplayAsSigned: 1
+  GainType: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 399512207, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: PropertyMapperCollection
+  m_EditorClassIdentifier: 
+--- !u!114 &1766012560829828194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Repeatable
+  m_EditorClassIdentifier: 
+  Localization: '%Repeatable'
+  DisplayAsPercent: 0
+  DisplayAsSigned: 1
+  GainType: 0
+--- !u!114 &2024571884442693220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: MoneyStock
+  m_EditorClassIdentifier: 
+  Localization: '%ControlBannerRevolutionSeparatorTitle'
+  DisplayAsPercent: 0
+  DisplayAsSigned: 1
+  GainType: 0
+--- !u!114 &8123355880965862564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: InfluenceStock
+  m_EditorClassIdentifier: 
+  Localization: '%ControlBannerRevolutionSeparatorTitle'
+  DisplayAsPercent: 0
+  DisplayAsSigned: 1
+  GainType: 0

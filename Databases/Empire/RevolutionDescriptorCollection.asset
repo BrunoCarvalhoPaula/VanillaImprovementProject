@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7303480145947966986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Status_Empire_Revolution
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Cities
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -200
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ProductionNet
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -200
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -200
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ScienceNet
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -200
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CivicCancelCostMultiplier
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 500
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 1
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 800
+      PropertyLocalName:
+      - MoneyStock
+    - Note: 
+      TargetProperty: InfluenceNet
+      ToTargetOperation: 1
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 800
+      PropertyLocalName:
+      - InfluenceStock
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &-1943941195647325549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Status_Empire_PostRevolution
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Cities
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: Stability
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 40000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderPositiveTrend
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FameGainBonus
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 400
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: RevolutionDescriptorCollection
+  m_EditorClassIdentifier: 

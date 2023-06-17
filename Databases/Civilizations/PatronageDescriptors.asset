@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: PatronageDescriptors
+  m_EditorClassIdentifier: 
+--- !u!114 &8548946193879837143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: MinorRelation_Base
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MinorEmpire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000800000002000000
+      ConstantStack: []
+      PropertyLocalName:
+      - AgentPatronageBonus
+      - InvertedGameSpeedMultiplier
+    - Note: 
+      TargetProperty: PatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000800000002000000
+      ConstantStack: []
+      PropertyLocalName:
+      - PraiseGain
+      - InvertedGameSpeedMultiplier
+    - Note: Source.PraiseGainSource.PraiseGain
+      TargetProperty: PatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000800000002000000
+      ConstantStack: []
+      PropertyLocalName:
+      - BribeGain
+      - InvertedGameSpeedMultiplier
+    - Note: 
+      TargetProperty: PatronageShare
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000a000000090000000600000003000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - PatronageStock
+      - MinorPatronageTotal
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - MajorEmpire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 0
+      RpnOperationStack: 09000000
+      ConstantStack: []
+      PropertyLocalName:
+      - MoneyGainForMajor
+    - Note: 
+      TargetProperty: InfluenceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 09000000
+      ConstantStack: []
+      PropertyLocalName:
+      - InfluenceGainForMajor
+    - Note: 
+      TargetProperty: ResearchNet
+      ToTargetOperation: 0
+      RpnOperationStack: 09000000
+      ConstantStack: []
+      PropertyLocalName:
+      - ResearchGainForMajor
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000
+      ConstantStack: []
+      PropertyLocalName:
+      - MoneyPatronageCost
+    - Note: 
+      TargetProperty: InfluenceNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000
+      ConstantStack: []
+      PropertyLocalName:
+      - InfluencePatronageCost
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MinorEmpire
+      - RelationsToMajor
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: sum all relation patronage stock inside this relation
+      TargetProperty: MinorPatronageTotal
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - PatronageStock
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: LowInfluencePatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MediumInfluencePatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: HighInfluencePatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: LowMoneyPatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MediumMoneyPatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: HighMoneyPatronageNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MajorEmpire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: LowInfluencePatronageCost
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a000000080000000a000000010000000200000000000000020000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      - RawValue: 2000
+      - RawValue: 2000
+      - RawValue: 1000
+      PropertyLocalName:
+      - EraLevel
+      - EraLevel
+    - Note: 
+      TargetProperty: MediumInfluencePatronageCost
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a000000080000000a000000010000000200000000000000020000000800000002000000
+      ConstantStack:
+      - RawValue: 2000
+      - RawValue: 2000
+      - RawValue: 2000
+      - RawValue: 1000
+      PropertyLocalName:
+      - EraLevel
+      - EraLevel
+    - Note: 
+      TargetProperty: HighInfluencePatronageCost
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a000000080000000a000000010000000200000000000000020000000800000002000000
+      ConstantStack:
+      - RawValue: 4000
+      - RawValue: 2000
+      - RawValue: 2000
+      - RawValue: 1000
+      PropertyLocalName:
+      - EraLevel
+      - EraLevel
+    - Note: 
+      TargetProperty: LowMoneyPatronageCost
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a000000080000000a000000010000000200000000000000020000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      - RawValue: 3000
+      - RawValue: 3000
+      - RawValue: 1000
+      PropertyLocalName:
+      - EraLevel
+      - EraLevel
+    - Note: 
+      TargetProperty: MediumMoneyPatronageCost
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a000000080000000a000000010000000200000000000000020000000800000002000000
+      ConstantStack:
+      - RawValue: 2000
+      - RawValue: 3000
+      - RawValue: 3000
+      - RawValue: 1000
+      PropertyLocalName:
+      - EraLevel
+      - EraLevel
+    - Note: 
+      TargetProperty: HighMoneyPatronageCost
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000a0000000a000000080000000a000000010000000200000000000000020000000800000002000000
+      ConstantStack:
+      - RawValue: 4000
+      - RawValue: 3000
+      - RawValue: 3000
+      - RawValue: 1000
+      PropertyLocalName:
+      - EraLevel
+      - EraLevel
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MinorToMajorRelation, Amplitude.Mercury.Firstpass

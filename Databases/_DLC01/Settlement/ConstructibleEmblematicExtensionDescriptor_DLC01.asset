@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ConstructibleEmblematicExtensionDescriptor_DLC01
+  m_EditorClassIdentifier: 
+--- !u!114 &3686966587283764300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Nigeria
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PollutionNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &4144388497578323676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era2_Garamantes
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 1
+        serializableElementName: Effect_Exploitation_CoastalWater
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: GameEffect_Exploitation
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass

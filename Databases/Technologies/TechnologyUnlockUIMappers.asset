@@ -1,0 +1,422 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8564204010408622124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_IndustryPollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_IndustryPollutionTitle'
+  Description: '%Effect_EmpireBonus_IndustryPollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &-8288146279536015535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_FoodPollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_FoodPollutionTitle'
+  Description: '%Effect_EmpireBonus_FoodPollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &-5639016356891540197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_PublicOrderPollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_PublicOrderPollutionTitle'
+  Description: '%Effect_EmpireBonus_PublicOrderPollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &-3569039959398968711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_Strategic06_CleanOil
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_Strategic06_CleanOilTitle'
+  Description: '%Effect_EmpireBonus_Strategic06_CleanOilDescription'
+  Images:
+  - Value:
+      guid:
+        a: -197316555
+        b: 1273401253
+        c: -1980851826
+        d: -390800252
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &-2045706623349978125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_GarrisonPollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_GarrisonPollutionTitle'
+  Description: '%Effect_EmpireBonus_GarrisonPollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &-432607473386108427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: Effect_EmpireBonus_CoastalTrade
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_CoastalTradeTitle'
+  Description: '%Effect_EmpireBonus_CoastalTradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1265305055
+        b: 1084409258
+        c: 1042053776
+        d: -2086926354
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: TechnologyUnlockUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &208699698909824237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_HarbourPollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_HarbourPollutionTitle'
+  Description: '%Effect_EmpireBonus_HarbourPollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &390264902212673598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_CheapAmmunition
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_CheapAmmunitionTitle'
+  Description: '%Effect_EmpireBonus_CheapAmmunitionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &646348559644016151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_Commodity_Luxuries
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_Commodity_LuxuriesTitle'
+  Description: '%Effect_EmpireBonus_Commodity_LuxuriesDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1780286359
+        b: 1176728212
+        c: 1016234628
+        d: 511107686
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &1601714960744966167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_Strategic04_CleanCoal
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_Strategic04_CleanCoalTitle'
+  Description: '%Effect_EmpireBonus_Strategic04_CleanCoalDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1770158465
+        b: 1179706009
+        c: 1092097202
+        d: -979404234
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &2668886760698133141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_VoluntaryScouts
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_VoluntaryScoutsTitle'
+  Description: '%Effect_EmpireBonus_VoluntaryScoutsDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1874255628
+        b: 1201424087
+        c: -686221897
+        d: -81444828
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &2740426168820151578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: TechnologyCostModifier_Era6_Institute
+  m_EditorClassIdentifier: 
+  Title: '%TechnologyCostModifier_Era6_InstituteTitle'
+  Description: '%TechnologyCostModifier_Era6_InstituteDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &2903701695865812955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_MoneyPollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_MoneyPollutionTitle'
+  Description: '%Effect_EmpireBonus_MoneyPollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &3383268453254062407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_SciencePollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_SciencePollutionTitle'
+  Description: '%Effect_EmpireBonus_SciencePollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &6431922941998795988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: Effect_EmpireBonus_OceanicTrade
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_OceanicTradeTitle'
+  Description: '%Effect_EmpireBonus_OceanicTradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1265305055
+        b: 1084409258
+        c: 1042053776
+        d: -2086926354
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &6655587817000024881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_HamletPollution
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_HamletPollutionTitle'
+  Description: '%Effect_EmpireBonus_HamletPollutionDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1219061738
+        b: 1077752097
+        c: 963739573
+        d: -1721172790
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Pollution2]'
+--- !u!114 &8556025879739703759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Effect_EmpireBonus_Strategic06_OilAccess
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_Strategic06_OilAccessTitle'
+  Description: '%Effect_EmpireBonus_Strategic06_OilAccessDescription'
+  Images:
+  - Value:
+      guid:
+        a: -197316555
+        b: 1273401253
+        c: -1980851826
+        d: -390800252
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 

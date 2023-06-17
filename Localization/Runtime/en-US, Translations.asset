@@ -1,0 +1,1611 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1843101837, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: en-US, Translations
+  m_EditorClassIdentifier: 
+  LanguageId: en-US
+  AffixTagMask: 224
+  lineCollection:
+  - LineId: '%UnitSpecialty_HalfMeleePenaltyTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Reinforced Atlatl
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%UnitSpecialty_HalfMeleePenaltyDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Suffers half melee penalty.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%UnitClass_TorpedoVesselDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Ignores zones of control and gain bonus Combat Strength when targeting
+        Armored Vehicles and Armored Vessels.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%TechnologyCostModifier_Era6_InstituteDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Dominion over the theory may not yield any direct contributions
+        to your cause, but make it easier to discover things more practical. '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%TechnologyCostModifier_Era6_InstituteTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Institute of Theoretical Sciences
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_VoluntaryScoutsDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: A better network of scouts and messenger posts can warn against
+        an impending invasion.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_VoluntaryScoutsTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Voluntary Scouts
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Strategic06_OilAccessDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: By using thermal and chemical cracking, oil refining eficiency increases
+        dramatically, allowing for cheaper fuel and widespread usage of petroleum-based
+        products. This has a dramatic effect on everyday life and productivity of
+        all citizens.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Strategic06_OilAccessTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Cracking
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Strategic06_CleanOilDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: New developments both on the extraction and refining processes,
+        alongside the political will necessary to enforce them, allow for reduced
+        enviromental impact of petroleum.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Strategic06_CleanOilTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Air Pollution Regulations
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Strategic04_CleanCoalDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Recent developments on Coal power and factory regulations reduce
+        the enviromental impact of power plants. They'll never be clean as not using
+        Coal in the first place, but every bit helps.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Strategic04_CleanCoalTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Clean Coal
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_SciencePollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: New laboratory equipment helps researchers, but have a higher impact
+        on the environment.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_SciencePollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Improved Lab Equipment
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_PublicOrderPollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Comfort for the public increases with new construction techniques
+        that pollute even more.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_PublicOrderPollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Higher Density Construction
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_OceanicTradeDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Better shipbuilding techniques allow naval trade between distant
+        continents. The globe shrinks as commerce links faraway shores and exotic
+        goods start to appear in domestic markets. '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_OceanicTradeTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Transoceanic Trade
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_MoneyPollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The use of aerial transportation for goods and people increases
+        the carbon footprint of corporations.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_MoneyPollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Aerial Shipping
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_IndustryPollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The improved industry machinery pollutes the enviroment even more.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_IndustryPollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Improved Machinery
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_HarbourPollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Improvements in shipping and the widespread use of non-renewable
+        materials increase the enviromental impact of Harbours.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_HarbourPollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Modern Shipping
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_HamletPollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The population demands better house appliances that pollute the
+        enviroment.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_HamletPollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: House Appliances
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_GarrisonPollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Improved accomodations for your military staff increase the pollution
+        footprint of your garrisons.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_GarrisonPollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Luxurious Military Quarters
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_FoodPollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: New agricultural techniques increase the pollution generated by
+        farms.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_FoodPollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: New Agricultural Techniques
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Commodity_LuxuriesDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Commodification and better distribuition of luxuries in the Empire
+        allows for better access of goods and services
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Commodity_LuxuriesTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Commodity Luxuries
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_CoastalTradeDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Developments in navigation techniques allow for the establishment
+        of naval trade routes alongside coasts. Those trade routes are usually cheaper
+        than land routes across vast distances.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_CoastalTradeTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Coastal Trade
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_CheapAmmunitionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Improvement in tooling technologies allow for more reliable ammunition
+        and enables your military forces to be more self-sufficient in the field.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_CheapAmmunitionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Mass-Produced Ammunition
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Repeatable_PollutionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Carbon Recapturing can be expensive and inefficient, but may also
+        be the last defense against overwhelming pollution. '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Repeatable_PollutionTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Carbon Recapture Project
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Package04Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Those advanced colonies start with all Ancient Infrastructures.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Package04Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Colonies
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%StatusCategory_City_RevoltDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Costs about 15% [CultureColored] as creating a new city (on Normal
+        Speed), per turn.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%StatusCategory_City_RevoltTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Pacifying
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%StatusCategory_Empire_RevoltDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Costs you as much [CultureColored] as if you were to build a new
+        city.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%StatusCategory_Empire_RevoltTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Integrating
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Fame_EraStar_ScientistDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 9
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 0100000002000000030000000400000005000000
+    - Id: 1
+      TextValue: 'Accrue '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' [ScienceColored] Science. (current value: '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 1
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ).
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 9
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 010000000200000003000000
+    - Id: 1
+      TextValue: 'Having a State Religion has brought great things to your empire,
+        but currently there''s an important religious minority growing. Your priests
+        try to combat the religious disunion, but practicioners of other faiths are
+        sometimes victim of prejudice and discrimination. Your empire''s fractured
+        faith led to a major riot in '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: . The angry mob is searching the streets for heathens, "false converts"
+        and whoever crosses their furious way. How will you respond to this religious
+        discrimination?
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Religious Woes
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice01Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Contain
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice01Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Heathens or not, those are your citizens and they must be protected
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice02Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Ignore
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice02Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The lives of heathens are no concern of ours.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice03Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Send Inquisitors
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice03Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: An inquisition trial will find the heathens and calm the population
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice04Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Banish
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice04Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Banish the heathens and seize their property.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: After the gruesome siege, your armies force themselves through the
+        gates only to be greeted by a grisly sight. As the city's inhabitants mount
+        resistance to your rule, you feel that integrating the besieged city and
+        its disparate culture will be hard and costly.  The victory feels hollow,
+        but you must march on. How should the city be handled?
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The Fate of a Culture
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Choice01Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Integrating this city is a hard task, but you need to finish this
+        as quickly as possible.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Choice01Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Integrate
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Choice02Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Pacify
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Choice02Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Pacifying the city takes time and can cost more total [CultureColored]
+        than Integrating it, but will be a lower cost per turn and maybe will not
+        create influence deficits.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Choice03Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Raze
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt01Choice03Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The best solution is to put the city to the torch so we can rebuild
+        it.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt04Choice02Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: We are to blame for this problem. No immediate action needs to be
+        taken, as the soldiers will return to their families.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt04Choice02Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Let It Be
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt04Choice01Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Their families are dishonored and must pay for their crimes. Auctioning
+        off their assets should make amends.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt04Choice01Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Auction
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt04Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Tired and famished, your armies are on the brink of breaking due
+        to your bankruptcy situation. Its not long before a terrible report comes
+        from the front lines: One of your armies have abandoned their weapons and
+        deserted. How should you react to their treason?'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_Revolt04Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Desertion
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_UnitPrototype_MountedGunner'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Mounted Gunner '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Civics_Religion01_Choice01Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +3 [MoneyColored] on Holy Sites for each adjacent District
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_Resource31Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +1 [CombatStrength] CS per [Luxury31] Weapon to Supplied Units up
+        to 10 [Luxury31] Weapons. +2 [CultureColored] per [Luxury31] Weapon after
+        the 10th to all Cities.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_LegacyTrait_Era1_Caral01'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: '[FoodColored] Farmer''s Quarters add +1 [FoodColored] Food to adjacent
+        different districts'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_LegacyTrait_Era1_Caral02'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: '[IndustryColored] Maker''s Quarters add +1 [IndustryColored] Industry
+        to adjacent different districts'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_LegacyTrait_Era1_Caral03'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: '[MoneyColored] Market''s Quarters add +1 [MoneyColored] Money to
+        adjacent different districts'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_LegacyTrait_Era1_Caral04'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: '[ScienceColored] Researcher''s Quarters add +1 [ScienceColored]
+        Science to adjacent different districts'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_LegacyTrait_Era1_EgyptianKingdomOverride'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: '+1 [IndustryColored] Industry on Exploitation producing [IndustryColored] '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_LegacyTrait_Era3_SwahiliOverride'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +10 [PublicOrderColored] on Base Districts adjacent to Harbour
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier1_Tenet03Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +2 [ScienceColored] on Religious District per adjacent Strategic
+        Resource
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier1_Tenet04Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +3 [IndustryColored] on Religious District per adjacent Holy Site
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier1_Tenet05Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +2 [MoneyColored] on Religious District per adjacent Luxury Resource
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier1_Tenet07Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +2 [CultureColored] on Religious District per adjacent Holy Site
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier2_Tenet06Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +5 [FoodColored] on Religious District per adjacent Holy Site
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier3_Tenet02Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +5% [CultureColored] Influence to Religious Leader for each war
+        declared on them.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier3_Tenet05Override01'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +3 [ScienceColored] on Holy Sites for each adjacent District or
+        Exploitaition
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier3_Tenet05Override02'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +3 [CultureColored] on Holy Sites for each adjacent District or
+        Exploitaition
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier4_Tenet01Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +1 [ScienceColored] Science per Religious Follower on Religious
+        Leader
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier4_Tenet03Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +1 [MoneyColored] Money on Districts per 2 [FaithColored] Faith
+        generated
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Status_Empire_Revolution01'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Lose 80% of your current [MoneyColored] Money stockpile per turn
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Status_Empire_Revolution02'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Lose 80% of your current [CultureColored] Influence stockpile per
+        turn
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%ManagementBannerCityCapDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 9
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 01000000020000000300000004000000050000000600000009000000
+    - Id: 1
+      TextValue: 'You control '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' of the '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 1
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' possible '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 5
+      TextValue: 
+      ParameterIndex: 1
+      VariationIndex: 0
+      Mask: 2
+      ChildIndexes: 0700000008000000
+    - Id: 1
+      TextValue: Cities
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: City
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' that you can simultaneously administer: Your Empire gains extra
+        [CultureColored] Influence per [Turn] turn while there are unused City Cap.'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%ManagementBannerCityCapDescriptionExceeding'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 9
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 01000000020000000300000004000000070000000800000009000000
+    - Id: 1
+      TextValue: 'You control '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 5
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 2
+      ChildIndexes: 0500000006000000
+    - Id: 1
+      TextValue: Cities
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: City
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' more than the '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 1
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' that you can simultaneously administer: your Empire suffers a
+        [PublicOrderColored] Stability penalty on all Cities.'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ArtificialWonder_Era1_HangingGardensOfBabylonExotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Unlocks the Luxury's Wondrous Effect
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Extension_Base_CampCenterExotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Outposts don't produce [MoneyColored] Money or [ScienceColored]
+        Science
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Extension_Era4_IroquoisConfederacyExotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: +4 [FoodColored] Food per number of Cities
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Repeatable_ScienceExotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Add [ScienceColored] Science equal to <c=30D9D2>[Population]</c>
+        Researcher output
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%GameEffect_BattleAction_HalfRangedMalusTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Melee Combat Bonus
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%ConstructibleExtension_Base_NaturalReserveInverted'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: "All Districts other than Nature Reserve\t"
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%GameEffect_CityFlags_CapitalInverted'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: All Cities but the Capital
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%LowInfluencePatronageCost'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Praise Cost
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%LowMoneyPatronageCost'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Bribe Cost
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Civics_Society01_Choice01Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: -20% [Population] Buyout Cost
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%BankruptcyStartedNotificationDataDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'You have no [MoneyColored] Money: your Empire is losing [CultureColored]
+        Influence!'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Economy05UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Earn at least 7 Merchant Era Stars since the beginning of the game
+        and meet at least 3 Empires.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Economy06UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Earn at least 7 Agrarian Era Stars since the beginning of the game
+        and have a City with Grain Silos.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Justice02UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Have a City with a City Watch and have your Empire's [PublicOrderColored]
+        Stability not as <b>Settled</b>.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Society02UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Earn at least 7 Expansionist Era Stars since the beginning of the
+        game and own at least two cities.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Society04UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Earn at least 7 Builder Era Stars since the beginning of the game
+        and unlock the Urban Planning Technology.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Culture05UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Earn at least 7 Aesthete Era Stars since the beginning of the game
+        and successfully besiege a City containing an Emblematic Quarter.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Religion05UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Earn at least 7 Scientist Era Stars since the beginning of the game
+        and possess at least 1 Holy Site.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Army03_Choice01_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Parade</b> Public Ceremony: +5 Experience on Unit creation
+        per <b>Parade</b> and +5 [FortificationColored] Fortification'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Culture01_Choice01_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Games</b> Public Ceremony: +5 [PublicOrderColored] Stability
+        per <b>Games</b>'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Culture01_Choice02_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Festival</b> Public Ceremony: +3 [CultureColored] Influence
+        per <b>Festival</b>'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Culture02_Choice01_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Academy of Arts</b> Infrastructure: +1 [CultureColored]
+        Influence on Researcher''s Quarter per adjacent District'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Culture02_Choice02_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Arts Studio</b> Infrastructure: +2 [CultureColored]
+        Influence on Common''s Quarter per adjacent District'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Culture04_Choice01_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Symposium</b> Public Ceremony: As much [ScienceColored]
+        Science as a <c=30D9D2>[Workplace]</c> Researcher per <b>Symposium</b>'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Culture05_Choice01_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Trade Fair</b> Public Ceremony: Per <b>Trade Fair</b>:
+        +6 [MoneyColored] Money on Main Plaza, +5 [MoneyColored] Money on Airport
+        and +3 [MoneyColored] Money on Train Station'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Justice01_Choice01_Exotic1'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Feast</b> Public Ceremony: +5 [FoodColored] Food per
+        <b>Feast</b>'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Justice01_Choice01_Exotic2'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Holy Day</b> Public Ceremony: +2 [FaithColored] Faith
+        on Religious Districts per <b>Holy Day</b>'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Justice03_Choice02_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Neighborhood Watch</b> Infrastructure: +5 [PublicOrderColored]
+        Stability and +2 [CultureColored] on Common''s Quarter'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Justice0304_Choice01_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>Secret Police</b> Infrastructure: On Garrison: +5 [PublicOrderColored]
+        Stability, +1 [CombatStrength] Combat Strength in combat for Units in or
+        adjacent to the District, +1 [StealthDetection] Detection and +1 [VisionRange]
+        Vision Range'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Justice04_Choice02_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: 'Unlocks <b>People''s Assembly</b> Infrastructure: +3 [PublicOrderColored]
+        Stability on District'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0

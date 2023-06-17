@@ -1,0 +1,552 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1775585570, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: IdeologicalConsensusDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &2580301845358284802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -614812705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: IdeologicalConsensus_Economic
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Orientations
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.IdeologicalOrientationDefinition[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.IdeologicalOrientationDefinition,
+        Amplitude.Mercury.Data
+    - Name: SerializableName
+      Entry: 1
+      Data: Collectivism
+    - Name: RangeMin
+      Entry: 3
+      Data: -10
+    - Name: RangeMinType
+      Entry: 3
+      Data: 0
+    - Name: RangeMax
+      Entry: 3
+      Data: -2
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 1
+    - Name: Sections
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition, Amplitude.Mercury.Data
+    - Name: RangeMin
+      Entry: 3
+      Data: -6
+    - Name: RangeMinType
+      Entry: 3
+      Data: 0
+    - Name: RangeMax
+      Entry: 3
+      Data: -2
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 1
+    - Name: Effects
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 1
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_IdeologicalConsensus_Economic_Left_Leaning
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: CostModifierReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: CostModifier_EmpireBonus_IdeologicalConsensus_Economic_Left_Leaning
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition, Amplitude.Mercury.Data
+    - Name: RangeMin
+      Entry: 3
+      Data: -10
+    - Name: RangeMinType
+      Entry: 3
+      Data: 0
+    - Name: RangeMax
+      Entry: 3
+      Data: -6
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 1
+    - Name: Effects
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 1
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_IdeologicalConsensus_Economic_Left_Extreme
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.IdeologicalOrientationDefinition,
+        Amplitude.Mercury.Data
+    - Name: SerializableName
+      Entry: 1
+      Data: Regulationism
+    - Name: RangeMin
+      Entry: 3
+      Data: -2
+    - Name: RangeMinType
+      Entry: 3
+      Data: 0
+    - Name: RangeMax
+      Entry: 3
+      Data: 2
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 0
+    - Name: Sections
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition, Amplitude.Mercury.Data
+    - Name: RangeMin
+      Entry: 3
+      Data: -2
+    - Name: RangeMinType
+      Entry: 3
+      Data: 0
+    - Name: RangeMax
+      Entry: 3
+      Data: 2
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 0
+    - Name: Effects
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 1
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_IdeologicalConsensus_Economic_Neutral
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.IdeologicalOrientationDefinition,
+        Amplitude.Mercury.Data
+    - Name: SerializableName
+      Entry: 1
+      Data: Individualism
+    - Name: RangeMin
+      Entry: 3
+      Data: 2
+    - Name: RangeMinType
+      Entry: 3
+      Data: 1
+    - Name: RangeMax
+      Entry: 3
+      Data: 10
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 0
+    - Name: Sections
+      Entry: 7
+      Data: 16|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition, Amplitude.Mercury.Data
+    - Name: RangeMin
+      Entry: 3
+      Data: 2
+    - Name: RangeMinType
+      Entry: 3
+      Data: 1
+    - Name: RangeMax
+      Entry: 3
+      Data: 6
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 0
+    - Name: Effects
+      Entry: 7
+      Data: 18|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 19|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_IdeologicalConsensus_Economic_Right_Leaning
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.IdeologicalSectionDefinition, Amplitude.Mercury.Data
+    - Name: RangeMin
+      Entry: 3
+      Data: 6
+    - Name: RangeMinType
+      Entry: 3
+      Data: 1
+    - Name: RangeMax
+      Entry: 3
+      Data: 10
+    - Name: RangeMaxType
+      Entry: 3
+      Data: 0
+    - Name: Effects
+      Entry: 7
+      Data: 21|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 22|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_IdeologicalConsensus_Economic_Right_Extreme
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  MinValue: -10
+  MaxValue: 10
+  IdeologicalAxisLinked:
+    serializableElementName: IdeologicalAxis_Economic

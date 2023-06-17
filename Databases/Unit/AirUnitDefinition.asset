@@ -1,0 +1,1196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7865537433951267065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Turkey_StealthyOperativeMissiles
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 4
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_CruiseMissile
+  Level: 40
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era6_Turkey
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Missile
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_StealthAerial
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Turkey_StealthyOperativeMissiles
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era6_Tier1
+  - serializableElementName: Effect_Unit_NoStealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 3
+  - 8
+  - 1.03
+  UnitTags: 2102660
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-5152622856605599606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era5_Common_Biplanes
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 4
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_FighterAircraft
+  Level: 34
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Medium
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_FighterAircraft
+  UnitSpecialties: []
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era5_Common_Biplanes
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Era5_Tier2
+  - serializableElementName: Tag_Unit_Vehicle
+  - serializableElementName: Effect_Unit_Era5_StealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 4
+  - 1.03
+  UnitTags: 8196
+  visualAffinityEraReference:
+    serializableElementName: Era5
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-4148065503775798781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Common_CruiseMissiles
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 3
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_CruiseMissile
+  Level: 38
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Missile
+  UnitSpecialties: []
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Common_CruiseMissiles
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier1
+  - serializableElementName: Effect_Unit_NoStealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 3
+  - 8
+  - 1.03
+  UnitTags: 2098340
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-4110328171985342074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Common_ThermonuclearWarheads
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 2
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_ThermonuclearMissile
+  Level: 40
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Max
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 3
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: Era6
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 1
+    ActionType: 45
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_NuclearMissile
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_NuclearDevice
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Common_ThermonuclearWarheads
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier4
+  - serializableElementName: Effect_Unit_NoStealthDetection
+  BaseMovementSpeed: 10
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 7
+  - 1.03
+  UnitTags: 4195588
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-3992511844662058815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1032203641, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Common_NuclearWarheads
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 1
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_NuclearMissile
+  Level: 38
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_High
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 2
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 2
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: Era6
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 1
+    ActionType: 45
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_NuclearMissile
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_NuclearDevice
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Common_NuclearWarheads
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier3
+  - serializableElementName: Effect_Unit_NoStealthDetection
+  BaseMovementSpeed: 10
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 7
+  - 1.03
+  UnitTags: 4195332
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-686482906432540246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Japan_Reisens
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 5
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_FighterAircraft
+  Level: 37
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era6_Japan
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_FighterAircraft
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_AfterAttackedKilledByHeavyDamage
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Japan_Reisens
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era6_Tier1
+  - serializableElementName: Tag_Unit_Vehicle
+  - serializableElementName: Effect_Unit_Era6_StealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 4
+  - 1.03
+  UnitTags: 8228
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnitDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &2522092226316173888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Common_MultiRoleFighters
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 2
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_MultiroleAircraft
+  Level: 40
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_High
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 2
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_MultiRoleAircraft
+  UnitSpecialties: []
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Common_MultiRoleFighters
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier3
+  - serializableElementName: Tag_Unit_Vehicle
+  - serializableElementName: Effect_Unit_Era6_StealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 4
+  - 1.03
+  UnitTags: 9604
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &6297878559975652939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_USA_Lightnings
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 3
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_MultiroleAircraft
+  Level: 41
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_High
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 2
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era6_USA
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_MultiRoleAircraft
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_StealthAerial
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_USA_Lightnings
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era6_Tier3
+  - serializableElementName: Tag_Unit_Vehicle
+  - serializableElementName: Effect_Unit_Era6_StealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 4
+  - 1.03
+  UnitTags: 13764
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &7929589563912483372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Common_StrategicBombers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 6
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Bomber
+  Level: 36
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Medium
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 2
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Bomber
+  UnitSpecialties: []
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Common_StrategicBombers
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier2
+  - serializableElementName: Tag_Unit_Vehicle
+  - serializableElementName: Effect_Unit_Era6_StealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 4
+  - 1.03
+  UnitTags: 1284
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &8163370968963856920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 417938264, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: AirUnit_Era6_Common_MonoplaneFighters
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 1
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_FighterAircraft
+  Level: 36
+  Unicity: 0
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 1
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 1
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_FighterAircraft
+  UnitSpecialties: []
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_AirUnit_Era6_Common_MonoplaneFighters
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier1
+  - serializableElementName: Tag_Unit_Vehicle
+  - serializableElementName: Effect_Unit_Era6_StealthDetection
+  BaseMovementSpeed: 7
+  MovementSpeedMultiplierPerType:
+  - 1
+  - 2
+  - 3
+  - 1.03
+  UnitTags: 8196
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 

@@ -1,0 +1,548 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4429400660995937816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -11555827, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LegacyTrait_Era3_AztecEmpire
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_LegacyTrait_Era3_AztecEmpire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: CostModifierReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: ConstructibleCostModifier_LegacyTrait_Era3_AztecEmpire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: CostModifierReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: TechnologyCostModifier_Era3_AztecEmpire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Hidden: 0
+  IsPrehistoric: 0
+  Commands:
+  - Name: SpawnUnit
+    Arguments:
+    - LandUnit_Era2_Common_Swordsmen
+    - LandUnit_Era2_Common_Horsemen
+  Capabilities: 0
+--- !u!114 &-2393692171151835581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -11555827, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LegacyTrait_Era2_CelticCivilization
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_LegacyTrait_Era2_CelticCivilization
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: CostModifierReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: ConstructibleCostModifier_LegacyTrait_Era2_Celts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Hidden: 0
+  IsPrehistoric: 0
+  Commands:
+  - Name: SpawnUnit
+    Arguments:
+    - LandUnit_Era1_Common_ScoutCavalry
+    - LandUnit_Era1_Common_Warriors
+  Capabilities: 256
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -998237315, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LegacyTrait
+  m_EditorClassIdentifier: 
+--- !u!114 &605570343303087211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -11555827, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LegacyTrait_Era5_RussianEmpire
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_LegacyTrait_Era5_RussianEmpire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: CostModifierReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: ActionCostModifier_LegacyTrait_Era5_RussianEmpire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Hidden: 0
+  IsPrehistoric: 0
+  Commands:
+  - Name: SpawnUnit
+    Arguments:
+    - LandUnit_Era4_Common_Musketeers
+    - LandUnit_Era4_Common_Halberdiers
+    - LandUnit_Era4_Common_Settlers
+  Capabilities: 24576
+--- !u!114 &5563226080396193077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -11555827, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LegacyTrait_Era3_FrankishKingdom
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_LegacyTrait_Era3_FrankishKingdom
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: CostModifierReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: ConstructibleCostModifier_LegacyTrait_Era3_Franks
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Hidden: 0
+  IsPrehistoric: 0
+  Commands:
+  - Name: SpawnUnit
+    Arguments:
+    - LandUnit_Era2_Common_Swordsmen
+    - LandUnit_Era2_Common_Horsemen
+  Capabilities: 0

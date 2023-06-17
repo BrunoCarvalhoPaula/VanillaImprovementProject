@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-800625403825451106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -857316133, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Extension_Era2_HanChina
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 33554442
+    - Name: Importance
+      Entry: 3
+      Data: 2
+    - Name: Gates
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.AI.Gate[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 115
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 6
+  Category: 2
+  SerializableFamily: 
+  Level: 0
+  Unicity: 4
+  ConstructibleVisualAffinity:
+    serializableElementName: DistrictVisualAffinity_Emblematic
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 1
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Extension_Emblematic_Era2
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames:
+    - Civilization_Era2_HanChina
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  Prototype: Extension_Prototype_Emblematic
+  OwnDescriptorReferences:
+  - serializableElementName: Tag_Extension_PublicOrderLoss
+  - serializableElementName: Effect_Extension_Era2_HanChina
+  - serializableElementName: Effect_Extension_Base_Industry
+  - serializableElementName: Tag_Exploitation_Luxury
+  - serializableElementName: Effect_Extension_Era2_HanChina_Synergy00
+  IsReplaceableOrDestroyable: 1
+  CanBeDowngradedToRuin: 1
+  AdditionalVisualLevels: []
+  IsImmuneToBombardment: 0
+  AllowBoroughExtension: 1
+  AllowConnectionWithOtherBorough: 1
+  FieldOfViewFlag: 0
+  OverADistrictPrerequisite:
+    TagOperator: 0
+    ValidIfNoDistrict: 1
+    HideInUI: 1
+    serializableTags:
+    - Tag_Extension_Base
+  PointOfInterestPrerequisite:
+    Constraint: 7
+    HideInUI: 1
+    serializablePointOfInterestNames: []
+  RiverPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  TerrainPrerequisite:
+    Constraint: 2
+    HideInUI: 1
+    CanBuildOnWasteland: 0
+    serializableTerrainTypeNames:
+    - TerrainType_Ocean
+    - TerrainType_CoastalWater
+    - TerrainType_Lake
+  BiomePrerequisite:
+    Constraint: 0
+    serializableBiomeName: 
+  CliffPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  MountainPrerequisite:
+    Constraint: 0
+    HideInUI: 0
+  TileVisibilityPrerequisite:
+    Constraint: 1
+    Visibility: 0
+  NeighbourTilesPrerequisite:
+    NeighbourOperator: 2
+    TerritoryConstraint: 2
+    IgnoreCliff: 0
+    IgnoreNaturalWonder: 1
+    TerrainPrerequisite:
+      Constraint: 0
+      HideInUI: 1
+      CanBuildOnWasteland: 0
+      serializableTerrainTypeNames: []
+    RiverPrerequisite:
+      Constraint: 1
+      HideInUI: 0
+    DistrictPrerequisite:
+      TagOperator: 0
+      ValidIfNoDistrict: 0
+      HideInUI: 1
+      serializableTags: []
+  BoroughPrerequisite:
+    ExtensionRules: 1
+    HideInUI: 1
+  ProtectsNeighboursFromRansack: 0
+  ZoneOfControlDistance:
+    RawValue: 0
+  FriendlyUnitOnTopStatus:
+    serializableElementName: 
+  ProtectAgainstStealthDetection: 0
+  DistrictType: 6
+  HasPublicOrderCost: 1
+  ExploitationRuleReference:
+    serializableElementName: ExploitationRule_Neighbours_Industry
+  ExtractResource: 1
+  WondrousResourceType: 64
+  UnitSpawnType: -1
+  AllowShipping: 0
+  ProvidesSecondaryRoad: 0
+  ProvidesRail: 0
+  ForceRiverOnTerrain: 0
+  serializableReplaceTerrainWith: 
+  ResourceType:
+    serializableElementName: Luxury34
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleEmblematicExtensionDefinition_DLC02
+  m_EditorClassIdentifier: 

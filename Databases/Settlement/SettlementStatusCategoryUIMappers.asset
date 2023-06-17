@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7498203676375521474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: StatusCategory_City_Revolt
+  m_EditorClassIdentifier: 
+  Title: '%StatusCategory_City_RevoltTitle'
+  Description: '%StatusCategory_City_RevoltDescription'
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: SettlementStatusCategoryUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &8510358093857327012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: StatusCategory_Empire_Revolt
+  m_EditorClassIdentifier: 
+  Title: '%StatusCategory_Empire_RevoltTitle'
+  Description: '%StatusCategory_Empire_RevoltDescription'
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 

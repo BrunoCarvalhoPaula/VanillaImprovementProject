@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5755695911434931483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1841102959, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Era5_Common_Ironclads_01
+  m_EditorClassIdentifier: 
+  overrideMaterialAudioSwitchHandleReference:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  weaponAudioSwitchHandleReference:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  LegacyCharacterPalette:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  characterPalette:
+    colorEntries:
+    - EntryName: hair
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: body
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 0, g: 0, b: 0, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: cape
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: coat
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: belt
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: plastron
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: dress
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: loinclothe
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: glove
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: boot
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: shirt
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: pants
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: accessory
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: accessory 2
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: helmets
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: weapons
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: shield
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+    - EntryName: sash
+      PrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+      SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
+      PrimaryColorMode: 0
+      SecondaryColorMode: 0
+  IsWorkInProgress: 0
+  Description:
+    guid:
+      a: 697617570
+      b: 1161582507
+      c: -630268510
+      d: 1303670089
+  AnimatorOverrideController:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  Attachements:
+  - Name: BaseWaterProof
+    Fragment:
+      guid:
+        a: -1272638582
+        b: 1207369692
+        c: 625096074
+        d: 1171422823
+  - Name: Body
+    Fragment:
+      guid:
+        a: 1639833186
+        b: 1244039127
+        c: 1006245534
+        d: -1553659051
+  UnitVisualAffinityReference:
+    serializableElementName: 
+  PresentationUnitDefinition:
+    serializableElementName: PresentationNavalUnit_Era5_Common_Ironclads_Default
+  SlotRestriction: 0
+  SpawnWeight: 10
+  Projectile:
+    guid:
+      a: 1959812230
+      b: 1242259156
+      c: 1680788911
+      d: -1644948915
+  SecondProjectile:
+    guid:
+      a: -841049237
+      b: 1333810958
+      c: -1387709049
+      d: 975994730
+  MaxHeight: 3.708406
+  AnimationCapabilityProfile: 7
+  AnimationCapabilities: 679981
+  HasRangeWeapon: 1
+  ForceRangedMultiKill: 0
+  IndividualIdleAltAnimation: 0
+  IgnoreProtectOnRangedAttack: 0
+  ForceAllowUnitFacingStaticRotation: 0
+  EquipmentTag: Boat_Metal
+  OffhandTag: 
+  MainhandTag: CrossBow
+  RLUDSRestriction: 63
+  UnitVoiceGender: 2
+  SubPawnComposition: 0
+  SubPawnDefinitions: []
+  Offset: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1643237753, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: PresentationPawnDefinition_Era5
+  m_EditorClassIdentifier: 

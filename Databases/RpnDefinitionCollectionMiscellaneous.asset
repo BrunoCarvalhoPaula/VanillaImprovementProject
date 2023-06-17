@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8620138192033772177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: BattleEffect_FoodFromCombat
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000009000000010000000600000002000000080000000a0000000a000000090000000200000000000000090000000a000000000000000a000000090000000200000000000000030000000200000006000000
+  ConstantStack:
+  - RawValue: 5000
+  - RawValue: 1000
+  - RawValue: 3000
+  - RawValue: 5000
+  - RawValue: 10000
+  - RawValue: 3000
+  - RawValue: 10000
+  Note: 
+  PropertyLocalNameStack:
+  - SumOfPopulationAndUnits
+  - SpoilOfWarGains
+  - EraLevel
+  - SumOfUnits
+  - EraLevel
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &-8201396491568241996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: SubmissionCost
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a00000008000000020000000a0000000a00000009000000060000000800000001000000020000000100000000000000
+  ConstantStack:
+  - RawValue: 125000
+  - RawValue: 35000
+  - RawValue: 40000
+  - RawValue: 0
+  Note: 
+  PropertyLocalNameStack:
+  - CityCountingTowardCap
+  - EraLevel
+  - EraLevel
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &-6261240880893414605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: BattleEffect_InfluenceFromCombat
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000a00000009000000010000000600000002000000080000000a0000000a000000090000000200000000000000090000000a000000000000000a000000090000000200000000000000030000000200000006000000
+  ConstantStack:
+  - RawValue: 5000
+  - RawValue: 1000
+  - RawValue: 3000
+  - RawValue: 5000
+  - RawValue: 10000
+  - RawValue: 3000
+  - RawValue: 10000
+  Note: 
+  PropertyLocalNameStack:
+  - SumOfPopulationAndUnits
+  - SpoilOfWarGains
+  - EraLevel
+  - SumOfUnits
+  - EraLevel
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &-3156134031615009977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ArmyAction_CutForest_Duration
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a000000080000000b0000000a000000020000000a00000006000000030000000100000006000000
+  ConstantStack:
+  - RawValue: 1000
+  - RawValue: 5000
+  - RawValue: 20000
+  - RawValue: 1000
+  Note: 
+  PropertyLocalNameStack:
+  - CombatStrength
+  VariableNameStack:
+  - EraLevel
+  DefinedVariables:
+  - GameSpeedModifier
+  - EraLevel
+  targetTypeName: Amplitude.Mercury.Simulation.Army, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: RpnDefinitionCollectionMiscellaneous
+  m_EditorClassIdentifier: 

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8893628813551009047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Extension_Era4_IroquoisConfederacy
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_Extension_Era4_IroquoisConfederacy'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Extension_Era4_IroquoisConfederacyExotic'
+    ParameterFlags: 0
+--- !u!114 &-6816721441332104607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Extension_Era5_BritishEmpire2
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_Extension_Era5_BritishEmpire'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Extension_Era5_BritishEmpireOverride'
+    ParameterFlags: 0
+--- !u!114 &-6267644147808891182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ArtificialWonder_Era1_HangingGardensOfBabylon
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ArtificialWonder_Era1_HangingGardensOfBabylon'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ArtificialWonder_Era1_HangingGardensOfBabylonExotic'
+    ParameterFlags: 0
+--- !u!114 &-4158445515202755701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Extension_Base_CampCenter
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_Extension_Base_CampCenterExotic'
+  HideDescriptor: 0
+  PropertyEffectPolicies: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1270168998, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: DescriptorMapperExtensionCollection
+  m_EditorClassIdentifier: 

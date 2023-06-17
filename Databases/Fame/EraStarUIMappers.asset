@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6288667823846828897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: Fame_EraStar_Scientist
+  m_EditorClassIdentifier: 
+  Title: '%Fame_EraStar_ScientistTitle'
+  Description: '%Fame_EraStar_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1420430724
+        b: 1169018718
+        c: 1054681510
+        d: 1578348708
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -513352655
+        b: 1261422310
+        c: 785852072
+        d: -2050996421
+    serializableKey: Level0
+  - Value:
+      guid:
+        a: 52803089
+        b: 1319841565
+        c: 2145082533
+        d: -1915569997
+    serializableKey: Level1
+  - Value:
+      guid:
+        a: -980450754
+        b: 1198186607
+        c: 1982674828
+        d: 1330154229
+    serializableKey: Level2
+  - Value:
+      guid:
+        a: 1539476479
+        b: 1299865437
+        c: -1459039341
+        d: 1742006249
+    serializableKey: Level3
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[EraStarScientistScore]'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: 722acb04e362a9243a944ac3117daa73, type: 3}
+  m_Name: EraStarUIMappers
+  m_EditorClassIdentifier: 

@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1245366420553665175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: TreatyPuppetDescriptor
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MinorEmpire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ResearchGainForMajor
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000080000000800000002000000090000000200000000000000
+      ConstantStack: []
+      PropertyLocalName:
+      - PopulationCount
+      - DistrictCount
+      - GlobalEra
+      - PatronageShare
+    - Note: 
+      TargetProperty: MoneyGainForMajor
+      ToTargetOperation: 0
+      RpnOperationStack: 080000000800000002000000080000000a00000002000000080000000200000000000000
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName:
+      - PopulationCount
+      - MoneyNet
+      - LoanedArmyCount
+      - GlobalEra
+    - Note: 
+      TargetProperty: InfluenceGainForMajor
+      ToTargetOperation: 0
+      RpnOperationStack: 080000000800000008000000020000000a0000000200000000000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - PopulationCount
+      - DistrictCount
+      - GlobalEra
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - MajorEmpire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: BonusSwayStock
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TradeCostMultiplier
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -250
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: RentCostMultiplier
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -250
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IdeologicalAxisModifierNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MinorToMajorRelation, Amplitude.Mercury.Firstpass
+--- !u!114 &-667185866265955719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: TreatyProfitSharing
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MinorEmpire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyGainForMajor
+      ToTargetOperation: 0
+      RpnOperationStack: 080000000800000002000000080000000a00000002000000080000000200000000000000
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName:
+      - PopulationCount
+      - MoneyNet
+      - LoanedArmyCount
+      - GlobalEra
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MinorToMajorRelation, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: MinorTreatyDescriptorCollection
+  m_EditorClassIdentifier: 
+--- !u!114 &4225108523143608707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: TreatyScienceCollaborationDescriptor
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MinorEmpire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ResearchGainForMajor
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000080000000800000002000000090000000200000000000000
+      ConstantStack: []
+      PropertyLocalName:
+      - PopulationCount
+      - DistrictCount
+      - GlobalEra
+      - PatronageShare
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.MinorToMajorRelation, Amplitude.Mercury.Firstpass

@@ -1,0 +1,5320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7476909333625079753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Regular363
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: true
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: false
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Empire_Self,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: Inverted
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Empire_EraStars,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: OnlyCurrentEra
+      Entry: 5
+      Data: false
+    - Name: OrientationToCountGamePlayOrientations
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.GameplayOrientation[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: Value
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_MajorEmpire_Capital,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: MyCapital
+    - Name: Usage
+      Entry: 3
+      Data: 458755
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 1
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Property,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: PropertyName
+      Entry: 1
+      Data: TradeRoadCount
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: Value
+      Entry: 7
+      Data: Amplitude.FixedPoint, Amplitude.Framework
+    - Name: RawValue
+      Entry: 3
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 0
+    - Name: MajorEmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyCapital
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular363Choice01Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular363Choice01Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 16|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Social
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 19|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyCapital
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Learning_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 21|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 100
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 22|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular364
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 7
+      Data: 23|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyCapital
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular363Choice02Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular363Choice02Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 25|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptor,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 2
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: MyCapital
+    - Name: MustHaveOneOfDescriptors
+      Entry: 7
+      Data: 27|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Infrastructure_Science_Family04_02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Geopolitic
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 32|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddInfluence,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 250
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 34|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 100
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 35|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular364
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 7
+      Data: 36|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyCapital
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular363Choice03Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular363Choice03Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 38|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 39|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 40|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 41|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Social
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 43|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyCapital
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Celebration_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 45|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 100
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 46|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular364
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 7
+      Data: 47|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyCapital
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 7
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Common
+  EraDefinitions:
+  - serializableElementName: Era4
+  Image:
+    guid:
+      a: -640833510
+      b: 1111523091
+      c: -440056950
+      d: 2129949542
+  Title: '%NarrativeEvent_Regular363Title'
+  Description: '%NarrativeEvent_Regular363Description'
+  GeoLocalizationID: MyCapital
+  Notes: 
+--- !u!114 &-6504032737110513801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Regular364
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: true
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: true
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data
+    - Name: VariableName
+      Entry: 1
+      Data: MyCapital
+    - Name: VariableType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptor,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: MyCapital
+    - Name: MustHaveOneOfDescriptors
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Infrastructure_Money_Family04_02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyCapital
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular364Choice01Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular364Choice01Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Economic
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 16|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyCapital
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Prosperity_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 18|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 60
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 19|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular365
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 6
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular364Choice02Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular364Choice02Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 21|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 22|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 23|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 24|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Order
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyCapital
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_HighSecurity_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular364Choice03Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular364Choice03Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Order
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyCapital
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Overproduction_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 35|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 50
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 36|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular365
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 6
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 7
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Common
+  EraDefinitions:
+  - serializableElementName: Era4
+  Image:
+    guid:
+      a: -640833510
+      b: 1111523091
+      c: -440056950
+      d: 2129949542
+  Title: '%NarrativeEvent_Regular364Title'
+  Description: '%NarrativeEvent_Regular364Description'
+  GeoLocalizationID: MyCapital
+  Notes: 
+--- !u!114 &-2760025399856385507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Regular351
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: true
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: false
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Empire_Self,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: Inverted
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_Empire_Cities,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: Usage
+      Entry: 3
+      Data: 458755
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 3
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 1
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Property,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Iterator
+    - Name: PropertyName
+      Entry: 1
+      Data: NavalTradeRoadsCount
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 2
+    - Name: Value
+      Entry: 7
+      Data: Amplitude.FixedPoint, Amplitude.Framework
+    - Name: RawValue
+      Entry: 3
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 1
+    - Name: EmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular351Choice01Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular351Choice01Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Social
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Superstitious_Era4_Low
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 19|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Celebration46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular351Choice02Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular351Choice02Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 21|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 22|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 23|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 24|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Social
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_ScienceInvestment_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 100
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular352
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular351Choice03Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular351Choice03Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 32|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 34|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 35|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Order
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 37|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_PublicWorks_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 39|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 100
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 40|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular352
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 7
+      Data: 41|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyNavalTradeRouteCity
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 7
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Common
+  EraDefinitions:
+  - serializableElementName: Era3
+  - serializableElementName: Era4
+  Image:
+    guid:
+      a: -1153469122
+      b: 1113605657
+      c: 1039587757
+      d: 1531887579
+  Title: '%NarrativeEvent_Regular351Title'
+  Description: '%NarrativeEvent_Regular351Description'
+  GeoLocalizationID: MyNavalTradeRouteCity
+  Notes: 
+--- !u!114 &-2210790927035598863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Regular357
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: true
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: true
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data
+    - Name: VariableName
+      Entry: 1
+      Data: MyScienceCity
+    - Name: VariableType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyScienceCity
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular357Choice01Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular357Choice01Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 1
+    - Name: Prerequisites
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Social
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyScienceCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Learning_Era5_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 16|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 50
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular357_1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 6
+      Data: 
+    - Name: stack
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular357Choice02Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular357Choice02Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 1
+    - Name: Prerequisites
+      Entry: 7
+      Data: 19|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 21|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 22|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Social
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 24|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyScienceCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Celebration_Era5_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemoveMoney,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: -1500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddInfluence,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 1500
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: ChancesToTriggerAConsequence
+      Entry: 3
+      Data: 50
+    - Name: Delay
+      Entry: 3
+      Data: -1
+    - Name: PossibleConsequencesArray
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+PossibleConsequence,
+        Amplitude.Mercury.Data
+    - Name: NarrativeEventDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: NarrativeEvent_Regular357_1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Fallback
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 3
+      Data: 1
+    - Name: StackArray
+      Entry: 6
+      Data: 
+    - Name: stack
+      Entry: 7
+      Data: 32|MS.Internal.Xml.XPath.ClonableStack`1[[Amplitude.Mercury.Data.Simulation.SimulationEventEffect_TriggerNarrativeEvent+StackVariable,
+        Amplitude.Mercury.Data]], System.Xml
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: possibleConsequences
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular357Choice03Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular357Choice03Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 1
+    - Name: Prerequisites
+      Entry: 7
+      Data: 34|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 35|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 36|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 37|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Order
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 39|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyScienceCity
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Superstitious07
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 41|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddOrRemovePublicOrder,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyScienceCity
+    - Name: PublicOrderDelta
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 7
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Common
+  EraDefinitions:
+  - serializableElementName: Era5
+  Image:
+    guid:
+      a: -153710500
+      b: 1094527301
+      c: -991879795
+      d: -694500236
+  Title: '%NarrativeEvent_Regular357Title'
+  Description: '%NarrativeEvent_Regular357Description'
+  GeoLocalizationID: MyScienceCity
+  Notes: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2044257964, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEventDefinition_DLC03
+  m_EditorClassIdentifier: 
+--- !u!114 &569455491288232118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Regular337
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: true
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: false
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Empire_Self,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: Inverted
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_Empire_Armies,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: MyArmy
+    - Name: Usage
+      Entry: 3
+      Data: 196615
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 1
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 1
+      Data: UnitsCount
+    - Name: SortOrder
+      Entry: 3
+      Data: 1
+    - Name: EmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_Army_Units,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: MyArmyUnits
+    - Name: Usage
+      Entry: 3
+      Data: 524288
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 0
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 0
+    - Name: ArmyID
+      Entry: 1
+      Data: MyArmy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter,
+        Amplitude.Mercury.Data
+    - Name: VariableID
+      Entry: 1
+      Data: MyArmy
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice01Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice01Description'
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Property,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 2
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: MyArmy
+    - Name: PropertyName
+      Entry: 1
+      Data: UnitsCount
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 4
+    - Name: Value
+      Entry: 7
+      Data: Amplitude.FixedPoint, Amplitude.Framework
+    - Name: RawValue
+      Entry: 3
+      Data: 3000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 16|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 17|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddGrowth,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyArmy
+    - Name: Amount
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice02Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice02Description'
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 19|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 20|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Property,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 2
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: MyArmy
+    - Name: PropertyName
+      Entry: 1
+      Data: UnitsCount
+    - Name: ComparisonOperator
+      Entry: 3
+      Data: 1
+    - Name: Value
+      Entry: 7
+      Data: Amplitude.FixedPoint, Amplitude.Framework
+    - Name: RawValue
+      Entry: 3
+      Data: 3000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 21|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 22|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 23|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddKnowledge,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice03Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice03Description'
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 25|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 26|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 27|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 28|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddInfluence,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice04Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular337Choice04Description'
+    - Name: Instant
+      Entry: 5
+      Data: true
+    - Name: Duration
+      Entry: 3
+      Data: 10
+    - Name: Prerequisites
+      Entry: 7
+      Data: 30|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 31|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 32|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: true
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 33|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: MyArmyUnits
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_Unit_Organized_Regular
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 7
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Neolithic
+  EraDefinitions:
+  - serializableElementName: Era0
+  Image:
+    guid:
+      a: -263756783
+      b: 1180906512
+      c: 1390038423
+      d: 1310621978
+  Title: '%NarrativeEvent_Regular337Title'
+  Description: '%NarrativeEvent_Regular337Description'
+  GeoLocalizationID: MyArmy
+  Notes: 
+--- !u!114 &922809542586482450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -931882767, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NarrativeEvent_Regular365
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Trigger
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.NarrativeEventTrigger, Amplitude.Mercury.Data
+    - Name: ConsumeEventUponTrigger
+      Entry: 5
+      Data: true
+    - Name: PreventEventRemoval
+      Entry: 5
+      Data: false
+    - Name: SimulationEventTrigger
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventTrigger, Amplitude.Mercury.Data
+    - Name: IsNarrativeConsequence
+      Entry: 5
+      Data: true
+    - Name: SimulationEvent
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.SimulationEvent_TurnBegin, Amplitude.Mercury.Firstpass
+    - Name: Signature
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Prerequisites
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Variables
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventVariable[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_Empire_Cities,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: AllCities
+    - Name: Usage
+      Entry: 3
+      Data: 65536
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 0
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 0
+    - Name: EmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.NarrativeEventVariable_MajorEmpire_Capital,
+        Amplitude.Mercury.Data
+    - Name: Name
+      Entry: 1
+      Data: MyCapital
+    - Name: Usage
+      Entry: 3
+      Data: 1
+    - Name: CollectionSelector
+      Entry: 3
+      Data: 1
+    - Name: HasCountCondition
+      Entry: 5
+      Data: false
+    - Name: CountConditionOperator
+      Entry: 3
+      Data: 1
+    - Name: CountConditionValue
+      Entry: 3
+      Data: 0
+    - Name: ElementPrerequisites
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SortPropertyName
+      Entry: 6
+      Data: 
+    - Name: SortOrder
+      Entry: 3
+      Data: 0
+    - Name: MajorEmpireID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LocalizationParameters
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.NarrativeEventLocalizationParameter[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Choices
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.NarrativeEventChoice, Amplitude.Mercury.Data
+    - Name: Image
+      Entry: 7
+      Data: Amplitude.UI.UITexture, Amplitude.UI
+    - Name: guid
+      Entry: 7
+      Data: Amplitude.Framework.Guid, Amplitude.Framework
+    - Name: a
+      Entry: 3
+      Data: 0
+    - Name: b
+      Entry: 3
+      Data: 0
+    - Name: c
+      Entry: 3
+      Data: 0
+    - Name: d
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Title
+      Entry: 1
+      Data: '%NarrativeEvent_Regular365Choice01Title'
+    - Name: Description
+      Entry: 1
+      Data: '%NarrativeEvent_Regular365Choice01Description'
+    - Name: Instant
+      Entry: 5
+      Data: false
+    - Name: Duration
+      Entry: 3
+      Data: 5
+    - Name: Prerequisites
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NarrativeEventEffects
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.NarrativeEventEffect, Amplitude.Mercury.Data
+    - Name: Reversible
+      Entry: 5
+      Data: false
+    - Name: SimulationEventEffect
+      Entry: 7
+      Data: 15|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyStatus,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: AllCities
+    - Name: StatusDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Status_City_Destitute_Era4_Medium
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Duration
+      Entry: 3
+      Data: -1
+    - Name: InitiatorType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 7
+  IsWorkInProgress: 0
+  Category:
+    serializableElementName: NarrativeEventCategory_Common
+  EraDefinitions:
+  - serializableElementName: Era4
+  Image:
+    guid:
+      a: -640833510
+      b: 1111523091
+      c: -440056950
+      d: 2129949542
+  Title: '%NarrativeEvent_Regular365Title'
+  Description: '%NarrativeEvent_Regular365Description'
+  GeoLocalizationID: MyCapital
+  Notes: 

@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8764754757171220089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Conservative30
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Conservative
+  Descriptor:
+    serializableElementName: Effect_Status_City_Conservative30
+  CostModifier:
+    serializableElementName: ConstructibleCostModifier_NarrativeEvent279
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Tolerancy
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+--- !u!114 &-8735068915488243530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Revolt
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Revolt
+  Descriptor:
+    serializableElementName: Effect_Status_City_Revolt
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy: []
+  CancelOnApply: []
+  DefaultDuration: 12
+  IgnoreGameSpeed: 0
+--- !u!114 &-6327076613564898328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_Empire_Revolt
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_Empire_Revolt
+  Descriptor:
+    serializableElementName: Effect_Status_Empire_Revolt
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy: []
+  CancelOnApply: []
+  DefaultDuration: 2
+  IgnoreGameSpeed: 1
+--- !u!114 &-2181377933257709687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_ProsperityDesertion
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Prosperity
+  Descriptor:
+    serializableElementName: Effect_Status_City_ProsperityDesertion
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Destitute
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2110363667, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: SettlementStatusDefinition
+  m_EditorClassIdentifier: 

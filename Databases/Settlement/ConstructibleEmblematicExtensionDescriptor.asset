@@ -1,0 +1,1938 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9141153273885541191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Sweden
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - ExtensionDistrictsCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-9002594247831714764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_TokugawaShogunate
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-7848626900151452242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era2_AncientGreece
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: +1 Influence
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - EraLevel
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - EraLevel
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-7742119611189770434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_VenetianRepublic_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Money
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 'Synergy: +1 Influence per adjacent Money extension'
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-7445693416825040960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_RussianEmpire
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - FriendlyArmies
+      - Units
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: HealthRegen
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - TerritoryCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-7342867695640007356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_Germany
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - PollutionNet
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PollutionNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-7326113746188535268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_PolishKingdom
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 8000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: UnitCombatStrengthBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 4000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: FortificationBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-6356439950148100219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_FrenchRepublic
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Resource_BeingTraded
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-5998300788256077173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_IroquoisConfederacy
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      - Cities
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 4000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-5961565505913761201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era1_Harappan_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Food
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 'Synergy: +2 Food per adjacent Food Extension'
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-5915082560718643613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_Italy
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - PopulationAssignedToMoney
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - PopulationAssignedToScience
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-5605334298149579835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Turkey_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Science
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-5538756945876352779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Brazil
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - Population
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - PopulationAssignedToFood
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ScienceWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-5137186953599195041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_OttomanEmpire
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - ExtensionCount
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-4897884920607592028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era1_ZhouChina_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Exploitation_Mountain
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-4651215477921647089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era3_HolyRomanEmpire_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_HolySite
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-4596624565595211096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_AustriaHungary
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - ExtensionCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-3862156687998756827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era3_MedievalEngland
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 0
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: FortificationBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: UnitCombatStrengthBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-2773374189206837630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_MingChina
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - ExtensionDistrictsCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-1703127103267477092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Australia
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PollutionNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-1668777264263553314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_USA_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Military
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Science
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Money
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-1203827916679458096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_OttomanEmpire_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_HolySite
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: InfluenceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-737748423541850211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era1_Assyria
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: UnitCombatStrengthBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-293090798886996315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_Italy_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-120993163103423023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era1_Babylon
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: GrowthNet
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - PopulationAssignedToScience
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ConstructibleEmblematicExtensionDescriptor
+  m_EditorClassIdentifier: 
+--- !u!114 &1089379812924689432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era2_MauryaEmpire
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &1828532184597878289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era3_HolyRomanEmpire
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 7000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName:
+      - AdjacentEmpiresCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &3177922721228685038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Japan
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PollutionNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Industry
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Science
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ScienceWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &3310377482955005950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era3_Vikings
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: BonusMoneyPerRansack
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 50000
+      PropertyLocalName:
+      - GameSpeedMultiplier
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &3969246474570573863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era1_ZhouChina
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 8000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &3975824194707852068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_ZuluKingdom
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: +4 CS combat bonus on Units on tile & adjacent to tile
+      TargetProperty: UnitCombatStrengthBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 4000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ExperienceGainOnUnitCreation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &4371929977279870112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_USSR
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PollutionNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &5742106081461787629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Egypt_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Emblematic
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_ArtificialWonder_Default
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 30000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &6532769023114882537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era5_RussianEmpire_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 'Synergy: +1 Faith per adjacent Religious extension'
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_HolySite
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &6570506374396286382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_Holland
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &6719412483399609990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era4_MughalEmpire
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - PopulationAssignedToIndustry
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &7030486935992187789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_Turkey
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: IndustryWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: ScienceWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &8231871405425459018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era6_USA
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      - Units
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: BombardCenterStrengthBonus
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &8588478645635431828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era1_OlmecCivilization
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &9117515701533519934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era3_MongolEmpire
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: InfluenceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - AdjacentSettlements
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 15000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass

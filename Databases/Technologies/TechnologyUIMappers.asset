@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: TechnologyUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &3969365770384161745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 301062344, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Technology_Era1_13
+  m_EditorClassIdentifier: 
+  Title: '%Technology_Era1_13Title'
+  Description: '%Technology_Era1_13Description'
+  Images:
+  - Value:
+      guid:
+        a: -1185892732
+        b: 1133964353
+        c: -2010386285
+        d: -2146751079
+    serializableKey: TechnologyPopupBackground
+  - Value:
+      guid:
+        a: 209776758
+        b: 1286721164
+        c: -1264855650
+        d: 577032575
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1185892732
+        b: 1133964353
+        c: -2010386285
+        d: -2146751079
+    serializableKey: TechnologyScreenItemBackground
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  TechTreeX: 25
+  TechTreeY: 31
+  OptionalUnlockTechnologyMovie: 

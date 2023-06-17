@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4373175378904037166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Repeatable_Military
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ExperienceGainOnUnitCreation
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName:
+      - RepeatableCount
+    - Note: 
+      TargetProperty: Fortification
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Repeatable, Amplitude.Mercury.Firstpass
+--- !u!114 &-2181606195523781704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Repeatable_Money
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_CityCenter
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 6000
+      PropertyLocalName:
+      - RepeatableCount
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Airport
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName:
+      - RepeatableCount
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_TrainStation
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - RepeatableCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Repeatable, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ConstructibleRepeatableDescriptor
+  m_EditorClassIdentifier: 
+--- !u!114 &48002466935207939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Repeatable_Science
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: GameEffect_City
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 0a00000009000000020000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - RepeatableCount
+      - ScienceWorkplaceGainPerPopulation
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Repeatable, Amplitude.Mercury.Firstpass
+--- !u!114 &1969918575871590074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Repeatable_Faith
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Religious
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - RepeatableCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Repeatable, Amplitude.Mercury.Firstpass
+--- !u!114 &3693223370118986090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Repeatable_Pollution
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Industry
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 1
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - RepeatableCount
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Region
+      - Territories
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PollutionNet
+      ToTargetOperation: 1
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - RepeatableCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Repeatable, Amplitude.Mercury.Firstpass
+--- !u!114 &4803389523347462757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Repeatable_Culture
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_CityCenter
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - RepeatableCount
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Repeatable, Amplitude.Mercury.Firstpass

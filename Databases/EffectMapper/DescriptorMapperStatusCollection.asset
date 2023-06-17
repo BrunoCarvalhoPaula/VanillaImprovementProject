@@ -1,0 +1,3851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9177260483815966922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance08
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-8903713487270246056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicSupplies_Overpop
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-8819647850659282025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment09
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-8799445145065508605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration36
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-8551058393981213080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Austerity06
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-8537144353705807892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Demonstration13
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-8487338023965780517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity15
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-8141284077501854899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Mourning10
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-8058756279655937840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction20
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-7949907700337198332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Mourning16
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-7879471310220854694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity20
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-7869442871446530471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment24
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-7800510375228870927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration12
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-7790880713226230218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction29
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-7670398197332843096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Mourning09
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-7638472278687489233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning08
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-7570740088508283291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Demonstration05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-7431736773685290237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning33
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-7403128480238836752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Destitute07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-7337985495008845455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Conservative10
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies: []
+--- !u!114 &-7112695135639998951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment19
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-7059657636233088593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning_Overpop
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-7030928273531626739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity06
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 2
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 3
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-6978142976818212904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity31
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-6913541129229420013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning26
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-6507345591505068623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction23
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-6438994247744387327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Superstitious05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-6374264635106665392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance24
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-6347886517872035034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction27
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-6300524630339086951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Mourning11
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-6229072122173672151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Destitute_Era5High
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-6032859667912112441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration21
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-5960517965710140949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction19
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-5860319417093808021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity15
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-5847925470981852631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-5695751092286816086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Superstitious03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-5646645774674669772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity11
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-5568395958461393174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment_Era5High
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-5537796660267906725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Austerity04
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-5485539197033354106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction21
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-5453808864870236316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Demonstration08
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-5389277366249496446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction15
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-5250842591314271805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning15
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-5187617394913178591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration37
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-4847972249544575719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Disease05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-4801563852001818042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning14
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-4741175407850512092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Triumph02
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-4525197551768217449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance16
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-4215229979831528879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity22
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-4194782345644794800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction14
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-4013556944729795376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance23
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-3998874946608453787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicWorks16
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 2
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-3933303512430893923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicWorks01
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-3891583761597800679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction12
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-3849498812131493442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment13
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-3749796835685767403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment21
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-3734649949452263054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance18
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-3722236132333650978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicWorks14
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-3546083330713591294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Researching_Era5Medium
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-3191927493555500329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Austerity08
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-2941784289128083245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration38
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-2810815856262578811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity14
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-2489920336866900409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-2417015599765747565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Mourning15
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-2140572516792280574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-1900631989766963663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity_Era4Medium
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-1860522079009626160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Evacuated01
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-1820904637193947884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity13
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-1731650064542607383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Disease03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-1654494337110106257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction08
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-1523482470280761982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration20
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 2
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 0
+--- !u!114 &-1248098801817958558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning25
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-1227119506182682627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity08
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-1139674010076614667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Destitute02
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-1078582372308999726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment_Era5Medium
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-1041495221845361822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction22
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-731130840727314460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction25
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-601815586657338628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicWorks08
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-446401105745867295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Austerity05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-234772230328776259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment23
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &-209305437498504980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Demonstration06
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &-61302924782839702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Plague02
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 2
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 3
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 4
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-255475945566795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning32
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1270168998, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: DescriptorMapperStatusCollection
+  m_EditorClassIdentifier: 
+--- !u!114 &48250606751730142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration26
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &84869949862080155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicSupplies02
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &371273475442017404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Mourning03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &449785399270151007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment11
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &469469940748742530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning09
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &621213294041680783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &679319314140210412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment06
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &709363000720267899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration41
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &828962530989803805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity29
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &907484739651483958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &1041126744712424310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity32
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &1045284329544339394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning12
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &1076772374591534410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning31
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &1276637381654079974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration31
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &1332879185439618684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning29
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &1432157594232682865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Demonstration03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &1495617513029036625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment10
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &1565405516109281906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity25
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &1655444064027475710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction26
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &2012573090600923580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity10
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &2371830352062437958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Austerity_Era5High
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &2374774041345125133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &2414683394633519394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &2430012466799619582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity33
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &2575364046261146940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment20
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &2746633282734928929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity27
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &3158857305659154772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity_Overpop
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &3201554555330459436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction11
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &3248847290212054379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction28
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &3262487118671924556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction_Era4Medium
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &3293104934343134702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_WarEffort07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &3392609398880793275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Austerity10
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &3500609015700189620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Demonstration12
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &3555660566430414802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning28
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &3665217363480279837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity16
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &4016235271678121985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicWorks15
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &4023246371595492923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance14
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &4090106487722230207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Tolerancy01
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &4093855451738353665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicWorks03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &4202302071989391364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment22
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &4358064511837155846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity09
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &4383093359499456444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment17
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &4429117505052121052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction24
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &4444267312911039147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_NotreDame_Destroyed
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &4555146204941656309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &4678892208164574957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity06
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &4720357670861275804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment14
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &4848896684223524902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance12
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &5077342632891442001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity19
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &5085843977695230771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Destitute04
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &5096615108588993146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Tolerancy09
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &5183358557268946265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Destitute10
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &5226474396651221753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment12
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &5239182659783294183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration15
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &5354158871887638642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity28
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &5643589932389854032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity37
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &5663168697156638738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment18
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &5785579099509448939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity12
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &6111073723218204229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Superstitious06
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &6135072467823151976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Strikes02
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &6408408304496506893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity18
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &6583572799619179552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance11
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &6998509474781926223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicSupplies03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &7029638498640806824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Mourning19
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &7155803784710245019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_PublicSupplies07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &7307527575160160914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Celebration18
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &7573257597563165104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_ProsperityDesertion
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &7657192100926299077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Abundance22
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &7839017012833414607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Austerity01
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &8387919525977991332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_WarEffort10
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &8410633239480529970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Overproduction09
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &8558739396248034859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning27
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &8628110912667258533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Prosperity13
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &8657644405793797510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Demonstration07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &8836374192732339005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_HighSecurity20
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &8900795202973056628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Destitute05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 7
+--- !u!114 &9152034275364540680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Tolerancy04
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19
+--- !u!114 &9159566600531354624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_City_Learning17
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Status'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 19

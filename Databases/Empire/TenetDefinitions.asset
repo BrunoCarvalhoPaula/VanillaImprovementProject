@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5604258484669969242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -967498053, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ReligionTenet_Tier0_Tenet01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Key: 6
+  Hidden: 0
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  TierReference:
+    serializableElementName: TenetTier_Tier0
+  ReligionAffinityReference:
+    serializableElementName: ReligionNamePolytheism
+  DescriptorReferences:
+  - serializableElementName: Effect_ReligionBonus_Tier0_Tenet01
+  - serializableElementName: Effect_ReligionBonus_Tier0_ReligiousDisunity
+  CostModifierReferences: []
+  CanBeStateReligion: 1
+  CanEvolve: 1
+  CanHaveReligiousLeader: 1
+  CanReligionDie: 1
+  Priority: 0
+  Archetypes:
+  - Archetype: 2
+    Weight: 0.1
+  - Archetype: 32
+    Weight: 0.1
+  - Archetype: 1024
+    Weight: 0.1
+  - Archetype: 8192
+    Weight: 0.1
+  - Archetype: 32768
+    Weight: 0.1
+  - Archetype: 131072
+    Weight: 0.1
+  - Archetype: 524288
+    Weight: 0.1
+  Gains: 128
+  GainSpread: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1311181123, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: TenetDefinitions
+  m_EditorClassIdentifier: 
+--- !u!114 &5104293540147720595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -967498053, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ReligionTenet_Tier0_Tenet02
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Key: 7
+  Hidden: 0
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  TierReference:
+    serializableElementName: TenetTier_Tier0
+  ReligionAffinityReference:
+    serializableElementName: ReligionNameShamanism
+  DescriptorReferences:
+  - serializableElementName: Effect_ReligionBonus_Tier0_Tenet02
+  - serializableElementName: Effect_ReligionBonus_Tier0_ReligiousDisunity
+  CostModifierReferences: []
+  CanBeStateReligion: 1
+  CanEvolve: 1
+  CanHaveReligiousLeader: 1
+  CanReligionDie: 1
+  Priority: 0
+  Archetypes:
+  - Archetype: 8
+    Weight: 0.1
+  - Archetype: 16
+    Weight: 0.1
+  - Archetype: 512
+    Weight: 0.1
+  - Archetype: 2048
+    Weight: 0.1
+  - Archetype: 4096
+    Weight: 0.1
+  - Archetype: 65536
+    Weight: 0.1
+  - Archetype: 262144
+    Weight: 0.1
+  Gains: 128
+  GainSpread: 0

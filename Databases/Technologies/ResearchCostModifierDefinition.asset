@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-300313858149634197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 808446743, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: TechnologyCostModifier_Era3_AztecEmpire
+  m_EditorClassIdentifier: 
+  CostType: 4
+  OperationType: 1
+  CostModifierValue:
+    RawValue: 750
+  ApplyIfCostZero: 0
+  CanBeCumulated: 0
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 1
+  SerializableValidNames:
+  - Technology_Era3_06
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ResearchCostModifierDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &8221779761510056996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 808446743, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: TechnologyCostModifier_Era6_Institute
+  m_EditorClassIdentifier: 
+  CostType: 4
+  OperationType: 1
+  CostModifierValue:
+    RawValue: 900
+  ApplyIfCostZero: 0
+  CanBeCumulated: 0
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 0
+  SerializableValidNames: []

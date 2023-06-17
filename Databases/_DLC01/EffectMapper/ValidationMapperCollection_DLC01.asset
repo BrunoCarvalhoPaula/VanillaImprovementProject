@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5255018001119293194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_CivilizationTrait_Era1_Bantu
+  m_EditorClassIdentifier: 
+  Localization: '%ConstructibleExtension_Era1_BantuTitle'
+  LocalizationInverted: 
+  LocalizationTarget: '%ConstructibleExtension_Era1_BantuTitle'
+  LocalizationTargetInverted: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -286750100, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: ValidationMapperCollection_DLC01
+  m_EditorClassIdentifier: 

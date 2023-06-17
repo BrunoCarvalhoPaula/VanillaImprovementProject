@@ -1,0 +1,803 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8838430200500096397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Army03_Choice01_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Army03_Choice01_Exotic'
+    ParameterFlags: 0
+--- !u!114 &-6679774367698148970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier3_Tenet05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier3_Tenet05Override01'
+    ParameterFlags: 0
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier3_Tenet05Override02'
+    ParameterFlags: 0
+--- !u!114 &-6624191992354531511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier1_Tenet04
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier1_Tenet04Override'
+    ParameterFlags: 0
+--- !u!114 &-6549254318013341581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier4_Tenet03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier4_Tenet03Override'
+    ParameterFlags: 0
+--- !u!114 &-6248677213773505107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Justice0304_Choice01_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Justice0304_Choice01_Exotic'
+    ParameterFlags: 0
+--- !u!114 &-5714636081597081711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Civics_Society01_Choice01
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Civics_Society01_Choice01Override'
+    ParameterFlags: 0
+--- !u!114 &-5568973593047723937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Culture01_Choice02_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Culture01_Choice02_Exotic'
+    ParameterFlags: 0
+--- !u!114 &-5403823036772733395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Culture04_Choice01_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Culture04_Choice01_Exotic'
+    ParameterFlags: 0
+--- !u!114 &-4955663570533109923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier1_Tenet07
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier1_Tenet07Override'
+    ParameterFlags: 0
+--- !u!114 &-4617916552915995897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier3_Tenet02
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier3_Tenet02Override'
+    ParameterFlags: 0
+--- !u!114 &-3891182845291392204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_EmpireBonus_Ideology_Order_Left02
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 2
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 3
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 4
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &-2733590718370169608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Justice01_Choice01_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Justice01_Choice01_Exotic1'
+    ParameterFlags: 0
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Justice01_Choice01_Exotic2'
+    ParameterFlags: 0
+--- !u!114 &-2482786751521066219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Culture01_Choice01_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Culture01_Choice01_Exotic'
+    ParameterFlags: 0
+--- !u!114 &-2132265226385667600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_LegacyTrait_Era1_EgyptianKingdom
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_LegacyTrait_Era1_EgyptianKingdomOverride'
+    ParameterFlags: 0
+--- !u!114 &-1095305385712042690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Justice03_Choice02_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Justice03_Choice02_Exotic'
+    ParameterFlags: 0
+--- !u!114 &-52683973183310237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ArtificialWonder_Era4_MachuPicchu
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ArtificialWonder_Era4_MachuPicchu'
+  HideDescriptor: 0
+  PropertyEffectPolicies: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1270168998, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: DescriptorMapperCollection
+  m_EditorClassIdentifier: 
+--- !u!114 &328454193751039503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier1_Tenet05
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier1_Tenet05Override'
+    ParameterFlags: 0
+--- !u!114 &353645717464555750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Culture02_Choice01_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Culture02_Choice01_Exotic'
+    ParameterFlags: 0
+--- !u!114 &1279287976448882634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_LegacyTrait_Era3_Swahili
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_LegacyTrait_Era3_SwahiliOverride'
+    ParameterFlags: 0
+--- !u!114 &1866064496246296956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Tag_Empire_Major
+  m_EditorClassIdentifier: 
+  LocalizedName: '%CityCap'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 0
+  - EffectIndex: 0
+    PropertyEffectIndex: 2
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 0
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 0
+  - EffectIndex: 8
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%AdministrativeCenterPinItemTypeTradeRoadTitle'
+    ParameterFlags: 7
+  - EffectIndex: 9
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%StatusCategory_ConsulatAgreementTitle'
+    ParameterFlags: 7
+--- !u!114 &1990010363581558718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Culture05_Choice01_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Culture05_Choice01_Exotic'
+    ParameterFlags: 0
+--- !u!114 &2189473554531676661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier2_Tenet06
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier2_Tenet06Override'
+    ParameterFlags: 0
+--- !u!114 &3736476095280767274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_EmpireBonus_Resource31
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_EmpireBonus_Resource31Override'
+    ParameterFlags: 0
+  - EffectIndex: 2
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &4028212630318235566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier1_Tenet03
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier1_Tenet03Override'
+    ParameterFlags: 0
+--- !u!114 &5299474458292190129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Justice04_Choice02_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Justice04_Choice02_Exotic'
+    ParameterFlags: 0
+--- !u!114 &5423558159353242141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Culture02_Choice02_Exotic
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Culture02_Choice02_Exotic'
+    ParameterFlags: 0
+--- !u!114 &6759837243307168585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_EmpireBonus_Ideology_Order_Left01
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 2
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 3
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 4
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+  - EffectIndex: 5
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 3
+--- !u!114 &6847377391657740079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Vassal_Tribute
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_Vassal_Tribute'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Vassal_Tribute'
+    ParameterFlags: 0
+--- !u!114 &7111529412470577437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_ReligionBonus_Tier4_Tenet01
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_ReligionBonus_Tier4_Tenet01Override'
+    ParameterFlags: 0
+--- !u!114 &7184537432359514828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: GameEffect_MajorEmpire_Bankrupt
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Tutorial_Bankruptcy_01Title'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Tutorial_Bankruptcy_01Title'
+    ParameterFlags: 0
+--- !u!114 &7642242920352429050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Status_Empire_Revolution
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Revolution'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Status_Empire_Revolution01'
+    ParameterFlags: 0
+  - EffectIndex: 1
+    PropertyEffectIndex: 2
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Status_Empire_Revolution02'
+    ParameterFlags: 0
+--- !u!114 &7732133673248770934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_LegacyTrait_Era1_Caral
+  m_EditorClassIdentifier: 
+  LocalizedName: 
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_LegacyTrait_Era1_Caral01'
+    ParameterFlags: 0
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_LegacyTrait_Era1_Caral02'
+    ParameterFlags: 0
+  - EffectIndex: 2
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_LegacyTrait_Era1_Caral03'
+    ParameterFlags: 0
+  - EffectIndex: 3
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_LegacyTrait_Era1_Caral04'
+    ParameterFlags: 0
+--- !u!114 &7831739447716922060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Civics_Religion01_Choice01
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Effect_ReligionBonus_Tenet'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 0
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Civics_Religion01_Choice01Override'
+    ParameterFlags: 0

@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8868506477784750964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ReligionFollowersThreshold_TenetTier4
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000b0000000a000000060000000a0000000200000000000000
+  ConstantStack:
+  - RawValue: 5000
+  - RawValue: 7000
+  - RawValue: 25000
+  Note: 
+  PropertyLocalNameStack: []
+  VariableNameStack:
+  - NumberOfMajorEmpire
+  DefinedVariables:
+  - NumberOfMajorEmpire
+  targetTypeName: 
+  sourceTypeName: 
+--- !u!114 &-7143925467996149588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ReligionFollowersThreshold_TenetTier1
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000b0000000a000000070000000a0000000200000000000000
+  ConstantStack:
+  - RawValue: 5000
+  - RawValue: 4000
+  - RawValue: 6000
+  Note: cap early tenet threshold scaling to take into account progressive encounter
+    of empires
+  PropertyLocalNameStack: []
+  VariableNameStack:
+  - NumberOfMajorEmpire
+  DefinedVariables:
+  - NumberOfMajorEmpire
+  targetTypeName: 
+  sourceTypeName: Amplitude.Mercury.Simulation.Religion, Amplitude.Mercury.Firstpass
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ReligionRpnDefinitionCollection
+  m_EditorClassIdentifier: 
+--- !u!114 &1091005861889569366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ReligionFollowersThreshold_TenetTier2
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000b0000000a000000070000000a0000000200000000000000
+  ConstantStack:
+  - RawValue: 5000
+  - RawValue: 6000
+  - RawValue: 12000
+  Note: cap early tenet threshold scaling to take into account progressive encounter
+    of empires
+  PropertyLocalNameStack: []
+  VariableNameStack:
+  - NumberOfMajorEmpire
+  DefinedVariables:
+  - NumberOfMajorEmpire
+  targetTypeName: 
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &1543104798750895678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ReligionFollowersThreshold_TenetTier3
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000a0000000b0000000a00000007000000060000000a0000000200000000000000
+  ConstantStack:
+  - RawValue: 5000
+  - RawValue: 5000
+  - RawValue: 8000
+  - RawValue: 18000
+  Note: cap early tenet threshold scaling to take into account progressive encounter
+    of empires
+  PropertyLocalNameStack: []
+  VariableNameStack:
+  - NumberOfMajorEmpire
+  DefinedVariables:
+  - NumberOfMajorEmpire
+  targetTypeName: 
+  sourceTypeName: 

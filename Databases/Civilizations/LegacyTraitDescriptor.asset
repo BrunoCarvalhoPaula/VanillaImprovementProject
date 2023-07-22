@@ -539,6 +539,25 @@ MonoBehaviour:
     Path:
       PropertyToFollow:
       - Cities
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_AdministrativeCenter
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Cities
       Validations: []
       specificTargetType: 
     PropertyEffects:
@@ -555,19 +574,20 @@ MonoBehaviour:
       PropertyToFollow:
       - Cities
       - Districts
+      - Settlement
       Validations:
       - PathIndex: 1
         ValidableElementCollection: 
         Inverted: 0
-        serializableElementName: Effect_Extension_Base_AdministrativeCenter
+        serializableElementName: Effect_Extension_Base_TrainStation
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: PublicOrderProduced
-      ToTargetOperation: 0
+      TargetProperty: IndustryWorkplaceGainPerPopulation
+      ToTargetOperation: 4
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 100
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
@@ -792,7 +812,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 4000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

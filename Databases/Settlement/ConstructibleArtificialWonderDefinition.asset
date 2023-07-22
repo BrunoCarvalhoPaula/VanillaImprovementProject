@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleArtificialWonderDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &4423903550808093619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -258771725, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Extension_ArtificialWonder_Era5_StatueOfLiberty
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 4
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 8
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Signature
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration[],
+        Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.NarrativeEventConsequenceVariableDeclaration,
+        Amplitude.Mercury.Data
+    - Name: VariableName
+      Entry: 1
+      Data: Empire
+    - Name: VariableType
+      Entry: 1
+      Data: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FirstOwnerSimulationEventEffects
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddFame, Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Amount
+      Entry: 3
+      Data: 100
+    - Name: AmountRpn
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffectRpn, Amplitude.Mercury.Data
+    - Name: RpnDefinition
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: RpnSource
+      Entry: 6
+      Data: 
+    - Name: RpnTarget
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OwnerSimulationEventEffects
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 12
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 0
+  SerializableFamily: 
+  Level: 0
+  Unicity: 3
+  ConstructibleVisualAffinity:
+    serializableElementName: DistrictVisualAffinity_ArtificialWonder
+  CanBeBoughtOut: 0
+  CanBeCanceled: 0
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 1
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_ArtificialWonder_Era5
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: Era5
+  FactionPrerequisite:
+    Operator: 2
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 0
+    PublicOrderEffects: []
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  Prototype: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_ArtificialWonder_Default
+  - serializableElementName: Effect_ArtificialWonder_Era5_StatueOfLiberty
+  - serializableElementName: Tag_Extension_Urban
+  - serializableElementName: Tag_Extension_Base
+  - serializableElementName: Effect_ArtificialWonder_Era5_StatueOfLiberty_Synergy00
+  IsReplaceableOrDestroyable: 0
+  CanBeDowngradedToRuin: 1
+  AdditionalVisualLevels: []
+  IsImmuneToBombardment: 0
+  AllowBoroughExtension: 0
+  AllowConnectionWithOtherBorough: 1
+  FieldOfViewFlag: 0
+  OverADistrictPrerequisite:
+    TagOperator: 0
+    ValidIfNoDistrict: 1
+    HideInUI: 1
+    serializableTags:
+    - Tag_Extension_Base
+  PointOfInterestPrerequisite:
+    Constraint: 7
+    HideInUI: 1
+    serializablePointOfInterestNames: []
+  RiverPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  TerrainPrerequisite:
+    Constraint: 1
+    HideInUI: 0
+    CanBuildOnWasteland: 0
+    serializableTerrainTypeNames:
+    - TerrainType_CoastalWater
+  BiomePrerequisite:
+    Constraint: 0
+    serializableBiomeName: 
+  CliffPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  MountainPrerequisite:
+    Constraint: 0
+    HideInUI: 0
+  TileVisibilityPrerequisite:
+    Constraint: 1
+    Visibility: 0
+  NeighbourTilesPrerequisite:
+    NeighbourOperator: 2
+    TerritoryConstraint: 2
+    IgnoreCliff: 1
+    IgnoreNaturalWonder: 1
+    TerrainPrerequisite:
+      Constraint: 1
+      HideInUI: 1
+      CanBuildOnWasteland: 0
+      serializableTerrainTypeNames:
+      - TerrainType_CityTerrain
+      - TerrainType_DryGrass
+      - TerrainType_Forest
+      - TerrainType_Prairie
+      - TerrainType_RockyField
+      - TerrainType_RockyForest
+      - TerrainType_Sterile
+      - TerrainType_StoneField
+      - TerrainType_Wasteland
+      - TerrainType_WoodLand
+    RiverPrerequisite:
+      Constraint: 0
+      HideInUI: 0
+    DistrictPrerequisite:
+      TagOperator: 0
+      ValidIfNoDistrict: 0
+      HideInUI: 0
+      serializableTags: []
+  BoroughPrerequisite:
+    ExtensionRules: 1
+    HideInUI: 1
+  ProtectsNeighboursFromRansack: 0
+  ZoneOfControlDistance:
+    RawValue: 0
+  FriendlyUnitOnTopStatus:
+    serializableElementName: 
+  ProtectAgainstStealthDetection: 0
+  DistrictType: 19
+  HasPublicOrderCost: 0
+  AllowDistrictReplacement: 0
+  ExploitationRuleReference:
+    serializableElementName: ExploitationRule_CostalWaters
+  ExtractResource: 0
+  WondrousResourceType: 64
+  UnitSpawnType: -1
+  AllowShipping: 0
+  ProvidesSecondaryRoad: 1
+  ProvidesRail: 0
+  ForceRiverOnTerrain: 0
+  serializableReplaceTerrainWith: 
+  IsWorkInProgress: 0
+  Archetypes:
+  - Archetype: 8192
+    Weight: 0.15
+  - Archetype: 32768
+    Weight: 0.15
+  AIClaimCondition: 8
+  AIPlacementType: 0
+  ArtificialResourceType:
+    serializableElementName: 
+  isHolySite: 0

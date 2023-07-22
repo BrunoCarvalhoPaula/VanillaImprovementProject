@@ -332,6 +332,14 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 0
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: GrowthGain
+      ToTargetOperation: 4
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: -1000
+      PropertyLocalName:
+      - UnemployedPopulation
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &6342963402472399550

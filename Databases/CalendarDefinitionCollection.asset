@@ -16,9 +16,9 @@ MonoBehaviour:
   Periods:
   - NumberOfTurns: 9
     YearsPerTurn: 810
-  - NumberOfTurns: 5
+  - NumberOfTurns: 6
     YearsPerTurn: 222
-  - NumberOfTurns: 10
+  - NumberOfTurns: 11
     YearsPerTurn: 30
   - NumberOfTurns: 25
     YearsPerTurn: 28
@@ -26,21 +26,21 @@ MonoBehaviour:
     YearsPerTurn: 25
   - NumberOfTurns: 25
     YearsPerTurn: 24
-  - NumberOfTurns: 25
+  - NumberOfTurns: 24
     YearsPerTurn: 20
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 12
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 7
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 6
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 5
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 3
-  - NumberOfTurns: 30
+  - NumberOfTurns: 35
     YearsPerTurn: 2
-  - NumberOfTurns: 21
+  - NumberOfTurns: 42
     YearsPerTurn: 1
   Localization: '%CalendarHoloceneDate'
   HasNegativeCase: 0
@@ -62,9 +62,9 @@ MonoBehaviour:
   Periods:
   - NumberOfTurns: 9
     YearsPerTurn: 810
-  - NumberOfTurns: 5
+  - NumberOfTurns: 6
     YearsPerTurn: 222
-  - NumberOfTurns: 10
+  - NumberOfTurns: 11
     YearsPerTurn: 30
   - NumberOfTurns: 25
     YearsPerTurn: 28
@@ -72,21 +72,21 @@ MonoBehaviour:
     YearsPerTurn: 25
   - NumberOfTurns: 25
     YearsPerTurn: 24
-  - NumberOfTurns: 25
+  - NumberOfTurns: 24
     YearsPerTurn: 20
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 12
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 7
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 6
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 5
-  - NumberOfTurns: 25
+  - NumberOfTurns: 17
     YearsPerTurn: 3
-  - NumberOfTurns: 30
+  - NumberOfTurns: 35
     YearsPerTurn: 2
-  - NumberOfTurns: 21
+  - NumberOfTurns: 42
     YearsPerTurn: 1
   Localization: '%CalendarGregorianADDate'
   HasNegativeCase: 1

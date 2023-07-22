@@ -2846,6 +2846,7 @@ MonoBehaviour:
   - serializableElementName: Tag_Extension_Cultural
   - serializableElementName: Effect_Extension_Era4_MingChina_Synergy00
   - serializableElementName: Effect_Extension_Base_PublicOrder
+  - serializableElementName: Tag_Extension_PublicOrderLoss
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []

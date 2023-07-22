@@ -488,7 +488,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 2000
       PropertyLocalName:
       - Population
   serializableCategory: 
@@ -519,7 +519,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 15000
+      - RawValue: 10000
       PropertyLocalName:
       - NumberOfCulturallyControlledTerritory
     - Note: 
@@ -527,7 +527,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 15000
+      - RawValue: 10000
       PropertyLocalName:
       - NumberOfCulturallyControlledTerritory
   serializableCategory: 
@@ -659,6 +659,79 @@ MonoBehaviour:
       - RawValue: -20000
       PropertyLocalName: []
   serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &6542469330593260755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ArtificialWonder_Era4_TajMahal
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_PublicOrderStatus_Happy
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyWorkplaceGainPerPopulation
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &6678793873830885969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ArtificialWonder_Era5_StatueOfLiberty_Synergy00
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &8229317822617326724
 MonoBehaviour:

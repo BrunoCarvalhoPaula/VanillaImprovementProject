@@ -238,6 +238,22 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - PollutionNet
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - Resource04AccessCount
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -520,19 +536,11 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: FoodProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - Population
-    - Note: 
       TargetProperty: ScienceProduced
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 3000
       PropertyLocalName:
       - PopulationAssignedToFood
   - ApplyEffectOnSource: 0

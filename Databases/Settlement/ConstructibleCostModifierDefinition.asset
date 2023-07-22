@@ -55,6 +55,33 @@ MonoBehaviour:
   - Amplitude.Mercury.Data.Simulation.DistrictDefinition
   - Amplitude.Mercury.Data.Simulation.SettlementImprovementDefinition
   ValidCategories: 
+--- !u!114 &-5364478846605627357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_LegacyTrait_Era5_RussianEmpire
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 0
+  ModifierType: 1
+  CostModifierValue:
+    RawValue: 750
+  CostModifierRpn:
+    serializableElementName: ProductionCost_CostModifier_LegacyTrait_Era5_RussianEmpire
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 1
+  SerializableValidNames:
+  - Amplitude.Mercury.Data.Simulation.DistrictDefinition
+  ValidCategories: 
 --- !u!114 &-2834453261496668485
 MonoBehaviour:
   m_ObjectHideFlags: 0

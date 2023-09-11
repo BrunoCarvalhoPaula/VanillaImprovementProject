@@ -33,6 +33,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ModernHeavyCavalry
   Level: 36
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -64,10 +65,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -149,6 +150,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_LightInfantry
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -261,6 +263,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Artillery
   Level: 26
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -292,13 +295,13 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 7
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 7
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 6
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -380,6 +383,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyCavalry
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -411,10 +415,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -499,6 +503,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyMelee
   Level: 21
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -530,7 +535,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -614,6 +619,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Officer
   Level: 38
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -726,6 +732,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiCavalry
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -757,7 +764,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -841,6 +848,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Cavalry
   Level: 31
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -872,10 +880,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 16
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -960,6 +968,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MobileArtillery
   Level: 27
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -991,10 +1000,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 6
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1078,6 +1087,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyGunner
   Level: 30
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1190,6 +1200,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MeleeAntiCavalry
   Level: 25
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1302,6 +1313,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiCavalry
   Level: 18
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1411,6 +1423,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ModernHeavyCavalry
   Level: 33
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1442,10 +1455,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 16
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1531,6 +1544,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MechanizedInfantry
   Level: 41
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1562,10 +1576,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 16
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1651,6 +1665,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiEntrenchment
   Level: 30
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1682,10 +1697,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 20
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 14
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1767,6 +1782,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ShockCavalry
   Level: 21
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1798,10 +1814,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 10
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1887,6 +1903,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 7
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1999,6 +2016,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ScoutCavalry
   Level: 9
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2030,7 +2048,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 4
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2114,6 +2132,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Militia
   Level: 24
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2223,6 +2242,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Scout
   Level: 6
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2333,6 +2353,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_LightTank
   Level: 36
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2364,10 +2385,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2452,6 +2473,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ShockCavalry
   Level: 20
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2483,10 +2505,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 10
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2569,6 +2591,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Melee
   Level: 6
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2678,6 +2701,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyMelee
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2709,7 +2733,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2793,6 +2817,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiEntrenchment
   Level: 38
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2824,10 +2849,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 12
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 9
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -2911,6 +2936,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyCavalry
   Level: 11
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -2942,10 +2968,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 8
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3030,6 +3056,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_IndustrialInfantry
   Level: 33
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3142,6 +3169,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Militia
   Level: 18
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3251,6 +3279,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 24
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3282,7 +3311,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 3
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3364,6 +3393,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_IndustrialShockInfantry
   Level: 30
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3476,6 +3506,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Cavalry
   Level: 30
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3507,10 +3538,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 16
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3593,6 +3624,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Cavalry
   Level: 26
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3624,10 +3656,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 7
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3713,6 +3745,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MachineGun
   Level: 35
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3744,10 +3777,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 21
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 21
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -3831,6 +3864,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_StealthInfantry
   Level: 35
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3945,6 +3979,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -3976,10 +4011,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -4063,6 +4098,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MechanizedInfantry
   Level: 40
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4094,10 +4130,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 16
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -4181,6 +4217,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 6
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4291,6 +4328,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_LightCavalry
   Level: 14
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4322,7 +4360,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -4403,6 +4441,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_SiegeInfantry
   Level: 25
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4434,10 +4473,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 7
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 3
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -4521,6 +4560,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Melee
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4633,6 +4673,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiTank
   Level: 36
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4664,7 +4705,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -4746,6 +4787,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_StealthInfantry
   Level: 35
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4858,6 +4900,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ScoutCavalry
   Level: 8
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -4889,7 +4932,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 4
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -4970,6 +5013,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiCavalry
   Level: 9
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5001,7 +5045,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -5085,6 +5129,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Artillery
   Level: 34
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5116,10 +5161,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 7
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -5201,6 +5246,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyCavalry
   Level: 10
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5232,10 +5278,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 8
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -5317,6 +5363,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiCavalry
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5348,7 +5395,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -5432,6 +5479,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyMelee
   Level: 20
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5463,7 +5511,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -5544,6 +5592,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_IndustrialInfantry
   Level: 33
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5668,6 +5717,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_DesertCavalry
   Level: 20
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5699,7 +5749,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -5784,6 +5834,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 19
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5896,6 +5947,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ShockCavalry
   Level: 21
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -5927,10 +5979,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 10
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -6016,6 +6068,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiAircraft
   Level: 36
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6047,10 +6100,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 7
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 3
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -6133,6 +6186,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 13
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6246,6 +6300,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_StealthInfantry
   Level: 34
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6356,6 +6411,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ModernInfantry
   Level: 36
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6465,6 +6521,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ColonialInfantry
   Level: 25
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6496,10 +6553,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 7
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 3
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -6583,6 +6640,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Horde
   Level: 18
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6614,7 +6672,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -6699,6 +6757,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_IndustrialInfantry
   Level: 32
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6808,6 +6867,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ShockInfantry
   Level: 20
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6920,6 +6980,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ModernHeavyCavalry
   Level: 40
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -6951,13 +7012,13 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 20
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 16
   - Resource: 7
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 4
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -7040,6 +7101,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Melee
   Level: 12
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7149,6 +7211,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Horde
   Level: 15
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7180,7 +7243,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -7264,6 +7327,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MeleeAntiCavalry
   Level: 24
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7373,6 +7437,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_LightArtillery
   Level: 26
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7404,7 +7469,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 6
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -7488,6 +7553,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ShockCavalry
   Level: 16
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7519,10 +7585,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -7607,6 +7673,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyCavalry
   Level: 11
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7638,10 +7705,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 6
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 4
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -7726,6 +7793,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 11
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7757,10 +7825,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 8
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -7844,6 +7912,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_StealthInfantry
   Level: 41
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -7956,6 +8025,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_StealthInfantry
   Level: 28
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8068,6 +8138,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Militia
   Level: 12
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8177,6 +8248,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Militia
   Level: 32
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8286,6 +8358,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiCavalry
   Level: 8
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8317,7 +8390,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -8398,6 +8471,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Artillery
   Level: 38
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8429,13 +8503,13 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 12
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 3
   - Resource: 7
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 2
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -8519,6 +8593,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_DesertCavalry
   Level: 21
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8632,6 +8707,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Officer
   Level: 28
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8744,6 +8820,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 18
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8853,6 +8930,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Melee
   Level: 7
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8965,6 +9043,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MachineGun
   Level: 34
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -8996,7 +9075,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 4
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -9078,6 +9157,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Scout
   Level: 7
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -9190,6 +9270,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MobileArtillery
   Level: 21
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -9221,10 +9302,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 14
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 10
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -9308,6 +9389,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Militia
   Level: 38
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -9417,6 +9499,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_GunpowderInfantry
   Level: 28
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -9448,10 +9531,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 7
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 6
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -9533,6 +9616,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 7
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -9645,6 +9729,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_StealthInfantry
   Level: 40
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -9779,6 +9864,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_StealthInfantry
   Level: 18
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1

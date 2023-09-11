@@ -33,6 +33,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AgentWithStealth
   Level: 26
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -108,6 +109,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 1053513
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era4
   unitSpecialty:
@@ -145,6 +147,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ShockCavalry
   Level: 21
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -176,7 +179,7 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 8
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -222,6 +225,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 16777297
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era3
   unitSpecialty:
@@ -259,6 +263,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AntiCavalry
   Level: 9
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -333,6 +338,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 137
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era1
   unitSpecialty:
@@ -370,6 +376,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 16
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -444,6 +451,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 17
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era2
   unitSpecialty:
@@ -493,6 +501,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AgentWithoutStealth
   Level: 12
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -566,6 +575,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 68157953
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era2
   unitSpecialty:
@@ -603,6 +613,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_IndustrialInfantry
   Level: 33
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -677,6 +688,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 25
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era5
   unitSpecialty:
@@ -714,6 +726,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_AgentWithStealth
   Level: 20
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -788,6 +801,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 1053513
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era4
   unitSpecialty:
@@ -825,6 +839,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MeleeAntiCavalry
   Level: 29
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -900,6 +915,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 137
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era4
   unitSpecialty:

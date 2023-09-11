@@ -72,6 +72,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_Military_Family01
   Level: 1
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -93,6 +94,13 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
@@ -197,6 +205,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_Industry_Family07
   Level: 0
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -218,16 +227,20 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 20
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 2
-  - Resource: 3
-    ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 10
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -316,6 +329,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_PublicOrder_Family02
   Level: 1
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -337,6 +351,13 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
@@ -426,6 +447,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_Money_Family04
   Level: 1
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -447,13 +469,17 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 2
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 12
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -554,6 +580,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_PublicOrder_Family02
   Level: 0
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -575,6 +602,13 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
@@ -679,6 +713,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_Military_Family01
   Level: 2
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -700,6 +735,13 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
@@ -804,6 +846,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_Military_Family01
   Level: 0
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -825,6 +868,13 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites: []
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
@@ -929,6 +979,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_Industry_Family08
   Level: 0
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -950,16 +1001,23 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 1
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 20
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 7
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1048,6 +1106,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_Industry_Family01
   Level: 2
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1069,13 +1128,20 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites:
   - Resource: 1
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 7
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1180,6 +1246,7 @@ MonoBehaviour:
   SerializableFamily: InfrastructureFamily_PublicOrder_Family02
   Level: 2
   Unicity: 1
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1201,13 +1268,20 @@ MonoBehaviour:
       serializableElementName: 
   PopulationInstantCostDefinition:
     Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
   ResourceAccessPrerequisites:
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 10
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 6
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:

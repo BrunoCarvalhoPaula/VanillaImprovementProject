@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9186602721494360399
+--- !u!114 &-8590226925690335321
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era6_Common_NuclearSubmarines
+  m_Name: NavalUnit_Era6_Sweden_StealthCorvettes
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -24,15 +24,16 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 14
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_StealthShip
-  Level: 38
+  SerializableFamily: UnitFamily_Warship
+  Level: 41
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -43,7 +44,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
+      serializableElementName: ProductionCost_Unit_Era6_High
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -64,366 +65,13 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 2
-  - Resource: 7
-    ConstantType: 0
-    ConstantValue: 2
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_TorpedoVessel
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_Stealth
-  - serializableElementName: UnitSpecialty_IgnoreLineOfSight
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era6_Common_NuclearSubmarines
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Era6_Tier2
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 266314
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era6
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &-8006610997246052597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era6_Common_Battleships
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 9
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_CapitalShip
-  Level: 36
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 3
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 7
   - Resource: 5
     ConstantType: 0
-    ConstantValue: 2
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_ArmouredVessel
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_Bombard_Level1
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era6_Common_Battleships
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Era6_Tier2
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 3218
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era6
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &-6082608757677795697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era6_Common_MissileCruisers
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 13
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_Warship
-  Level: 38
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 4
   - Resource: 6
     ConstantType: 0
-    ConstantValue: 1
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_ArmouredVessel
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_AntiAircraft_Level1
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era6_Common_MissileCruisers
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Era6_Tier2
-  - serializableElementName: Effect_Unit_Era6_StealthDetection
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 82
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era6
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &-4580620043710797531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era5_Germany_UBoats
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 6
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_StealthShip
-  Level: 35
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 3
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -433,7 +81,128 @@ MonoBehaviour:
   FactionPrerequisite:
     Operator: 1
     serializableFactionNames:
-    - Civilization_Era5_Germany
+    - Civilization_Era6_Sweden
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_EscortShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_Stealth
+  - serializableElementName: UnitSpecialty_AntiAircraft_Level1
+  - serializableElementName: UnitSpecialty_ScreeningShip
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Sweden_StealthCorvettes
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era6_Tier3
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 67121266
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-8454305868817696837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era5_Common_TorpedoBoats
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_StealthShip
+  Level: 34
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 7
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 4
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
   SettlementStatusPrerequisite:
     CampConstraint: 0
     CityConstraint: 1
@@ -456,12 +225,11 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_TorpedoVessel
   UnitSpecialties:
-  - serializableElementName: UnitSpecialty_Stealth
+  - serializableElementName: UnitSpecialty_TorpedoAttack
   OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era5_Germany_UBoats
+  - serializableElementName: Effect_NavalUnit_Era5_Common_TorpedoBoats
   - serializableElementName: Effect_Unit_Era5
-  - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era5_Tier2
+  - serializableElementName: Effect_Unit_Era5_Tier1
   - serializableElementName: Tag_Unit_Vehicle
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
@@ -469,13 +237,13 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 4298
+  UnitTags: 262226
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era5
   unitSpecialty:
     serializableElementName: 
---- !u!114 &-4456677184729486535
+--- !u!114 &-7362707193858451625
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -499,7 +267,7 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 11
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
@@ -508,6 +276,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_ShipOfTheLine
   Level: 28
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -518,7 +287,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_High
+      serializableElementName: ProductionCost_Unit_Era4_VeryHigh
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -528,7 +297,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 2
+    Constant: 6
   ProvidedByOtherEmpireCostDefinition:
     ProductionCostModifierRpn:
       serializableElementName: 
@@ -539,10 +308,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 20
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 2
+    ConstantValue: 6
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -572,13 +341,14 @@ MonoBehaviour:
       serializableElementName: 
   BaseSynergyDistrict: 0
   UnitClass:
-    serializableElementName: UnitClass_GunPlatform
+    serializableElementName: UnitClass_CapitalShip
   UnitSpecialties:
+  - serializableElementName: UnitSpecialty_ShipOfTheLine
   - serializableElementName: UnitSpecialty_Shatter
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era4_Common_MenOfWar
   - serializableElementName: Effect_Unit_Era4
-  - serializableElementName: Effect_Unit_Era4_Tier3
+  - serializableElementName: Effect_Unit_Era4_Tier4
   - serializableElementName: Tag_Unit_Vehicle
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
@@ -586,13 +356,13 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 466
+  UnitTags: 2450
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era4
   unitSpecialty:
     serializableElementName: 
---- !u!114 &-2428292068180132991
+--- !u!114 &-7231710814928519179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -602,7 +372,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era4_VenetianRepublic_Galleasses
+  m_Name: NavalUnit_Era6_Common_MissileCruisers
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -616,134 +386,16 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 12
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_HeavyWarship
-  Level: 24
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_High
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 1
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 4
-    ConstantType: 0
-    ConstantValue: 2
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era4_VenetianRepublic
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_GunPlatform
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_StrengthFromCoast_Level1
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era4_VenetianRepublic_Galleasses
-  - serializableElementName: Effect_Unit_Era4
-  - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era4_Tier3
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 82
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era4
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &-2115538216934396439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era5_Common_Ironclads
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 16
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
   SerializableFamily: UnitFamily_CapitalShip
-  Level: 32
+  Level: 38
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -754,7 +406,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
+      serializableElementName: ProductionCost_Unit_Era6_Extreme
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -764,7 +416,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 3
+    Constant: 6
   ProvidedByOtherEmpireCostDefinition:
     ProductionCostModifierRpn:
       serializableElementName: 
@@ -775,8 +427,11 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 2
     ConstantType: 0
-    ConstantValue: 3
-  - Resource: 3
+    ConstantValue: 14
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 12
+  - Resource: 6
     ConstantType: 0
     ConstantValue: 3
   MinimalPopulationPrerequisite: 0
@@ -808,13 +463,13 @@ MonoBehaviour:
       serializableElementName: 
   BaseSynergyDistrict: 0
   UnitClass:
-    serializableElementName: UnitClass_ArmouredVessel
+    serializableElementName: UnitClass_CapitalShip
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_Bombard_Level1
   OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era5_Common_Ironclads
-  - serializableElementName: Effect_Unit_Era5
-  - serializableElementName: Effect_Unit_Era5_Tier2
+  - serializableElementName: Effect_NavalUnit_Era6_Common_MissileCruisers
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier5
   - serializableElementName: Tag_Unit_Vehicle
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
@@ -822,13 +477,13 @@ MonoBehaviour:
   - 2.5
   - 4
   - 1.03
-  UnitTags: 2194
+  UnitTags: 3474
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
-    serializableElementName: Era5
+    serializableElementName: Era6
   unitSpecialty:
     serializableElementName: 
---- !u!114 &-2070211833550052879
+--- !u!114 &-7099611210896643079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -838,7 +493,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era5_Common_SteamFrigates
+  m_Name: NavalUnit_Era3_Common_Cog
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -852,15 +507,16 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 7
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
   SerializableFamily: UnitFamily_Warship
-  Level: 32
+  Level: 20
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -871,124 +527,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 3
-    ConstantType: 0
-    ConstantValue: 2
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_GunPlatform
-  UnitSpecialties: []
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era5_Common_SteamFrigates
-  - serializableElementName: Effect_Unit_Era5
-  - serializableElementName: Effect_Unit_Era5_Tier2
-  - serializableElementName: Effect_Unit_Era5_StealthDetection
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 18
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era5
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &-1846639777217976364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era2_Common_Quadriremes
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 1
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_Warship
-  Level: 16
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era2_Medium
+      serializableElementName: ProductionCost_Unit_Era3_Medium
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -1038,11 +577,11 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialties:
-  - serializableElementName: UnitSpecialty_LostAtSeaDamage_Level2
+  - serializableElementName: UnitSpecialty_LostAtSeaDamage_Level3
   OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era2_Common_Quadriremes
-  - serializableElementName: Effect_Unit_Era1
-  - serializableElementName: Effect_Unit_Era2_Tier2
+  - serializableElementName: Effect_NavalUnit_Era3_Common_Cog
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Era3_Tier2
   - serializableElementName: Tag_Unit_Vehicle
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
@@ -1053,10 +592,10 @@ MonoBehaviour:
   UnitTags: 10
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
-    serializableElementName: Era2
+    serializableElementName: Era3
   unitSpecialty:
     serializableElementName: 
---- !u!114 &11400000
+--- !u!114 &-6583697628810981820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1065,10 +604,240 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnitDefinition
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era5_Common_Ironclads
   m_EditorClassIdentifier: 
---- !u!114 &138470119445603821
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_CapitalShip
+  Level: 32
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_VeryHigh
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 6
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 20
+  - Resource: 3
+    ConstantType: 0
+    ConstantValue: 6
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_CapitalShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_ShipOfTheLine
+  - serializableElementName: UnitSpecialty_IndirectShatter
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era5_Common_Ironclads
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Era5_Tier4
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 2450
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era5
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-3194816988276568732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_Frigate
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Warship
+  Level: 34
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_High
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 5
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 4
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_EscortShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_ScreeningShip
+  - serializableElementName: UnitSpecialty_AntiAircraft_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_Frigate
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier3
+  - serializableElementName: Effect_Unit_Era6_StealthDetection
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 67117170
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-2509828555516165078
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1092,7 +861,7 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 3
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
@@ -1101,6 +870,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Warship
   Level: 10
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1179,472 +949,7 @@ MonoBehaviour:
     serializableElementName: Era1
   unitSpecialty:
     serializableElementName: 
---- !u!114 &962202224886067843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era6_Common_AircraftCarriers
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 5
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_AircraftCarrier
-  Level: 36
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_VeryHigh
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 3
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 3
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 6
-    ConstantType: 0
-    ConstantValue: 1
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_AircraftCarrier
-  UnitSpecialties: []
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era6_Common_AircraftCarriers
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Era6_Tier3
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 131346
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era6
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &1106646616954404145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era6_Sweden_StealthCorvettes
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 8
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_StealthCorvette
-  Level: 40
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Low
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 1
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 2
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era6_Sweden
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_ArmouredVessel
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_Stealth
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era6_Sweden_StealthCorvettes
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era6_Tier1
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 4146
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era6
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &2096291332760084431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era4_JoseonKorea_TurtleShips
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 2
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_HeavyWarship
-  Level: 24
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_High
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 1
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 4
-    ConstantType: 0
-    ConstantValue: 2
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era4_JoseonKorea
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_GunPlatform
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_StrengthFromCloseRange_Level1
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era4_JoseonKorea_TurtleShips
-  - serializableElementName: Effect_Unit_Era4
-  - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era4_Tier3
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 466
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era4
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &4698482694207688022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1966399051, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era1_Phoenicia_WarGalleys
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 2
-  Hidden: 1
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_NavalTransport
-  Level: 11
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 1
-  ProductionCostDefinition:
-    Type: 1
-    Constant: 34
-    RpnDefinitionReference:
-      serializableElementName: 
-  MoneyInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 0
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites: []
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era1_Phoenicia
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 0
-    PublicOrderEffects: []
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_NavalTransport
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_LostAtSeaDeath
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era1_Phoenicia_WarGalleys
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 18
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era1
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &5167321407169385823
+--- !u!114 &-1962188000380020914
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1668,7 +973,7 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 18
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
@@ -1677,6 +982,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Warship
   Level: 24
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1697,7 +1003,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 1
+    Constant: 2
   ProvidedByOtherEmpireCostDefinition:
     ProductionCostModifierRpn:
       serializableElementName: 
@@ -1706,9 +1012,12 @@ MonoBehaviour:
     ProviderMoneyGainRpn:
       serializableElementName: 
   ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 7
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 1
+    ConstantValue: 3
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -1738,14 +1047,13 @@ MonoBehaviour:
       serializableElementName: 
   BaseSynergyDistrict: 0
   UnitClass:
-    serializableElementName: UnitClass_GunPlatform
+    serializableElementName: UnitClass_EscortShip
   UnitSpecialties: []
   OwnDescriptorReferences:
   - serializableElementName: Effect_NavalUnit_Era4_Common_Carracks
   - serializableElementName: Effect_Unit_Era4
   - serializableElementName: Effect_Unit_Era4_Tier2
   - serializableElementName: Tag_Unit_Vehicle
-  - serializableElementName: Effect_Unit_Era4_StealthDetection
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -1758,7 +1066,7 @@ MonoBehaviour:
     serializableElementName: Era4
   unitSpecialty:
     serializableElementName: 
---- !u!114 &6889713835341399284
+--- !u!114 &-1916070675617580682
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1768,7 +1076,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era5_Common_TorpedoBoats
+  m_Name: NavalUnit_Era2_Common_Quadriremes
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -1782,131 +1090,16 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 4
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 0
-  Category: 6
-  SerializableFamily: UnitFamily_StealthShip
-  Level: 34
-  Unicity: 0
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
-  MoneyInstantCostDefinition:
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 1
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 2
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 1
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 0
-    serializableFactionNames: []
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_TorpedoVessel
-  UnitSpecialties: []
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era5_Common_TorpedoBoats
-  - serializableElementName: Effect_Unit_Era5
-  - serializableElementName: Effect_Unit_Era5_Tier2
-  - serializableElementName: Tag_Unit_Vehicle
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  UnitTags: 74
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era5
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &7543802758155810355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: NavalUnit_Era3_Common_Cog
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 19
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
   SerializableFamily: UnitFamily_Warship
-  Level: 20
+  Level: 16
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -1917,7 +1110,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era3_Medium
+      serializableElementName: ProductionCost_Unit_Era2_Medium
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:
@@ -1967,13 +1160,12 @@ MonoBehaviour:
   UnitClass:
     serializableElementName: UnitClass_BoardingVessel
   UnitSpecialties:
-  - serializableElementName: UnitSpecialty_LostAtSeaDamage_Level3
+  - serializableElementName: UnitSpecialty_LostAtSeaDamage_Level2
   OwnDescriptorReferences:
-  - serializableElementName: Effect_NavalUnit_Era3_Common_Cog
-  - serializableElementName: Effect_Unit_Era3
-  - serializableElementName: Effect_Unit_Era3_Tier2
+  - serializableElementName: Effect_NavalUnit_Era2_Common_Quadriremes
+  - serializableElementName: Effect_Unit_Era2
+  - serializableElementName: Effect_Unit_Era2_Tier2
   - serializableElementName: Tag_Unit_Vehicle
-  - serializableElementName: Effect_Unit_Era3_StealthDetection
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
@@ -1983,6 +1175,1100 @@ MonoBehaviour:
   UnitTags: 10
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
-    serializableElementName: Era3
+    serializableElementName: Era2
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-1204039095828496978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_DieselSubmarine
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_StealthShip
+  Level: 36
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 7
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 4
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_TorpedoVessel
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_Stealth
+  - serializableElementName: UnitSpecialty_TorpedoAttack
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_DieselSubmarine
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier1
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 266354
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &-367431894585335365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_Destroyer
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Warship
+  Level: 33
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Medium
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 7
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 4
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 0
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_EscortShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_ScreeningShip
+  - serializableElementName: UnitSpecialty_AntiAircraft_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_Destroyer
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier2
+  - serializableElementName: Effect_Unit_Era6_StealthDetection
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 67117170
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnitDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &107666272751297208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era4_JoseonKorea_TurtleShips
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Warship
+  Level: 25
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_Medium
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 14
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 6
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era4_JoseonKorea
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_EscortShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_StrengthFromCloseRange_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era4_JoseonKorea_TurtleShips
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era4_Tier2
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 82
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era4
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &2858350028962458749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era5_Common_SteamFrigates
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Warship
+  Level: 32
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Medium
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 7
+  - Resource: 3
+    ConstantType: 0
+    ConstantValue: 2
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_EscortShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_ScreeningShip
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era5_Common_SteamFrigates
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Era5_Tier2
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 67108946
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era5
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &2913319538683219270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era4_VenetianRepublic_Galleasses
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_Warship
+  Level: 25
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era4_Medium
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 2
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 1
+    ConstantType: 0
+    ConstantValue: 14
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 6
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era4_VenetianRepublic
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_EscortShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_StrengthFromCoast_Level1
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era4_VenetianRepublic_Galleasses
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era4_Tier2
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 82
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era4
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &4607518850606473530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era5_Germany_UBoats
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_StealthShip
+  Level: 35
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era5_Low
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 7
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 4
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era5_Germany
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_TorpedoVessel
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_Stealth
+  - serializableElementName: UnitSpecialty_TorpedoAttack
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era5_Germany_UBoats
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era5_Tier1
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 266322
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era5
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &4946613472186050475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_AircraftCarriers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_AircraftCarrier
+  Level: 36
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_VeryHigh
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 6
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 20
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 8
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_AircraftCarrier
+  UnitSpecialties: []
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_AircraftCarriers
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier4
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 131346
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &5630387299609018291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_Battleships
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_CapitalShip
+  Level: 36
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_VeryHigh
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 6
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 20
+  - Resource: 5
+    ConstantType: 0
+    ConstantValue: 8
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_CapitalShip
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_Bombard_Level1
+  - serializableElementName: UnitSpecialty_ShipOfTheLine
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_Battleships
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier4
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 3474
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era6
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &6370079458952422500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1850805416, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: NavalUnit_Era6_Common_NuclearSubmarines
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 6
+  SerializableFamily: UnitFamily_StealthShip
+  Level: 38
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era6_Medium
+  MoneyInstantCostDefinition:
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites:
+  - Resource: 2
+    ConstantType: 0
+    ConstantValue: 5
+  - Resource: 6
+    ConstantType: 0
+    ConstantValue: 3
+  - Resource: 7
+    ConstantType: 0
+    ConstantValue: 4
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 0
+    serializableFactionNames: []
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_TorpedoVessel
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_Stealth
+  - serializableElementName: UnitSpecialty_TorpedoAttack
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_NavalUnit_Era6_Common_NuclearSubmarines
+  - serializableElementName: Effect_Unit_Era6
+  - serializableElementName: Effect_Unit_Era6_Tier2
+  - serializableElementName: Tag_Unit_Vehicle
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 266322
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era6
   unitSpecialty:
     serializableElementName: 

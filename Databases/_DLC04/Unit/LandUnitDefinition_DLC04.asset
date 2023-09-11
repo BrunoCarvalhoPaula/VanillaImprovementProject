@@ -1,18 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnitDefinition_DLC01
-  m_EditorClassIdentifier: 
---- !u!114 &1116851180745697121
+--- !u!114 &-4667467336477556955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era5_Ethiopia_OromoCavalry
+  m_Name: LandUnit_Era4_CaribbeanPirates_EmblematicLand
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -36,14 +24,14 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 106
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
-    DownloadableContent: 5
+    DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Cavalry
-  Level: 31
+  SerializableFamily: UnitFamily_IndustrialInfantry
+  Level: 30
   Unicity: 0
   UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
@@ -56,7 +44,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Medium
+      serializableElementName: ProductionCost_Unit_Era4_Medium
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -66,7 +54,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 2
+    Constant: 1
   ProvidedByOtherEmpireCostDefinition:
     ProductionCostModifierRpn:
       serializableElementName: 
@@ -75,12 +63,12 @@ MonoBehaviour:
     ProviderMoneyGainRpn:
       serializableElementName: 
   ResourceAccessPrerequisites:
-  - Resource: 0
+  - Resource: 2
     ConstantType: 0
-    ConstantValue: 16
+    ConstantValue: 7
   - Resource: 4
     ConstantType: 0
-    ConstantValue: 5
+    ConstantValue: 6
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -90,7 +78,7 @@ MonoBehaviour:
   FactionPrerequisite:
     Operator: 1
     serializableFactionNames:
-    - Civilization_Era5_Ethiopia
+    - Civilization_Era4_CaribbeanPirates
   SettlementStatusPrerequisite:
     CampConstraint: 0
     CityConstraint: 1
@@ -111,30 +99,41 @@ MonoBehaviour:
       serializableElementName: 
   BaseSynergyDistrict: 0
   UnitClass:
-    serializableElementName: UnitClass_MountedGunner
+    serializableElementName: UnitClass_Gunner
   UnitSpecialties:
-  - serializableElementName: UnitSpecialty_BonusStrengthFromExperience_Level1
-  - serializableElementName: UnitSpecialty_AfterAttackingAllowMove
+  - serializableElementName: UnitSpecialty_Sharpshooter
+  - serializableElementName: UnitSpecialty_MoveOrAttack
+  - serializableElementName: UnitSpecialty_Trespasser
   OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era5_Ethiopia_OromoCavalry
-  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_LandUnit_Era4_CaribbeanPirates_EmblematicLand
+  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_Unit_Era4_Tier2
   - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era5_Tier2
-  - serializableElementName: Effect_Unit_Era5_StealthDetection
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
   - 2.5
   - 4
   - 1.03
-  - 0
-  UnitTags: 217
+  UnitTags: 41
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
-    serializableElementName: Era5
+    serializableElementName: Era4
   unitSpecialty:
     serializableElementName: 
---- !u!114 &2605639338508071354
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 8581125, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnitDefinition_DLC04
+  m_EditorClassIdentifier: 
+--- !u!114 &5710707931081995167
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,7 +143,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era4_Maasai_MaasaiMorans
+  m_Name: LandUnit_Era5_HawaiiKingdom_KoaWarriors
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -158,14 +157,14 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 107
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
-    DownloadableContent: 5
+    DownloadableContent: 21
   Category: 6
-  SerializableFamily: UnitFamily_ShockInfantry
-  Level: 24
+  SerializableFamily: UnitFamily_IndustrialInfantry
+  Level: 33
   Unicity: 0
   UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
@@ -178,7 +177,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era4_Low
+      serializableElementName: ProductionCost_Unit_Era5_Low
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -188,7 +187,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 1
+    Constant: 4
   ProvidedByOtherEmpireCostDefinition:
     ProductionCostModifierRpn:
       serializableElementName: 
@@ -206,7 +205,7 @@ MonoBehaviour:
   FactionPrerequisite:
     Operator: 1
     serializableFactionNames:
-    - Civilization_Era4_Maasai
+    - Civilization_Era5_HawaiiKingdom
   SettlementStatusPrerequisite:
     CampConstraint: 0
     CityConstraint: 1
@@ -227,28 +226,27 @@ MonoBehaviour:
       serializableElementName: 
   BaseSynergyDistrict: 0
   UnitClass:
-    serializableElementName: UnitClass_Ranged
+    serializableElementName: UnitClass_Gunner
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_StrengthFromDamagedTarget_Level1
   OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era4_Maasai_MaasaiMorans
-  - serializableElementName: Effect_Unit_Era4
+  - serializableElementName: Effect_LandUnit_Era5_HawaiiKingdom_KoaWarriors
+  - serializableElementName: Effect_Unit_Era5
+  - serializableElementName: Effect_Unit_Era5_Tier1
   - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era4_Tier3
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
   - 2.5
   - 4
   - 1.03
-  - 0
-  UnitTags: 49
+  UnitTags: 25
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
-    serializableElementName: Era4
+    serializableElementName: Era3
   unitSpecialty:
     serializableElementName: 
---- !u!114 &5079001534733686041
+--- !u!114 &6066767419192349353
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,7 +256,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era6_Nigeria_MRAPVehicle
+  m_Name: LandUnit_Era1_AboriginalAustralia_BoomerangThrowers
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -272,256 +270,14 @@ MonoBehaviour:
     - Name: GainValues
       Entry: 6
       Data: 
-  Key: 97
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DLCPrerequisite:
-    DownloadableContent: 5
+    DownloadableContent: 21
   Category: 6
-  SerializableFamily: UnitFamily_MechanizedInfantry
-  Level: 41
-  Unicity: 0
-  UnicityAdditionalConstructible: []
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era6_Medium
-  MoneyInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 2
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 7
-  - Resource: 5
-    ConstantType: 0
-    ConstantValue: 12
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era6_Nigeria
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_ArmouredVehicle
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_DebuffTargetStun
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era6_Nigeria_MRAPVehicle
-  - serializableElementName: Effect_Unit_Era6
-  - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era6_Tier2
-  - serializableElementName: Tag_Unit_Vehicle
-  - serializableElementName: Effect_Unit_Era5_StealthDetection
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  - 0
-  UnitTags: 2137
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era6
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &8217829926537613190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era2_Garamantes_JavelinRiders
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 10
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 5
-  Category: 6
-  SerializableFamily: UnitFamily_LightCavalry
-  Level: 15
-  Unicity: 0
-  UnicityAdditionalConstructible: []
-  ConstructibleVisualAffinity:
-    serializableElementName: 
-  CanBeBoughtOut: 1
-  CanBeCanceled: 1
-  StartWhenQueued: 0
-  CanBeBoughtOutWithPopulation: 0
-  ProductionCostDefinition:
-    Type: 1
-    Constant: -1
-    RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era2_Medium
-  MoneyInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  InfluenceInstantCostDefinition:
-    Constant: 0
-    RpnDefinitionReference:
-      serializableElementName: 
-  PopulationInstantCostDefinition:
-    Constant: 1
-  ProvidedByOtherEmpireCostDefinition:
-    ProductionCostModifierRpn:
-      serializableElementName: 
-    ReceiverMoneyCostRpn:
-      serializableElementName: 
-    ProviderMoneyGainRpn:
-      serializableElementName: 
-  ResourceAccessPrerequisites:
-  - Resource: 0
-    ConstantType: 0
-    ConstantValue: 4
-  - Resource: 2
-    ConstantType: 0
-    ConstantValue: 2
-  MinimalPopulationPrerequisite: 0
-  ResourceSupremacyPrerequisite: 
-  EraPrerequisite:
-    Operator: 1
-    EraReference:
-      serializableElementName: 
-  FactionPrerequisite:
-    Operator: 1
-    serializableFactionNames:
-    - Civilization_Era2_Garamantes
-  SettlementStatusPrerequisite:
-    CampConstraint: 0
-    CityConstraint: 1
-  ReligionAffinityPrerequisite:
-    serializableElementName: 
-  SettlementPropertyPrerequisites: []
-  SettlementStabilityPrerequisite:
-    Operator: 1
-    PublicOrderEffects:
-    - serializableElementName: PublicOrderEffect_Unhappy
-  DistrictCountPrerequisites: []
-  ActionTypePrerequisite:
-    Operator: 0
-    ActionType: 0
-  ArtificialWonderBuiltPrerequisite:
-    Operator: 0
-    ArtificialWonderDefinition:
-      serializableElementName: 
-  BaseSynergyDistrict: 0
-  UnitClass:
-    serializableElementName: UnitClass_MountedRanged
-  UnitSpecialties:
-  - serializableElementName: UnitSpecialty_MoveOneAfterAttack
-  OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era2_Garamantes_JavelinRiders
-  - serializableElementName: Effect_Unit_Era2
-  - serializableElementName: Effect_Unit_Era2_Tier2
-  - serializableElementName: Effect_Unit_Emblematic
-  BaseMovementSpeed: 1.8
-  MovementSpeedMultiplierPerType:
-  - 1.5
-  - 2.5
-  - 4
-  - 1.03
-  - 0
-  UnitTags: 81
-  AlwaysUseCurrentEraVisualAffinity: 0
-  visualAffinityEraReference:
-    serializableElementName: Era2
-  unitSpecialty:
-    serializableElementName: 
---- !u!114 &8622274958506192675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: LandUnit_Era1_Bantu_BantuPioneers
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: GainValues
-      Entry: 6
-      Data: 
-  Key: 105
-  Hidden: 0
-  IsObsolete: 0
-  DLCPrerequisite:
-    DownloadableContent: 5
-  Category: 6
-  SerializableFamily: UnitFamily_Scout
-  Level: 10
+  SerializableFamily: UnitFamilyDefinition_ScoutRanged
+  Level: 7
   Unicity: 0
   UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
@@ -562,7 +318,7 @@ MonoBehaviour:
   FactionPrerequisite:
     Operator: 1
     serializableFactionNames:
-    - Civilization_Era1_Bantu
+    - Civilization_Era1_AboriginalAustralia
   SettlementStatusPrerequisite:
     CampConstraint: 0
     CityConstraint: 1
@@ -583,24 +339,137 @@ MonoBehaviour:
       serializableElementName: 
   BaseSynergyDistrict: 0
   UnitClass:
-    serializableElementName: UnitClass_Nomad
+    serializableElementName: UnitClass_Ranged
   UnitSpecialties:
-  - serializableElementName: UnitSpecialty_FoodFromExploration_Level1
+  - serializableElementName: UnitSpecialty_RegenerateAnywhere
+  - serializableElementName: UnitSpecialty_NoMovementPenaltiesFromForests
   OwnDescriptorReferences:
-  - serializableElementName: Effect_LandUnit_Era1_Bantu_BantuPioneers
+  - serializableElementName: Effect_LandUnit_Era1_AboriginalAustralia_BoomerangThrowers
   - serializableElementName: Effect_Unit_Era1
+  - serializableElementName: Effect_Unit_Era1_Tier2
   - serializableElementName: Effect_Unit_Emblematic
-  - serializableElementName: Effect_Unit_Era1_Tier1
   BaseMovementSpeed: 1.8
   MovementSpeedMultiplierPerType:
   - 1.5
   - 2.5
   - 4
   - 1.03
-  - 0
-  UnitTags: 33620553
+  UnitTags: 17
   AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era1
+  unitSpecialty:
+    serializableElementName: 
+--- !u!114 &8257148904179726403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1069260532, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LandUnit_Era3_RapaNui_RapaNuiWarriors
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 6
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 21
+  Category: 6
+  SerializableFamily: UnitFamily_Artillery
+  Level: 18
+  Unicity: 0
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: 
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 0
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Unit_Era3_Low
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 1
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: 
+  FactionPrerequisite:
+    Operator: 1
+    serializableFactionNames:
+    - Civilization_Era3_RapaNui
+  SettlementStatusPrerequisite:
+    CampConstraint: 0
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  UnitClass:
+    serializableElementName: UnitClass_Melee
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_Sapper
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_LandUnit_Era3_RapaNui_RapaNuiWarriors
+  - serializableElementName: Effect_Unit_Era3
+  - serializableElementName: Effect_Unit_Emblematic
+  - serializableElementName: Effect_Unit_Era3_Tier1
+  BaseMovementSpeed: 1.8
+  MovementSpeedMultiplierPerType:
+  - 1.5
+  - 2.5
+  - 4
+  - 1.03
+  UnitTags: 2057
+  AlwaysUseCurrentEraVisualAffinity: 0
+  visualAffinityEraReference:
+    serializableElementName: Era2
   unitSpecialty:
     serializableElementName: 

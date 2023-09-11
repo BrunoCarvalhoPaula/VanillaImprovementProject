@@ -12,28 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: -211960278, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: UnitClass
   m_EditorClassIdentifier: 
---- !u!114 &18215615940130375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: UnitClass_TorpedoVessel
-  m_EditorClassIdentifier: 
-  Prototype:
-    serializableElementName: UnitClass_Prototype_NavalUnit
-  OwnAbilityReferences:
-  - serializableElementName: UnitAbility_Prototype_TorpedoVessel
-  - serializableElementName: UnitAbility_Seafaring
-  - serializableElementName: UnitAbility_CannotTargetLand
-  - serializableElementName: UnitAbility_StrengthFromTargetClassArmoured_Level1
-  - serializableElementName: UnitAbility_NoMovementPenaltiesFromZonesOfControl
-  AutoResolveBattleStrengthBonus:
-    RawValue: 1000
 --- !u!114 &4335297182250756880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,49 +29,7 @@ MonoBehaviour:
   OwnAbilityReferences:
   - serializableElementName: UnitAbility_Prototype_ArmouredVehicle
   - serializableElementName: UnitAbility_Armoured
-  - serializableElementName: UnitAbility_Shatter
-  AutoResolveBattleStrengthBonus:
-    RawValue: 2000
---- !u!114 &6095666019175072001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: UnitClass_GunPlatform
-  m_EditorClassIdentifier: 
-  Prototype:
-    serializableElementName: UnitClass_Prototype_NavalUnit
-  OwnAbilityReferences:
-  - serializableElementName: UnitAbility_Prototype_GunPlatform
-  - serializableElementName: UnitAbility_Seafaring
-  - serializableElementName: UnitAbility_Shatter
-  - serializableElementName: UnitAbility_IndirectFire
-  AutoResolveBattleStrengthBonus:
-    RawValue: 1000
---- !u!114 &8765233596501120163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -553307230, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: UnitClass_ArmouredVessel
-  m_EditorClassIdentifier: 
-  Prototype:
-    serializableElementName: UnitClass_Prototype_NavalUnit
-  OwnAbilityReferences:
-  - serializableElementName: UnitAbility_Prototype_ArmouredVessel
-  - serializableElementName: UnitAbility_Armoured
-  - serializableElementName: UnitAbility_Seafaring
-  - serializableElementName: UnitAbility_CanAttackFortification
-  - serializableElementName: UnitAbility_Shatter
-  AutoResolveBattleStrengthBonus:
-    RawValue: 2000
+  InstantResolveBattleStrengthBonus:
+    RawValue: 3000
+  InstantResolveAttackingOrder: 1
+  InstantResolveBlockingOrder: 1

@@ -33,6 +33,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Cavalry
   Level: 31
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -64,7 +65,10 @@ MonoBehaviour:
   ResourceAccessPrerequisites:
   - Resource: 0
     ConstantType: 0
-    ConstantValue: 3
+    ConstantValue: 16
+  - Resource: 4
+    ConstantType: 0
+    ConstantValue: 5
   MinimalPopulationPrerequisite: 0
   ResourceSupremacyPrerequisite: 
   EraPrerequisite:
@@ -112,6 +116,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 16777297
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era5
   unitSpecialty:
@@ -149,6 +154,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Ranged
   Level: 20
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -224,6 +230,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 17
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era3
   unitSpecialty:
@@ -261,6 +268,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Officer
   Level: 37
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -335,6 +343,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 4113
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era6
   unitSpecialty:
@@ -372,6 +381,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_LightInfantry
   Level: 7
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -446,6 +456,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 41
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era1
   unitSpecialty:
@@ -483,6 +494,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_HeavyMelee
   Level: 21
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -557,6 +569,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 9
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era3
   unitSpecialty:
@@ -606,6 +619,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_Melee
   Level: 14
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -680,6 +694,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 41
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era2
   unitSpecialty:
@@ -717,6 +732,7 @@ MonoBehaviour:
   SerializableFamily: UnitFamily_MeleeAntiCavalry
   Level: 25
   Unicity: 0
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: 
   CanBeBoughtOut: 1
@@ -791,6 +807,7 @@ MonoBehaviour:
   - 4
   - 1.03
   UnitTags: 9
+  AlwaysUseCurrentEraVisualAffinity: 0
   visualAffinityEraReference:
     serializableElementName: Era4
   unitSpecialty:

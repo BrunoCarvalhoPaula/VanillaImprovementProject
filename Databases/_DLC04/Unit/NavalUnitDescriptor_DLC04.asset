@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: LandUnitDescriptor_DLC04
+  m_Name: NavalUnitDescriptor_DLC04
   m_EditorClassIdentifier: 
---- !u!114 &6617464675941320311
+--- !u!114 &8436937616208816161
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,7 +22,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_LandUnit_Era4_CaribbeanPirates_EmblematicLand
+  m_Name: Effect_NavalUnit_Era2_PacificPolynesians_Waakaulua
   m_EditorClassIdentifier: 
   Effects:
   - ApplyEffectOnSource: 0
@@ -32,32 +32,32 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: LandLeaderPriority
+      TargetProperty: LeaderPriority
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 6000000
+      - RawValue: 3931000
       PropertyLocalName: []
     - Note: 
-      TargetProperty: LandCombatStrength
+      TargetProperty: BaseStrength
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 46000
+      - RawValue: 28000
       PropertyLocalName: []
     - Note: 
-      TargetProperty: StealthMax
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 12000
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: StealthRegen
+      TargetProperty: NavalSpeed
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 2000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: StealthDetection
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass

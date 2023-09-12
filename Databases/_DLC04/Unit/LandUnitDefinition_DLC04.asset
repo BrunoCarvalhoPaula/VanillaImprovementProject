@@ -30,7 +30,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_IndustrialInfantry
+  SerializableFamily: UnitFamily_MeleeAntiCavalry
   Level: 30
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -103,7 +103,7 @@ MonoBehaviour:
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_Sharpshooter
   - serializableElementName: UnitSpecialty_MoveOrAttack
-  - serializableElementName: UnitSpecialty_Trespasser
+  - serializableElementName: UnitSpecialty_Stealth
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era4_CaribbeanPirates_EmblematicLand
   - serializableElementName: Effect_Unit_Era4

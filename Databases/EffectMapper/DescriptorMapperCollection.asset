@@ -472,12 +472,6 @@ MonoBehaviour:
     PropertyEffectIndex: 0
     HidePropertyEffect: 0
     SolveRPNFormula: 0
-    EffectLocalization: '%AdministrativeCenterPinItemTypeTradeRoadTitle'
-    ParameterFlags: 7
-  - EffectIndex: 9
-    PropertyEffectIndex: 0
-    HidePropertyEffect: 0
-    SolveRPNFormula: 0
     EffectLocalization: '%StatusCategory_ConsulatAgreementTitle'
     ParameterFlags: 7
 --- !u!114 &1990010363581558718

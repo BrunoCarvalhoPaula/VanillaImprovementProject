@@ -281,21 +281,6 @@ MonoBehaviour:
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
-      - Settlements
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: InfluenceNet
-      ToTargetOperation: 1
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 500
-      PropertyLocalName:
-      - TradeRoadCount
-  - ApplyEffectOnSource: 1
-    Path:
-      PropertyToFollow:
       - MyAmbassyToOthers
       Validations: []
       specificTargetType: 

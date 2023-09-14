@@ -4027,6 +4027,13 @@ MonoBehaviour:
       - RawValue: 10000
       PropertyLocalName:
       - EraLevel
+    - Note: 
+      TargetProperty: EraLevel
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - EraLevel
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &1863506699459142323

@@ -139,6 +139,13 @@ MonoBehaviour:
       - CityCountingTowardCap
       - CityCap
       - CityCountingTowardCap
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 1
+      RpnOperationStack: 09000000
+      ConstantStack: []
+      PropertyLocalName:
+      - TradeUpkeep
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
@@ -310,5 +317,58 @@ MonoBehaviour:
       PropertyLocalName:
       - EraLevel
       - GameSpeedMultiplier
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - MyAmbassyToOthers
+      - OtherEmpire
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_DiplomaticState_War
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: NumberOfOngoingWar
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - MyAmbassyToOthers
+      - OtherEmpire
+      - Vassals
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_DiplomaticState_War
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: NumberOfOngoingWar
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MyTradeExchangeToOthers
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TradeUpkeep
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - TradeUpkeepAfterResourceDiversification
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

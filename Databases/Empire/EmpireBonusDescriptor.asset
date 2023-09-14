@@ -750,14 +750,12 @@ MonoBehaviour:
     - Note: 
       TargetProperty: MoneyNet
       ToTargetOperation: 0
-      RpnOperationStack: 0a00000009000000060000000a000000020000000a000000080000000700000002000000
+      RpnOperationStack: 0a00000009000000060000000a00000002000000
       ConstantStack:
       - RawValue: 0
       - RawValue: 350
-      - RawValue: 1000
       PropertyLocalName:
       - MoneyNet
-      - TerritoryCount
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow: []

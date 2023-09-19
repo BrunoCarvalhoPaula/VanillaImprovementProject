@@ -35,27 +35,24 @@ MonoBehaviour:
     - Note: 
       TargetProperty: PatronageNet
       ToTargetOperation: 0
-      RpnOperationStack: 090000000800000002000000
+      RpnOperationStack: 09000000
       ConstantStack: []
       PropertyLocalName:
       - AgentPatronageBonus
-      - InvertedGameSpeedMultiplier
     - Note: 
       TargetProperty: PatronageNet
       ToTargetOperation: 0
-      RpnOperationStack: 090000000800000002000000
+      RpnOperationStack: 09000000
       ConstantStack: []
       PropertyLocalName:
       - PraiseGain
-      - InvertedGameSpeedMultiplier
     - Note: Source.PraiseGainSource.PraiseGain
       TargetProperty: PatronageNet
       ToTargetOperation: 0
-      RpnOperationStack: 090000000800000002000000
+      RpnOperationStack: 09000000
       ConstantStack: []
       PropertyLocalName:
       - BribeGain
-      - InvertedGameSpeedMultiplier
     - Note: 
       TargetProperty: PatronageShare
       ToTargetOperation: 0

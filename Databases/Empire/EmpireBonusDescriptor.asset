@@ -483,46 +483,6 @@ MonoBehaviour:
     Path:
       PropertyToFollow:
       - Settlements
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Food
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: FoodProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource08AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Money
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource08AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
       Validations: []
       specificTargetType: 
     PropertyEffects:
@@ -531,68 +491,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource08AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: IndustryWorkplaceGainPerPopulation
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource08AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Cities
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_CityCenter
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource08AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Cities
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_AdministrativeCenter
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
+      - RawValue: 1000
       PropertyLocalName:
       - Resource08AccessCount
   serializableCategory: 
@@ -609,7 +508,22 @@ MonoBehaviour:
   m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Effect_EmpireBonus_Strategic07_AluminiumAccess
   m_EditorClassIdentifier: 
-  Effects: []
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlements
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - Resource07AccessCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-757114704713388317
@@ -1320,12 +1234,11 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
+      ToTargetOperation: 4
+      RpnOperationStack: 
       ConstantStack:
-      - RawValue: -250
-      PropertyLocalName:
-      - Resource06AccessCount
+      - RawValue: -500
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &7199470947665151634
@@ -1349,56 +1262,11 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: FoodWorkplaceGainPerPopulation
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource06AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
       TargetProperty: MoneyWorkplaceGainPerPopulation
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource06AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: ScienceWorkplaceGainPerPopulation
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource06AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: IndustryWorkplaceGainPerPopulation
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
+      - RawValue: 1000
       PropertyLocalName:
       - Resource06AccessCount
   - ApplyEffectOnSource: 0
@@ -1418,27 +1286,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 500
-      PropertyLocalName:
-      - Resource06AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Cities
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_AdministrativeCenter
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
+      - RawValue: 1000
       PropertyLocalName:
       - Resource06AccessCount
   serializableCategory: 
@@ -1465,17 +1313,16 @@ MonoBehaviour:
       - PathIndex: 1
         ValidableElementCollection: 
         Inverted: 0
-        serializableElementName: Effect_Extension_Base_CityCenter
+        serializableElementName: Effect_Extension_Base_AdministrativeCenter
       specificTargetType: 
     PropertyEffects:
     - Note: 
       TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
+      ToTargetOperation: 4
+      RpnOperationStack: 
       ConstantStack:
-      - RawValue: -250
-      PropertyLocalName:
-      - Resource04AccessCount
+      - RawValue: -500
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &7414624854961910284
@@ -1495,100 +1342,15 @@ MonoBehaviour:
     Path:
       PropertyToFollow:
       - Settlements
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Food
+      Validations: []
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: FoodProduced
+      TargetProperty: IndustryWorkplaceGainPerPopulation
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource04AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Money
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource04AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Science
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: ScienceProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource04AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlements
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Industry
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: IndustryProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 250
-      PropertyLocalName:
-      - Resource04AccessCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Cities
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_CityCenter
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 500
+      - RawValue: 1000
       PropertyLocalName:
       - Resource04AccessCount
   - ApplyEffectOnSource: 0
@@ -1608,7 +1370,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 250
+      - RawValue: 1000
       PropertyLocalName:
       - Resource04AccessCount
   serializableCategory: 

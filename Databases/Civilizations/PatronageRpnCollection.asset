@@ -117,18 +117,20 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: PatronageMinorLifeForInvestmentGain
   m_EditorClassIdentifier: 
-  RpnOperationStack: 0b0000000a00000002000000
+  RpnOperationStack: 0b0000000a00000002000000090000000a0000000500000002000000
   ConstantStack:
   - RawValue: 300
+  - RawValue: 500
   Note: 
-  PropertyLocalNameStack: []
+  PropertyLocalNameStack:
+  - InvertedGameSpeedMultiplier
   VariableNameStack:
   - MoneyInvestmentSum
   DefinedVariables:
   - GameSpeed
   - MoneyInvestmentSum
   targetTypeName: Amplitude.Mercury.Simulation.MinorToMajorRelation, Amplitude.Mercury.Firstpass
-  sourceTypeName: Amplitude.Mercury.Simulation.MinorToMajorRelation, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MinorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &9089275353832914307
 MonoBehaviour:
   m_ObjectHideFlags: 0

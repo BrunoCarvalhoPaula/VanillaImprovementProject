@@ -66,6 +66,7 @@ MonoBehaviour:
   SerializableFamily: 
   Level: 0
   Unicity: 4
+  UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
     serializableElementName: DistrictVisualAffinity_Emblematic
   CanBeBoughtOut: 1
@@ -154,6 +155,7 @@ MonoBehaviour:
   TerrainPrerequisite:
     Constraint: 2
     HideInUI: 1
+    LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames:
     - TerrainType_Ocean
@@ -161,7 +163,7 @@ MonoBehaviour:
     - TerrainType_Lake
   BiomePrerequisite:
     Constraint: 0
-    serializableBiomeName: 
+    serializableBiomeNames: []
   CliffPrerequisite:
     Constraint: 0
     HideInUI: 1
@@ -179,6 +181,7 @@ MonoBehaviour:
     TerrainPrerequisite:
       Constraint: 0
       HideInUI: 1
+      LocalizationOverride: 
       CanBuildOnWasteland: 0
       serializableTerrainTypeNames: []
     RiverPrerequisite:
@@ -200,6 +203,9 @@ MonoBehaviour:
   ProtectAgainstStealthDetection: 0
   DistrictType: 6
   HasPublicOrderCost: 1
+  CanReplaceDistrict: 0
+  CanBeReplacedByDistrict: 0
+  PlacementPolicies: 0
   ExploitationRuleReference:
     serializableElementName: ExploitationRule_Neighbours_Industry
   ExtractResource: 1
@@ -212,6 +218,7 @@ MonoBehaviour:
   serializableReplaceTerrainWith: 
   ResourceType:
     serializableElementName: Luxury34
+  NumberOfProvidedAccess: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

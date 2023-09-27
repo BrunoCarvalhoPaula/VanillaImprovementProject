@@ -22,11 +22,11 @@ MonoBehaviour:
   - serializedData: 0000000043%TechnologyCostModifier_Era6_InstituteTitle0000000033Institute%20of%20Theoretical%20Sciences00000000000000000001
   - serializedData: 0000000046%Effect_EmpireBonus_VoluntaryScoutsDescription0000000086A%20better%20network%20of%20scouts%20and%20messenger%20posts%20can%20warn%20against%20an%20impending%20invasion.00000000000000000001
   - serializedData: 0000000040%Effect_EmpireBonus_VoluntaryScoutsTitle0000000016Voluntary%20Scouts00000000000000000001
-  - serializedData: 0000000052%Effect_EmpireBonus_Strategic06_OilAccessDescription0000000240By%20using%20thermal%20and%20chemical%20cracking,%20oil%20refining%20eficiency%20increases%20dramatically,%20allowing%20for%20cheaper%20fuel%20and%20widespread%20usage%20of%20petroleum-based%20products.%20This%20has%20a%20dramatic%20effect%20on%20everyday%20life%20and%20productivity%20of%20all%20citizens.00000000000000000001
+  - serializedData: 0000000052%Effect_EmpireBonus_Strategic06_OilAccessDescription0000000241By%20using%20thermal%20and%20chemical%20cracking,%20oil%20refining%20efficiency%20increases%20dramatically,%20allowing%20for%20cheaper%20fuel%20and%20widespread%20usage%20of%20petroleum-based%20products.%20This%20has%20a%20dramatic%20effect%20on%20everyday%20life%20and%20productivity%20of%20all%20citizens.00000000000000000001
   - serializedData: 0000000046%Effect_EmpireBonus_Strategic06_OilAccessTitle0000000008Cracking00000000000000000001
-  - serializedData: 0000000051%Effect_EmpireBonus_Strategic06_CleanOilDescription0000000171New%20developments%20both%20on%20the%20extraction%20and%20refining%20processes,%20alongside%20the%20political%20will%20necessary%20to%20enforce%20them,%20allow%20for%20reduced%20enviromental%20impact%20of%20petroleum.00000000000000000001
+  - serializedData: 0000000051%Effect_EmpireBonus_Strategic06_CleanOilDescription0000000172New%20developments%20both%20on%20the%20extraction%20and%20refining%20processes,%20alongside%20the%20political%20will%20necessary%20to%20enforce%20them,%20allow%20for%20reduced%20environmental%20impact%20of%20petroleum.00000000000000000001
   - serializedData: 0000000045%Effect_EmpireBonus_Strategic06_CleanOilTitle0000000025Air%20Pollution%20Regulations00000000000000000001
-  - serializedData: 0000000052%Effect_EmpireBonus_Strategic04_CleanCoalDescription0000000187Recent%20developments%20on%20Coal%20power%20and%20factory%20regulations%20reduce%20the%20enviromental%20impact%20of%20power%20plants.%20They'll%20never%20be%20clean%20as%20not%20using%20Coal%20in%20the%20first%20place,%20but%20every%20bit%20helps.00000000000000000001
+  - serializedData: 0000000052%Effect_EmpireBonus_Strategic04_CleanCoalDescription0000000188Recent%20developments%20on%20Coal%20power%20and%20factory%20regulations%20reduce%20the%20environmental%20impact%20of%20power%20plants.%20They'll%20never%20be%20clean%20as%20not%20using%20Coal%20in%20the%20first%20place,%20but%20every%20bit%20helps.00000000000000000001
   - serializedData: 0000000046%Effect_EmpireBonus_Strategic04_CleanCoalTitle0000000010Clean%20Coal00000000000000000001
   - serializedData: 0000000047%Effect_EmpireBonus_SciencePollutionDescription0000000088New%20laboratory%20equipment%20helps%20researchers,%20but%20have%20a%20higher%20impact%20on%20the%20environment.00000000000000000001
   - serializedData: 0000000041%Effect_EmpireBonus_SciencePollutionTitle0000000022Improved%20Lab%20Equipment00000000000000000001
@@ -36,11 +36,11 @@ MonoBehaviour:
   - serializedData: 0000000037%Effect_EmpireBonus_OceanicTradeTitle0000000018Transoceanic%20Trade00000000000000000001
   - serializedData: 0000000045%Effect_EmpireBonus_MoneyPollutionDescription0000000101The%20use%20of%20aerial%20transportation%20for%20goods%20and%20people%20increases%20the%20carbon%20footprint%20of%20corporations.00000000000000000001
   - serializedData: 0000000039%Effect_EmpireBonus_MoneyPollutionTitle0000000015Aerial%20Shipping00000000000000000001
-  - serializedData: 0000000048%Effect_EmpireBonus_IndustryPollutionDescription0000000066The%20improved%20industry%20machinery%20pollutes%20the%20enviroment%20even%20more.00000000000000000001
+  - serializedData: 0000000048%Effect_EmpireBonus_IndustryPollutionDescription0000000067The%20improved%20industry%20machinery%20pollutes%20the%20environment%20even%20more.00000000000000000001
   - serializedData: 0000000042%Effect_EmpireBonus_IndustryPollutionTitle0000000018Improved%20Machinery00000000000000000001
-  - serializedData: 0000000047%Effect_EmpireBonus_HarbourPollutionDescription0000000120Improvements%20in%20shipping%20and%20the%20widespread%20use%20of%20non-renewable%20materials%20increase%20the%20enviromental%20impact%20of%20Harbours.00000000000000000001
+  - serializedData: 0000000047%Effect_EmpireBonus_HarbourPollutionDescription0000000121Improvements%20in%20shipping%20and%20the%20widespread%20use%20of%20non-renewable%20materials%20increase%20the%20environmental%20impact%20of%20Harbours.00000000000000000001
   - serializedData: 0000000041%Effect_EmpireBonus_HarbourPollutionTitle0000000015Modern%20Shipping00000000000000000001
-  - serializedData: 0000000046%Effect_EmpireBonus_HamletPollutionDescription0000000075The%20population%20demands%20better%20house%20appliances%20that%20pollute%20the%20enviroment.00000000000000000001
+  - serializedData: 0000000046%Effect_EmpireBonus_HamletPollutionDescription0000000076The%20population%20demands%20better%20house%20appliances%20that%20pollute%20the%20environment.00000000000000000001
   - serializedData: 0000000040%Effect_EmpireBonus_HamletPollutionTitle0000000016House%20Appliances00000000000000000001
   - serializedData: 0000000048%Effect_EmpireBonus_GarrisonPollutionDescription0000000098Improved%20accomodations%20for%20your%20military%20staff%20increase%20the%20pollution%20footprint%20of%20your%20garrisons.00000000000000000001
   - serializedData: 0000000042%Effect_EmpireBonus_GarrisonPollutionTitle0000000027Luxurious%20Military%20Quarters00000000000000000001
@@ -138,3 +138,4 @@ MonoBehaviour:
   - serializedData: 0000000033%Effect_Justice03_Choice02_Exotic0000000127Unlocks%20<b>Neighborhood%20Watch</b>%20Infrastructure:%20+5%20[PublicOrderColored]%20Stability%20and%20+2%20[CultureColored]%20on%20Common's%20Quarter00000000000000000001
   - serializedData: 0000000035%Effect_Justice0304_Choice01_Exotic0000000246Unlocks%20<b>Secret%20Police</b>%20Infrastructure:%20On%20Garrison:%20+5%20[PublicOrderColored]%20Stability,%20+1%20[CombatStrength]%20Combat%20Strength%20in%20combat%20for%20Units%20in%20or%20adjacent%20to%20the%20District,%20+1%20[StealthDetection]%20Detection%20and%20+1%20[VisionRange]%20Vision%20Range00000000000000000001
   - serializedData: 0000000033%Effect_Justice04_Choice02_Exotic0000000094Unlocks%20<b>People's%20Assembly</b>%20Infrastructure:%20+3%20[PublicOrderColored]%20Stability%20on%20District00000000000000000001
+  - serializedData: 0000000017%DamageResistance0000000015Damage%20Resisted00000000000000000008

@@ -99,10 +99,10 @@ MonoBehaviour:
     NodeIndexes: 00000000
     CompactedNodes:
     - Id: 1
-      TextValue: By using thermal and chemical cracking, oil refining eficiency increases
-        dramatically, allowing for cheaper fuel and widespread usage of petroleum-based
-        products. This has a dramatic effect on everyday life and productivity of
-        all citizens.
+      TextValue: By using thermal and chemical cracking, oil refining efficiency
+        increases dramatically, allowing for cheaper fuel and widespread usage of
+        petroleum-based products. This has a dramatic effect on everyday life and
+        productivity of all citizens.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
     - Id: 1
       TextValue: New developments both on the extraction and refining processes,
         alongside the political will necessary to enforce them, allow for reduced
-        enviromental impact of petroleum.
+        environmental impact of petroleum.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: Recent developments on Coal power and factory regulations reduce
-        the enviromental impact of power plants. They'll never be clean as not using
+        the environmental impact of power plants. They'll never be clean as not using
         Coal in the first place, but every bit helps.
       ParameterIndex: 0
       VariationIndex: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
     NodeIndexes: 00000000
     CompactedNodes:
     - Id: 1
-      TextValue: The improved industry machinery pollutes the enviroment even more.
+      TextValue: The improved industry machinery pollutes the environment even more.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: Improvements in shipping and the widespread use of non-renewable
-        materials increase the enviromental impact of Harbours.
+        materials increase the environmental impact of Harbours.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: The population demands better house appliances that pollute the
-        enviroment.
+        environment.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1603,6 +1603,17 @@ MonoBehaviour:
     - Id: 1
       TextValue: 'Unlocks <b>People''s Assembly</b> Infrastructure: +3 [PublicOrderColored]
         Stability on District'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DamageResistance'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Damage Resisted
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0

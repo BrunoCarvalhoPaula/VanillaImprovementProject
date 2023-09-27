@@ -13,25 +13,21 @@ MonoBehaviour:
   m_Name: Effect_LegacyTrait_Era6_USA
   m_EditorClassIdentifier: 
   Effects:
-  - ApplyEffectOnSource: 0
+  - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
-      - Cities
-      - Districts
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Resource_BeingTraded
+      - OtherTradeExchangeToMe
+      Validations: []
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: CultureProduced
+      TargetProperty: InfluenceNet
       ToTargetOperation: 0
-      RpnOperationStack: 
+      RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 10000
-      PropertyLocalName: []
+      - RawValue: 3000
+      PropertyLocalName:
+      - OverallAccessCount
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:

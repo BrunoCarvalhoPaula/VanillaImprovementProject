@@ -875,7 +875,7 @@ MonoBehaviour:
   serializableReplaceTerrainWith: 
   ResourceType:
     serializableElementName: Luxury33
-  NumberOfProvidedAccess: 0
+  NumberOfProvidedAccess: 1
 --- !u!114 &6427889914897773511
 MonoBehaviour:
   m_ObjectHideFlags: 0

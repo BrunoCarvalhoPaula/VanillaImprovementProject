@@ -164,6 +164,7 @@ MonoBehaviour:
     - LandUnit_Era2_Common_Swordsmen
     - LandUnit_Era2_Common_Horsemen
   Capabilities: 0
+  Conditions: 0
 --- !u!114 &-2393692171151835581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,6 +288,7 @@ MonoBehaviour:
     - LandUnit_Era1_Common_ScoutCavalry
     - LandUnit_Era1_Common_Warriors
   Capabilities: 256
+  Conditions: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,6 +425,49 @@ MonoBehaviour:
     - LandUnit_Era4_Common_Halberdiers
     - LandUnit_Era4_Common_Settlers
   Capabilities: 24576
+  Conditions: 0
+--- !u!114 &4753301678343061134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -11555827, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LegacyTrait_Era0_DefaultTribe
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Hidden: 1
+  IsPrehistoric: 0
+  Commands:
+  - Name: SpawnUnit
+    Arguments:
+    - LandUnit_Era0_Common_Tribesmen
+    - LandUnit_Era0_Common_Tribesmen
+  Capabilities: 0
+  Conditions: 0
 --- !u!114 &5563226080396193077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,3 +591,4 @@ MonoBehaviour:
     - LandUnit_Era2_Common_Swordsmen
     - LandUnit_Era2_Common_Horsemen
   Capabilities: 0
+  Conditions: 0

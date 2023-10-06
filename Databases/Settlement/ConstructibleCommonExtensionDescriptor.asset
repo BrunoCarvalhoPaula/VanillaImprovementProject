@@ -28,6 +28,49 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &-5193070147445127099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Base_TrainStation
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PollutionNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      - TradeNodes
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TradeUpkeep
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -500
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-4194313876687801333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,7 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: ConstructibleCommonExtensionDescriptor
   m_EditorClassIdentifier: 
---- !u!114 &695224490094966012
+--- !u!114 &3488455945747655778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,33 +228,27 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 3000
       PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &2661447483474677244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Base_TrainStation
-  m_EditorClassIdentifier: 
-  Effects:
   - ApplyEffectOnSource: 0
     Path:
-      PropertyToFollow: []
+      PropertyToFollow:
+      - Territory
+      - TradeNodes
       Validations: []
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: PollutionNet
-      ToTargetOperation: 0
+      TargetProperty: TradeUpkeep
+      ToTargetOperation: 4
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: -1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: TradeUpkeep
+      ToTargetOperation: 6
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 0
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass

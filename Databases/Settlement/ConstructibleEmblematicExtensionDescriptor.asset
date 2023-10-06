@@ -1725,7 +1725,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName:
       - PopulationAssignedToIndustry
   - ApplyEffectOnSource: 0

@@ -1183,10 +1183,7 @@ MonoBehaviour:
     CityConstraint: 1
   ReligionAffinityPrerequisite:
     serializableElementName: 
-  SettlementPropertyPrerequisites:
-  - PropertyThreshold: 0
-    PropertyName: 
-    Operator: 0
+  SettlementPropertyPrerequisites: []
   SettlementStabilityPrerequisite:
     Operator: 1
     PublicOrderEffects:

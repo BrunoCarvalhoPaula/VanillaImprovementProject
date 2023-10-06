@@ -664,11 +664,14 @@ MonoBehaviour:
     - Note: 
       TargetProperty: MoneyNet
       ToTargetOperation: 0
-      RpnOperationStack: 0a00000009000000060000000a00000002000000
+      RpnOperationStack: 090000000a0000000a0000000900000002000000000000000200000009000000060000000a00000002000000
       ConstantStack:
-      - RawValue: 0
+      - RawValue: 3000
+      - RawValue: 2000
       - RawValue: 350
       PropertyLocalName:
+      - TerritoryCount
+      - EraLevel
       - MoneyNet
   - ApplyEffectOnSource: 1
     Path:

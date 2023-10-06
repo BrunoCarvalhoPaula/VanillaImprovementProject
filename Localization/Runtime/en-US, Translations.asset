@@ -1620,3 +1620,119 @@ MonoBehaviour:
       ChildIndexes: 
     TagCodes: 00000000
     LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticConsulatAgreementReduceKnownTechCostDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Signing Empires allow their researchers to communicate freely with
+        each other, lowering the cost to replicate scientific discoveries already
+        made by the other Empire. Costs 2% [CultureColored] Influence per turn to
+        maintain.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticConsulatAgreementShareDiplomatVisionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Signing Empires share a portion of the [Leverage] Leverage from
+        Leverage Intel that each collects. Costs 2% [CultureColored] Influence per
+        turn to maintain.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticConsulatAgreementSphereOfInfluenceBonusForOtherDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 9
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 0100000002000000030000000400000005000000
+    - Id: 1
+      TextValue: 'Signing Empires accept their cultural coexistence. These Empires
+        will no longer generate <b>Oppressing My People</b> Grievances with each
+        other. Additionally, Territories under the other Empire''s cultural influence
+        will gain:
+
+'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' [FoodColored] Food per Territory
+
+'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 1
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' [IndustryColored] Industry per Territory. Costs 2% [CultureColored]
+        Influence per turn to maintain.'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticConsulatAgreementApplyStatusOnPopulationLostDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Signing Empires agree to allow their population to migrate to either
+        party's Capital in case of famine. Costs 2% [CultureColored] Influence per
+        turn to maintain.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticConsulatAgreementParticipateInOtherWonderDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Signing Empires are able to participate in each other's Cultural
+        Wonder projects. Participating Empires will choose between receiving [MoneyColored]
+        Money, [CultureColored] Influence, or [Leverage] Leverage upon completion.
+        Costs 2% [CultureColored] Influence per turn to maintain.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticConsulatAgreementBuildOtherEmblematicUnitDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Signing Empires can build each other's current Emblematic Units.
+        Every Foreign Emblematic Unit built will generate [MoneyColored] Money for
+        its original leader. Costs 2% [CultureColored] Influence per turn to maintain.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0

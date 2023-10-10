@@ -30,7 +30,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_ModernHeavyCavalry
+  SerializableFamily: UnitFamily_Cavalry
   Level: 36
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -845,7 +845,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Cavalry
+  SerializableFamily: UnitFamily_MountedGunner
   Level: 31
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_ModernHeavyCavalry
+  SerializableFamily: UnitFamily_Cavalry
   Level: 33
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -1900,7 +1900,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
+  SerializableFamily: UnitFamily_EarlyRanged
   Level: 7
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -2698,8 +2698,8 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_HeavyMelee
-  Level: 13
+  SerializableFamily: UnitFamily_Melee
+  Level: 16
   Unicity: 0
   UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
@@ -3503,7 +3503,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Cavalry
+  SerializableFamily: UnitFamily_MountedGunner
   Level: 30
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -3976,8 +3976,8 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
-  Level: 13
+  SerializableFamily: UnitFamily_RangedMounted
+  Level: 16
   Unicity: 0
   UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:
@@ -4214,7 +4214,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
+  SerializableFamily: UnitFamily_EarlyRanged
   Level: 6
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -6183,7 +6183,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
+  SerializableFamily: UnitFamilyDefinition_ScoutRanged
   Level: 13
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -6864,7 +6864,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_ShockInfantry
+  SerializableFamily: UnitFamily_LightInfantry
   Level: 20
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -7790,7 +7790,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
+  SerializableFamily: UnitFamily_RangedMounted
   Level: 11
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -9613,7 +9613,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
+  SerializableFamily: UnitFamilyDefinition_ScoutRanged
   Level: 7
   Unicity: 0
   UnicityAdditionalConstructible: []

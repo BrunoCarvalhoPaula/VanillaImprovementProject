@@ -513,7 +513,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Warship
+  SerializableFamily: UnitFamily_EarlyWarship
   Level: 20
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -867,7 +867,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Warship
+  SerializableFamily: UnitFamily_EarlyWarship
   Level: 10
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_Warship
+  SerializableFamily: UnitFamily_EarlyWarship
   Level: 16
   Unicity: 0
   UnicityAdditionalConstructible: []

@@ -144,7 +144,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 6
   Category: 6
-  SerializableFamily: UnitFamily_ShockCavalry
+  SerializableFamily: UnitFamily_RangedMounted
   Level: 21
   Unicity: 0
   UnicityAdditionalConstructible: []
@@ -373,7 +373,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 6
   Category: 6
-  SerializableFamily: UnitFamily_Ranged
+  SerializableFamily: UnitFamily_EarlyRanged
   Level: 16
   Unicity: 0
   UnicityAdditionalConstructible: []

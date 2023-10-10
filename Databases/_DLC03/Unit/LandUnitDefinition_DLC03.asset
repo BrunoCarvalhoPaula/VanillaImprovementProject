@@ -30,7 +30,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 7
   Category: 6
-  SerializableFamily: UnitFamily_Cavalry
+  SerializableFamily: UnitFamily_MountedGunner
   Level: 31
   Unicity: 0
   UnicityAdditionalConstructible: []

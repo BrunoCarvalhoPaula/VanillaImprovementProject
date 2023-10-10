@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7243722834014533393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_AntiTank
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_ModernHeavyCavalry
+--- !u!114 &-1245019741718144329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_RangedMounted
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_MountedGunner
+--- !u!114 &-1220831071758434621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_MountedGunner
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_MechanizedInfantry
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -752240671, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamilyDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &4346736546441309000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamily_Horde
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_MountedGunner
+--- !u!114 &8379088947123783584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1527816587, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitFamilyDefinition_ScoutRanged
+  m_EditorClassIdentifier: 
+  IsObsolete: 0
+  SerializableNextFamilyName: UnitFamily_Ranged

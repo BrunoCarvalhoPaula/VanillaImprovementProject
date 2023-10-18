@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6213557575494218676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Fame_EraStar_Diplomat_Level2
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 080000000a000000020000000a000000020000000b000000020000000a000000020000000a00000006000000080000000a000000020000000a000000020000000b000000020000000b0000000a00000003000000020000000a000000020000000a000000020000000a00000005000000000000000a000000030000000a000000050000000a00000002000000
+  ConstantStack:
+  - RawValue: 150
+  - RawValue: 10000
+  - RawValue: 5000
+  - RawValue: 10000
+  - RawValue: 150
+  - RawValue: 10000
+  - RawValue: 1450
+  - RawValue: 10000
+  - RawValue: 100
+  - RawValue: 1000
+  - RawValue: 5000000
+  - RawValue: 1000
+  - RawValue: 5000000
+  Note: '0: Nb Era
+
+    1: GameSpeed
+
+    2: ThirdPartyRelationships, equal to  (N
+    * (N-1) / 2 ) - (N - 1), where N is the amount of Empires
+
+
+    Formula built
+    upon a "renounce grievance" value of 5 and an average Intel curio Leverage yield
+    of 10
+
+
+    ^ 1 is used to keep terms separate for better readability
+
+
+    Leverage
+    from renouncing grievances source:
+
+    Target.EraLevel * 0.15 serves as the
+    "grievance generation intensifier" over eras
+
+    10 is the estimated average
+    amount of grievances (data-backed)
+
+    5 is the current Leverage value of renouncing
+    one Grievance
+
+
+    Leverage from collecting Intel (low):
+
+    Target.EraLevel
+    * 0.15 serves as the "grievance generation intensifier" over eras
+
+    10 is
+    the estimated average amount of grievances (data-backed)
+
+    10 (when * by thirdpartyrelationships)
+    is the average Intel yield value
+
+    0.1 is the "mid effort" ratio for Intel
+    collecting (competitive) (collected 15% of the world''s intel)
+
+
+    Finally,
+    everything is wrapped in a /5000 *5000 operation that snaps the number to the
+    closest multiple of 5 (hack)'
+  PropertyLocalNameStack:
+  - EraLevel
+  - EraLevel
+  VariableNameStack:
+  - GameSpeed
+  - GameSpeed
+  - ThirdPartyRelationships
+  DefinedVariables:
+  - NbEra
+  - GameSpeed
+  - ThirdPartyRelationships
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: RpnFameDefinition_DLC02
+  m_EditorClassIdentifier: 
+--- !u!114 &4176643373500322521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Fame_EraStar_Diplomat_Level3
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 080000000a000000020000000a000000020000000b000000020000000a000000020000000a00000006000000080000000a000000020000000a000000020000000b000000020000000b0000000a00000003000000020000000a000000020000000a000000020000000a00000005000000000000000a000000030000000a000000050000000a00000002000000
+  ConstantStack:
+  - RawValue: 150
+  - RawValue: 10000
+  - RawValue: 5000
+  - RawValue: 10000
+  - RawValue: 150
+  - RawValue: 10000
+  - RawValue: 1250
+  - RawValue: 10000
+  - RawValue: 150
+  - RawValue: 1000
+  - RawValue: 5000000
+  - RawValue: 1000
+  - RawValue: 5000000
+  Note: '0: Nb Era
+
+    1: GameSpeed
+
+    2: ThirdPartyRelationships, equal to  (N
+    * (N-1) / 2 ) - (N - 1), where N is the amount of Empires
+
+
+    Formula built
+    upon a "renounce grievance" value of 5 and an average Intel curio Leverage yield
+    of 10
+
+
+    ^ 1 is used to keep terms separate for better readability
+
+
+    Leverage
+    from renouncing grievances source:
+
+    Target.EraLevel * 0.15 serves as the
+    "grievance generation intensifier" over eras
+
+    10 is the estimated average
+    amount of grievances (data-backed)
+
+    5 is the current Leverage value of renouncing
+    one Grievance
+
+
+    Leverage from collecting Intel (low):
+
+    Target.EraLevel
+    * 0.15 serves as the "grievance generation intensifier" over eras
+
+    10 is
+    the estimated average amount of grievances (data-backed)
+
+    10 (when * by thirdpartyrelationships)
+    is the average Intel yield value
+
+    0.15 is the "high effort" ratio for Intel
+    collecting (competitive) (collected 30% of the worlds Intel)
+
+
+    Finally, everything
+    is wrapped in a /5000 *5000 operation that snaps the number to the closest multiple
+    of 5 (hack)
+
+'
+  PropertyLocalNameStack:
+  - EraLevel
+  - EraLevel
+  VariableNameStack:
+  - GameSpeed
+  - GameSpeed
+  - ThirdPartyRelationships
+  DefinedVariables:
+  - NbEra
+  - GameSpeed
+  - ThirdPartyRelationships
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 
+--- !u!114 &6575427394381045489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Fame_EraStar_Diplomat_Level1
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 080000000a000000020000000a000000020000000b000000020000000a000000020000000a00000006000000080000000a000000020000000a000000020000000b000000020000000b0000000a00000003000000020000000a000000020000000a000000020000000a00000005000000000000000a000000030000000a000000050000000a00000002000000
+  ConstantStack:
+  - RawValue: 150
+  - RawValue: 10000
+  - RawValue: 5000
+  - RawValue: 5000
+  - RawValue: 150
+  - RawValue: 10000
+  - RawValue: 1600
+  - RawValue: 10000
+  - RawValue: 50
+  - RawValue: 1000
+  - RawValue: 5000000
+  - RawValue: 1000
+  - RawValue: 5000000
+  Note: '0: Nb Era
+
+    1: GameSpeed
+
+    2: ThirdPartyRelationships, equal to  (N
+    * (N-1) / 2 ) - (N - 1), where N is the amount of Empires
+
+
+    Formula built
+    upon a "renounce grievance" value of 5 and an average Intel curio Leverage yield
+    of 10
+
+
+    ^ 1 is used to keep terms separate for better readability
+
+
+    Leverage
+    from renouncing grievances source:
+
+    Target.EraLevel * 0.15 serves as the
+    "grievance generation intensifier" over eras
+
+    10 is the estimated average
+    amount of grievances (data-backed)
+
+    5 is the current Leverage value of renouncing
+    one Grievance
+
+
+    Leverage from collecting Intel (low):
+
+    Target.EraLevel
+    * 0.15 serves as the "grievance generation intensifier" over eras
+
+    10 is
+    the estimated average amount of grievances (data-backed)
+
+    10 (when * by thirdpartyrelationships)
+    is the average Intel yield value
+
+    0.05 is the "low effort" ratio for Intel
+    collecting (competitive) (collected 5% of the world''s intel)
+
+
+    Finally,
+    everything is wrapped in a /5000 *5000 operation that snaps the number to the
+    closest multiple of 5 (hack)
+
+'
+  PropertyLocalNameStack:
+  - EraLevel
+  - EraLevel
+  VariableNameStack:
+  - GameSpeed
+  - GameSpeed
+  - ThirdPartyRelationships
+  DefinedVariables:
+  - NbEra
+  - GameSpeed
+  - ThirdPartyRelationships
+  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: 

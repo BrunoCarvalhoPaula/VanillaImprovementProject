@@ -334,6 +334,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_FieldArtillery
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_IndirectShatter
+  - serializableElementName: UnitSpecialty_Sapper
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era4_Common_Mortars
   - serializableElementName: Effect_Unit_Era4
@@ -3976,7 +3977,7 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_RangedMounted
+  SerializableFamily: UnitFamily_MobileArtillery
   Level: 16
   Unicity: 0
   UnicityAdditionalConstructible: []

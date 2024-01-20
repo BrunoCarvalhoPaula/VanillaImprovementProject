@@ -4892,6 +4892,15 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 2000
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderNegativeTrend
+      ToTargetOperation: 4
+      RpnOperationStack: 0a00000009000000010000000a00000006000000
+      ConstantStack:
+      - RawValue: 2000
+      - RawValue: 0
+      PropertyLocalName:
+      - PublicOrderTarget
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:

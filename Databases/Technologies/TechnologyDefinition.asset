@@ -6986,22 +6986,13 @@ MonoBehaviour:
       Data: 3|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 1
     - Name: 
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
       Data: NavalTransport_Era3_Vikings_Longships
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: NavalTransport_Era3_Swahili_Mtepes
     - Name: 
       Entry: 8
       Data: 

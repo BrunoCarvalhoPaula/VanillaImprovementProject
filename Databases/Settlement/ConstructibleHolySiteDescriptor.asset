@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: LegacyTraitDescriptor_DLC03
+  m_Name: ConstructibleHolySiteDescriptor
   m_EditorClassIdentifier: 
---- !u!114 &7907730675264399455
+--- !u!114 &8023382013038567738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,27 +22,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_LegacyTrait_Era1_Caral
+  m_Name: Effect_Extension_SynergyHolySite00
   m_EditorClassIdentifier: 
   Effects:
-  - ApplyEffectOnSource: 0
+  - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
-      - Cities
-      - Districts
       - Neighbours
       Validations:
-      - PathIndex: 1
+      - PathIndex: 0
         ValidableElementCollection: 
         Inverted: 0
-        serializableElementName: Effect_Extension_Base_Food
-      - PathIndex: 2
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Extension_Urban
-      - PathIndex: 2
-        ValidableElementCollection: 
-        Inverted: 1
         serializableElementName: Effect_Extension_Base_Food
       specificTargetType: 
     PropertyEffects:
@@ -53,25 +43,19 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
-  - ApplyEffectOnSource: 0
+  - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
-      - Cities
-      - Districts
       - Neighbours
       Validations:
-      - PathIndex: 1
+      - PathIndex: 0
         ValidableElementCollection: 
         Inverted: 0
         serializableElementName: Effect_Extension_Base_Industry
-      - PathIndex: 2
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Extension_Urban
-      - PathIndex: 2
+      - PathIndex: 0
         ValidableElementCollection: 
         Inverted: 1
-        serializableElementName: Effect_Extension_Base_Industry
+        serializableElementName: Effect_Extension_Base_Food
       specificTargetType: 
     PropertyEffects:
     - Note: 
@@ -81,53 +65,23 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
-  - ApplyEffectOnSource: 0
+  - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
-      - Cities
-      - Districts
       - Neighbours
       Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Money
-      - PathIndex: 2
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Extension_Urban
-      - PathIndex: 2
-        ValidableElementCollection: 
-        Inverted: 1
-        serializableElementName: Effect_Extension_Base_Money
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Cities
-      - Districts
-      - Neighbours
-      Validations:
-      - PathIndex: 1
+      - PathIndex: 0
         ValidableElementCollection: 
         Inverted: 0
         serializableElementName: Effect_Extension_Base_Science
-      - PathIndex: 2
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Extension_Urban
-      - PathIndex: 2
+      - PathIndex: 0
         ValidableElementCollection: 
         Inverted: 1
-        serializableElementName: Effect_Extension_Base_Science
+        serializableElementName: Effect_Extension_Base_Food
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 1
+        serializableElementName: Effect_Extension_Base_Industry
       specificTargetType: 
     PropertyEffects:
     - Note: 
@@ -137,5 +91,53 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Money
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 1
+        serializableElementName: Effect_Extension_Base_Food
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 1
+        serializableElementName: Effect_Extension_Base_Industry
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 1
+        serializableElementName: Effect_Extension_Base_Science
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MoneyProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Neighbours
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: District_Synergy
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass

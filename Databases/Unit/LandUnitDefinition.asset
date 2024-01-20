@@ -6865,8 +6865,8 @@ MonoBehaviour:
   DLCPrerequisite:
     DownloadableContent: 0
   Category: 6
-  SerializableFamily: UnitFamily_LightInfantry
-  Level: 20
+  SerializableFamily: UnitFamily_HeavyMelee
+  Level: 21
   Unicity: 0
   UnicityAdditionalConstructible: []
   ConstructibleVisualAffinity:

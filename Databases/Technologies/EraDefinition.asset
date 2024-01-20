@@ -1,6 +1,164 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7300177791534548896
+--- !u!114 &-6318316530781753872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Era2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EmpireEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireExoticDiplomaticAbility,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: DiplomaticAbilities
+      Entry: 3
+      Data: 128
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  EraIndex: 2
+  TheoreticalTurnCount: 50
+  EraStarsCountEvolutionRequirement:
+    RawValue: 8000
+  EvolutionBaseRequirementMiscEmpireFlags: 
+  BaseGlobalEraThreshold: 12
+  TechnologyCostRpnPerTier:
+  - Tier: 0
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era2_Tier1_Cost
+  - Tier: 1
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era2_Tier2_Cost
+  - Tier: 2
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era2_Tier3_Cost
+  - Tier: 3
+    TechnologyCostRpnReference:
+      serializableElementName: 
+  DescriptorReferences: []
+  UpgradeTraitsReferences:
+  - serializableElementName: LegacyTrait_Era2_Upgrade
+  AffinityUpgradeTraitsReferences:
+  - FactionAffinity:
+      serializableElementName: Builder
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Builder
+  - FactionAffinity:
+      serializableElementName: Cultural
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Cultural
+  - FactionAffinity:
+      serializableElementName: Diplomat
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Diplomat
+  - FactionAffinity:
+      serializableElementName: Expansionist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Expansionist
+  - FactionAffinity:
+      serializableElementName: Farmer
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Farmer
+  - FactionAffinity:
+      serializableElementName: Merchant
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Merchant
+  - FactionAffinity:
+      serializableElementName: Scientist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Scientist
+  - FactionAffinity:
+      serializableElementName: Warmonger
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era2_Upgrade_Warmonger
+  NumberOfCuriosityToSpawnRpnReference:
+    serializableElementName: NumberOfCuriosityToSpawn_Era2
+  EraStarsRewardPolicy:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: -0
+      outSlope: -0.75
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4090203
+      outWeight: 0.998056
+    - serializedVersion: 3
+      time: 1
+      value: 0.4
+      inSlope: -0.75
+      outSlope: -0.7547279
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-1789349692277603319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,7 +231,7 @@ MonoBehaviour:
   EraStarsCountEvolutionRequirement:
     RawValue: 8000
   EvolutionBaseRequirementMiscEmpireFlags: 
-  BaseGlobalEraThreshold: 12
+  BaseGlobalEraThreshold: 14
   TechnologyCostRpnPerTier:
   - Tier: 0
     TechnologyCostRpnReference:
@@ -90,6 +248,39 @@ MonoBehaviour:
   DescriptorReferences: []
   UpgradeTraitsReferences:
   - serializableElementName: LegacyTrait_Era5_Upgrade
+  AffinityUpgradeTraitsReferences:
+  - FactionAffinity:
+      serializableElementName: Builder
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Builder
+  - FactionAffinity:
+      serializableElementName: Cultural
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Cultural
+  - FactionAffinity:
+      serializableElementName: Diplomat
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Diplomat
+  - FactionAffinity:
+      serializableElementName: Expansionist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Expansionist
+  - FactionAffinity:
+      serializableElementName: Farmer
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Farmer
+  - FactionAffinity:
+      serializableElementName: Merchant
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Merchant
+  - FactionAffinity:
+      serializableElementName: Scientist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Scientist
+  - FactionAffinity:
+      serializableElementName: Warmonger
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era5_Upgrade_Warmonger
   NumberOfCuriosityToSpawnRpnReference:
     serializableElementName: NumberOfCuriosityToSpawn_Era5
   EraStarsRewardPolicy:
@@ -125,7 +316,335 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-2062348611666892951
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 695352031, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: EraDefinition
+  m_EditorClassIdentifier: 
+--- !u!114 &5024935319428740111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Era1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EmpireEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireExoticDiplomaticAbility,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: DiplomaticAbilities
+      Entry: 3
+      Data: 64
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  EraIndex: 1
+  TheoreticalTurnCount: 50
+  EraStarsCountEvolutionRequirement:
+    RawValue: 8000
+  EvolutionBaseRequirementMiscEmpireFlags: 
+  BaseGlobalEraThreshold: 9
+  TechnologyCostRpnPerTier:
+  - Tier: 0
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era1_Tier1_Cost
+  - Tier: 1
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era1_Tier2_Cost
+  - Tier: 2
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era1_Tier3_Cost
+  - Tier: 3
+    TechnologyCostRpnReference:
+      serializableElementName: 
+  DescriptorReferences: []
+  UpgradeTraitsReferences:
+  - serializableElementName: LegacyTrait_Era1_Upgrade
+  AffinityUpgradeTraitsReferences:
+  - FactionAffinity:
+      serializableElementName: Builder
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Builder
+  - FactionAffinity:
+      serializableElementName: Cultural
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Cultural
+  - FactionAffinity:
+      serializableElementName: Diplomat
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Diplomat
+  - FactionAffinity:
+      serializableElementName: Expansionist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Expansionist
+  - FactionAffinity:
+      serializableElementName: Farmer
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Farmer
+  - FactionAffinity:
+      serializableElementName: Merchant
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Merchant
+  - FactionAffinity:
+      serializableElementName: Scientist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Scientist
+  - FactionAffinity:
+      serializableElementName: Warmonger
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era1_Upgrade_Warmonger
+  NumberOfCuriosityToSpawnRpnReference:
+    serializableElementName: NumberOfCuriosityToSpawn_Era1
+  EraStarsRewardPolicy:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: -0
+      outSlope: -0.75
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4090203
+      outWeight: 0.998056
+    - serializedVersion: 3
+      time: 1
+      value: 0.4
+      inSlope: -0.75
+      outSlope: -0.7547279
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &5353676907439069644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Era4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EmpireEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireExoticDiplomaticAbility,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: DiplomaticAbilities
+      Entry: 3
+      Data: 512
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  EraIndex: 4
+  TheoreticalTurnCount: 50
+  EraStarsCountEvolutionRequirement:
+    RawValue: 8000
+  EvolutionBaseRequirementMiscEmpireFlags: 
+  BaseGlobalEraThreshold: 12
+  TechnologyCostRpnPerTier:
+  - Tier: 0
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era4_Tier1_Cost
+  - Tier: 1
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era4_Tier2_Cost
+  - Tier: 2
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era4_Tier3_Cost
+  - Tier: 3
+    TechnologyCostRpnReference:
+      serializableElementName: 
+  DescriptorReferences: []
+  UpgradeTraitsReferences:
+  - serializableElementName: LegacyTrait_Era4_Upgrade
+  AffinityUpgradeTraitsReferences:
+  - FactionAffinity:
+      serializableElementName: Builder
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Builder
+  - FactionAffinity:
+      serializableElementName: Cultural
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Cultural
+  - FactionAffinity:
+      serializableElementName: Diplomat
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Diplomat
+  - FactionAffinity:
+      serializableElementName: Expansionist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Expansionist
+  - FactionAffinity:
+      serializableElementName: Farmer
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Farmer
+  - FactionAffinity:
+      serializableElementName: Merchant
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Merchant
+  - FactionAffinity:
+      serializableElementName: Scientist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Scientist
+  - FactionAffinity:
+      serializableElementName: Warmonger
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era4_Upgrade_Warmonger
+  NumberOfCuriosityToSpawnRpnReference:
+    serializableElementName: NumberOfCuriosityToSpawn_Era4
+  EraStarsRewardPolicy:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: -0
+      outSlope: -0.75
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4090203
+      outWeight: 0.998056
+    - serializedVersion: 3
+      time: 1
+      value: 0.4
+      inSlope: -0.75
+      outSlope: -0.7547279
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &5537659568485508518
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,395 +734,41 @@ MonoBehaviour:
   DescriptorReferences: []
   UpgradeTraitsReferences:
   - serializableElementName: LegacyTrait_Era3_Upgrade
+  AffinityUpgradeTraitsReferences:
+  - FactionAffinity:
+      serializableElementName: Builder
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Builder
+  - FactionAffinity:
+      serializableElementName: Cultural
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Cultural
+  - FactionAffinity:
+      serializableElementName: Diplomat
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Diplomat
+  - FactionAffinity:
+      serializableElementName: Expansionist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Expansionist
+  - FactionAffinity:
+      serializableElementName: Farmer
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Farmer
+  - FactionAffinity:
+      serializableElementName: Merchant
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Merchant
+  - FactionAffinity:
+      serializableElementName: Scientist
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Scientist
+  - FactionAffinity:
+      serializableElementName: Warmonger
+    LegacyTrait:
+      serializableElementName: LegacyTrait_Era3_Upgrade_Warmonger
   NumberOfCuriosityToSpawnRpnReference:
     serializableElementName: NumberOfCuriosityToSpawn_Era3
-  EraStarsRewardPolicy:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.2
-      value: 1
-      inSlope: -0
-      outSlope: -0.75
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.4090203
-      outWeight: 0.998056
-    - serializedVersion: 3
-      time: 1
-      value: 0.4
-      inSlope: -0.75
-      outSlope: -0.7547279
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 1
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 695352031, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: EraDefinition
-  m_EditorClassIdentifier: 
---- !u!114 &2407668678138092060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Era4
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: EmpireEventEffects
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireExoticDiplomaticAbility,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: DiplomaticAbilities
-      Entry: 3
-      Data: 512
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  EraIndex: 4
-  TheoreticalTurnCount: 50
-  EraStarsCountEvolutionRequirement:
-    RawValue: 8000
-  EvolutionBaseRequirementMiscEmpireFlags: 
-  BaseGlobalEraThreshold: 10
-  TechnologyCostRpnPerTier:
-  - Tier: 0
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era4_Tier1_Cost
-  - Tier: 1
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era4_Tier2_Cost
-  - Tier: 2
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era4_Tier3_Cost
-  - Tier: 3
-    TechnologyCostRpnReference:
-      serializableElementName: 
-  DescriptorReferences: []
-  UpgradeTraitsReferences:
-  - serializableElementName: LegacyTrait_Era4_Upgrade
-  NumberOfCuriosityToSpawnRpnReference:
-    serializableElementName: NumberOfCuriosityToSpawn_Era4
-  EraStarsRewardPolicy:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.2
-      value: 1
-      inSlope: -0
-      outSlope: -0.75
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.4090203
-      outWeight: 0.998056
-    - serializedVersion: 3
-      time: 1
-      value: 0.4
-      inSlope: -0.75
-      outSlope: -0.7547279
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 1
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &5307248049284802662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Era1
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: EmpireEventEffects
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireExoticDiplomaticAbility,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: DiplomaticAbilities
-      Entry: 3
-      Data: 64
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  EraIndex: 1
-  TheoreticalTurnCount: 50
-  EraStarsCountEvolutionRequirement:
-    RawValue: 8000
-  EvolutionBaseRequirementMiscEmpireFlags: 
-  BaseGlobalEraThreshold: 7
-  TechnologyCostRpnPerTier:
-  - Tier: 0
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era1_Tier1_Cost
-  - Tier: 1
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era1_Tier2_Cost
-  - Tier: 2
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era1_Tier3_Cost
-  - Tier: 3
-    TechnologyCostRpnReference:
-      serializableElementName: 
-  DescriptorReferences: []
-  UpgradeTraitsReferences:
-  - serializableElementName: LegacyTrait_Era1_Upgrade
-  NumberOfCuriosityToSpawnRpnReference:
-    serializableElementName: NumberOfCuriosityToSpawn_Era1
-  EraStarsRewardPolicy:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.2
-      value: 1
-      inSlope: -0
-      outSlope: -0.75
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.4090203
-      outWeight: 0.998056
-    - serializedVersion: 3
-      time: 1
-      value: 0.4
-      inSlope: -0.75
-      outSlope: -0.7547279
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 1
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &8547003926492413014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Era2
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: EmpireEventEffects
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireExoticDiplomaticAbility,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: DiplomaticAbilities
-      Entry: 3
-      Data: 128
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  EraIndex: 2
-  TheoreticalTurnCount: 50
-  EraStarsCountEvolutionRequirement:
-    RawValue: 8000
-  EvolutionBaseRequirementMiscEmpireFlags: 
-  BaseGlobalEraThreshold: 10
-  TechnologyCostRpnPerTier:
-  - Tier: 0
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era2_Tier1_Cost
-  - Tier: 1
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era2_Tier2_Cost
-  - Tier: 2
-    TechnologyCostRpnReference:
-      serializableElementName: Technology_Era2_Tier3_Cost
-  - Tier: 3
-    TechnologyCostRpnReference:
-      serializableElementName: 
-  DescriptorReferences: []
-  UpgradeTraitsReferences:
-  - serializableElementName: LegacyTrait_Era2_Upgrade
-  NumberOfCuriosityToSpawnRpnReference:
-    serializableElementName: NumberOfCuriosityToSpawn_Era2
   EraStarsRewardPolicy:
     serializedVersion: 2
     m_Curve:

@@ -1728,13 +1728,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - PopulationAssignedToIndustry
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlement
-      Validations: []
-      specificTargetType: 
-    PropertyEffects: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &7030486935992187789

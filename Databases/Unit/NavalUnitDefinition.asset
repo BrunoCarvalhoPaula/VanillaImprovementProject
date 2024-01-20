@@ -1473,7 +1473,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era3_Medium
+      serializableElementName: ProductionCost_Unit_Era4_Medium
   MoneyInstantCostDefinition:
     Constant: -1
     RpnDefinitionReference:

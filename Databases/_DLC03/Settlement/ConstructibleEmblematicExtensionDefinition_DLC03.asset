@@ -573,7 +573,6 @@ MonoBehaviour:
   Prototype: Extension_Prototype_Emblematic
   OwnDescriptorReferences:
   - serializableElementName: Effect_Extension_Era1_Caral
-  - serializableElementName: Tag_Extension_PublicOrderLoss
   - serializableElementName: Effect_Extension_BoroughExtension
   - serializableElementName: Effect_Extension_Base_VillageCenter
   - serializableElementName: Tag_Extension_Religious

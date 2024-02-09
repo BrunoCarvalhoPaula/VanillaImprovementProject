@@ -754,7 +754,7 @@ MonoBehaviour:
   VariableNameStack: []
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
-  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.Territory, Amplitude.Mercury.Firstpass
 --- !u!114 &7766664430452053114
 MonoBehaviour:
   m_ObjectHideFlags: 0

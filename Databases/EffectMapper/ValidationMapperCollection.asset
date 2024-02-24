@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_Extension_Base_Airfield
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%Effect_Extension_Base_Airfield'
   LocalizationInverted: 
   LocalizationTarget: '%Effect_Extension_Base_Airfield'
@@ -28,6 +29,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_Extension_Base_NaturalReserve
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%ConstructibleExtension_Base_NaturalReserveTitle'
   LocalizationInverted: '%ConstructibleExtension_Base_NaturalReserveInverted'
   LocalizationTarget: '%ConstructibleExtension_Base_NaturalReserveTitle'
@@ -44,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_Exploitation_CoastalWater
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%Effect_Exploitation_CoastalWater'
   LocalizationInverted: '%MapEditor_Land'
   LocalizationTarget: '%Effect_Exploitation_CoastalWater'
@@ -60,6 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_Extractor_ResourceDeposit04
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%ConstructibleExtractorStrategic04Title'
   LocalizationInverted: 
   LocalizationTarget: '%ConstructibleExtractorStrategic04Title'
@@ -88,10 +92,28 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: GameEffect_MajorEmpire_Illegitimacy
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%Tutorial_Illegitimacy_01Title'
   LocalizationInverted: 
   LocalizationTarget: '%Tutorial_Illegitimacy_01Title'
   LocalizationTargetInverted: 
+--- !u!114 &5297641316774522335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Unit_HasRangedAttack
+  m_EditorClassIdentifier: 
+  IsHidden: 0
+  Localization: '%Effect_Unit_HasRangedAttack'
+  LocalizationInverted: '%UnitClass_MeleeDescription'
+  LocalizationTarget: '%Effect_Unit_HasRangedAttack'
+  LocalizationTargetInverted: '%UnitClass_MeleeDescription'
 --- !u!114 &5611142703854427144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,6 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Tag_Ruin
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%ConstructibleExtension_RuinTItle'
   LocalizationInverted: 
   LocalizationTarget: '%ConstructibleExtension_RuinTItle'
@@ -120,6 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_Extension_Base_Extractor
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%Effect_Extension_Base_Extractor'
   LocalizationInverted: 
   LocalizationTarget: '%Effect_Extension_Base_Extractor'
@@ -136,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_UnitPrototype_ArmouredVehicle
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%UnitClass_ArmouredVehicleTitle'
   LocalizationInverted: 
   LocalizationTarget: '%UnitClass_ArmouredVehicleTitle'
@@ -152,6 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: GameEffect_CityFlags_Capital
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%GameEffect_CityFlags_Capital'
   LocalizationInverted: '%GameEffect_CityFlags_CapitalInverted'
   LocalizationTarget: '%GameEffect_CityFlags_Capital'
@@ -168,6 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Tag_DiplomaticState_WarInitiator
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%DiplomaticMoral_InfluenceType_DeclareWarDescription'
   LocalizationInverted: 
   LocalizationTarget: '%DiplomaticMoral_InfluenceType_DeclareWarDescription'
@@ -184,6 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_Extractor_ResourceDeposit07
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%ConstructibleExtractorStrategic07Title'
   LocalizationInverted: 
   LocalizationTarget: '%ConstructibleExtractorStrategic07Title'
@@ -200,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: Effect_Extension_Base_MissileSilo
   m_EditorClassIdentifier: 
+  IsHidden: 0
   Localization: '%ConstructibleExtension_Base_MissileSiloTitle'
   LocalizationInverted: 
   LocalizationTarget: '%ConstructibleExtension_Base_MissileSiloTitle'

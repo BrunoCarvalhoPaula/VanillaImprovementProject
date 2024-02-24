@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: ArtificialWondersDescriptor_DLC02
+  m_Name: NaturalWonderEffectDescriptor_DLC03
   m_EditorClassIdentifier: 
---- !u!114 &4897512963206326009
+--- !u!114 &6400586057628695267
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,44 +22,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_ArtificialWonder_Era4_SaintMaryOfFlower
+  m_Name: Effect_NaturalWonder_SalarUyuni
   m_EditorClassIdentifier: 
   Effects:
-  - ApplyEffectOnSource: 1
+  - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
       - Settlement
-      - Empire
-      - Religion
-      - EmpireDioceses
-      - Dioceses
-      Validations:
-      - PathIndex: 4
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Diocese_StateReligion
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: InfluenceNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 5000
-      PropertyLocalName:
-      - InfluencedTerritoryCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
       Validations: []
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: PublicOrderProduced
+      TargetProperty: FoodProduced
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: -20000
+      - RawValue: 5000
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - PopulationAssignedToFood
   serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+  startingType: Amplitude.Mercury.Simulation.NaturalWonder, Amplitude.Mercury.Firstpass

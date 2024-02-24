@@ -31,6 +31,7 @@ MonoBehaviour:
   - serializableElementName: StatusCategory_City_Tolerancy
   DefaultDuration: 10
   IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &-8735068915488243530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,6 +56,7 @@ MonoBehaviour:
   CancelOnApply: []
   DefaultDuration: 12
   IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &-6327076613564898328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,6 +81,7 @@ MonoBehaviour:
   CancelOnApply: []
   DefaultDuration: 2
   IgnoreGameSpeed: 1
+  pathfindingFlags: 0
 --- !u!114 &-2181377933257709687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +111,7 @@ MonoBehaviour:
   - serializableElementName: StatusCategory_City_Destitute
   DefaultDuration: 10
   IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -338,6 +338,279 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+--- !u!114 &-3720473558372568872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1396715918, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LootTable_Curiosity_Era3_World_Unit01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Loots
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 4|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era3_Common_GreatSwordsmen
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era3_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 8|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era3_Common_Pikemen
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era3_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 12|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era3_Common_Peasants
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era3_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
 --- !u!114 &-2279782627003670747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -806,6 +1079,279 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+--- !u!114 &-2029326023297168646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1396715918, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LootTable_Curiosity_Era1_World_Unit01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Loots
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 4|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era1_Common_Warriors
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era1_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 8|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era1_Common_ScoutCavalry
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era1_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 12|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era1_Common_Levies
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era1_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,6 +1636,552 @@ MonoBehaviour:
     - Name: Weight
       Entry: 4
       Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &6731024177474986538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1396715918, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LootTable_Curiosity_Era4_World_Unit01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Loots
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 4|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_Common_Musketeers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era4_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 8|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_Common_Arquebusiers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era4_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 12|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era4_Common_Draftees
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era4_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &7034779579716344226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1396715918, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: LootTable_Curiosity_Era2_World_Unit01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Loots
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 4|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era2_Common_Horsemen
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era2_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 8|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era2_Common_Swordsmen
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era2_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.LootTableDefinition+Loot, Amplitude.Mercury.Data
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SpawnArmy,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 1
+      Data: '%SimulationEventEffect_SpawnArmyFormatOverride'
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: UnitDefinitions
+      Entry: 7
+      Data: 12|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: LandUnit_Era2_Common_Citizens
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ArmyName
+      Entry: 1
+      Data: '%LootTable_Curiosity_Era2_World_Unit01_Army'
+    - Name: TargetID
+      Entry: 1
+      Data: Army
+    - Name: OwnerID
+      Entry: 1
+      Data: Empire
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Weight
+      Entry: 4
+      Data: 0.5
     - Name: 
       Entry: 8
       Data: 

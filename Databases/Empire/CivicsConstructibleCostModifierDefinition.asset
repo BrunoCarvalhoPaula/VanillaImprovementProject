@@ -36,6 +36,33 @@ MonoBehaviour:
   m_Script: {fileID: -746104705, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: CivicsConstructibleCostModifierDefinition
   m_EditorClassIdentifier: 
+--- !u!114 &2054969764045670460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 409171436, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: ConstructibleCostModifier_NarrativeEvent279
+  m_EditorClassIdentifier: 
+  CostType: 0
+  OperationType: 1
+  ModifierType: 0
+  CostModifierValue:
+    RawValue: 900
+  CostModifierRpn:
+    serializableElementName: 
+  ApplyIfCostZero: 0
+  CanBeCumulated: 1
+  SpecificLocalization: 
+  IsObsolete: 0
+  TargetType: 4
+  SerializableValidNames:
+  - Tag_Extension_Religious
+  ValidCategories: 
 --- !u!114 &4381449643681875603
 MonoBehaviour:
   m_ObjectHideFlags: 0

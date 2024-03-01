@@ -34,6 +34,23 @@ MonoBehaviour:
   LocalizationInverted: '%ConstructibleExtension_Base_NaturalReserveInverted'
   LocalizationTarget: '%ConstructibleExtension_Base_NaturalReserveTitle'
   LocalizationTargetInverted: '%ConstructibleExtension_Base_NaturalReserveInverted'
+--- !u!114 &-2924388036126019159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 771724855, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Unit_Artemis
+  m_EditorClassIdentifier: 
+  IsHidden: 0
+  Localization: '%Effect_Unit_HasRangedAttack'
+  LocalizationInverted: '%UnitClass_MeleeDescription'
+  LocalizationTarget: '%Effect_Unit_HasRangedAttack'
+  LocalizationTargetInverted: '%UnitClass_MeleeDescription'
 --- !u!114 &-1230160775235546873
 MonoBehaviour:
   m_ObjectHideFlags: 0

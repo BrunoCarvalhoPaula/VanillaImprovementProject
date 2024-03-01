@@ -54,6 +54,30 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 3000
       PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Region
+      - Territories
+      - TradeNodes
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TradeUpkeep
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -1000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: TradeUpkeep
+      ToTargetOperation: 6
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 0
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-8212058597238463019
@@ -506,7 +530,7 @@ MonoBehaviour:
   m_Name: Effect_ArtificialWonder_Era5_StatueOfLiberty
   m_EditorClassIdentifier: 
   Effects:
-  - ApplyEffectOnSource: 0
+  - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
       - Settlement
@@ -515,7 +539,7 @@ MonoBehaviour:
       specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
     PropertyEffects:
     - Note: 
-      TargetProperty: MoneyNet
+      TargetProperty: MoneyProduced
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
@@ -523,7 +547,7 @@ MonoBehaviour:
       PropertyLocalName:
       - NumberOfCulturallyControlledTerritory
     - Note: 
-      TargetProperty: ResearchNet
+      TargetProperty: ScienceProduced
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
@@ -573,7 +597,7 @@ MonoBehaviour:
       - PathIndex: 2
         ValidableElementCollection: 
         Inverted: 0
-        serializableElementName: Effect_Unit_HasRangedAttack
+        serializableElementName: Effect_Unit_Artemis
       specificTargetType: 
     PropertyEffects:
     - Note: 
@@ -658,6 +682,82 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: -20000
       PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &5019704510442993278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ArtificialWonder_Era1_Stonehenge
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      - Religion
+      - Empires
+      - Cities
+      Validations:
+      - PathIndex: 4
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: GameEffect_CityFlags_Capital
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      - Religion
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 20000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: FoodToDistribute
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 20000
+      PropertyLocalName:
+      - FollowingEmpireCount
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 10000
+      PropertyLocalName:
+      - FollowingEmpireCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &6542469330593260755

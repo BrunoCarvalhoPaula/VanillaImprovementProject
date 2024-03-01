@@ -18,6 +18,78 @@ MonoBehaviour:
   - serializableElementName: Effect_UnitAbility_LostAtSeaDamage_Level1
   BattleAbilityReference: []
   pathfindingFlags: 0
+--- !u!114 &-7605248399807156203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_Ranged
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_Ranged
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_RansackStrength1
+  - serializableElementName: Effect_Unit_Artemis
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_WeakAgainstMelee
+  - serializableElementName: BattleAbility_MoneyFromAnimals
+  - serializableElementName: BattleAbility_AdvancedTerrain
+  pathfindingFlags: 0
+--- !u!114 &-6282798747608246338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_MountedRanged
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_MountedRanged
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_RansackStrength1
+  - serializableElementName: Effect_Unit_Artemis
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_WeakAgainstMelee
+  - serializableElementName: BattleAbility_MoneyFromAnimals
+  - serializableElementName: BattleAbility_AdvancedTerrain
+  pathfindingFlags: 0
+--- !u!114 &-5069857320341922451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Prototype_MountedNomad
+  m_EditorClassIdentifier: 
+  TagAsAbility: 4
+  MovementAbility: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitPrototype_MountedNomad
+  - serializableElementName: Effect_Unit_HasRangedAttack
+  - serializableElementName: Effect_Unit_RansackStrength3
+  - serializableElementName: Effect_UnitAbility_FoodFromRansack
+  - serializableElementName: Effect_Unit_Artemis
+  BattleAbilityReference:
+  - serializableElementName: BattleAbility_AdvancedTerrain
+  - serializableElementName: BattleAbility_NomadMeleePenalty
+  pathfindingFlags: 0
 --- !u!114 &-3581419753467590191
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -63,6 +63,12 @@ MonoBehaviour:
     SolveRPNFormula: 0
     EffectLocalization: '%Effect_ArtificialWonder_Era1_HangingGardensOfBabylonExotic'
     ParameterFlags: 0
+  - EffectIndex: 2
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 0
 --- !u!114 &-4158445515202755701
 MonoBehaviour:
   m_ObjectHideFlags: 0

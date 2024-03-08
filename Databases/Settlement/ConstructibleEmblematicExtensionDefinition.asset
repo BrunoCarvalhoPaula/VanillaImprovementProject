@@ -1306,7 +1306,6 @@ MonoBehaviour:
   - serializableElementName: Effect_Extension_Era1_ZhouChina
   - serializableElementName: Effect_Extension_Era1_ZhouChina_Synergy00
   - serializableElementName: Effect_Extension_Base_Science
-  - serializableElementName: Tag_Extension_Religious
   IsReplaceableOrDestroyable: 1
   CanBeDowngradedToRuin: 1
   AdditionalVisualLevels: []

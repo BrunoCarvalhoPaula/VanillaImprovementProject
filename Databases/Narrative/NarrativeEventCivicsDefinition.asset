@@ -5471,7 +5471,56 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Empire_CivicStatuses,
+      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
+        Amplitude.Mercury.Data
+    - Name: FailureFlags
+      Entry: 3
+      Data: 0
+    - Name: LocalizationOverride
+      Entry: 6
+      Data: 
+    - Name: EntityID
+      Entry: 1
+      Data: Empire
+    - Name: MustHaveDescriptors
+      Entry: 7
+      Data: 7|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_EmpireBonus_Ideology_Order_Right02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MustNotHaveDescriptors
+      Entry: 7
+      Data: 8|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Empire_CivicStatuses,
         Amplitude.Mercury.Data
     - Name: FailureFlags
       Entry: 3
@@ -5484,7 +5533,7 @@ MonoBehaviour:
       Data: Empire
     - Name: Civics
       Entry: 7
-      Data: 7|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+      Data: 10|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
     - Name: 
       Entry: 12
       Data: 1
@@ -5508,61 +5557,12 @@ MonoBehaviour:
       Data: 0
     - Name: RequiredStatuses
       Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.CivicStatuses[], Amplitude.Mercury.Data
+      Data: 11|Amplitude.Mercury.Data.Simulation.CivicStatuses[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventPrerequisite_Entity_Descriptors,
-        Amplitude.Mercury.Data
-    - Name: FailureFlags
-      Entry: 3
-      Data: 0
-    - Name: LocalizationOverride
-      Entry: 6
-      Data: 
-    - Name: EntityID
-      Entry: 1
-      Data: Empire
-    - Name: MustHaveDescriptors
-      Entry: 7
-      Data: 10|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_EmpireBonus_Ideology_Order_Right02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: MustNotHaveDescriptors
-      Entry: 7
-      Data: 11|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
       Data: 0
     - Name: 
       Entry: 13

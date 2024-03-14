@@ -2734,18 +2734,14 @@ MonoBehaviour:
     - Note: 
       TargetProperty: ScienceModeBonus
       ToTargetOperation: 0
-      RpnOperationStack: 0a00000009000000090000000a0000000600000000000000020000000a0000000a0000000a00000008000000080000000100000002000000010000000700000002000000
+      RpnOperationStack: 0a00000009000000090000000a0000000600000000000000020000000900000007000000
       ConstantStack:
       - RawValue: 1000
       - RawValue: 0
-      - RawValue: 1000
-      - RawValue: 1000
-      - RawValue: 100
       PropertyLocalName:
       - ProductionNet
       - MoneyNet
-      - CityCap
-      - CityCountingTowardCap
+      - ScienceNet
     - Note: 
       TargetProperty: ScienceNetAfterAffinityBonuses
       ToTargetOperation: 0
@@ -5907,43 +5903,6 @@ MonoBehaviour:
       - RawValue: 4000
       PropertyLocalName: []
   serializableCategory: Status
-  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
---- !u!114 &7388690227028213938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: GameEffect_CityFlags_IndustryMode
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 1
-    Path:
-      PropertyToFollow:
-      - Empire
-      Validations: []
-      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
-    PropertyEffects:
-    - Note: 
-      TargetProperty: ProductionNetAfterAffinityBonuses
-      ToTargetOperation: 0
-      RpnOperationStack: 0a00000009000000080000000a0000000600000000000000020000000a0000000a0000000a00000008000000080000000100000002000000010000000700000002000000
-      ConstantStack:
-      - RawValue: 1000
-      - RawValue: 0
-      - RawValue: 1000
-      - RawValue: 1000
-      - RawValue: 100
-      PropertyLocalName:
-      - ScienceNet
-      - MoneyNet
-      - CityCap
-      - CityCountingTowardCap
-  serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &7397324129274738305
 MonoBehaviour:

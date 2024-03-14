@@ -124,3 +124,28 @@ MonoBehaviour:
   m_Script: {fileID: -2110363667, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: SettlementStatusDefinition
   m_EditorClassIdentifier: 
+--- !u!114 &604566843703490748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_Empire_Cheerleading
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_Empire_Cheerleading
+  Descriptor:
+    serializableElementName: Status_Empire_Cheerleading
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+  InhibitedBy: []
+  CancelOnApply: []
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0

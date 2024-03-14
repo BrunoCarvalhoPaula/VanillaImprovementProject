@@ -57,7 +57,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 4000
+      - RawValue: 3000
       PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:

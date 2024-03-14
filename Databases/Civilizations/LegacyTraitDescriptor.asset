@@ -346,7 +346,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 2000
       PropertyLocalName:
       - NumberOfUnlockedTechnologies
   serializableCategory: 
@@ -611,7 +611,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 7000
+      - RawValue: 6000
       PropertyLocalName:
       - TerritoryCount
   serializableCategory: 

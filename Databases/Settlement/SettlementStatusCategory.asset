@@ -35,6 +35,29 @@ MonoBehaviour:
   m_Script: {fileID: 99269101, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: SettlementStatusCategory
   m_EditorClassIdentifier: 
+--- !u!114 &6143796064043860567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 465822397, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: StatusCategory_Empire_Cheerleading
+  m_EditorClassIdentifier: 
+  StatusCategoryPriority: 0
+  Hidden: 0
+  FeedbackStatusOnUIPinTypes: 0
+  UIPriority: -1
+  CityBaseLayerAudioEvent:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  CityMutedAudioLayers: 0
 --- !u!114 &8434532195114325668
 MonoBehaviour:
   m_ObjectHideFlags: 0

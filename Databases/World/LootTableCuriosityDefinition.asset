@@ -746,7 +746,7 @@ MonoBehaviour:
       Data: Empire
     - Name: Amount
       Entry: 3
-      Data: 3
+      Data: 5
     - Name: AmountRpn
       Entry: 7
       Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffectRpn, Amplitude.Mercury.Data
@@ -891,7 +891,7 @@ MonoBehaviour:
       Data: Empire
     - Name: Amount
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: AmountRpn
       Entry: 7
       Data: Amplitude.Mercury.Data.Simulation.SimulationEventEffectRpn, Amplitude.Mercury.Data

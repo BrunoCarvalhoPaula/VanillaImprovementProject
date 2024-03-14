@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Expansionist_Level3
+  m_Name: Fame_EraStar_Expansionist_Level1
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a0000000a0000000b0000000a000000050000000a000000020000000b000000020000000a000000030000000b0000000a00000002000000030000000a000000030000000700000002000000080000000a00000003000000080000000a00000003000000000000000a000000050000000200000006000000
   ConstantStack:
@@ -22,7 +22,7 @@ MonoBehaviour:
   - RawValue: 41000
   - RawValue: 900
   - RawValue: 50000
-  - RawValue: 10000000
+  - RawValue: 15000000
   - RawValue: 60000
   - RawValue: 900
   Note: 'the following fomula approximately correspond to the number of land territories
@@ -68,7 +68,7 @@ MonoBehaviour:
   - RawValue: 41000
   - RawValue: 900
   - RawValue: 50000
-  - RawValue: 12500000
+  - RawValue: 15000000
   - RawValue: 80000
   - RawValue: 900
   Note: 'the following fomula approximately correspond to the number of land territories
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Merchant_Level1
+  m_Name: Fame_EraStar_Merchant_Level3
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000a000000000000000b00000002000000
   ConstantStack:
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Merchant_Level3
+  m_Name: Fame_EraStar_Merchant_Level1
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000a000000000000000b00000002000000
   ConstantStack:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Cultural_Level3
+  m_Name: Fame_EraStar_Cultural_Level1
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000b00000002000000
   ConstantStack:
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Builder_Level1
+  m_Name: Fame_EraStar_Builder_Level3
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a00000000000000
   ConstantStack:
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Cultural_Level1
+  m_Name: Fame_EraStar_Cultural_Level3
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000b00000002000000
   ConstantStack:
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Expansionist_Level1
+  m_Name: Fame_EraStar_Expansionist_Level3
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000a0000000300000001000000080000000a0000000300000001000000060000000a0000000a0000000a0000000b0000000a000000050000000a000000020000000b000000020000000a000000030000000b0000000a00000002000000030000000a000000030000000700000002000000080000000a00000003000000080000000a00000003000000000000000a00000005000000020000000600000000000000
   ConstantStack:
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Scientist_Level1
+  m_Name: Fame_EraStar_Scientist_Level3
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000a0000000100000006000000020000000a0000000a000000080000000a0000000500000002000000060000000a000000080000000a0000000300000000000000080000000a00000003000000000000000a0000000500000002000000000000000a0000000a000000080000000a0000000300000000000000080000000a00000003000000000000000a00000005000000020000000a00000001000000000000000b00000002000000
   ConstantStack:
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Warmonger_Level1
+  m_Name: Fame_EraStar_Warmonger_Level3
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a000000000000000a000000020000000b00000002000000
   ConstantStack:
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Warmonger_Level3
+  m_Name: Fame_EraStar_Warmonger_Level1
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a000000000000000a000000020000000b00000002000000
   ConstantStack:
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Builder_Level3
+  m_Name: Fame_EraStar_Builder_Level1
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a00000000000000
   ConstantStack:
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Scientist_Level3
+  m_Name: Fame_EraStar_Scientist_Level1
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000a0000000100000006000000020000000a0000000a000000080000000a0000000500000002000000060000000a000000080000000a0000000300000000000000080000000a00000003000000000000000a0000000500000002000000000000000a0000000a000000080000000a0000000300000000000000080000000a00000003000000000000000a00000005000000020000000a00000001000000000000000b00000002000000
   ConstantStack:
@@ -921,7 +921,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Farmer_Level3
+  m_Name: Fame_EraStar_Farmer_Level1
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a000000000000000a000000020000000a00000000000000
   ConstantStack:
@@ -951,7 +951,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Fame_EraStar_Farmer_Level1
+  m_Name: Fame_EraStar_Farmer_Level3
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a000000000000000a000000020000000a00000000000000
   ConstantStack:

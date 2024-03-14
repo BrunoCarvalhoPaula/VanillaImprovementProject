@@ -654,23 +654,6 @@ MonoBehaviour:
       - ExtensionDistrictsCount
   - ApplyEffectOnSource: 0
     Path:
-      PropertyToFollow:
-      - Settlement
-      - Empire
-      - Armies
-      - Units
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: HealthRegen
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 5000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
       PropertyToFollow: []
       Validations: []
       specificTargetType: 

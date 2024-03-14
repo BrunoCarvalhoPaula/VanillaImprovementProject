@@ -38,7 +38,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 2000
       PropertyLocalName:
       - NumberOfEnactedCivic
   - ApplyEffectOnSource: 0
@@ -52,7 +52,7 @@ MonoBehaviour:
       - PathIndex: 3
         ValidableElementCollection: 
         Inverted: 0
-        serializableElementName: Tag_Extension_Religious
+        serializableElementName: Effect_Extension_HolySite
       specificTargetType: 
     PropertyEffects:
     - Note: 

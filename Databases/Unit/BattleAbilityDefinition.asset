@@ -875,7 +875,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: GameEffect_BattleAction_RangedMalus
+      Data: GameEffect_BattleAction_NomadMalus
     - Name: 
       Entry: 8
       Data: 

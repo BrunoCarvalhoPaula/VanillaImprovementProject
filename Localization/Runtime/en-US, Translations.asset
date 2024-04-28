@@ -1736,3 +1736,38 @@ MonoBehaviour:
       ChildIndexes: 
     TagCodes: 00000000
     LocalizedStringElementFlag: 0
+  - LineId: '%Effect_ReligionBonus_Tier1_Tenet06Override'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 9
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 01000000020000000300000004000000
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 1
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' on Districts built on a River'
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0

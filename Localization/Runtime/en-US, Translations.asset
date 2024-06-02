@@ -1771,3 +1771,176 @@ MonoBehaviour:
       ChildIndexes: 
     TagCodes: 00000000
     LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Government03UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Be at the <b>Liberty</b> Ideology axis, and have a City with at
+        least 3 Market Quarters and at least 3 Commons Quarters.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Government04UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Be at the <b>Authority</b> Ideology axis, and have a City with at
+        least 3 Market Quarters and at least 3 Commons Quarters.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Government05UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Be at extreme <b>Authority</b> Ideology axis, have at least 50 [Population]
+        Population in your Empire, have researched the <b>Centralized Power</b> Technology,
+        and be in the Industrial Era or above.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Government06UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Be at extreme <b>Liberty</b> Ideology axis, have at least 50 [Population]
+        Population in your Empire, have researched the <b>Centralized Power</b> Technology,
+        and be in the Industrial Era or above.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Government07UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Be at neither extreme <b>Liberty</b> nor <b>Authority</b> Ideology
+        axis, have at least 50 [Population] Population in your Empire, have researched
+        the <b>Centralized Power</b> Technology, and be in the Industrial Era or
+        above.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice05Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Relief
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice05Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Lower the taxes temporarily to quell unrest.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice06Description'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Forcing the minorities to live in special designed areas in your
+        city can alleviate the tensions, at least for now.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%NarrativeEvent_ReligiousWoesChoice06Title'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Segregate
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Fame_EraStar_FarmerDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 9
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 0100000002000000030000000400000005000000
+    - Id: 1
+      TextValue: 'Have '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ' Population your Empire (current value: '
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 3
+      TextValue: 
+      ParameterIndex: 1
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    - Id: 1
+      TextValue: ).
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_GrazingTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Beasts of Burden
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_EmpireBonus_GrazingDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The usage of pack and draft animals allows for a great expansion
+        of agriculture and the surplus produce allow populations to grow much faster.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0

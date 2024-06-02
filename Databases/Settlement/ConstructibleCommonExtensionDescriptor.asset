@@ -225,19 +225,12 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlement
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
     - Note: 
-      TargetProperty: GrowthGain
-      ToTargetOperation: 4
+      TargetProperty: InfluenceNet
+      ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 50
+      - RawValue: 1000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
@@ -334,7 +327,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 3000
       PropertyLocalName: []
     - Note: 
       TargetProperty: FortificationBonus

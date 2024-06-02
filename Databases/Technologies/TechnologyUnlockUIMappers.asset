@@ -300,6 +300,30 @@ MonoBehaviour:
     serializableKey: Small
   Color: {r: 0, g: 0, b: 0, a: 0}
   Symbol: 
+--- !u!114 &2841190820385812029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: Effect_EmpireBonus_Grazing
+  m_EditorClassIdentifier: 
+  Title: '%Effect_EmpireBonus_GrazingTitle'
+  Description: '%Effect_EmpireBonus_GrazingDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2081848391
+        b: 1108144378
+        c: -754682975
+        d: 543628128
+    serializableKey: Small
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
 --- !u!114 &2903701695865812955
 MonoBehaviour:
   m_ObjectHideFlags: 0

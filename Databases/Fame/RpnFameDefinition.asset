@@ -106,13 +106,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000a000000000000000b00000002000000
   ConstantStack:
-  - RawValue: 240000
-  - RawValue: 80000
-  - RawValue: 5500000
+  - RawValue: 200000
+  - RawValue: 50000
+  - RawValue: 5600000
   - RawValue: 20000
   - RawValue: 1000
-  - RawValue: 3100
-  - RawValue: 100000
+  - RawValue: 2500
+  - RawValue: 50000
   Note: '0: Nb Era
 
     1: GameSpeed'
@@ -194,13 +194,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000a000000000000000b00000002000000
   ConstantStack:
-  - RawValue: 240000
-  - RawValue: 85000
-  - RawValue: 3500000
+  - RawValue: 220000
+  - RawValue: 70000
+  - RawValue: 3800000
   - RawValue: 12000
   - RawValue: 1000
-  - RawValue: 3200
-  - RawValue: 100000
+  - RawValue: 2500
+  - RawValue: 80000
   Note: '0: Nb Era
 
     1: GameSpeed'
@@ -229,12 +229,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000b00000002000000
   ConstantStack:
-  - RawValue: 450000
-  - RawValue: 120000
-  - RawValue: 3500000
+  - RawValue: 400000
+  - RawValue: 100000
+  - RawValue: 4500000
   - RawValue: 12000
   - RawValue: 1000
-  - RawValue: 2600
+  - RawValue: 2200
   Note: '0: Nb Era
 
     1: Game Speed'
@@ -261,16 +261,13 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Farmer_Level2
   m_EditorClassIdentifier: 
-  RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a000000000000000a000000020000000a00000000000000
+  RpnOperationStack: 080000000a000000030000000a000000020000000a00000000000000
   ConstantStack:
-  - RawValue: 2750000
-  - RawValue: 16000
-  - RawValue: 1000
-  - RawValue: 7000
-  - RawValue: 3000
+  - RawValue: 15000
+  - RawValue: 5000
+  - RawValue: 5000
   Note: '0: Nb Era'
   PropertyLocalNameStack:
-  - FameScore
   - SumOfEraStars
   VariableNameStack: []
   DefinedVariables:
@@ -403,18 +400,18 @@ MonoBehaviour:
   - RawValue: 0
   - RawValue: 5000
   - RawValue: 140000
-  - RawValue: 2000
-  - RawValue: 3000
+  - RawValue: 10000
+  - RawValue: 2800
   - RawValue: 1000
-  - RawValue: 4300000
-  - RawValue: 16000
-  - RawValue: 2850
+  - RawValue: 5300000
+  - RawValue: 18000
+  - RawValue: 2400
   - RawValue: 8000
-  - RawValue: 6000
+  - RawValue: 7000
   - RawValue: 4300000
   - RawValue: 16000
   - RawValue: 2000
-  - RawValue: 100000
+  - RawValue: 350000
   Note: '0: Nb Era
 
     1: Starting Era'
@@ -494,14 +491,15 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Cultural_Level3
   m_EditorClassIdentifier: 
-  RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000b00000002000000
+  RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000a000000010000000b00000002000000
   ConstantStack:
   - RawValue: 400000
-  - RawValue: 120000
-  - RawValue: 5500000
+  - RawValue: 95000
+  - RawValue: 6500000
   - RawValue: 20000
   - RawValue: 1000
-  - RawValue: 2500
+  - RawValue: 2000
+  - RawValue: 75000
   Note: '0: Nb Era
 
     1: Game Speed'
@@ -652,18 +650,18 @@ MonoBehaviour:
   - RawValue: 0
   - RawValue: 5000
   - RawValue: 140000
-  - RawValue: 2000
-  - RawValue: 3000
+  - RawValue: 10000
+  - RawValue: 2800
   - RawValue: 1000
-  - RawValue: 5500000
-  - RawValue: 20000
-  - RawValue: 2850
+  - RawValue: 6500000
+  - RawValue: 22000
+  - RawValue: 2200
   - RawValue: 8000
-  - RawValue: 6000
+  - RawValue: 7000
   - RawValue: 5500000
   - RawValue: 20000
   - RawValue: 2000
-  - RawValue: 100000
+  - RawValue: 300000
   Note: '0: Nb Era
 
     1: Starting Era'
@@ -756,13 +754,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000a000000000000000b00000002000000
   ConstantStack:
-  - RawValue: 240000
-  - RawValue: 80000
-  - RawValue: 4400000
+  - RawValue: 200000
+  - RawValue: 60000
+  - RawValue: 4600000
   - RawValue: 16000
   - RawValue: 1000
-  - RawValue: 3100
-  - RawValue: 100000
+  - RawValue: 2600
+  - RawValue: 60000
   Note: '0: Nb Era
 
     1: GameSpeed'
@@ -841,14 +839,15 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Cultural_Level2
   m_EditorClassIdentifier: 
-  RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000b00000002000000
+  RpnOperationStack: 0a0000000a000000080000000200000006000000080000000a00000003000000080000000a00000003000000000000000a000000000000000a00000005000000020000000a000000010000000b00000002000000
   ConstantStack:
   - RawValue: 400000
-  - RawValue: 120000
-  - RawValue: 4400000
+  - RawValue: 95000
+  - RawValue: 5400000
   - RawValue: 16000
   - RawValue: 1000
-  - RawValue: 2500
+  - RawValue: 2000
+  - RawValue: 50000
   Note: '0: Nb Era
 
     1: Game Speed'
@@ -881,18 +880,18 @@ MonoBehaviour:
   - RawValue: 0
   - RawValue: 5000
   - RawValue: 140000
-  - RawValue: 2000
-  - RawValue: 3000
+  - RawValue: 10000
+  - RawValue: 2800
   - RawValue: 1000
-  - RawValue: 3100000
-  - RawValue: 12000
-  - RawValue: 2850
+  - RawValue: 4100000
+  - RawValue: 14000
+  - RawValue: 2500
   - RawValue: 8000
-  - RawValue: 6000
+  - RawValue: 7000
   - RawValue: 3100000
   - RawValue: 12000
   - RawValue: 2000
-  - RawValue: 100000
+  - RawValue: 310000
   Note: '0: Nb Era
 
     1: Starting Era'
@@ -923,16 +922,13 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Farmer_Level1
   m_EditorClassIdentifier: 
-  RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a000000000000000a000000020000000a00000000000000
+  RpnOperationStack: 080000000a000000030000000a000000020000000a00000000000000
   ConstantStack:
-  - RawValue: 2200000
-  - RawValue: 12000
-  - RawValue: 1000
-  - RawValue: 8000
-  - RawValue: 2000
+  - RawValue: 10000
+  - RawValue: 6000
+  - RawValue: 10000
   Note: '0: Nb Era'
   PropertyLocalNameStack:
-  - FameScore
   - SumOfEraStars
   VariableNameStack: []
   DefinedVariables:
@@ -953,16 +949,13 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Farmer_Level3
   m_EditorClassIdentifier: 
-  RpnOperationStack: 080000000a00000003000000080000000a00000003000000000000000a000000000000000a000000020000000a00000000000000
+  RpnOperationStack: 080000000a000000030000000a000000020000000a00000000000000
   ConstantStack:
-  - RawValue: 3300000
-  - RawValue: 20000
-  - RawValue: 1000
-  - RawValue: 6000
-  - RawValue: 3000
+  - RawValue: 21000
+  - RawValue: 4000
+  - RawValue: 5000
   Note: '0: Nb Era'
   PropertyLocalNameStack:
-  - FameScore
   - SumOfEraStars
   VariableNameStack: []
   DefinedVariables:

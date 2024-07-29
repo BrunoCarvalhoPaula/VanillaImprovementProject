@@ -54,8 +54,8 @@ MonoBehaviour:
   StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
   InhibitedBy: []
   CancelOnApply: []
-  DefaultDuration: 12
-  IgnoreGameSpeed: 0
+  DefaultDuration: 6
+  IgnoreGameSpeed: 1
   pathfindingFlags: 0
 --- !u!114 &-6327076613564898328
 MonoBehaviour:

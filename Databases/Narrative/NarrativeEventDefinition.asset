@@ -62458,8 +62458,8 @@ MonoBehaviour:
       Entry: 6
       Data: 
     - Name: EntityID
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Empire
     - Name: DiplomaticStates
       Entry: 7
       Data: 5|Amplitude.Mercury.Data.Simulation.DiplomaticState[], Amplitude.Mercury.Data

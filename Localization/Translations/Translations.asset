@@ -56,7 +56,7 @@ MonoBehaviour:
   - serializedData: 0000000026%Repeatable_PollutionTitle0000000024Carbon%20Recapture%20Project00000000000000000001
   - serializedData: 0000000021%Package04Description0000000063Those%20advanced%20colonies%20start%20with%20all%20Ancient%20Infrastructures.00000000000000000001
   - serializedData: 0000000015%Package04Title0000000008Colonies00000000000000000001
-  - serializedData: 0000000038%StatusCategory_City_RevoltDescription0000000084Costs%20about%2015%%20[CultureColored]%20as%20creating%20a%20new%20city%20(on%20Normal%20Speed),%20per%20turn.00000000000000000001
+  - serializedData: 0000000038%StatusCategory_City_RevoltDescription0000000066Costs%20about%2025%%20[CultureColored]%20as%20creating%20a%20new%20city,%20per%20turn.00000000000000000001
   - serializedData: 0000000032%StatusCategory_City_RevoltTitle0000000009Pacifying00000000000000000001
   - serializedData: 0000000040%StatusCategory_Empire_RevoltDescription0000000070Costs%20you%20as%20much%20[CultureColored]%20as%20if%20you%20were%20to%20build%20a%20new%20city.00000000000000000001
   - serializedData: 0000000034%StatusCategory_Empire_RevoltTitle0000000011Integrating00000000000000000001

@@ -243,6 +243,240 @@ MonoBehaviour:
   ProvidesRail: 0
   ForceRiverOnTerrain: 0
   serializableReplaceTerrainWith: 
+--- !u!114 &-8960735737275284784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -692026615, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Extension_Base_Harbour
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GainValues
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 1
+    - Name: Importance
+      Entry: 3
+      Data: 2
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
+    - Name: Type
+      Entry: 3
+      Data: 33554432
+    - Name: Importance
+      Entry: 3
+      Data: 3
+    - Name: Gates
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DLCPrerequisite:
+    DownloadableContent: 0
+  Category: 3
+  SerializableFamily: 
+  Level: 0
+  Unicity: 4
+  UnicityAdditionalConstructible: []
+  ConstructibleVisualAffinity:
+    serializableElementName: DistrictVisualAffinity_Base_Harbour
+  CanBeBoughtOut: 1
+  CanBeCanceled: 1
+  StartWhenQueued: 0
+  CanBeBoughtOutWithPopulation: 1
+  ProductionCostDefinition:
+    Type: 1
+    Constant: -1
+    RpnDefinitionReference:
+      serializableElementName: ProductionCost_Extension_Base_High
+  MoneyInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  InfluenceInstantCostDefinition:
+    Constant: 0
+    RpnDefinitionReference:
+      serializableElementName: 
+  PopulationInstantCostDefinition:
+    Constant: 0
+  ProvidedByOtherEmpireCostDefinition:
+    ProductionCostModifierRpn:
+      serializableElementName: 
+    ReceiverMoneyCostRpn:
+      serializableElementName: 
+    ProviderMoneyGainRpn:
+      serializableElementName: 
+  ResourceAccessPrerequisites: []
+  MinimalPopulationPrerequisite: 0
+  ResourceSupremacyPrerequisite: 
+  EraPrerequisite:
+    Operator: 1
+    EraReference:
+      serializableElementName: Era0
+  FactionPrerequisite:
+    Operator: 2
+    serializableFactionNames:
+    - Civilization_Era1_Phoenicia
+    - Civilization_Era2_Carthage
+    - Civilization_Era3_Vikings
+    - Civilization_Era3_Swahili
+  SettlementStatusPrerequisite:
+    CampConstraint: 3
+    CityConstraint: 1
+  ReligionAffinityPrerequisite:
+    serializableElementName: 
+  SettlementPropertyPrerequisites: []
+  SettlementStabilityPrerequisite:
+    Operator: 1
+    PublicOrderEffects:
+    - serializableElementName: PublicOrderEffect_Unhappy
+  DistrictCountPrerequisites: []
+  ActionTypePrerequisite:
+    Operator: 0
+    ActionType: 0
+  ArtificialWonderBuiltPrerequisite:
+    Operator: 0
+    ArtificialWonderDefinition:
+      serializableElementName: 
+  BaseSynergyDistrict: 0
+  Prototype: 
+  OwnDescriptorReferences:
+  - serializableElementName: Effect_Extension_Base_Harbour
+  - serializableElementName: Effect_Extension_Default_Vision
+  - serializableElementName: Tag_Extension_Urban
+  - serializableElementName: Tag_Extension_Base
+  - serializableElementName: Effect_Extension_Synergy_Harbour_SynergyMoney00
+  - serializableElementName: Tag_Extension_PublicOrderLoss
+  - serializableElementName: Effect_Extension_BoroughExtension
+  IsReplaceableOrDestroyable: 1
+  CanBeDowngradedToRuin: 0
+  AdditionalVisualLevels: []
+  IsImmuneToBombardment: 0
+  AllowBoroughExtension: 1
+  AllowConnectionWithOtherBorough: 1
+  FieldOfViewFlag: 0
+  OverADistrictPrerequisite:
+    TagOperator: 0
+    ValidIfNoDistrict: 1
+    HideInUI: 1
+    serializableTags: []
+  PointOfInterestPrerequisite:
+    Constraint: 2
+    HideInUI: 1
+    serializablePointOfInterestNames:
+    - POI_NaturalModifier21
+    - POI_NaturalModifier23
+    - POI_ResourceDeposit06
+    - POI_ResourceDeposit23
+    - POI_ResourceDeposit25
+    - POI_ResourceDeposit26
+  RiverPrerequisite:
+    Constraint: 0
+    HideInUI: 1
+  TerrainPrerequisite:
+    Constraint: 1
+    HideInUI: 1
+    LocalizationOverride: 
+    CanBuildOnWasteland: 0
+    serializableTerrainTypeNames:
+    - TerrainType_Lake
+    - TerrainType_CoastalWater
+  BiomePrerequisite:
+    Constraint: 0
+    serializableBiomeNames: []
+  CliffPrerequisite:
+    Constraint: 0
+    HideInUI: 0
+  MountainPrerequisite:
+    Constraint: 0
+    HideInUI: 0
+  TileVisibilityPrerequisite:
+    Constraint: 1
+    Visibility: 0
+  NeighbourTilesPrerequisite:
+    NeighbourOperator: 2
+    TerritoryConstraint: 2
+    IgnoreCliff: 0
+    IgnoreNaturalWonder: 1
+    TerrainPrerequisite:
+      Constraint: 2
+      HideInUI: 1
+      LocalizationOverride: 
+      CanBuildOnWasteland: 0
+      serializableTerrainTypeNames:
+      - TerrainType_CoastalWater
+      - TerrainType_Ocean
+      - TerrainType_Lake
+    RiverPrerequisite:
+      Constraint: 0
+      HideInUI: 0
+    DistrictPrerequisite:
+      TagOperator: 0
+      ValidIfNoDistrict: 0
+      HideInUI: 0
+      serializableTags: []
+  BoroughPrerequisite:
+    ExtensionRules: 1
+    HideInUI: 1
+  ProtectsNeighboursFromRansack: 0
+  ZoneOfControlDistance:
+    RawValue: 0
+  FriendlyUnitOnTopStatus:
+    serializableElementName: Status_Unit_Docked
+  ProtectAgainstStealthDetection: 1
+  DistrictType: 2
+  HasPublicOrderCost: 1
+  CanReplaceDistrict: 0
+  CanBeReplacedByDistrict: 0
+  PlacementPolicies: 0
+  ExploitationRuleReference:
+    serializableElementName: ExploitationRule_CostalWaters
+  ExtractResource: 0
+  WondrousResourceType: 64
+  UnitSpawnType: 1
+  AllowShipping: 1
+  ProvidesSecondaryRoad: 1
+  ProvidesRail: 0
+  ForceRiverOnTerrain: 0
+  serializableReplaceTerrainWith: 
 --- !u!114 &-8428754306348577131
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -494,8 +494,7 @@ MonoBehaviour:
     NodeIndexes: 00000000
     CompactedNodes:
     - Id: 1
-      TextValue: Costs about 15% [CultureColored] as creating a new city (on Normal
-        Speed), per turn.
+      TextValue: Costs about 25% [CultureColored] as creating a new city, per turn.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0

@@ -3973,7 +3973,7 @@ MonoBehaviour:
         91 = (1 + 90) Linear Damping'
       TargetProperty: GrowthLoss
       ToTargetOperation: 0
-      RpnOperationStack: 0a0000000a0000000a000000080000000a000000070000000a0000000300000001000000030000000100000009000000020000000a000000020000000a0000000a0000000a00000008000000080000000a0000000800000006000000030000000000000007000000060000000200000002000000
+      RpnOperationStack: 0a0000000a0000000a000000080000000a000000070000000a0000000300000001000000030000000100000009000000020000000a000000020000000a000000020000000a0000000a00000008000000080000000a000000080000000600000003000000000000000700000006000000020000000a0000000a0000000a0000000800000001000000020000000000000002000000
       ConstantStack:
       - RawValue: 1000
       - RawValue: 1000
@@ -3985,12 +3985,16 @@ MonoBehaviour:
       - RawValue: -1000
       - RawValue: 0
       - RawValue: 1000
+      - RawValue: 1000
+      - RawValue: 1
+      - RawValue: 0
       PropertyLocalName:
       - GrowthNet
       - MaxPopulationLostPerTurn
       - GrowthNet
       - PopulationConsumption
       - Population
+      - GrowthNet
     - Note: 0.25*pop^2 + 6*pop
       TargetProperty: PopulationConsumption
       ToTargetOperation: 0
@@ -6263,18 +6267,19 @@ MonoBehaviour:
     - Note: 
       TargetProperty: InfluenceNet
       ToTargetOperation: 1
-      RpnOperationStack: 0a000000080000000a0000000100000002000000080000000a00000001000000020000000a000000080000000a0000000100000002000000000000000a00000000000000
+      RpnOperationStack: 0a000000080000000a0000000100000002000000080000000a00000001000000020000000a000000080000000a0000000100000002000000000000000a000000000000000800000002000000
       ConstantStack:
-      - RawValue: 15000
+      - RawValue: 25000
       - RawValue: 1000
       - RawValue: 1000
-      - RawValue: 7000
+      - RawValue: 13000
       - RawValue: 1000
-      - RawValue: 2000
+      - RawValue: 4000
       PropertyLocalName:
       - CityCount
       - CityCount
       - CityCount
+      - GameSpeedMultiplier
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &8184625668662957473

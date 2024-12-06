@@ -2943,6 +2943,42 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+--- !u!114 &-651204388632772142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: GameEffect_Status_Settlement_Procession
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - FollowerCount
+    - Note: 
+      TargetProperty: GrowthGain
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 150
+      PropertyLocalName: []
+  serializableCategory: Status
+  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &-621637672806896639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2988,41 +3024,6 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - MoneyWorkplaceGainPerPopulation
-  serializableCategory: Status
-  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
---- !u!114 &-496375692681042162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: GameEffect_Status_Settlement_Procession
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PublicOrderTarget
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 10000
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: GrowthGain
-      ToTargetOperation: 4
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 150
-      PropertyLocalName: []
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &-488106749883675861
@@ -4053,6 +4054,14 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
+    - Note: Non State Religion Followers
+      TargetProperty: NonFollowerCount
+      ToTargetOperation: 0
+      RpnOperationStack: 080000000800000001000000
+      ConstantStack: []
+      PropertyLocalName:
+      - Population
+      - FollowerCount
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
@@ -4078,6 +4087,36 @@ MonoBehaviour:
       ConstantStack: []
       PropertyLocalName:
       - EraLevel
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - BiggestFriendlyArmyOnTop
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: StationedUnitsCount
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - UnitsCount
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Region
+      - Territories
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TerritoryNonFollowerCount
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000900000003000000
+      ConstantStack: []
+      PropertyLocalName:
+      - Population
+      - TerritoryCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &1863506699459142323
@@ -5001,6 +5040,39 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 2000
       PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000800000002000000
+      ConstantStack: []
+      PropertyLocalName:
+      - StabilityPerStationedUnit
+      - StationedUnitsCount
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Districts
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_Extractor
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000900000002000000
+      ConstantStack: []
+      PropertyLocalName:
+      - PopulationAssignedToIndustry
+      - IndustryOnExtractorPerPopulationAssignedToIndustry
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &4660483093636413400

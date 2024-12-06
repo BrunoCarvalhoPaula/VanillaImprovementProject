@@ -4962,6 +4962,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Gunner
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_StealthWhenAttacking
+  - serializableElementName: UnitSpecialty_Stealth
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era5_Mexico_Soldaderas
   - serializableElementName: Effect_Unit_Era5
@@ -7970,6 +7971,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Gunner
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_StrengthFromTerrain_Level2
+  - serializableElementName: UnitSpecialty_Stealth
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era6_Brazil_JungleBrigades
   - serializableElementName: Effect_Unit_Era6

@@ -1381,8 +1381,8 @@ MonoBehaviour:
     NodeIndexes: 00000000
     CompactedNodes:
     - Id: 1
-      TextValue: Earn at least 7 Merchant Era Stars since the beginning of the game
-        and meet at least 3 Empires.
+      TextValue: Unlock the Free Trade Technology, meet every Empire and earn at
+        least 7 Merchant Era Stars since the beginning of the game.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1431,18 +1431,6 @@ MonoBehaviour:
     - Id: 1
       TextValue: Earn at least 7 Builder Era Stars since the beginning of the game
         and unlock the Urban Planning Technology.
-      ParameterIndex: 0
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 
-    TagCodes: 00000000
-    LocalizedStringElementFlag: 0
-  - LineId: '%Civics_Culture05UnlockDescription'
-    NodeIndexes: 00000000
-    CompactedNodes:
-    - Id: 1
-      TextValue: Earn at least 7 Aesthete Era Stars since the beginning of the game
-        and successfully besiege a City containing an Emblematic Quarter.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1799,7 +1787,7 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: Be at extreme <b>Authority</b> Ideology axis, have at least 50 [Population]
-        Population in your Empire, have researched the <b>Centralized Power</b> Technology,
+        Population in your Empire, have researched the <b>Nationhood</b> Technology,
         and be in the Industrial Era or above.
       ParameterIndex: 0
       VariationIndex: 0
@@ -1812,7 +1800,7 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: Be at extreme <b>Liberty</b> Ideology axis, have at least 50 [Population]
-        Population in your Empire, have researched the <b>Centralized Power</b> Technology,
+        Population in your Empire, have researched the <b>Nationhood</b> Technology,
         and be in the Industrial Era or above.
       ParameterIndex: 0
       VariationIndex: 0
@@ -1826,8 +1814,7 @@ MonoBehaviour:
     - Id: 1
       TextValue: Be at neither extreme <b>Liberty</b> nor <b>Authority</b> Ideology
         axis, have at least 50 [Population] Population in your Empire, have researched
-        the <b>Centralized Power</b> Technology, and be in the Industrial Era or
-        above.
+        the <b>Nationhood</b> Technology, and be in the Industrial Era or above.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1937,6 +1924,19 @@ MonoBehaviour:
     - Id: 1
       TextValue: The usage of pack and draft animals allows for a great expansion
         of agriculture and the surplus produce allow populations to grow much faster.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Civics_Culture05UnlockDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Earn at least 7 Aesthete Era Stars since the beginning of the game,
+        unlock the <b>Centralized Power</b> Technology and have a Territory in another
+        Empire's sphere of influence.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0

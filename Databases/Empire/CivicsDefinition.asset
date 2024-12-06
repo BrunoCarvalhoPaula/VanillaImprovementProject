@@ -38,7 +38,7 @@ MonoBehaviour:
       Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
@@ -125,118 +125,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
       Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 1
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 4
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government01_Choice02
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Social
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: -3
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 1
@@ -268,315 +158,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Effect_Civics_Justice01_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: CostModifierReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: ActionCostModifier_Civics_Justice01_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 2
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 8
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: CivicPrerequisite
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
-    - Name: NecessaryCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ForbiddenCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: MutuallyExclusiveCivic
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidNecessaryChoiceNames
-      Entry: 7
-      Data: 13|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidForbiddenChoiceNames
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 20
-  Hidden: 0
-  IsObsolete: 0
-  DlcPrerequisite:
-    DownloadableContent: 0
-  Category:
-    serializableElementName: CivicsCategory_Government
-  IsInternational: 0
-  IsReversible: 1
-  Priority: 0
-  Notes: 
---- !u!114 &-7686971090219851174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 772025518, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Civics_Government03
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: Choices
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.CivicChoice[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government03_Choice01
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Social
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: -4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 32
-    - Name: Importance
-      Entry: 3
-      Data: 2
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government03_Choice01
+      Data: Effect_Civics_Government01_Choice01_H
     - Name: 
       Entry: 8
       Data: 
@@ -642,13 +224,13 @@ MonoBehaviour:
       Data: 7|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
     - Name: SerializableName
       Entry: 1
-      Data: Civics_Government03_Choice02
+      Data: Civics_Government01_Choice02
     - Name: SimulationEventEffects
       Entry: 7
       Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
@@ -683,13 +265,13 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: IdeologicalAxis_Order
+      Data: IdeologicalAxis_Social
     - Name: 
       Entry: 8
       Data: 
     - Name: Delta
       Entry: 3
-      Data: -4
+      Data: -3
     - Name: 
       Entry: 8
       Data: 
@@ -717,31 +299,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: GainValues
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 32
-    - Name: Importance
-      Entry: 3
-      Data: 2
-    - Name: Gates
       Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
       Data: 
     - Name: TargetID
       Entry: 1
@@ -751,7 +309,48 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Effect_Civics_Government03_Choice02
+      Data: Effect_Civics_Justice01_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: CostModifierReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: ActionCostModifier_Civics_Justice01_Choice01
     - Name: 
       Entry: 8
       Data: 
@@ -825,8 +424,8 @@ MonoBehaviour:
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
-      Entry: 1
-      Data: Civics_Government02
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -834,8 +433,8 @@ MonoBehaviour:
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
-      Entry: 1
-      Data: Civics_Government04
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -853,13 +452,7 @@ MonoBehaviour:
       Data: 14|System.String[], mscorlib
     - Name: 
       Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 1
-      Data: Civics_Government02_Choice01
-    - Name: 
-      Entry: 1
-      Data: Civics_Government02_Choice02
+      Data: 0
     - Name: 
       Entry: 13
       Data: 
@@ -867,27 +460,12 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: serializableValidForbiddenChoiceNames
-      Entry: 7
-      Data: 15|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 1
-      Data: Civics_Government04_Choice01
-    - Name: 
-      Entry: 1
-      Data: Civics_Government04_Choice02
-    - Name: 
-      Entry: 13
+      Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 22
+  Key: 20
   Hidden: 0
   IsObsolete: 0
   DlcPrerequisite:
@@ -1839,7 +1417,7 @@ MonoBehaviour:
   IsReversible: 1
   Priority: 0
   Notes: 
---- !u!114 &-4039654854192216417
+--- !u!114 &-2041113457643260922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1849,7 +1427,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 772025518, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Civics_Government04
+  m_Name: Civics_Government02
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -1871,7 +1449,7 @@ MonoBehaviour:
       Data: 1|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
     - Name: SerializableName
       Entry: 1
-      Data: Civics_Government04_Choice01
+      Data: Civics_Government02_Choice01
     - Name: SimulationEventEffects
       Entry: 7
       Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
@@ -1881,222 +1459,6 @@ MonoBehaviour:
     - Name: 
       Entry: 7
       Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Social
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: -5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 2
-    - Name: Importance
-      Entry: 3
-      Data: 2
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: CostModifierReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: ConstructibleCostModifier_Civics_Government04_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government04_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 1
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 4
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government04_Choice02
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -2129,335 +1491,6 @@ MonoBehaviour:
     - Name: serializableElementName
       Entry: 1
       Data: IdeologicalAxis_Order
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 67108864
-    - Name: Importance
-      Entry: 3
-      Data: 3
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: CostModifierReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: ConstructibleCostModifier_Civics_Government04_Choice02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 13|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government04_Choice02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 14|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 2
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 8
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: CivicPrerequisite
-      Entry: 7
-      Data: 15|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
-    - Name: NecessaryCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Civics_Government02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ForbiddenCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Civics_Government03
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: MutuallyExclusiveCivic
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidNecessaryChoiceNames
-      Entry: 7
-      Data: 16|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 1
-      Data: Civics_Government02_Choice02
-    - Name: 
-      Entry: 1
-      Data: Civics_Government02_Choice01
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidForbiddenChoiceNames
-      Entry: 7
-      Data: 17|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 1
-      Data: Civics_Government03_Choice01
-    - Name: 
-      Entry: 1
-      Data: Civics_Government03_Choice02
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 23
-  Hidden: 0
-  IsObsolete: 0
-  DlcPrerequisite:
-    DownloadableContent: 0
-  Category:
-    serializableElementName: CivicsCategory_Government
-  IsInternational: 0
-  IsReversible: 1
-  Priority: 0
-  Notes: 
---- !u!114 &-3595936244829741477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 772025518, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Civics_Army03
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: Choices
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.CivicChoice[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Army03_Choice01
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 4
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Geopolitic
     - Name: 
       Entry: 8
       Data: 
@@ -2472,7 +1505,7 @@ MonoBehaviour:
       Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
-      Entry: 6
+      Entry: 1
       Data: 
     - Name: UIMapperOverride
       Entry: 6
@@ -2501,7 +1534,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Effect_Civics_Army03_Choice01
+      Data: Effect_Civics_Government02_Choice01
     - Name: 
       Entry: 8
       Data: 
@@ -2510,1019 +1543,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: ConstructibleReferences
-      Entry: 7
-      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Repeatable_Military
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Army03_Choice01_Exotic
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 16
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 128
-    - Name: Weight
-      Entry: 4
-      Data: 0.8
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Army03_Choice02
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Geopolitic
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: 4
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Army03_Choice02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 13|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 32
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 64
-    - Name: Weight
-      Entry: 4
-      Data: 0.8
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 10
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: CivicPrerequisite
-      Entry: 7
-      Data: 14|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
-    - Name: NecessaryCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ForbiddenCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: MutuallyExclusiveCivic
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidNecessaryChoiceNames
-      Entry: 7
-      Data: 15|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidForbiddenChoiceNames
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 3
-  Hidden: 0
-  IsObsolete: 0
-  DlcPrerequisite:
-    DownloadableContent: 0
-  Category:
-    serializableElementName: CivicsCategory_Army
-  IsInternational: 0
-  IsReversible: 1
-  Priority: 0
-  Notes: 
---- !u!114 &-2022937473908959291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 772025518, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Civics_Government05
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: Choices
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.CivicChoice[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government05_Choice01
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Order
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: 6
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government05_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 7
-      Data: 6|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 34
-    - Name: Importance
-      Entry: 3
-      Data: 2
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: CostModifierReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: ConstructibleCostModifier_Civics_Government05_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 1
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 4
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government05_Choice02
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Order
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: -6
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government05_Choice02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 7
-      Data: 13|Amplitude.Mercury.Data.AI.Gain[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.AI.Gain, Amplitude.Mercury.Data
-    - Name: Type
-      Entry: 3
-      Data: 2
-    - Name: Importance
-      Entry: 3
-      Data: 3
-    - Name: Gates
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: CostModifierReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: ConstructibleCostModifier_Civics_Government05_Choice02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 14|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 2
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 8
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: CivicPrerequisite
-      Entry: 7
-      Data: 15|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
-    - Name: NecessaryCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ForbiddenCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: MutuallyExclusiveCivic
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidNecessaryChoiceNames
-      Entry: 7
-      Data: 16|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidForbiddenChoiceNames
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 24
-  Hidden: 0
-  IsObsolete: 0
-  DlcPrerequisite:
-    DownloadableContent: 0
-  Category:
-    serializableElementName: CivicsCategory_Government
-  IsInternational: 0
-  IsReversible: 1
-  Priority: 0
-  Notes: 
---- !u!114 &-1715782989582092003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 772025518, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Civics_Government06
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: Choices
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.CivicChoice[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government06_Choice01
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Order
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 1
-      Data: '%Civic_Government06Choice01Override'
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government06_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireNaming,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -3549,12 +1570,12 @@ MonoBehaviour:
     - Name: TargetID
       Entry: 1
       Data: Empire
-    - Name: Descriptor
+    - Name: EmpireNamingDefinition
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Effect_EmpireBonus_PublicOrderFromCivicGov06
+      Data: Civics_Government02_Choice01
     - Name: 
       Entry: 8
       Data: 
@@ -3608,7 +1629,7 @@ MonoBehaviour:
       Data: 
     - Name: SpecificCivicBehavior
       Entry: 3
-      Data: 0
+      Data: 7
     - Name: CivicPreRequisite
       Entry: 3
       Data: 0
@@ -3620,7 +1641,7 @@ MonoBehaviour:
       Data: 7|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
     - Name: SerializableName
       Entry: 1
-      Data: Civics_Government06_Choice02
+      Data: Civics_Government02_Choice02
     - Name: SimulationEventEffects
       Entry: 7
       Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
@@ -3667,7 +1688,7 @@ MonoBehaviour:
       Data: 
     - Name: Delta
       Entry: 3
-      Data: -5
+      Data: 4
     - Name: 
       Entry: 8
       Data: 
@@ -3677,7 +1698,7 @@ MonoBehaviour:
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 1
-      Data: '%Civic_Government06Choice02Override'
+      Data: 
     - Name: UIMapperOverride
       Entry: 6
       Data: 
@@ -3705,7 +1726,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Effect_Civics_Government06_Choice02
+      Data: Effect_Civics_Government02_Choice02
     - Name: 
       Entry: 8
       Data: 
@@ -3714,7 +1735,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_AddEmpireNaming,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -3741,12 +1762,12 @@ MonoBehaviour:
     - Name: TargetID
       Entry: 1
       Data: Empire
-    - Name: Descriptor
+    - Name: EmpireNamingDefinition
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Effect_EmpireBonus_PublicOrderFromCivicGov06
+      Data: Civics_Government02_Choice02
     - Name: 
       Entry: 8
       Data: 
@@ -3755,7 +1776,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyCostModifier,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -3782,12 +1803,12 @@ MonoBehaviour:
     - Name: TargetID
       Entry: 1
       Data: Empire
-    - Name: Descriptor
+    - Name: CostModifierReference
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Tag_Civics_DemocracticRepublic
+      Data: ConstructibleCostModifier_LegacyTrait_Era5_AfsharidPersia
     - Name: 
       Entry: 8
       Data: 
@@ -3897,28 +1918,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: serializableValidForbiddenChoiceNames
-      Entry: 7
-      Data: 16|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
+      Entry: 6
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 25
+  Key: 0
   Hidden: 0
   IsObsolete: 0
   DlcPrerequisite:
     DownloadableContent: 0
   Category:
     serializableElementName: CivicsCategory_Government
-  IsInternational: 1
+  IsInternational: 0
   IsReversible: 1
   Priority: 0
   Notes: 
@@ -4554,491 +2566,6 @@ MonoBehaviour:
   Category:
     serializableElementName: CivicsCategory_Justice
   IsInternational: 0
-  IsReversible: 1
-  Priority: 0
-  Notes: 
---- !u!114 &4004927060041952208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 772025518, guid: b310e23bee821cb478da05296ba685d0, type: 3}
-  m_Name: Civics_Government07
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: Choices
-      Entry: 7
-      Data: 0|Amplitude.Mercury.Data.Simulation.CivicChoice[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 1|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government07_Choice01
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Order
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: 6
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government07_Choice01
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 5|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 1
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 4
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
-    - Name: SerializableName
-      Entry: 1
-      Data: Civics_Government07_Choice02
-    - Name: SimulationEventEffects
-      Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 4
-    - Name: 
-      Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: IdeologicalAxisReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: IdeologicalAxis_Order
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Delta
-      Entry: 3
-      Data: -6
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 1
-      Data: '%Civic_Government07Choice02Override'
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_Civics_Government07_Choice02
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: true
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Effect_EmpireBonus_PublicOrderFromCivicGov07
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
-        Amplitude.Mercury.Data
-    - Name: SimulationEffectDescriptionOverride
-      Entry: 6
-      Data: 
-    - Name: UIMapperOverride
-      Entry: 6
-      Data: 
-    - Name: Hidden
-      Entry: 5
-      Data: false
-    - Name: DlcPrerequisite
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
-        Amplitude.Mercury.Data
-    - Name: DownloadableContent
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: GainValues
-      Entry: 6
-      Data: 
-    - Name: TargetID
-      Entry: 1
-      Data: Empire
-    - Name: Descriptor
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 1
-      Data: Tag_Civics_DemocracticRepublic
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: Notes
-      Entry: 6
-      Data: 
-    - Name: Archetypes
-      Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 2
-    - Name: Weight
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
-    - Name: Archetype
-      Entry: 3
-      Data: 8
-    - Name: Weight
-      Entry: 4
-      Data: 0.5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: SpecificCivicBehavior
-      Entry: 3
-      Data: 0
-    - Name: CivicPreRequisite
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: CivicPrerequisite
-      Entry: 7
-      Data: 13|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
-    - Name: NecessaryCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ForbiddenCivicReference
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: MutuallyExclusiveCivic
-      Entry: 7
-      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
-    - Name: serializableElementName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidNecessaryChoiceNames
-      Entry: 7
-      Data: 14|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: serializableValidForbiddenChoiceNames
-      Entry: 7
-      Data: 15|System.String[], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-  Key: 26
-  Hidden: 0
-  IsObsolete: 0
-  DlcPrerequisite:
-    DownloadableContent: 0
-  Category:
-    serializableElementName: CivicsCategory_Government
-  IsInternational: 1
   IsReversible: 1
   Priority: 0
   Notes: 
@@ -6689,7 +4216,7 @@ MonoBehaviour:
       Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 4
     - Name: 
       Entry: 7
       Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
@@ -6829,6 +4356,47 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Culture04_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -6839,7 +4407,7 @@ MonoBehaviour:
       Data: 
     - Name: Archetypes
       Entry: 7
-      Data: 7|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
+      Data: 8|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 2
@@ -6884,19 +4452,19 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 8|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
+      Data: 9|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
     - Name: SerializableName
       Entry: 1
       Data: Civics_Culture04_Choice02
     - Name: SimulationEventEffects
       Entry: 7
-      Data: 9|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -6940,7 +4508,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -6972,7 +4540,7 @@ MonoBehaviour:
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
     - Name: serializableElementName
       Entry: 1
-      Data: Effect_Civics_Culture04_Choice01
+      Data: Effect_Civics_Culture04_Choice02
     - Name: 
       Entry: 8
       Data: 
@@ -6981,7 +4549,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SupressRevolutionGauge,
+      Data: 13|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_SupressRevolutionGauge,
         Amplitude.Mercury.Data
     - Name: SimulationEffectDescriptionOverride
       Entry: 6
@@ -7022,7 +4590,7 @@ MonoBehaviour:
       Data: 
     - Name: Archetypes
       Entry: 7
-      Data: 13|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
+      Data: 14|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
     - Name: 
       Entry: 12
       Data: 2
@@ -7073,7 +4641,7 @@ MonoBehaviour:
       Data: 
     - Name: CivicPrerequisite
       Entry: 7
-      Data: 14|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
+      Data: 15|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
     - Name: NecessaryCivicReference
       Entry: 7
       Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
@@ -7103,7 +4671,7 @@ MonoBehaviour:
       Data: 
     - Name: serializableValidNecessaryChoiceNames
       Entry: 7
-      Data: 15|System.String[], mscorlib
+      Data: 16|System.String[], mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -7757,6 +5325,494 @@ MonoBehaviour:
   Category:
     serializableElementName: CivicsCategory_Culture
   IsInternational: 0
+  IsReversible: 1
+  Priority: 0
+  Notes: 
+--- !u!114 &8786172228981977750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 772025518, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civics_Army03
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Choices
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.CivicChoice[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
+    - Name: SerializableName
+      Entry: 1
+      Data: Civics_Army03_Choice01
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 2|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 3|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Economic
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: -4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Army03_Choice01
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_UnlockConstructible,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: ConstructibleReferences
+      Entry: 7
+      Data: 6|Amplitude.Framework.DatatableElementReference[], Amplitude.Framework
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Repeatable_Military
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Army03_Choice01_Exotic
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 8|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 16
+    - Name: Weight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 128
+    - Name: Weight
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SpecificCivicBehavior
+      Entry: 3
+      Data: 0
+    - Name: CivicPreRequisite
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Amplitude.Mercury.Data.Simulation.CivicChoice, Amplitude.Mercury.Data
+    - Name: SerializableName
+      Entry: 1
+      Data: Civics_Army03_Choice02
+    - Name: SimulationEventEffects
+      Entry: 7
+      Data: 10|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 11|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ModifyIdeologicalAxis,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: IdeologicalAxisReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: IdeologicalAxis_Economic
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Delta
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Amplitude.Mercury.Data.Simulation.SimulationEventEffect_ApplyDescriptor,
+        Amplitude.Mercury.Data
+    - Name: SimulationEffectDescriptionOverride
+      Entry: 6
+      Data: 
+    - Name: UIMapperOverride
+      Entry: 6
+      Data: 
+    - Name: Hidden
+      Entry: 5
+      Data: false
+    - Name: DlcPrerequisite
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.Prerequisites.DownloadableContentPrerequisite,
+        Amplitude.Mercury.Data
+    - Name: DownloadableContent
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GainValues
+      Entry: 6
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Empire
+    - Name: Descriptor
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 1
+      Data: Effect_Civics_Army03_Choice02
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Notes
+      Entry: 6
+      Data: 
+    - Name: Archetypes
+      Entry: 7
+      Data: 13|Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 32
+    - Name: Weight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Amplitude.Mercury.Data.Simulation.CivicChoice+ArchetypeWeight, Amplitude.Mercury.Data
+    - Name: Archetype
+      Entry: 3
+      Data: 64
+    - Name: Weight
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SpecificCivicBehavior
+      Entry: 3
+      Data: 10
+    - Name: CivicPreRequisite
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CivicPrerequisite
+      Entry: 7
+      Data: 14|Amplitude.Mercury.Data.Simulation.CivicPrerequisite, Amplitude.Mercury.Data
+    - Name: NecessaryCivicReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ForbiddenCivicReference
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MutuallyExclusiveCivic
+      Entry: 7
+      Data: Amplitude.Framework.DatatableElementReference, Amplitude.Framework
+    - Name: serializableElementName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: serializableValidNecessaryChoiceNames
+      Entry: 7
+      Data: 15|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: serializableValidForbiddenChoiceNames
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Key: 0
+  Hidden: 0
+  IsObsolete: 0
+  DlcPrerequisite:
+    DownloadableContent: 0
+  Category:
+    serializableElementName: CivicsCategory_Army
+  IsInternational: 1
   IsReversible: 1
   Priority: 0
   Notes: 

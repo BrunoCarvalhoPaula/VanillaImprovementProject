@@ -331,6 +331,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Gunner
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_StealthRevolutionary
+  - serializableElementName: UnitSpecialty_Stealth
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era6_Cuba_Guerrilleros
   - serializableElementName: Effect_Unit_Era6

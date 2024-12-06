@@ -148,6 +148,14 @@ MonoBehaviour:
       ConstantStack: []
       PropertyLocalName:
       - TradeUpkeep
+    - Note: 
+      TargetProperty: NonCapitalCityCount
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000a00000001000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - CityCount
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
@@ -372,5 +380,37 @@ MonoBehaviour:
       ConstantStack: []
       PropertyLocalName:
       - TradeUpkeepAfterResourceDiversification
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Cities
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: StabilityPerStationedUnit
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Cities
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Settlement_NotOnOriginalContinent
+      specificTargetType: 
+    PropertyEffects:
+    - Note: // counts the number of cities on foreign continents.
+      TargetProperty: ForeignCityCount
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

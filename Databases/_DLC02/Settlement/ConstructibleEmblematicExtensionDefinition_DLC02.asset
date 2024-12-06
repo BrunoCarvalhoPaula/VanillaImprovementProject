@@ -62,7 +62,7 @@ MonoBehaviour:
   IsObsolete: 0
   DLCPrerequisite:
     DownloadableContent: 6
-  Category: 2
+  Category: 8
   SerializableFamily: 
   Level: 0
   Unicity: 4
@@ -161,6 +161,8 @@ MonoBehaviour:
     - TerrainType_Ocean
     - TerrainType_CoastalWater
     - TerrainType_Lake
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []

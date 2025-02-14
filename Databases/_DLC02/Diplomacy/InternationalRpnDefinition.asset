@@ -38,37 +38,3 @@ MonoBehaviour:
   m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: InternationalRpnDefinition
   m_EditorClassIdentifier: 
---- !u!114 &1412741073834943561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: CivicVote_InfluenceCostToDiscard
-  m_EditorClassIdentifier: 
-  RpnOperationStack: 0a000000090000000a000000010000000a0000000500000000000000090000000a0000000a0000000300000002000000000000000a000000050000000a000000020000000a000000090000000a00000005000000020000000a00000001000000000000000900000002000000
-  ConstantStack:
-  - RawValue: 20000
-  - RawValue: 1000
-  - RawValue: 3000
-  - RawValue: 5000
-  - RawValue: 5000000
-  - RawValue: 1000
-  - RawValue: 5000000
-  - RawValue: 90000
-  - RawValue: 2000
-  - RawValue: 60000
-  Note: Same as civic enact cost
-  PropertyLocalNameStack:
-  - NumberOfEnactedCivic
-  - NumberOfEnactedCivic
-  - EraLevel
-  - GameSpeedMultiplier
-  VariableNameStack: []
-  DefinedVariables: []
-  targetTypeName: 
-  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

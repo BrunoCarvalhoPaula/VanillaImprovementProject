@@ -111,7 +111,6 @@ MonoBehaviour:
   - serializedData: 0000000059%Effect_ArtificialWonder_Era1_HangingGardensOfBabylonExotic0000000036Unlocks%20the%20Luxury's%20Wondrous%20Effect00000000000000000001
   - serializedData: 0000000039%Effect_Extension_Base_CampCenterExotic0000000071Outposts%20don't%20produce%20[MoneyColored]%20Money%20or%20[ScienceColored]%20Science00000000000000000001
   - serializedData: 0000000048%Effect_Extension_Era4_IroquoisConfederacyExotic0000000042+4%20[FoodColored]%20Food%20per%20number%20of%20Cities00000000000000000001
-  - serializedData: 0000000032%Effect_Repeatable_ScienceExotic0000000082Add%20[ScienceColored]%20Science%20equal%20to%20<c=30D9D2>[Population]</c>%20Researcher%20output00000000000000000001
   - serializedData: 0000000045%GameEffect_BattleAction_HalfRangedMalusTitle0000000018Melee%20Combat%20Bonus00000000000000000001
   - serializedData: "0000000051%ConstructibleExtension_Base_NaturalReserveInverted0000000040All%20Districts%20other%20than%20Nature%20Reserve\t00000000000000000008"
   - serializedData: 0000000037%GameEffect_CityFlags_CapitalInverted0000000026All%20Cities%20but%20the%20Capital00000000000000000001

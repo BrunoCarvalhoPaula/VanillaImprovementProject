@@ -188,6 +188,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -419,6 +421,8 @@ MonoBehaviour:
     serializableTerrainTypeNames:
     - TerrainType_Lake
     - TerrainType_CoastalWater
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -665,6 +669,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -888,6 +894,8 @@ MonoBehaviour:
     - TerrainType_CoastalWater
     - TerrainType_Lake
     - TerrainType_CityTerrain
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -1131,6 +1139,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -1374,6 +1384,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -1617,6 +1629,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -1860,6 +1874,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -2098,6 +2114,8 @@ MonoBehaviour:
     - TerrainType_CoastalWater
     - TerrainType_Lake
     - TerrainType_CityTerrain
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -2336,6 +2354,8 @@ MonoBehaviour:
     - TerrainType_CoastalWater
     - TerrainType_Lake
     - TerrainType_CityTerrain
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -2591,6 +2611,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -2834,6 +2856,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -3077,6 +3101,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -3306,6 +3332,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -3549,6 +3577,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -3792,6 +3822,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -4035,6 +4067,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -4278,6 +4312,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -4501,6 +4537,8 @@ MonoBehaviour:
     - TerrainType_CoastalWater
     - TerrainType_Lake
     - TerrainType_CityTerrain
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -4723,6 +4761,8 @@ MonoBehaviour:
     - TerrainType_CoastalWater
     - TerrainType_Lake
     - TerrainType_CityTerrain
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -4966,6 +5006,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -5209,6 +5251,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -5452,6 +5496,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -5695,6 +5741,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -5938,6 +5986,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -6181,6 +6231,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -6424,6 +6476,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []
@@ -6667,6 +6721,8 @@ MonoBehaviour:
     LocalizationOverride: 
     CanBuildOnWasteland: 0
     serializableTerrainTypeNames: []
+  TerritoryTypePrerequisite:
+    IsOceanic: 0
   BiomePrerequisite:
     Constraint: 0
     serializableBiomeNames: []

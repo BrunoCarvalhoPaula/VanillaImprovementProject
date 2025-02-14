@@ -25,31 +25,6 @@ MonoBehaviour:
   - TotalInvestedProduction
   targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
   sourceTypeName: 
---- !u!114 &-64469715070583306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: DiplomaticConsulatActionCost_LeverageReduceWarScore
-  m_EditorClassIdentifier: 
-  RpnOperationStack: 0a0000000a0000000a000000090000000500000002000000070000000900000002000000
-  ConstantStack:
-  - RawValue: 30000
-  - RawValue: 10000
-  - RawValue: 1500
-  Note: 
-  PropertyLocalNameStack:
-  - NumberOfOngoingWar
-  - LeverageActionCostMultiplier
-  VariableNameStack: []
-  DefinedVariables: []
-  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
-  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1287,18 +1287,6 @@ MonoBehaviour:
       ChildIndexes: 
     TagCodes: 00000000
     LocalizedStringElementFlag: 0
-  - LineId: '%Effect_Repeatable_ScienceExotic'
-    NodeIndexes: 00000000
-    CompactedNodes:
-    - Id: 1
-      TextValue: Add [ScienceColored] Science equal to <c=30D9D2>[Population]</c>
-        Researcher output
-      ParameterIndex: 0
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 
-    TagCodes: 00000000
-    LocalizedStringElementFlag: 0
   - LineId: '%GameEffect_BattleAction_HalfRangedMalusTitle'
     NodeIndexes: 00000000
     CompactedNodes:

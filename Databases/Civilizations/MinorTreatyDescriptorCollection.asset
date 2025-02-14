@@ -35,11 +35,10 @@ MonoBehaviour:
     - Note: 
       TargetProperty: MoneyGainForMajor
       ToTargetOperation: 0
-      RpnOperationStack: 0800000008000000000000000800000000000000080000000a000000050000000a00000002000000080000000a000000050000000200000000000000
+      RpnOperationStack: 0a000000080000000000000008000000020000000800000000000000080000000a00000002000000080000000200000000000000
       ConstantStack:
-      - RawValue: 1500
+      - RawValue: 1000
       - RawValue: 10000
-      - RawValue: 2000
       PropertyLocalName:
       - PopulationCount
       - DistrictCount
@@ -128,11 +127,10 @@ MonoBehaviour:
     - Note: 
       TargetProperty: MoneyGainForMajor
       ToTargetOperation: 0
-      RpnOperationStack: 0800000008000000000000000800000000000000080000000a000000050000000a00000002000000080000000a000000050000000200000000000000
+      RpnOperationStack: 0a000000080000000000000008000000020000000800000000000000080000000a00000002000000080000000200000000000000
       ConstantStack:
-      - RawValue: 1500
+      - RawValue: 1000
       - RawValue: 10000
-      - RawValue: 2000
       PropertyLocalName:
       - PopulationCount
       - DistrictCount

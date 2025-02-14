@@ -21,7 +21,7 @@ MonoBehaviour:
   - RawValue: 3000
   - RawValue: 1250
   - RawValue: 1000
-  - RawValue: 2025
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - ExtensionDistrictsCount
@@ -475,7 +475,7 @@ MonoBehaviour:
   - RawValue: 3000
   - RawValue: 1250
   - RawValue: 1000
-  - RawValue: 2025
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - ExtensionDistrictsCount
@@ -590,7 +590,7 @@ MonoBehaviour:
   - RawValue: 3000
   - RawValue: 1250
   - RawValue: 1000
-  - RawValue: 2025
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - ExtensionDistrictsCount
@@ -831,7 +831,7 @@ MonoBehaviour:
   - RawValue: 3000
   - RawValue: 1250
   - RawValue: 1000
-  - RawValue: 2025
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - ExtensionDistrictsCount

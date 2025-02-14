@@ -32,33 +32,6 @@ MonoBehaviour:
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
   sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
---- !u!114 &-8201396491568241996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: SubmissionCost
-  m_EditorClassIdentifier: 
-  RpnOperationStack: 0a0000000a00000008000000020000000a0000000a00000009000000060000000800000001000000020000000100000000000000
-  ConstantStack:
-  - RawValue: 125000
-  - RawValue: 35000
-  - RawValue: 40000
-  - RawValue: 0
-  Note: 
-  PropertyLocalNameStack:
-  - CityCountingTowardCap
-  - EraLevel
-  - EraLevel
-  VariableNameStack: []
-  DefinedVariables: []
-  targetTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
-  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-6261240880893414605
 MonoBehaviour:
   m_ObjectHideFlags: 0

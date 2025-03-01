@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4379897216681408282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1006718634, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: relationwithterritoryminorowner
+  m_EditorClassIdentifier: 
+  Localization: '%LegacyTrait_Sumer_Exotic'
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 269766565, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: NavigationMapperCollection
+  m_EditorClassIdentifier: 

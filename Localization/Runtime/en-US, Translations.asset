@@ -1931,3 +1931,53 @@ MonoBehaviour:
       ChildIndexes: 
     TagCodes: 00000000
     LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticCrisisPanelSurrenderPanelMyWarCostFieldDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The War Score defines which reparations the Winner is allowed to
+        obtain at the end of the conflict. During War, it is computed from pre-existing
+        Demands and occupied Enemy Cities.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticBadgePacifistDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: While having this badge maintaining an offensive war against its
+        owner costs more [Morale] War Support per [Turn] turn, based on the level
+        of the badge.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%PacifistBadgeDefinitionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: While having this badge maintaining an offensive war against its
+        owner costs more [Morale] War Support per [Turn] turn, based on the level
+        of the badge.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%LegacyTrait_Sumer_Exotic'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Independent People per Unit within their territory per [Turn] Turn
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0

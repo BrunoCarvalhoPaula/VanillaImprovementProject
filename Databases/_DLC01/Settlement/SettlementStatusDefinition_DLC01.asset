@@ -1,5 +1,218 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8377109011086306100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Superstitious07
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Superstitious
+  Descriptor:
+    serializableElementName: Effect_Status_City_Superstitious07
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Learning
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-7668807636490511706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_WarEffort09
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_WarEffort
+  Descriptor:
+    serializableElementName: Effect_Status_City_WarEffort09
+  CostModifier:
+    serializableElementName: ConstructibleCostModifier_Status_City_Triumph_Medium
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Flood
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Disease
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-7120113007849514526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_HighSecurity19
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_HighSecurity
+  Descriptor:
+    serializableElementName: Effect_Status_City_HighSecurity19
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Flood
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Disease
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-6365583970365601216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Superstitious08
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Superstitious
+  Descriptor:
+    serializableElementName: Effect_Status_City_Superstitious08
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Learning
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-4847135072511661865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Destitute12
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Destitute
+  Descriptor:
+    serializableElementName: Effect_Status_City_Destitute12
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Plague
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Prosperity
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-4175553073569942139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Prosperity37
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Prosperity
+  Descriptor:
+    serializableElementName: Effect_Status_City_Prosperity37
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Destitute
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-3685822340737307780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Plague02
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Plague
+  Descriptor:
+    serializableElementName: Effect_Status_City_Plague02
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Evacuated
+  CancelOnApply: []
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &-3115806600449935157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,6 +243,69 @@ MonoBehaviour:
   - serializableElementName: StatusCategory_City_Disease
   DefaultDuration: 10
   IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-912130552178802629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Austerity10
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Austerity
+  Descriptor:
+    serializableElementName: Effect_Status_City_Austerity10
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Flood
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Disease
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &-657226031943281536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Destitute11
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Destitute
+  Descriptor:
+    serializableElementName: Effect_Status_City_Destitute11
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Plague
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Prosperity
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,6 +318,36 @@ MonoBehaviour:
   m_Script: {fileID: -2110363667, guid: b310e23bee821cb478da05296ba685d0, type: 3}
   m_Name: SettlementStatusDefinition_DLC01
   m_EditorClassIdentifier: 
+--- !u!114 &787590029288330496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_ScienceInvestment22
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_ScienceInvestment
+  Descriptor:
+    serializableElementName: Effect_Status_City_ScienceInvestment22
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply: []
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &1002852081156469218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,6 +378,37 @@ MonoBehaviour:
   - serializableElementName: StatusCategory_City_Disease
   DefaultDuration: 10
   IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &1675540143447781503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_ScienceInvestment23
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_ScienceInvestment
+  Descriptor:
+    serializableElementName: Effect_Status_City_ScienceInvestment23
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply: []
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &1897247131881875969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,3 +438,127 @@ MonoBehaviour:
   - serializableElementName: StatusCategory_City_Superstitious
   DefaultDuration: 10
   IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &4651120880206142127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Destitute10
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Destitute
+  Descriptor:
+    serializableElementName: Effect_Status_City_Destitute10
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Plague
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Prosperity
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &4738345080817564251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_HighSecurity20
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_HighSecurity
+  Descriptor:
+    serializableElementName: Effect_Status_City_HighSecurity20
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Flood
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Disease
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &7755148901388103364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_ScienceInvestment24
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_ScienceInvestment
+  Descriptor:
+    serializableElementName: Effect_Status_City_ScienceInvestment24
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Siege
+  CancelOnApply: []
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
+--- !u!114 &8577167678390845705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_ScienceInvestment21
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_ScienceInvestment
+  Descriptor:
+    serializableElementName: Effect_Status_City_ScienceInvestment21
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Panic
+  - serializableElementName: StatusCategory_City_Plague
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Flood
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Disease
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0

@@ -125,7 +125,7 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: FoodWorkplaceNumberOfSlots
-      ToTargetOperation: 0
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 1000
@@ -135,14 +135,14 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 4000
       PropertyLocalName: []
     - Note: 
       TargetProperty: GrowthGain
       ToTargetOperation: 4
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 10
+      - RawValue: 20
       PropertyLocalName:
       - PopulationAssignedToFood
   serializableCategory: 
@@ -219,7 +219,7 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: FoodWorkplaceNumberOfSlots
-      ToTargetOperation: 0
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 1000
@@ -229,7 +229,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 4000
       PropertyLocalName: []
     - Note: 
       TargetProperty: GrowthGain
@@ -305,15 +305,23 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 3000
       PropertyLocalName: []
     - Note: 
       TargetProperty: MoneyWorkplaceNumberOfSlots
-      ToTargetOperation: 0
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - UnemployedPopulation
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &-7066064707865275075
@@ -628,26 +636,6 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 2000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: FoodWorkplaceGainPerPopulation
-      ToTargetOperation: 4
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 800
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: FoodWorkplaceNumberOfSlots
-      ToTargetOperation: 4
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: -500
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
@@ -1395,17 +1383,17 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: IndustryWorkplaceGainPerPopulation
-      ToTargetOperation: 4
+      ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 1200
+      - RawValue: 7000
       PropertyLocalName: []
     - Note: 
       TargetProperty: IndustryWorkplaceNumberOfSlots
-      ToTargetOperation: 4
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: -500
+      - RawValue: 2000
       PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
@@ -1764,14 +1752,14 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 5000
       PropertyLocalName: []
     - Note: 
       TargetProperty: IndustryWorkplaceNumberOfSlots
-      ToTargetOperation: 4
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 200
+      - RawValue: 2000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
@@ -2314,6 +2302,59 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+--- !u!114 &2008483669780132730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Infrastructure_Industry_Family05_02
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: IndustryWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: IndustryWorkplaceNumberOfSlots
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Districts
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extractor_ResourceDeposit05
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ResourceAccessProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &2027398599566642367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2475,7 +2516,7 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: FoodWorkplaceNumberOfSlots
-      ToTargetOperation: 0
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 1000
@@ -2485,7 +2526,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 4000
       PropertyLocalName: []
     - Note: 
       TargetProperty: GrowthGain
@@ -3109,15 +3150,23 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 3000
       PropertyLocalName: []
     - Note: 
       TargetProperty: MoneyWorkplaceNumberOfSlots
-      ToTargetOperation: 0
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - UnemployedPopulation
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &8369263343074635825

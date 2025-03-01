@@ -702,6 +702,12 @@ MonoBehaviour:
     SolveRPNFormula: 0
     EffectLocalization: '%Effect_Vassal_Tribute'
     ParameterFlags: 1
+  - EffectIndex: 0
+    PropertyEffectIndex: 1
+    HidePropertyEffect: 0
+    SolveRPNFormula: 0
+    EffectLocalization: '%Effect_Vassal_Tribute'
+    ParameterFlags: 0
 --- !u!114 &7111529412470577437
 MonoBehaviour:
   m_ObjectHideFlags: 0

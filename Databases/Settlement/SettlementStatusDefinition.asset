@@ -57,6 +57,37 @@ MonoBehaviour:
   DefaultDuration: 6
   IgnoreGameSpeed: 1
   pathfindingFlags: 0
+--- !u!114 &-8276064785436841798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967118104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Status_City_Tolerancy09
+  m_EditorClassIdentifier: 
+  OnlyUsedByCode: 0
+  Category:
+    serializableElementName: StatusCategory_City_Tolerancy
+  Descriptor:
+    serializableElementName: Effect_Status_City_Tolerancy09
+  CostModifier:
+    serializableElementName: 
+  StartingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  InhibitedBy:
+  - serializableElementName: StatusCategory_City_Blaze
+  - serializableElementName: StatusCategory_City_Flood
+  - serializableElementName: StatusCategory_City_Evacuated
+  - serializableElementName: StatusCategory_City_Siege
+  - serializableElementName: StatusCategory_City_Plague
+  CancelOnApply:
+  - serializableElementName: StatusCategory_City_Conservative
+  DefaultDuration: 10
+  IgnoreGameSpeed: 0
+  pathfindingFlags: 0
 --- !u!114 &-6327076613564898328
 MonoBehaviour:
   m_ObjectHideFlags: 0

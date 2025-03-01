@@ -592,7 +592,7 @@ MonoBehaviour:
       ToTargetOperation: 4
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 200
+      - RawValue: -200
       PropertyLocalName: []
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
@@ -899,6 +899,46 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+--- !u!114 &-6213341440425881023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Status_City_ScienceInvestment16
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Districts
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Urban
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ScienceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 5000
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: MoneyNet
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 15000
+      PropertyLocalName: []
+  serializableCategory: Status
+  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &-6210017274659685093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1175,62 +1215,6 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 4000
-      PropertyLocalName: []
-  serializableCategory: Status
-  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
---- !u!114 &-5690637343160474429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Status_City_Plague02
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: GrowthNet
-      ToTargetOperation: 4
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: -200
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: MoneyNet
-      ToTargetOperation: 4
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: -200
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: ProductionNet
-      ToTargetOperation: 4
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: -200
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: ScienceNet
-      ToTargetOperation: 4
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: -200
-      PropertyLocalName: []
-    - Note: 
-      TargetProperty: PublicOrderTarget
-      ToTargetOperation: 1
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 20000
       PropertyLocalName: []
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
@@ -1764,13 +1748,6 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: MoneyNet
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 5000
-      PropertyLocalName: []
-    - Note: 
       TargetProperty: ScienceNet
       ToTargetOperation: 1
       RpnOperationStack: 0a0000000800000002000000
@@ -2000,6 +1977,35 @@ MonoBehaviour:
       - RawValue: 2000
       PropertyLocalName:
       - PopulationAssignedToFood
+  serializableCategory: Status
+  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+--- !u!114 &-3028722209273251066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Status_City_Abundance04
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow: []
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: GrowthNet
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 200
+      PropertyLocalName:
+      - PopulationConsumption
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &-2799461429650396804
@@ -3603,16 +3609,17 @@ MonoBehaviour:
   Effects:
   - ApplyEffectOnSource: 0
     Path:
-      PropertyToFollow: []
+      PropertyToFollow:
+      - Districts
       Validations:
-      - PathIndex: -1
+      - PathIndex: 0
         ValidableElementCollection: 
-        Inverted: 1
-        serializableElementName: GameEffect_CityFlags_Besieged
+        Inverted: 0
+        serializableElementName: Effect_Extension_Base_TrainStation
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: ProductionNet
+      TargetProperty: IndustryProduced
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
@@ -3914,6 +3921,46 @@ MonoBehaviour:
       - RawValue: 10000
       PropertyLocalName:
       - NumberOfCulturallyControlledTerritory
+  serializableCategory: Status
+  startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+--- !u!114 &1674692196667137601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Status_City_Conservative10
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Districts
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Extension_Base
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 250
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderProduced
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &1813179012089741720

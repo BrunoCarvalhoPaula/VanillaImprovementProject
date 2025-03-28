@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2275006101623226893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -788055147, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Health
+  m_EditorClassIdentifier: 
+  Title: 
+  Description: 
+  Images: []
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  ColorsPerThreholds:
+  - Threshold: 0
+    Color: {r: 1, g: 0.4509804, b: 0.4, a: 1}
+  - Threshold: 0.34
+    Color: {r: 0.8207547, g: 0.7628835, b: 0.10453009, a: 1}
+  - Threshold: 0.68
+    Color: {r: 0.6039216, g: 0.85490197, b: 0.31, a: 1}
+  - Threshold: 1
+    Color: {r: 0.6039216, g: 0.85490197, b: 0.31, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: Misc
+  m_EditorClassIdentifier: 

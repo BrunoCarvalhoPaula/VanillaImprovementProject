@@ -76,15 +76,26 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: ArmyAction_CutForest_Duration
   m_EditorClassIdentifier: 
-  RpnOperationStack: 0a0000000a000000080000000b0000000a000000020000000a00000006000000030000000100000006000000
+  RpnOperationStack: 0a0000000a0000000b0000000a000000020000000a000000080000000100000000000000060000000a00000007000000000000000a0000000a0000000800000001000000060000000a00000007000000000000000a0000000a000000080000000a00000002000000080000000100000000000000060000000a0000000700000000000000
   ConstantStack:
   - RawValue: 1000
-  - RawValue: 5000
-  - RawValue: 20000
+  - RawValue: 0
+  - RawValue: 16000
+  - RawValue: 24000
+  - RawValue: 1000
+  - RawValue: 0
+  - RawValue: 3000
+  - RawValue: 1000
+  - RawValue: 0
+  - RawValue: 6000
+  - RawValue: 10000
   - RawValue: 1000
   Note: 
   PropertyLocalNameStack:
   - CombatStrength
+  - UnitsCount
+  - UnitsCount
+  - RansackCombatStrengthBonus
   VariableNameStack:
   - EraLevel
   DefinedVariables:
@@ -104,3 +115,30 @@ MonoBehaviour:
   m_Script: {fileID: 633835022, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: RpnDefinitionCollectionMiscellaneous
   m_EditorClassIdentifier: 
+--- !u!114 &8696617721348113207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ArmyAction_CutForest_ProductionNet
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a0000000b000000050000000a000000020000000b0000000a00000002000000000000000800000002000000
+  ConstantStack:
+  - RawValue: 2000
+  - RawValue: 10000
+  - RawValue: 5000
+  Note: 
+  PropertyLocalNameStack:
+  - ProductionFromCuttingTreesMultiplier
+  VariableNameStack:
+  - EraLevel
+  - EraLevel
+  DefinedVariables:
+  - EraLevel
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: 

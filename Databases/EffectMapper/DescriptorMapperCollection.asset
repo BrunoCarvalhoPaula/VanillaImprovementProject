@@ -837,3 +837,18 @@ MonoBehaviour:
     SolveRPNFormula: 0
     EffectLocalization: '%Effect_Civics_Religion01_Choice01Override'
     ParameterFlags: 0
+--- !u!114 &9113942451897241079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_EmpireBonus_Reformation
+  m_EditorClassIdentifier: 
+  LocalizedName: '%ControlBannerReligionPopupReformationTitle'
+  HideDescriptor: 1
+  PropertyEffectPolicies: []

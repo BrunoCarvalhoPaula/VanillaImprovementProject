@@ -26,6 +26,13 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 6000
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: CombatStrength
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - AmbushBonusCombatStrength
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
 --- !u!114 &11400000

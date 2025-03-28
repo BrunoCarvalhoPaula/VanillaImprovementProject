@@ -125,6 +125,31 @@ MonoBehaviour:
   DefinedVariables: []
   targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
   sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+--- !u!114 &-8156364881063936726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: ProductionCost_Extension_Reforestation
+  m_EditorClassIdentifier: 
+  RpnOperationStack: 0a00000009000000050000000a00000002000000090000000a0000000200000000000000
+  ConstantStack:
+  - RawValue: 2000
+  - RawValue: 20000
+  - RawValue: 10000
+  Note: 
+  PropertyLocalNameStack:
+  - EraLevel
+  - EraLevel
+  VariableNameStack: []
+  DefinedVariables: []
+  targetTypeName: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
+  sourceTypeName: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-6941486895931544599
 MonoBehaviour:
   m_ObjectHideFlags: 0

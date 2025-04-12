@@ -60,6 +60,22 @@ MonoBehaviour:
   m_Script: {fileID: 399512207, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: PropertyMapperCollection
   m_EditorClassIdentifier: 
+--- !u!114 &1521947038636464908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: ProductionFromCuttingTreesMultiplier
+  m_EditorClassIdentifier: 
+  Localization: '%ProductionFromCuttingTreesMultiplier'
+  DisplayAsPercent: 1
+  DisplayAsSigned: 0
+  GainType: 0
 --- !u!114 &1766012560829828194
 MonoBehaviour:
   m_ObjectHideFlags: 0

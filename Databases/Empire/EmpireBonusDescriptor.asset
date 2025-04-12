@@ -712,7 +712,7 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName:
-      - SumOfLuxuryResourceAccessCount
+      - ResourceTypeAccessCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &11400000

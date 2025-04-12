@@ -3405,7 +3405,7 @@ MonoBehaviour:
     Type: 1
     Constant: -1
     RpnDefinitionReference:
-      serializableElementName: ProductionCost_Unit_Era5_Low
+      serializableElementName: ProductionCost_Unit_Era4_Medium
   MoneyInstantCostDefinition:
     Constant: 0
     RpnDefinitionReference:
@@ -3415,7 +3415,7 @@ MonoBehaviour:
     RpnDefinitionReference:
       serializableElementName: 
   PopulationInstantCostDefinition:
-    Constant: 2
+    Constant: 3
   ProvidedByOtherEmpireCostDefinition:
     ProductionCostModifierRpn:
       serializableElementName: 

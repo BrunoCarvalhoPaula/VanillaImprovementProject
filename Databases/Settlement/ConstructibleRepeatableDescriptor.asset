@@ -28,6 +28,14 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - RepeatableCount
+    - Note: 
+      TargetProperty: MoneyWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - RepeatableCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Repeatable, Amplitude.Mercury.Firstpass
 --- !u!114 &-2531897100239298985
@@ -52,6 +60,14 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: ScienceWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - RepeatableCount
+    - Note: 
+      TargetProperty: ScienceWorkplaceNumberOfSlots
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
@@ -129,6 +145,14 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: FoodWorkplaceGainPerPopulation
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000900000002000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - RepeatableCount
+    - Note: 
+      TargetProperty: FoodWorkplaceNumberOfSlots
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:

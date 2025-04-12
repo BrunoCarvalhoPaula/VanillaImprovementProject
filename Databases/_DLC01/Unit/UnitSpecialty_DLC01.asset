@@ -15,7 +15,7 @@ MonoBehaviour:
   AbilityReferences:
   - serializableElementName: UnitAbility_EmbarkFree
   - serializableElementName: UnitAbility_LostAtSeaDamage_Level1
-  AutoResolveBattleStrengthBonus:
+  InstantResolveBattleStrengthBonus:
     RawValue: 0
 --- !u!114 &11400000
 MonoBehaviour:

@@ -48,6 +48,14 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: -200
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000a00000005000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - ConsecutiveTurnEndedInInfluenceDeficit
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow: []
@@ -77,6 +85,16 @@ MonoBehaviour:
       - RawValue: 800
       PropertyLocalName:
       - InfluenceStock
+    - Note: 
+      TargetProperty: InfluenceNet
+      ToTargetOperation: 0
+      RpnOperationStack: 09000000090000000a00000005000000020000000900000002000000
+      ConstantStack:
+      - RawValue: 1500
+      PropertyLocalName:
+      - EraLevel
+      - ConsecutiveTurnEndedInMoneyDeficit
+      - CityCountingTowardCap
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
 --- !u!114 &-1943941195647325549
@@ -111,7 +129,7 @@ MonoBehaviour:
       ToTargetOperation: 4
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: 2000
       PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
@@ -125,6 +143,13 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 400
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: TradeUpkeep
+      ToTargetOperation: 4
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: -800
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

@@ -1981,3 +1981,42 @@ MonoBehaviour:
       ChildIndexes: 
     TagCodes: 00000000
     LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticBadgeMonsterDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: While having this badge, its owner does not gain [Morale] War Support
+        when destroying enemy units, nor the enemy loses [Morale] War Support when
+        losing units in battle.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%MonsterBadgeDefinitionDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: While having this badge, its owner does not gain [Morale] War Support
+        when destroying enemy units, nor the enemy loses [Morale] War Support when
+        losing units in battle.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%DiplomaticCrisisPanelSurrenderPanelTheirWarCostFieldDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: The War Score defines which reparations the Winner is allowed to
+        obtain at the end of the conflict. During War, it is computed from pre-existing
+        Demands and occupied Enemy Cities.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0

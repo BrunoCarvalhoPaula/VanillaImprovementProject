@@ -708,6 +708,21 @@ MonoBehaviour:
     SolveRPNFormula: 0
     EffectLocalization: '%Effect_Vassal_Tribute'
     ParameterFlags: 0
+--- !u!114 &7078918862721940245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Tag_DiplomaticState_Alliance
+  m_EditorClassIdentifier: 
+  LocalizedName: '%Tag_DiplomaticState_Alliance'
+  HideDescriptor: 0
+  PropertyEffectPolicies: []
 --- !u!114 &7111529412470577437
 MonoBehaviour:
   m_ObjectHideFlags: 0

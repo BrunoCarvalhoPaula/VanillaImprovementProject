@@ -416,61 +416,11 @@ MonoBehaviour:
       - PathIndex: 0
         ValidableElementCollection: 
         Inverted: 0
-        serializableElementName: Effect_Extension_Base_Food
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PublicOrderProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 4000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 1
-    Path:
-      PropertyToFollow:
-      - Neighbours
-      Validations:
+        serializableElementName: Tag_Extension_Urban
       - PathIndex: 0
         ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Industry
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PublicOrderProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 4000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 1
-    Path:
-      PropertyToFollow:
-      - Neighbours
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Science
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: PublicOrderProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 4000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 1
-    Path:
-      PropertyToFollow:
-      - Neighbours
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Effect_Extension_Base_Money
+        Inverted: 1
+        serializableElementName: Effect_Extension_Base_PublicOrder
       specificTargetType: 
     PropertyEffects:
     - Note: 

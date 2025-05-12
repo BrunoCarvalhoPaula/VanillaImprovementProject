@@ -48,6 +48,22 @@ MonoBehaviour:
   DisplayAsPercent: 0
   DisplayAsSigned: 1
   GainType: 0
+--- !u!114 &-2113674884266966116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2128171881, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: LeverageActionPointNet
+  m_EditorClassIdentifier: 
+  Localization: '%LeverageActionTitle'
+  DisplayAsPercent: 0
+  DisplayAsSigned: 1
+  GainType: 8192
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

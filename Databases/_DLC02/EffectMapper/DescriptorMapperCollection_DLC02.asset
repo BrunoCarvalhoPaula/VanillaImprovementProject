@@ -12,6 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: -1270168998, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
   m_Name: DescriptorMapperCollection_DLC02
   m_EditorClassIdentifier: 
+--- !u!114 &395209526239819962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1253022449, guid: b758277dfa0af2343b0f3b4eb4af4924, type: 3}
+  m_Name: Effect_Agreement_SphereOfInfluenceBonus
+  m_EditorClassIdentifier: 
+  LocalizedName: '%DiplomaticConsulatAgreementSphereOfInfluenceBonusForOtherTitle'
+  HideDescriptor: 0
+  PropertyEffectPolicies:
+  - EffectIndex: 1
+    PropertyEffectIndex: 0
+    HidePropertyEffect: 1
+    SolveRPNFormula: 0
+    EffectLocalization: 
+    ParameterFlags: 0
 --- !u!114 &1467104140768482010
 MonoBehaviour:
   m_ObjectHideFlags: 0

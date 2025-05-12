@@ -307,7 +307,7 @@ MonoBehaviour:
       ToTargetOperation: 4
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: -20
+      - RawValue: -15
       PropertyLocalName:
       - NumberOfConsulatAgreementSigned
   - ApplyEffectOnSource: 0

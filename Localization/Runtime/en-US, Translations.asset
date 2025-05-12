@@ -975,7 +975,7 @@ MonoBehaviour:
     NodeIndexes: 00000000
     CompactedNodes:
     - Id: 1
-      TextValue: +10 [PublicOrderColored] on Base Districts adjacent to Harbour
+      TextValue: +10 [PublicOrderColored] on non-Harbour Districts adjacent to Harbour
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1601,8 +1601,8 @@ MonoBehaviour:
     - Id: 1
       TextValue: Signing Empires allow their researchers to communicate freely with
         each other, lowering the cost to replicate scientific discoveries already
-        made by the other Empire. Costs 2% [CultureColored] Influence per turn to
-        maintain.
+        made by the other Empire. Costs 1.5% [CultureColored] Influence per turn
+        to maintain.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1614,8 +1614,8 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: Signing Empires share a portion of the [Leverage] Leverage from
-        Leverage Intel that each collects. Costs 2% [CultureColored] Influence per
-        turn to maintain.
+        Leverage Intel that each collects. Costs 1.5% [CultureColored] Influence
+        per turn to maintain.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1663,7 +1663,12 @@ MonoBehaviour:
       Mask: 0
       ChildIndexes: 
     - Id: 1
-      TextValue: ' [IndustryColored] Industry per Territory. Costs 2% [CultureColored]
+      TextValue: ' [IndustryColored] Industry per Territory
+
+        Grant 1 [Leverage]
+        Leverage per turn to the dominant Empire.
+
+        Costs 1.5% [CultureColored]
         Influence per turn to maintain.'
       ParameterIndex: 0
       VariationIndex: 0
@@ -1676,8 +1681,9 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: Signing Empires agree to allow their population to migrate to either
-        party's Capital in case of famine. Costs 2% [CultureColored] Influence per
-        turn to maintain.
+        party's Capital in case of famine. The empire that loses population will
+        gain Food and Money, while the other empire gains Leverage.  Costs 1.5% [CultureColored]
+        Influence per turn to maintain.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1691,7 +1697,7 @@ MonoBehaviour:
       TextValue: Signing Empires are able to participate in each other's Cultural
         Wonder projects. Participating Empires will choose between receiving [MoneyColored]
         Money, [CultureColored] Influence, or [Leverage] Leverage upon completion.
-        Costs 2% [CultureColored] Influence per turn to maintain.
+        Costs 1.5% [CultureColored] Influence per turn to maintain.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1704,7 +1710,7 @@ MonoBehaviour:
     - Id: 1
       TextValue: Signing Empires can build each other's current Emblematic Units.
         Every Foreign Emblematic Unit built will generate [MoneyColored] Money for
-        its original leader. Costs 2% [CultureColored] Influence per turn to maintain.
+        its original leader. Costs 1.5% [CultureColored] Influence per turn to maintain.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1986,8 +1992,8 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: While having this badge, its owner does not gain [Morale] War Support
-        when destroying enemy units, nor the enemy loses [Morale] War Support when
-        losing units in battle.
+        when destroying enemy units, nor does the enemy lose [Morale] War Support
+        when losing units in battle.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -1999,8 +2005,8 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: While having this badge, its owner does not gain [Morale] War Support
-        when destroying enemy units, nor the enemy loses [Morale] War Support when
-        losing units in battle.
+        when destroying enemy units, nor does the enemy lose [Morale] War Support
+        when losing units in battle.
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0
@@ -2014,6 +2020,17 @@ MonoBehaviour:
       TextValue: The War Score defines which reparations the Winner is allowed to
         obtain at the end of the conflict. During War, it is computed from pre-existing
         Demands and occupied Enemy Cities.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%Effect_Extension_Base_PublicOrder_Inverted'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Districts other than Common's Quarter
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0

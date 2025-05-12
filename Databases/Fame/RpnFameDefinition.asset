@@ -402,7 +402,7 @@ MonoBehaviour:
   - RawValue: 5000
   - RawValue: 140000
   - RawValue: 10000
-  - RawValue: 2800
+  - RawValue: 2500
   - RawValue: 1000
   - RawValue: 5300000
   - RawValue: 18000
@@ -652,7 +652,7 @@ MonoBehaviour:
   - RawValue: 5000
   - RawValue: 140000
   - RawValue: 10000
-  - RawValue: 2800
+  - RawValue: 2500
   - RawValue: 1000
   - RawValue: 6500000
   - RawValue: 22000
@@ -882,7 +882,7 @@ MonoBehaviour:
   - RawValue: 5000
   - RawValue: 140000
   - RawValue: 10000
-  - RawValue: 2800
+  - RawValue: 2500
   - RawValue: 1000
   - RawValue: 4100000
   - RawValue: 14000

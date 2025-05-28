@@ -2305,6 +2305,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Melee
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_NoMovementPenaltiesFromForests
+  - serializableElementName: UnitSpecialty_TribalRemnants
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era1_Common_Scouts
   - serializableElementName: Effect_Unit_Era1
@@ -5076,7 +5077,8 @@ MonoBehaviour:
   BaseSynergyDistrict: 0
   UnitClass:
     serializableElementName: UnitClass_Cavalry
-  UnitSpecialties: []
+  UnitSpecialties:
+  - serializableElementName: UnitSpecialty_Forager
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era1_Common_ScoutCavalry
   - serializableElementName: Effect_Unit_Era1
@@ -6365,6 +6367,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_MountedNomad
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_MoveUntilExhausted
+  - serializableElementName: UnitSpecialty_Forager
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era3_MongolEmpire_MongolHorde
   - serializableElementName: Effect_Unit_Era3
@@ -8421,6 +8424,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_MountedNomad
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_MoveUntilExhausted
+  - serializableElementName: UnitSpecialty_Forager
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era2_Huns_HunnicHorde
   - serializableElementName: Effect_Unit_Era2
@@ -9333,6 +9337,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Melee
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_NoMovementPenaltiesFromForests
+  - serializableElementName: UnitSpecialty_TribalRemnants
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era1_HarappanCivilization_Runners
   - serializableElementName: Effect_Unit_Era1

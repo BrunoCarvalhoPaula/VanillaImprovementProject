@@ -394,6 +394,31 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 5000
       PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlements
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: GameEffect_City
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 1
+        serializableElementName: GameEffect_CityFlags_Captured
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MilitaryPopulationShare
+      ToTargetOperation: 0
+      RpnOperationStack: 0900000008000000020000000a000000090000000600000003000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - MilitaryPopulationCount
+      - FoodProduced
+      - SumOfCityFoodProduced
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:

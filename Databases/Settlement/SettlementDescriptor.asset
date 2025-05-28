@@ -4040,15 +4040,31 @@ MonoBehaviour:
       - GrowthNet
       - MaxPopulationLostPerTurn
       - GrowthNet
-      - PopulationConsumption
+      - TotalConsumption
       - Population
       - GrowthNet
-    - Note: 0.25*pop^2 + 6*pop
+    - Note: 0.1*pop^2 + 6*pop - lowered from 0.25 after army food consumption added
+      TargetProperty: TotalConsumption
+      ToTargetOperation: 0
+      RpnOperationStack: 0a000000080000000800000000000000080000000800000001000000000000000a00000005000000020000000a00000008000000080000000000000008000000000000000200000000000000
+      ConstantStack:
+      - RawValue: 100
+      - RawValue: 2000
+      - RawValue: 6000
+      PropertyLocalName:
+      - Population
+      - InvestedPopulation
+      - MilitaryPopulationShare
+      - PopulationAssignedToFood
+      - Population
+      - InvestedPopulation
+      - MilitaryPopulationShare
+    - Note: 0.1*pop^2 + 6*pop - lowered from 0.25 after army food consumption added
       TargetProperty: PopulationConsumption
       ToTargetOperation: 0
       RpnOperationStack: 0a000000080000000800000000000000020000000800000008000000080000000100000000000000020000000a0000000800000008000000000000000200000000000000
       ConstantStack:
-      - RawValue: 250
+      - RawValue: 100
       - RawValue: 6000
       PropertyLocalName:
       - Population
@@ -4059,12 +4075,27 @@ MonoBehaviour:
       - Population
       - InvestedPopulation
     - Note: 
+      TargetProperty: MilitaryConsumption
+      ToTargetOperation: 0
+      RpnOperationStack: 080000000800000001000000
+      ConstantStack: []
+      PropertyLocalName:
+      - TotalConsumption
+      - PopulationConsumption
+    - Note: 
       TargetProperty: GrowthNet
       ToTargetOperation: 1
       RpnOperationStack: 08000000
       ConstantStack: []
       PropertyLocalName:
       - PopulationConsumption
+    - Note: 
+      TargetProperty: GrowthNet
+      ToTargetOperation: 1
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - MilitaryConsumption
     - Note: 
       TargetProperty: PollutionFromForestCut
       ToTargetOperation: 0
@@ -4094,13 +4125,6 @@ MonoBehaviour:
       ConstantStack: []
       PropertyLocalName:
       - ProductionNet
-    - Note: 
-      TargetProperty: CityLevel
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
     - Note: Non State Religion Followers
       TargetProperty: NonFollowerCount
       ToTargetOperation: 0
@@ -4109,6 +4133,13 @@ MonoBehaviour:
       PropertyLocalName:
       - Population
       - FollowerCount
+    - Note: 
+      TargetProperty: CityLevel
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:

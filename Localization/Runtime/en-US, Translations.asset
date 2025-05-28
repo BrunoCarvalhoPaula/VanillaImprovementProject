@@ -1860,47 +1860,6 @@ MonoBehaviour:
       ChildIndexes: 
     TagCodes: 00000000
     LocalizedStringElementFlag: 0
-  - LineId: '%Fame_EraStar_FarmerDescription'
-    NodeIndexes: 00000000
-    CompactedNodes:
-    - Id: 9
-      TextValue: 
-      ParameterIndex: 0
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 0100000002000000030000000400000005000000
-    - Id: 1
-      TextValue: 'Have '
-      ParameterIndex: 0
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 
-    - Id: 3
-      TextValue: 
-      ParameterIndex: 0
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 
-    - Id: 1
-      TextValue: ' Population your Empire (current value: '
-      ParameterIndex: 0
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 
-    - Id: 3
-      TextValue: 
-      ParameterIndex: 1
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 
-    - Id: 1
-      TextValue: ).
-      ParameterIndex: 0
-      VariationIndex: 0
-      Mask: 0
-      ChildIndexes: 
-    TagCodes: 00000000
-    LocalizedStringElementFlag: 0
   - LineId: '%Effect_EmpireBonus_GrazingTitle'
     NodeIndexes: 00000000
     CompactedNodes:
@@ -2031,6 +1990,50 @@ MonoBehaviour:
     CompactedNodes:
     - Id: 1
       TextValue: Districts other than Common's Quarter
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%UnitSpecialty_ForagerTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Forager
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%UnitSpecialty_ForagerDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: This Unit has no  [FoodColored] Food upkeep.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%UnitSpecialty_TribalRemnantsDescription'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Units upgraded from Tribes cost no [FoodColored] Food upkeep.
+      ParameterIndex: 0
+      VariationIndex: 0
+      Mask: 0
+      ChildIndexes: 
+    TagCodes: 00000000
+    LocalizedStringElementFlag: 0
+  - LineId: '%UnitSpecialty_TribalRemnantsTitle'
+    NodeIndexes: 00000000
+    CompactedNodes:
+    - Id: 1
+      TextValue: Tribal Remnants
       ParameterIndex: 0
       VariationIndex: 0
       Mask: 0

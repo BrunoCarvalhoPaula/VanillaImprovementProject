@@ -153,7 +153,6 @@ MonoBehaviour:
   - serializedData: 0000000048%NarrativeEvent_ReligiousWoesChoice05Description0000000044Lower%20the%20taxes%20temporarily%20to%20quell%20unrest.00000000000000000001
   - serializedData: 0000000048%NarrativeEvent_ReligiousWoesChoice06Description0000000115Forcing%20the%20minorities%20to%20live%20in%20special%20designed%20areas%20in%20your%20city%20can%20alleviate%20the%20tensions,%20at%20least%20for%20now.00000000000000000001
   - serializedData: 0000000042%NarrativeEvent_ReligiousWoesChoice06Title0000000009Segregate00000000000000000001
-  - serializedData: 0000000031%Fame_EraStar_FarmerDescription0000000069Have%20{0_Req}%20Population%20your%20Empire%20(current%20value:%20{1_Progression}).00000000000000000008
   - serializedData: 0000000032%Effect_EmpireBonus_GrazingTitle0000000016Beasts%20of%20Burden00000000000000000001
   - serializedData: 0000000038%Effect_EmpireBonus_GrazingDescription0000000142The%20usage%20of%20pack%20and%20draft%20animals%20allows%20for%20a%20great%20expansion%20of%20agriculture%20and%20the%20surplus%20produce%20allow%20populations%20to%20grow%20much%20faster.00000000000000000001
   - serializedData: 0000000034%Civics_Culture05UnlockDescription0000000176Earn%20at%20least%207%20Aesthete%20Era%20Stars%20since%20the%20beginning%20of%20the%20game,%20unlock%20the%20<b>Centralized%20Power</b>%20Technology%20and%20have%20a%20Territory%20in%20another%20Empire's%20sphere%20of%20influence.00000000000000000008
@@ -165,3 +164,7 @@ MonoBehaviour:
   - serializedData: 0000000034%MonsterBadgeDefinitionDescription0000000172While%20having%20this%20badge,%20its%20owner%20does%20not%20gain%20[Morale]%20War%20Support%20when%20destroying%20enemy%20units,%20nor%20does%20the%20enemy%20lose%20[Morale]%20War%20Support%20when%20losing%20units%20in%20battle.00000000000000000008
   - serializedData: 0000000064%DiplomaticCrisisPanelSurrenderPanelTheirWarCostFieldDescription0000000179The%20War%20Score%20defines%20which%20reparations%20the%20Winner%20is%20allowed%20to%20obtain%20at%20the%20end%20of%20the%20conflict.%20During%20War,%20it%20is%20computed%20from%20pre-existing%20Demands%20and%20occupied%20Enemy%20Cities.00000000000000000008
   - serializedData: 0000000043%Effect_Extension_Base_PublicOrder_Inverted0000000037Districts%20other%20than%20Common's%20Quarter00000000000000000001
+  - serializedData: 0000000027%UnitSpecialty_ForagerTitle0000000007Forager00000000000000000001
+  - serializedData: 0000000033%UnitSpecialty_ForagerDescription0000000044This%20Unit%20has%20no%20%20[FoodColored]%20Food%20upkeep.00000000000000000001
+  - serializedData: 0000000040%UnitSpecialty_TribalRemnantsDescription0000000061Units%20upgraded%20from%20Tribes%20cost%20no%20[FoodColored]%20Food%20upkeep.00000000000000000001
+  - serializedData: 0000000034%UnitSpecialty_TribalRemnantsTitle0000000015Tribal%20Remnants00000000000000000001

@@ -158,3 +158,21 @@ MonoBehaviour:
   BattleAbilityReference:
   - serializableElementName: BattleAbility_StrongAgainstMelee
   pathfindingFlags: 0
+--- !u!114 &9085857324344828795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 573507786, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: UnitAbility_Forager
+  m_EditorClassIdentifier: 
+  TagAsAbility: 0
+  MovementAbility: 0
+  DescriptorReferences:
+  - serializableElementName: Effect_UnitAbility_Forager
+  BattleAbilityReference: []
+  pathfindingFlags: 0

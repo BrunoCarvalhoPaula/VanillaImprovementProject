@@ -239,6 +239,115 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
+--- !u!114 &-2860664767766831895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: GameEffect_Army
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Units
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 1
+        serializableElementName: Tag_Unit_Dead
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: UnitCollectionUpkeep
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - UnitUpkeep
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Units
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Unit_UpgradedTribesmen
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_LandUnit_Era1_Common_Scouts
+      specificTargetType: 
+    PropertyEffects:
+    - Note: upgraded tribesmen don't consume food while they remain scouts
+      TargetProperty: SumOfPopulationCosts
+      ToTargetOperation: 1
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - InitialPopulationCost
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Units
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_LandUnit_Era1_HarappanCivilization_Runners
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Tag_Unit_UpgradedTribesmen
+      specificTargetType: 
+    PropertyEffects:
+    - Note: harappan scouts upgraded from tribesmen don't consume food
+      TargetProperty: SumOfPopulationCosts
+      ToTargetOperation: 1
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - InitialPopulationCost
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Units
+      Validations:
+      - PathIndex: 0
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_UnitAbility_Forager
+      specificTargetType: 
+    PropertyEffects:
+    - Note: Mounted Nomad units don't consume food
+      TargetProperty: SumOfPopulationCosts
+      ToTargetOperation: 1
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - InitialPopulationCost
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: MilitaryPopulationCount
+      ToTargetOperation: 0
+      RpnOperationStack: 09000000
+      ConstantStack: []
+      PropertyLocalName:
+      - SumOfPopulationCosts
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Army, Amplitude.Mercury.Firstpass
 --- !u!114 &-2160044696965456973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,6 +556,21 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 25000
       PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
+--- !u!114 &6384706365021003072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_UnitAbility_Forager
+  m_EditorClassIdentifier: 
+  Effects: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Unit, Amplitude.Mercury.Firstpass
 --- !u!114 &6710006392162654932

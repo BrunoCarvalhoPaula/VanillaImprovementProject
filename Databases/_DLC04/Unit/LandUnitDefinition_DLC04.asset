@@ -343,6 +343,7 @@ MonoBehaviour:
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_RegenerateAnywhere
   - serializableElementName: UnitSpecialty_NoMovementPenaltiesFromForests
+  - serializableElementName: UnitSpecialty_Forager
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era1_AboriginalAustralia_BoomerangThrowers
   - serializableElementName: Effect_Unit_Era1

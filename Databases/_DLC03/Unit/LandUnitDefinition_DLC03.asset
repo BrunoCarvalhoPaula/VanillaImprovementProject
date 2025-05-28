@@ -445,6 +445,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Melee
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_HealArmy
+  - serializableElementName: UnitSpecialty_Forager
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era1_Caral_CaralFishermen
   - serializableElementName: Effect_Unit_Era1

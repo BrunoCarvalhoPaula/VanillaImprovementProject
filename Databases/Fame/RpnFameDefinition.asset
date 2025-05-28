@@ -262,13 +262,15 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Farmer_Level2
   m_EditorClassIdentifier: 
-  RpnOperationStack: 080000000a000000030000000a000000020000000a00000000000000
+  RpnOperationStack: 080000000a00000003000000080000000a000000030000000a00000002000000000000000a00000000000000
   ConstantStack:
+  - RawValue: 150000
   - RawValue: 15000
   - RawValue: 5000
   - RawValue: 5000
   Note: '0: Nb Era'
   PropertyLocalNameStack:
+  - FameScore
   - SumOfEraStars
   VariableNameStack: []
   DefinedVariables:
@@ -923,13 +925,15 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Farmer_Level1
   m_EditorClassIdentifier: 
-  RpnOperationStack: 080000000a000000030000000a000000020000000a00000000000000
+  RpnOperationStack: 080000000a00000003000000080000000a000000030000000a00000002000000000000000a00000000000000
   ConstantStack:
+  - RawValue: 100000
   - RawValue: 10000
   - RawValue: 6000
   - RawValue: 10000
   Note: '0: Nb Era'
   PropertyLocalNameStack:
+  - FameScore
   - SumOfEraStars
   VariableNameStack: []
   DefinedVariables:
@@ -950,13 +954,15 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: Fame_EraStar_Farmer_Level3
   m_EditorClassIdentifier: 
-  RpnOperationStack: 080000000a000000030000000a000000020000000a00000000000000
+  RpnOperationStack: 080000000a00000003000000080000000a000000030000000a00000002000000000000000a00000000000000
   ConstantStack:
+  - RawValue: 200000
   - RawValue: 21000
   - RawValue: 4000
   - RawValue: 5000
   Note: '0: Nb Era'
   PropertyLocalNameStack:
+  - FameScore
   - SumOfEraStars
   VariableNameStack: []
   DefinedVariables:

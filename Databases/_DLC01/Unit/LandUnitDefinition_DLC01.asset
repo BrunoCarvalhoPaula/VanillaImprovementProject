@@ -586,6 +586,7 @@ MonoBehaviour:
     serializableElementName: UnitClass_Nomad
   UnitSpecialties:
   - serializableElementName: UnitSpecialty_FoodFromExploration_Level1
+  - serializableElementName: UnitSpecialty_Forager
   OwnDescriptorReferences:
   - serializableElementName: Effect_LandUnit_Era1_Bantu_BantuPioneers
   - serializableElementName: Effect_Unit_Era1

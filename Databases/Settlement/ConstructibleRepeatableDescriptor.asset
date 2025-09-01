@@ -118,7 +118,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 2000
       PropertyLocalName:
       - RepeatableCount
   serializableCategory: 
@@ -308,7 +308,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000900000002000000
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 2000
       PropertyLocalName:
       - RepeatableCount
   serializableCategory: 

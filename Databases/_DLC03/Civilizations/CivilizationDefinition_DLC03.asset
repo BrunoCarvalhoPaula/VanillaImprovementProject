@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7004932727686049656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1930022211, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_Caral
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Key: 0
+  Hidden: 0
+  DLCPrerequisite:
+    DownloadableContent: 7
+  EraReference:
+    serializableElementName: Era1
+  OriginalFactionType: 0
+  IsExclusive: 1
+  IsHidden: 0
+  IsUpgradable: 1
+  IsDeprecated: 0
+  GameplayOrientation: 4
+  LegacyTraitReferences:
+  - serializableElementName: LegacyTrait_Era1_Caral
+  TraitReferences: []
+  FactionAffinityReference:
+    serializableElementName: Builder
+  BuildingVisualAffinities:
+  - EraIndex: 0
+    BuildingVisualAffinityReference:
+      serializableElementName: BuildingVisualAffinity_NoVisualAffinity
+  - EraIndex: 1
+    BuildingVisualAffinityReference:
+      serializableElementName: BuildingVisualAffinity_Era1_Caral
+  - EraIndex: 2
+    BuildingVisualAffinityReference:
+      serializableElementName: BuildingVisualAffinity_Common_Mix_MesoamericanAmerican
+  - EraIndex: 3
+    BuildingVisualAffinityReference:
+      serializableElementName: BuildingVisualAffinity_Common_Mesoamerican
+  - EraIndex: 4
+    BuildingVisualAffinityReference:
+      serializableElementName: BuildingVisualAffinity_Common_Andean
+  - EraIndex: 5
+    BuildingVisualAffinityReference:
+      serializableElementName: BuildingVisualAffinity_Common_Herrerian
+  - EraIndex: 6
+    BuildingVisualAffinityReference:
+      serializableElementName: BuildingVisualAffinity_Common_ColorfulAlternative
+  UnitVisualAffinities:
+  - EraIndex: 0
+    UnitVisualAffinityReference:
+      serializableElementName: UnitVisualAffinity_Common_Era0_DefaultTribe
+  - EraIndex: 1
+    UnitVisualAffinityReference:
+      serializableElementName: UnitVisualAffinity_Era1_Caral
+  - EraIndex: 2
+    UnitVisualAffinityReference:
+      serializableElementName: UnitVisualAffinity_Common_Era2_Mesoamerican
+  - EraIndex: 3
+    UnitVisualAffinityReference:
+      serializableElementName: UnitVisualAffinity_Common_Era3_American
+  - EraIndex: 4
+    UnitVisualAffinityReference:
+      serializableElementName: UnitVisualAffinity_Era4_Inca
+  - EraIndex: 5
+    UnitVisualAffinityReference:
+      serializableElementName: UnitVisualAffinity_Era5_Mexico
+  - EraIndex: 6
+    UnitVisualAffinityReference:
+      serializableElementName: UnitVisualAffinity_Common_Era6_Forest
+  FactionConstructibleVisualVariation: 1
+  AvatarCostumeVisualAffinity:
+    serializableElementName: AvatarCostumeAffinity_Caral
+  SkinColorReferences:
+  - serializableElementName: AvatarColor_Skin_33
+  HairColorReferences:
+  - serializableElementName: AvatarColor_Haircut_Brown01
+  LocalizedSettlementNames:
+  - '%Civilization_Era1_Caral_SettlementName1'
+  - '%Civilization_Era1_Caral_SettlementName2'
+  - '%Civilization_Era1_Caral_SettlementName3'
+  - '%Civilization_Era1_Caral_SettlementName4'
+  - '%Civilization_Era1_Caral_SettlementName5'
+  - '%Civilization_Era1_Caral_SettlementName6'
+  - '%Civilization_Era1_Caral_SettlementName7'
+  - '%Civilization_Era1_Caral_SettlementName8'
+  - '%Civilization_Era1_Caral_SettlementName9'
+  - '%Civilization_Era1_Caral_SettlementName10'
+  LocalizedArmyNames:
+  - '%Civilization_Era1_Caral_ArmyName'
+  LocalizedSquadronNames:
+  - '%Civilization_GenericSquadronName'
+  LocalizedMilitiaNames:
+  - '%Civilization_GenericMilitiaArmyName'
+  LocalizedSiegeEngineNames:
+  - '%Civilization_GenericSiegeEngineArmyName'
+  LandmarkNameAffinityReferences:
+  - serializableElementName: LandmarkNameAffinity_Placeholders
+  MinorFactionArmyPatternReferences: []
+  MinorFactionMilitiaReference:
+    serializableElementName: 
+  MinorFactionNavalTransportReference:
+    serializableElementName: 
+  MinorFactionSiegeWeaponReferences:
+    serializableElementName: 
+  AIPickCondition: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 255596104, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: CivilizationDefinition_DLC03
+  m_EditorClassIdentifier: 

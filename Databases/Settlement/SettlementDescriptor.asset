@@ -5408,10 +5408,10 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: GrowthNet
-      ToTargetOperation: 0
+      ToTargetOperation: 1
       RpnOperationStack: 080000000a00000002000000
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName:
       - UnemployedPopulation
     - Note: 
@@ -5419,7 +5419,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 080000000a00000002000000
       ConstantStack:
-      - RawValue: 1000
+      - RawValue: 3000
       PropertyLocalName:
       - UnemployedPopulation
     - Note: 
@@ -5427,7 +5427,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 080000000a00000002000000
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 3000
       PropertyLocalName:
       - UnemployedPopulation
     - Note: 

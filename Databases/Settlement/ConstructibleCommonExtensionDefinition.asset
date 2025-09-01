@@ -6349,7 +6349,7 @@ MonoBehaviour:
       Data: 536870912
     - Name: Importance
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: Gates
       Entry: 6
       Data: 
@@ -6508,11 +6508,11 @@ MonoBehaviour:
   FriendlyUnitOnTopStatus:
     serializableElementName: 
   ProtectAgainstStealthDetection: 0
-  DistrictType: 0
+  DistrictType: 6
   HasPublicOrderCost: 0
   CanReplaceDistrict: 0
   CanBeReplacedByDistrict: 0
-  PlacementPolicies: 0
+  PlacementPolicies: 2
   ExploitationRuleReference:
     serializableElementName: ExploitationRule_Neighbours
   ExtractResource: 0

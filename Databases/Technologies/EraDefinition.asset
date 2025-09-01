@@ -123,6 +123,97 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-5586600099736525771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1468719050, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Era0
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EmpireEventEffects
+      Entry: 7
+      Data: 0|Amplitude.Mercury.Data.Simulation.SimulationEventEffect[], Amplitude.Mercury.Data
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  EraIndex: 0
+  TheoreticalTurnCount: 5
+  EraStarsCountEvolutionRequirement:
+    RawValue: 2000
+  EvolutionBaseRequirementMiscEmpireFlags: 
+  BaseGlobalEraThreshold: 1
+  TechnologyCostRpnPerTier:
+  - Tier: 0
+    TechnologyCostRpnReference:
+      serializableElementName: Technology_Era0_Tier1_Cost
+  - Tier: 1
+    TechnologyCostRpnReference:
+      serializableElementName: 
+  - Tier: 2
+    TechnologyCostRpnReference:
+      serializableElementName: 
+  - Tier: 3
+    TechnologyCostRpnReference:
+      serializableElementName: 
+  DescriptorReferences:
+  - serializableElementName: GameEffect_MajorEmpire_KnowledgeThreshold
+  UpgradeTraitsReferences: []
+  AffinityUpgradeTraitsReferences: []
+  NumberOfCuriosityToSpawnRpnReference:
+    serializableElementName: NumberOfCuriosityToSpawn_Era0
+  EraStarsRewardPolicy:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: 0.05766208
+      outSlope: -0.9976415
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4090203
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1
+      value: 0.2
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &-1789349692277603319
 MonoBehaviour:
   m_ObjectHideFlags: 0

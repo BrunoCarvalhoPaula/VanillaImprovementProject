@@ -199,9 +199,12 @@ MonoBehaviour:
     Path:
       PropertyToFollow:
       - Settlements
-      - MyDiocese
-      - InfluencedTerritories
-      Validations: []
+      - Districts
+      Validations:
+      - PathIndex: 1
+        ValidableElementCollection: 
+        Inverted: 0
+        serializableElementName: Effect_Extension_HolySite
       specificTargetType: 
     PropertyEffects:
     - Note: 
@@ -209,7 +212,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 7000
+      - RawValue: 10000
       PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:

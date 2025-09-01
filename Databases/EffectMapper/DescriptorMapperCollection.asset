@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Name: Effect_Vassal_Tribute
   m_EditorClassIdentifier: 
   LocalizedName: '%Effect_Vassal_Tribute'
-  HideDescriptor: 1
+  HideDescriptor: 0
   PropertyEffectPolicies:
   - EffectIndex: 0
     PropertyEffectIndex: 0
@@ -707,7 +707,7 @@ MonoBehaviour:
     HidePropertyEffect: 0
     SolveRPNFormula: 0
     EffectLocalization: '%Effect_Vassal_Tribute'
-    ParameterFlags: 0
+    ParameterFlags: 1
 --- !u!114 &7078918862721940245
 MonoBehaviour:
   m_ObjectHideFlags: 0

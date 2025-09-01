@@ -264,7 +264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a000000030000000a00000002000000000000000a00000000000000
   ConstantStack:
-  - RawValue: 150000
+  - RawValue: 175000
   - RawValue: 15000
   - RawValue: 5000
   - RawValue: 5000
@@ -927,7 +927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a000000030000000a00000002000000000000000a00000000000000
   ConstantStack:
-  - RawValue: 100000
+  - RawValue: 120000
   - RawValue: 10000
   - RawValue: 6000
   - RawValue: 10000
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 080000000a00000003000000080000000a000000030000000a00000002000000000000000a00000000000000
   ConstantStack:
-  - RawValue: 200000
+  - RawValue: 230000
   - RawValue: 21000
   - RawValue: 4000
   - RawValue: 5000

@@ -156,6 +156,21 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - CityCount
+    - Note: 
+      TargetProperty: StabilityImpactPerNonFollower
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName: []
+    - Note: used only for Civics_Religion02 unlock
+      TargetProperty: HasDifferentReligionContact
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000900000000000000
+      ConstantStack: []
+      PropertyLocalName:
+      - ExternalFollowerCount
+      - NonFollowerCount
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
@@ -437,5 +452,33 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlements
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ExternalFollowerCount
+      ToTargetOperation: 1
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - FollowerCount
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Religion
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ExternalFollowerCount
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - FollowerCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass

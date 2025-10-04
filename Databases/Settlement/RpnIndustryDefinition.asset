@@ -248,7 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 3750000
+  - RawValue: 37500000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RpnOperationStack: 
   ConstantStack:
-  - RawValue: 3125000
+  - RawValue: 31250000
   Note: 
   PropertyLocalNameStack: []
   VariableNameStack: []
@@ -394,9 +394,10 @@ MonoBehaviour:
   m_Script: {fileID: -433072232, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: ProductionCost_NationalProject_ComplementaryCost_SpaceLaunch
   m_EditorClassIdentifier: 
-  RpnOperationStack: 0a0000000900000002000000
+  RpnOperationStack: 0a000000090000000a0000000500000002000000
   ConstantStack:
   - RawValue: 30000000
+  - RawValue: 2000
   Note: 
   PropertyLocalNameStack:
   - IterationCount

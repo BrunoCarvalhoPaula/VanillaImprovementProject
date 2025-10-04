@@ -4140,6 +4140,14 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
+    - Note: 
+      TargetProperty: PublicOrderTarget
+      ToTargetOperation: 0
+      RpnOperationStack: 080000000800000002000000
+      ConstantStack: []
+      PropertyLocalName:
+      - StabilityImpactPerNonFollower
+      - NonFollowerCount
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:
@@ -4195,6 +4203,44 @@ MonoBehaviour:
       PropertyLocalName:
       - Population
       - TerritoryCount
+    - Note: 
+      TargetProperty: TerritoryForeignReligionStrengthMultiplier
+      ToTargetOperation: 1
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - FaithDefence
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: StabilityImpactPerNonFollower
+      ToTargetOperation: 0
+      RpnOperationStack: 08000000
+      ConstantStack: []
+      PropertyLocalName:
+      - StabilityImpactPerNonFollower
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Region
+      - Territories
+      - AdministrativeDistrict
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 090000000900000002000000
+      ConstantStack: []
+      PropertyLocalName:
+      - FaithPerFollowerBonus
+      - FollowerCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &1863506699459142323
@@ -5151,6 +5197,22 @@ MonoBehaviour:
       PropertyLocalName:
       - PopulationAssignedToIndustry
       - IndustryOnExtractorPerPopulationAssignedToIndustry
+  - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - MyDiocese
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: number of non-influenced Territories
+      TargetProperty: InquisitionPopulationCost
+      ToTargetOperation: 0
+      RpnOperationStack: 0a00000009000000080000000100000000000000
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName:
+      - TerritoryCount
+      - InfluencedTerritoryCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass
 --- !u!114 &4660483093636413400
@@ -5900,6 +5962,21 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 150
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Region
+      - Territories
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithDefence
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 100
       PropertyLocalName: []
   serializableCategory: Status
   startingType: Amplitude.Mercury.Simulation.Settlement, Amplitude.Mercury.Firstpass

@@ -252,7 +252,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 10000
+      - RawValue: 5000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.NaturalWonder, Amplitude.Mercury.Firstpass

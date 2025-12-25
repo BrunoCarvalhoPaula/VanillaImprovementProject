@@ -30,45 +30,6 @@ MonoBehaviour:
       - ExtensionDistrictsCount
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &-7848626900151452242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Era2_AncientGreece
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 1
-    Path:
-      PropertyToFollow:
-      - Settlement
-      - Empire
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: +1 Influence
-      TargetProperty: CultureProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 2000
-      PropertyLocalName:
-      - EraLevel
-    - Note: 
-      TargetProperty: ScienceProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 3000
-      PropertyLocalName:
-      - EraLevel
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-7742119611189770434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +127,20 @@ MonoBehaviour:
       - RawValue: 2000
       PropertyLocalName:
       - TerritoryCount
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TerritoryOwnerReligionStrengthMultiplier
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-7342867695640007356
@@ -490,7 +465,7 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &-5137186953599195041
+--- !u!114 &-5431898910959945514
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -500,10 +475,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Era4_OttomanEmpire
+  m_Name: Effect_Extension_Era2_AncientGreece
   m_EditorClassIdentifier: 
   Effects:
   - ApplyEffectOnSource: 1
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: +1 Influence
+      TargetProperty: CultureProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 2000
+      PropertyLocalName:
+      - EraLevel
+    - Note: 
+      TargetProperty: ScienceProduced
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 3000
+      PropertyLocalName:
+      - EraLevel
+  - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
       - Territory
@@ -511,19 +510,11 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: FaithProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - ExtensionCount
-    - Note: 
-      TargetProperty: CultureProduced
-      ToTargetOperation: 0
+      TargetProperty: FaithDefence
+      ToTargetOperation: 1
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 50
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
@@ -576,6 +567,13 @@ MonoBehaviour:
     PropertyEffects:
     - Note: 
       TargetProperty: FaithDefence
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
+      PropertyLocalName: []
+    - Note: 
+      TargetProperty: TerritoryOwnerReligionStrengthMultiplier
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
@@ -645,7 +643,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 1000
       PropertyLocalName: []
   - ApplyEffectOnSource: 1
     Path:
@@ -910,6 +908,20 @@ MonoBehaviour:
       - RawValue: 2000
       PropertyLocalName:
       - UnemployedPopulation
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TerritoryOwnerReligionStrengthMultiplier
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-1703127103267477092
@@ -1237,6 +1249,20 @@ MonoBehaviour:
       - RawValue: 1000
       PropertyLocalName:
       - TradeRoadCount
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithDefence
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &-331337117577935195
@@ -1428,7 +1454,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 2000
+      - RawValue: 1000
       PropertyLocalName: []
     - Note: 
       TargetProperty: ScienceProduced
@@ -1443,6 +1469,20 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TerritoryOwnerReligionStrengthMultiplier
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
       PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
@@ -1492,7 +1532,21 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 7000
+      - RawValue: 5000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TerritoryOwnerReligionStrengthMultiplier
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
       PropertyLocalName: []
   - ApplyEffectOnSource: 1
     Path:
@@ -1506,7 +1560,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 0a0000000800000002000000
       ConstantStack:
-      - RawValue: 10000
+      - RawValue: 6000
       PropertyLocalName:
       - AdjacentEmpiresCount
   serializableCategory: 
@@ -1605,51 +1659,6 @@ MonoBehaviour:
       PropertyLocalName: []
     - Note: 
       TargetProperty: ScienceWorkplaceNumberOfSlots
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
---- !u!114 &3310377482955005950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_Extension_Era3_Vikings
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlement
-      - Empire
-      Validations: []
-      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
-    PropertyEffects:
-    - Note: 
-      TargetProperty: BonusMoneyPerRansack
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 50000
-      PropertyLocalName:
-      - GameSpeedMultiplier
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Settlement
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: FoodWorkplaceNumberOfSlots
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
@@ -1916,6 +1925,51 @@ MonoBehaviour:
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
+--- !u!114 &6486152897931682422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_Extension_Era3_Vikings
+  m_EditorClassIdentifier: 
+  Effects:
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      - Empire
+      Validations: []
+      specificTargetType: Amplitude.Mercury.Simulation.MajorEmpire, Amplitude.Mercury.Firstpass
+    PropertyEffects:
+    - Note: 
+      TargetProperty: BonusMoneyPerRansack
+      ToTargetOperation: 0
+      RpnOperationStack: 0a0000000800000002000000
+      ConstantStack:
+      - RawValue: 50000
+      PropertyLocalName:
+      - GameSpeedMultiplier
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FoodWorkplaceNumberOfSlots
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &6532769023114882537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,7 +1999,7 @@ MonoBehaviour:
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 5000
+      - RawValue: 2000
       PropertyLocalName: []
   - ApplyEffectOnSource: 1
     Path:
@@ -2014,6 +2068,20 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 2000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithDefence
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
@@ -2223,6 +2291,20 @@ MonoBehaviour:
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 3000
+      PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: TerritoryOwnerReligionStrengthMultiplier
+      ToTargetOperation: 0
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
       PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7710633187821377794
+--- !u!114 &-5904768675804847544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_ReligionBonus_Tier1_Tenet07
+  m_Name: Effect_ReligionBonus_Tier1_Tenet06_StateReligion
   m_EditorClassIdentifier: 
   Effects:
   - ApplyEffectOnSource: 0
@@ -28,15 +28,15 @@ MonoBehaviour:
       - PathIndex: 2
         ValidableElementCollection: 
         Inverted: 0
-        serializableElementName: Tag_Territory_ContainsMountain
+        serializableElementName: Tag_Territory_ContainsRiver
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: CultureProduced
+      TargetProperty: PublicOrderProduced
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
-      - RawValue: 3000
+      - RawValue: 8000
       PropertyLocalName: []
   - ApplyEffectOnSource: 0
     Path:
@@ -51,6 +51,21 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
+  serializableCategory: 
+  startingType: Amplitude.Mercury.Simulation.Religion, Amplitude.Mercury.Firstpass
+--- !u!114 &-4408738599014085084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Effect_ReligionBonus_Tier1_Tenet06
+  m_EditorClassIdentifier: 
+  Effects:
   - ApplyEffectOnSource: 0
     Path:
       PropertyToFollow:
@@ -62,95 +77,11 @@ MonoBehaviour:
       specificTargetType: 
     PropertyEffects:
     - Note: 
-      TargetProperty: CultureProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 3000
-      PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.Religion, Amplitude.Mercury.Firstpass
---- !u!114 &-5668749951053835117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_ReligionBonus_Tier4_Tenet04
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      - Units
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_MajorEmpire_ReligiousLeader
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: CombatStrength
+      TargetProperty: PublicOrderProduced
       ToTargetOperation: 0
       RpnOperationStack: 
       ConstantStack:
       - RawValue: 2000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      - Units
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 1
-        serializableElementName: Tag_MajorEmpire_ReligiousLeader
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: CombatStrength
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: HolySiteCap
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - EmpireDioceses
-      - Dioceses
-      - InfluencedTerritories
-      - Armies
-      - Units
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: HealthRegen
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 5000
       PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.Religion, Amplitude.Mercury.Firstpass
@@ -166,271 +97,3 @@ MonoBehaviour:
   m_Script: {fileID: -1010444951, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
   m_Name: TenetDescriptors
   m_EditorClassIdentifier: 
---- !u!114 &1904040475611302465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_ReligionBonus_Tier1_Tenet05
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - EmpireDioceses
-      - Dioceses
-      - InfluencedTerritories
-      - AdministrativeDistrict
-      Validations:
-      - PathIndex: 1
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Diocese_StateReligion
-      - PathIndex: 2
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_Territory_ContainsLuxury
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 7000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: HolySiteCap
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - EmpireDioceses
-      - Dioceses
-      - InfluencedTerritories
-      - AdministrativeDistrict
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 3000
-      PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.Religion, Amplitude.Mercury.Firstpass
---- !u!114 &2136597191018694937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_ReligionBonus_Tier4_Tenet03
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_MajorEmpire_ReligiousLeader
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - FollowerCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 1
-        serializableElementName: Tag_MajorEmpire_ReligiousLeader
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - FollowerCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      - Settlements
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: ProductionNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - FollowerCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: HolySiteCap
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - EmpireDioceses
-      - Dioceses
-      - InfluencedTerritories
-      - AdministrativeDistrict
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: MoneyProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 3000
-      PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.Religion, Amplitude.Mercury.Firstpass
---- !u!114 &2714079170241296487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 411102237, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
-  m_Name: Effect_ReligionBonus_Tier4_Tenet01
-  m_EditorClassIdentifier: 
-  Effects:
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 0
-        serializableElementName: Tag_MajorEmpire_ReligiousLeader
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: ResearchNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000900000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - FollowerCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      Validations:
-      - PathIndex: 0
-        ValidableElementCollection: 
-        Inverted: 1
-        serializableElementName: Tag_MajorEmpire_ReligiousLeader
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: ResearchNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - FollowerCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - Empires
-      - Settlements
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: GrowthNet
-      ToTargetOperation: 0
-      RpnOperationStack: 0a0000000800000002000000
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName:
-      - FollowerCount
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow: []
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: HolySiteCap
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 1000
-      PropertyLocalName: []
-  - ApplyEffectOnSource: 0
-    Path:
-      PropertyToFollow:
-      - EmpireDioceses
-      - Dioceses
-      - InfluencedTerritories
-      - AdministrativeDistrict
-      Validations: []
-      specificTargetType: 
-    PropertyEffects:
-    - Note: 
-      TargetProperty: ScienceProduced
-      ToTargetOperation: 0
-      RpnOperationStack: 
-      ConstantStack:
-      - RawValue: 3000
-      PropertyLocalName: []
-  serializableCategory: 
-  startingType: Amplitude.Mercury.Simulation.Religion, Amplitude.Mercury.Firstpass

@@ -166,11 +166,13 @@ MonoBehaviour:
     - Note: used only for Civics_Religion02 unlock
       TargetProperty: HasDifferentReligionContact
       ToTargetOperation: 0
-      RpnOperationStack: 090000000900000000000000
+      RpnOperationStack: 09000000090000000900000000000000010000000900000000000000
       ConstantStack: []
       PropertyLocalName:
+      - TerritoryCount
+      - StateReligionTerritoryCount
+      - AnimistTerritoryCount
       - ExternalFollowerCount
-      - NonFollowerCount
   - ApplyEffectOnSource: 1
     Path:
       PropertyToFollow:

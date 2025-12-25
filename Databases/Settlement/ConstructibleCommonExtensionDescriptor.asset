@@ -232,6 +232,20 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 1000
       PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Settlement
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: ExtensionDistrictsCount
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 1000
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &11400000

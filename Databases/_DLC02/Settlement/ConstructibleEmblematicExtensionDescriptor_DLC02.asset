@@ -169,6 +169,20 @@ MonoBehaviour:
       ConstantStack:
       - RawValue: 2000
       PropertyLocalName: []
+  - ApplyEffectOnSource: 0
+    Path:
+      PropertyToFollow:
+      - Territory
+      Validations: []
+      specificTargetType: 
+    PropertyEffects:
+    - Note: 
+      TargetProperty: FaithDefence
+      ToTargetOperation: 1
+      RpnOperationStack: 
+      ConstantStack:
+      - RawValue: 50
+      PropertyLocalName: []
   serializableCategory: 
   startingType: Amplitude.Mercury.Simulation.District, Amplitude.Mercury.Firstpass
 --- !u!114 &11400000
